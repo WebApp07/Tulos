@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import React, { Children } from "react";
 interface Props {
   children: React.ReactNode;
   className?: "string";
