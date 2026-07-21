@@ -1,13 +1,13 @@
 import Container from "@/components/Container";
+import HomeBanner from "@/components/HomeBanner";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <Container>
-        <h2>Tulos Ecommerce Website</h2>
-        <Button variant="outline">Add To Cart</Button>
+    <div className="">
+      <Container className="py-10">
+        <HomeBanner />
       </Container>
     </div>
   );
