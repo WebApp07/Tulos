@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import PriceView from "./PriceView";
+import AddToCartButton from "./AddToCartButton";
 
 const ProductCard = ({ product }: { product: Product }) => {
   return (
@@ -37,6 +38,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           price={product?.price}
           discount={product?.discount}
         />
+        <AddToCartButton product={product} />
       </div>
     </div>
   );
