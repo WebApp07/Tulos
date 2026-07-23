@@ -37,7 +37,68 @@ export const productType = defineType({
     defineField({
       name: "description",
       title: "Description",
+      type: "text",
+    }),
+    defineField({
+      name: "brand",
+      title: "Brand",
       type: "string",
+    }),
+    defineField({
+      name: "sku",
+      title: "Manufacturer SKU",
+      type: "string",
+    }),
+    defineField({
+      name: "gender",
+      title: "Gender",
+      type: "string",
+    }),
+    defineField({
+      name: "nickname",
+      title: "Nickname",
+      type: "string",
+    }),
+    defineField({
+      name: "releaseDate",
+      title: "Release Date",
+      type: "string",
+    }),
+    defineField({
+      name: "variants",
+      title: "Product Variants",
+      type: "array",
+      of: [
+        {
+          type: "object",
+          name: "variant",
+          fields: [
+            { name: "color", type: "string", title: "Color" },
+            { name: "size", type: "string", title: "Size" },
+            { name: "variantSku", type: "string", title: "Variant SKU" },
+            { name: "stock", type: "number", title: "Stock", validation: (Rule: any) => Rule.min(0) },
+            { name: "price", type: "number", title: "Price", validation: (Rule: any) => Rule.min(0) },
+            { name: "variantImage", type: "image", title: "Variant Image", options: { hotspot: true } },
+          ],
+          preview: {
+            select: {
+              color: "color",
+              size: "size",
+              stock: "stock",
+              price: "price",
+              media: "variantImage",
+            },
+            prepare(selection: any) {
+              const { color, size, stock, price, media } = selection;
+              return {
+                title: `${color || "No Color"} / ${size || "No Size"}`,
+                subtitle: `$${price || 0} - Stock: ${stock || 0}`,
+                media: media,
+              };
+            },
+          },
+        },
+      ],
     }),
     defineField({
       name: "price",
@@ -76,7 +137,7 @@ export const productType = defineType({
       },
     }),
     defineField({
-      name: "variant",
+      name: "productType",
       title: "Product Type",
       type: "string",
       options: {

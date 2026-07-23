@@ -47,6 +47,11 @@ export type Product = {
   }>;
   intro?: string;
   description?: string;
+  brand?: string;
+  sku?: string;
+  gender?: string;
+  nickname?: string;
+  releaseDate?: string;
   price?: number;
   discount?: number;
   categories?: Array<
@@ -56,7 +61,27 @@ export type Product = {
   >;
   stock?: number;
   status?: "new" | "hot" | "sale";
-  variant?: "tshirt" | "jacket" | "pants" | "hoodie" | "short" | "others";
+  productType?: "tshirt" | "jacket" | "pants" | "hoodie" | "short" | "others";
+  variants?: Array<{
+    color?: string;
+    size?: string;
+    variantSku?: string;
+    stock?: number;
+    price?: number;
+    variantImage?: {
+      asset?: {
+        _ref: string;
+        _type: "reference";
+        _weak?: boolean;
+        [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+      };
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+      _key: string;
+    };
+    _key: string;
+  }>;
 };
 
 export type SanityImageCrop = {
