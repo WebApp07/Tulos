@@ -13,7 +13,7 @@ export const productType = [
   { title: "Jacket", value: "jacket" },
   { title: "Pants", value: "pants" },
   { title: "Hoodie", value: "hoodie" },
-  { title: "Short", value: "tshirt" },
+  { title: "Short", value: "short" },
 ];
 
 export const quickLinksData = [

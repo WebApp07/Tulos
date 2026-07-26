@@ -4,7 +4,7 @@ import {
   SanityImageCrop,
   SanityImageHotspot,
 } from "@/sanity.types";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
@@ -25,6 +25,13 @@ interface Props {
 }
 const ImageView = ({ images = [] }: Props) => {
   const [active, setActive] = useState(images[0]);
+
+  useEffect(() => {
+    if (images.length > 0) {
+      setActive(images[0]);
+    }
+  }, [images]);
+
   return (
     <div className="w-full md:w-1/2 space-y-2 md:space-y-4">
       <AnimatePresence mode="wait">

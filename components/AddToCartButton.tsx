@@ -7,11 +7,14 @@ import PriceFormatter from "./PriceFormatter";
 interface Props {
   product: Product;
   className?: string;
+  selectedVariant?: any;
 }
 
-const AddToCartButton = ({ product, className }: Props) => {
+const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
   const isOutOfStock = product?.stock === 0;
   const itemCount = 4;
+
+  const price = selectedVariant?.price || product?.price;
 
   return (
     <div>
@@ -21,11 +24,18 @@ const AddToCartButton = ({ product, className }: Props) => {
             <span className="text-xs text-muted-foreground">Quantity</span>
             <QuantityButton product={product} />
           </div>
+          {selectedVariant && (
+            <div className="flex items-center justify-between text-xs text-muted-foreground">
+              <span>Variant</span>
+              <span>
+                {selectedVariant.color && `${selectedVariant.color} - `}
+                {selectedVariant.size}
+              </span>
+            </div>
+          )}
           <div className="flex items-center justify-between border-t pt-1">
             <span className="tex-xs font-semibold">Subtotal</span>
-            <PriceFormatter
-              amount={product?.price ? product?.price * itemCount : 0}
-            />
+            <PriceFormatter amount={price ? price * itemCount : 0} />
           </div>
         </div>
       ) : (

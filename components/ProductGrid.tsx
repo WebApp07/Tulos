@@ -13,8 +13,8 @@ const ProductGrid = () => {
   const [selectedTab, setSelectedTab] = useState(productType[0]?.title || "");
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
-  const query = `*[_type == 'product' && variant ==$variant] | order(name asc)`;
-  const params = { variant: selectedTab.toLocaleLowerCase() };
+  const query = `*[_type == 'product' && productType == $productType] | order(name asc)`;
+  const params = { productType: selectedTab.toLocaleLowerCase() };
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
