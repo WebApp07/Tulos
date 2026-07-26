@@ -56,16 +56,6 @@ const CartPage = () => {
     toast.success("Product deleted successfully!");
   };
 
-  const handleCheckout = async () => {
-    setLoading(true);
-    try {
-    } catch (error) {
-      console.error("Error creating checkout session:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
   return (
     <div className="bg-gray-50 pb-52 md:pb-10">
       {isSignedIn ? (
@@ -195,24 +185,30 @@ const CartPage = () => {
                           className="text-lg font-bold text-black"
                         />
                       </div>
-                      <Button
-                        disabled={loading}
-                        onClick={handleCheckout}
-                        className="w-full rounded-full font-semibold tracking-wide"
-                        size="lg"
-                      >
-                        Proceed to Checkout
-                      </Button>
-                      <Link
-                        href={"/"}
-                        className="flex items-center justify-center py-2 border border-darkColor/50 rounded-full hover:border-darkColor hover:bg-darkColor/5 hoverEffect"
-                      >
-                        <Image
-                          src={paypalLogo}
-                          alt="paypalLogo"
-                          className="w-20"
-                        />
-                      </Link>
+                      {showCheckout ? (
+                        <Checkout />
+                      ) : (
+                        <Button
+                          disabled={loading}
+                          onClick={() => setShowCheckout(true)}
+                          className="w-full rounded-full font-semibold tracking-wide"
+                          size="lg"
+                        >
+                          Proceed to Checkout
+                        </Button>
+                      )}
+                      {!showCheckout && (
+                        <button
+                          onClick={() => setShowCheckout(true)}
+                          className="w-full flex items-center justify-center py-2 border border-darkColor/50 rounded-full hover:border-darkColor hover:bg-darkColor/5 hoverEffect"
+                        >
+                          <Image
+                            src={paypalLogo}
+                            alt="paypalLogo"
+                            className="w-20"
+                          />
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -241,23 +237,29 @@ const CartPage = () => {
                           className="text-lg font-bold text-black"
                         />
                       </div>
-                      <Button
-                        onClick={handleCheckout}
-                        className="w-full rounded-full font-semibold tracking-wide"
-                        size="lg"
-                      >
-                        Proceed to Checkout
-                      </Button>
-                      <Link
-                        href={"/"}
-                        className="flex items-center justify-center py-2 border border-darkColor/50 rounded-full hover:border-darkColor hover:bg-darkColor/5 hoverEffect"
-                      >
-                        <Image
-                          src={paypalLogo}
-                          alt="paypalLogo"
-                          className="w-20"
-                        />
-                      </Link>
+                      {showCheckout ? (
+                        <Checkout />
+                      ) : (
+                        <Button
+                          onClick={() => setShowCheckout(true)}
+                          className="w-full rounded-full font-semibold tracking-wide"
+                          size="lg"
+                        >
+                          Proceed to Checkout
+                        </Button>
+                      )}
+                      {!showCheckout && (
+                        <button
+                          onClick={() => setShowCheckout(true)}
+                          className="w-full flex items-center justify-center py-2 border border-darkColor/50 rounded-full hover:border-darkColor hover:bg-darkColor/5 hoverEffect"
+                        >
+                          <Image
+                            src={paypalLogo}
+                            alt="paypalLogo"
+                            className="w-20"
+                          />
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
