@@ -1,0 +1,31 @@
+[33m8a1e5fb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrecovered-work[m[33m, [m[1;31morigin/recovered-work[m[33m)[m HEAD@{0}: commit: build noacctocart unti the user sign in create cart page create empty cart
+[33m0b4ccad[m HEAD@{1}: commit: Create component loading
+[33m698cd7c[m HEAD@{2}: commit: Create query to call getallcategories show category in category page
+[33mce2dfa5[m HEAD@{3}: commit: Show cart number of item in the header cart
+[33m78281b5[m HEAD@{4}: commit: Integrate toast incrase add button products quntity
+[33m6f5c27c[m HEAD@{5}: commit: create store to share data between components
+[33m47391c7[m HEAD@{6}: commit: FAqs
+[33m470eef0[m HEAD@{7}: commit: Privacy page
+[33mb77f4b7[m HEAD@{8}: commit: Terms page
+[33m070e8f1[m HEAD@{9}: commit: Create contact us
+[33m3c0dfc1[m HEAD@{10}: commit: Create About Page without Pro UI
+[33m60e462b[m HEAD@{11}: commit: We implement SearchBar
+[33m1ec5dd9[m HEAD@{12}: commit: We make old version back
+[33m8133f09[m HEAD@{13}: checkout: moving from main to recovered-work
+[33md34c2b0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{14}: checkout: moving from 8133f09ca41871b702a23a9bd6d68415c844866b to main
+[33m8133f09[m HEAD@{15}: commit: we add variant of our products in sanity cms and we fetch from it to our landing page product
+[33md34c2b0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{16}: checkout: moving from main to d34c2b038cc61e4225e26619dc1e6461c78931ca
+[33md34c2b0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{17}: commit: build landing page product dynamic from cms sanity
+[33mf28f5ce[m HEAD@{18}: commit: Footer top and bt
+[33meeacf0b[m HEAD@{19}: commit: create Quantity button Ui
+[33m4d1798d[m HEAD@{20}: commit: Build component Add to cart
+[33md310dcd[m HEAD@{21}: commit: we call our products from cms sanity, We build components to show products in frontend
+[33m523506f[m HEAD@{22}: commit: Setup sanity as backend cms, generate types category, product, connected our app with sanity
+[33md5b5b63[m HEAD@{23}: commit: Setup Sanity cms, Build Ui Sidebar responsive Ui
+[33meab0e1b[m HEAD@{24}: commit: Setup Clerk , Integrate to the app, change the font
+[33m54bd4e2[m HEAD@{25}: pull --tags origin main: Fast-forward
+[33mdadd201[m HEAD@{26}: checkout: moving from 01-navbar-ui to main
+[33md8c3b3f[m[33m ([m[1;31morigin/01-navbar-ui[m[33m, [m[1;32m01-navbar-ui[m[33m)[m HEAD@{27}: commit: Navbar ui design
+[33mdadd201[m HEAD@{28}: checkout: moving from main to 01-navbar-ui
+[33mdadd201[m HEAD@{29}: Branch: renamed refs/heads/master to refs/heads/main
+[33mdadd201[m HEAD@{31}: commit (initial): project-setup initialize Next.js project with TypeScript, Tailwind CSS, and shadcn/ui

@@ -1,45 +1,45 @@
+"use client";
 import { Product } from "@/sanity.types";
 import React from "react";
+import toast from "react-hot-toast";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
-import QuantityButton from "./QuantityButton";
+import QuantityButtons from "./QuantityButton";
 import PriceFormatter from "./PriceFormatter";
+import useCartStore from "@/store";
 interface Props {
   product: Product;
   className?: string;
-  selectedVariant?: any;
 }
 
-const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
+const AddToCartButton = ({ product, className }: Props) => {
+  const { addItem, getItemCount } = useCartStore();
+  const itemCount = getItemCount(product?._id);
   const isOutOfStock = product?.stock === 0;
-  const itemCount = 4;
-
-  const price = selectedVariant?.price || product?.price;
 
   return (
-    <div>
+    <div className="w-full h-12 flex items-center">
       {itemCount ? (
         <div className="w-full text-sm">
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted-foreground">Quantity</span>
-            <QuantityButton product={product} />
+            <QuantityButtons product={product} />
           </div>
-          {selectedVariant && (
-            <div className="flex items-center justify-between text-xs text-muted-foreground">
-              <span>Variant</span>
-              <span>
-                {selectedVariant.color && `${selectedVariant.color} - `}
-                {selectedVariant.size}
-              </span>
-            </div>
-          )}
           <div className="flex items-center justify-between border-t pt-1">
-            <span className="tex-xs font-semibold">Subtotal</span>
-            <PriceFormatter amount={price ? price * itemCount : 0} />
+            <span className="text-xs font-semibold">Subtotal</span>
+            <PriceFormatter
+              amount={product?.price ? product?.price * itemCount : 0}
+            />
           </div>
         </div>
       ) : (
         <Button
+          onClick={() => {
+            addItem(product);
+            toast.success(
+              `${product?.name?.substring(0, 12)}... added successfully!`,
+            );
+          }}
           disabled={isOutOfStock}
           className={cn(
             "w-full bg-transparent text-darkColor shadow-none border border-darkColor/30 font-semibold tracking-wide hover:text-white hoverEffect",

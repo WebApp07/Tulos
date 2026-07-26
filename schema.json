@@ -184,6 +184,153 @@
         },
         "optional": true
       },
+      "brand": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "sku": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "gender": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "nickname": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "releaseDate": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
+      "variants": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "array",
+          "of": {
+            "type": "object",
+            "attributes": {
+              "color": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "string"
+                },
+                "optional": true
+              },
+              "size": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "string"
+                },
+                "optional": true
+              },
+              "variantSku": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "string"
+                },
+                "optional": true
+              },
+              "stock": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "number"
+                },
+                "optional": true
+              },
+              "price": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "number"
+                },
+                "optional": true
+              },
+              "variantImage": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "object",
+                  "attributes": {
+                    "asset": {
+                      "type": "objectAttribute",
+                      "value": {
+                        "type": "inline",
+                        "name": "sanity.imageAsset.reference"
+                      },
+                      "optional": true
+                    },
+                    "media": {
+                      "type": "objectAttribute",
+                      "value": {
+                        "type": "unknown"
+                      },
+                      "optional": true
+                    },
+                    "hotspot": {
+                      "type": "objectAttribute",
+                      "value": {
+                        "type": "inline",
+                        "name": "sanity.imageHotspot"
+                      },
+                      "optional": true
+                    },
+                    "crop": {
+                      "type": "objectAttribute",
+                      "value": {
+                        "type": "inline",
+                        "name": "sanity.imageCrop"
+                      },
+                      "optional": true
+                    },
+                    "_type": {
+                      "type": "objectAttribute",
+                      "value": {
+                        "type": "string",
+                        "value": "image"
+                      }
+                    }
+                  }
+                },
+                "optional": true
+              },
+              "_type": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "string",
+                  "value": "variant"
+                }
+              }
+            },
+            "rest": {
+              "type": "object",
+              "attributes": {
+                "_key": {
+                  "type": "objectAttribute",
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "optional": true
+      },
       "price": {
         "type": "objectAttribute",
         "value": {
@@ -248,7 +395,7 @@
         },
         "optional": true
       },
-      "variant": {
+      "productType": {
         "type": "objectAttribute",
         "value": {
           "type": "union",
