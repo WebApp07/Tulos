@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 interface Props {
   children: React.ReactNode;
-  className?: "string";
+  className?: string;
 }
 
 const Logo = ({ children, className }: Props) => {
