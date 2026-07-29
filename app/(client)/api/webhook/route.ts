@@ -146,7 +146,7 @@ async function saveOrder(
       receiptUrl: paymentIntent?.latest_charge
         ? ((await stripe.charges.retrieve(
             paymentIntent.latest_charge as string,
-          )) as Stripe.Charge).receipt_url
+          )) as Stripe.Charge).receipt_url || undefined
         : undefined,
       invoice: invoice
         ? {
