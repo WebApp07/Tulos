@@ -5,6 +5,7 @@ import ImageView from "./ImageView";
 import PriceView from "./PriceView";
 import AddToCartButton from "./AddToCartButton";
 import { Heart } from "lucide-react";
+import { Product } from "@/sanity.types";
 
 export default function ProductDetails({ product }: { product: Product }) {
   const [selectedVariant, setSelectedVariant] = useState(
