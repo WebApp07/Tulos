@@ -49,7 +49,7 @@ export default function ProductDetails({ product }: { product: Product }) {
               <span className="text-xs text-gray-500 underline cursor-pointer">Size Guide</span>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
-              {product.variants?.map((variant: { size?: string; stock?: number }, index: number) => (
+              {product.variants?.map((variant, index: number) => (
                 <button
                   key={index}
                   onClick={() => setSelectedVariant(variant)}
