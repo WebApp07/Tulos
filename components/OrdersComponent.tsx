@@ -79,7 +79,9 @@ const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
                         className="text-xs h-8 gap-1"
                         onClick={(e) => {
                           e.stopPropagation();
-                          window.open(order.invoice.hosted_invoice_url, "_blank");
+                          if (order?.invoice?.hosted_invoice_url) {
+                            window.open(order.invoice.hosted_invoice_url, "_blank");
+                          }
                         }}
                       >
                         <Download className="h-3.5 w-3.5" />
@@ -92,7 +94,9 @@ const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
                         className="text-xs h-8 gap-1"
                         onClick={(e) => {
                           e.stopPropagation();
-                          window.open(order.receiptUrl as string, "_blank");
+                          if (order?.receiptUrl) {
+                            window.open(order.receiptUrl, "_blank");
+                          }
                         }}
                       >
                         <Download className="h-3.5 w-3.5" />
