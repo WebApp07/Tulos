@@ -116,7 +116,7 @@ async function saveOrder(
       return {
         _key: crypto.randomUUID(),
         product: {
-          _type: "reference",
+          _type: "reference" as const,
           _ref: productId,
         },
         quantity: item?.quantity || 0,
