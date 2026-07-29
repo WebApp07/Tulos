@@ -52,8 +52,6 @@ export const getMyOrders = async (userId: string) => {
     const orders = await sanityFetch({
       query: MY_ORDERS_QUERY,
       params: { userId },
-      // Ensure we always get fresh data for orders
-      staleTime: 0,
     });
     return orders?.data || [];
   } catch (error) {
