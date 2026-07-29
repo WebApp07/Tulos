@@ -13,6 +13,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { urlFor } from "@/sanity/lib/image";
 import useCartStore from "@/store";
 import { useAuth, useUser } from "@clerk/nextjs";
@@ -26,6 +28,7 @@ import {
   createCheckoutSession,
   Metadata,
 } from "@/actions/createCheckoutSession";
+import { PayPalButtons } from "@/components/PayPalButtons";
 
 const CartPage = () => {
   const [isClient, setIsClient] = useState(false);
@@ -40,9 +43,16 @@ const CartPage = () => {
     getGroupedItems,
   } = useCartStore();
   const { user } = useUser();
+  const [customerName, setCustomerName] = useState("");
+  const [customerEmail, setCustomerEmail] = useState("");
+
   useEffect(() => {
     setIsClient(true);
-  }, []);
+    if (user) {
+      setCustomerName(user.fullName ?? "");
+      setCustomerEmail(user.emailAddresses[0]?.emailAddress ?? "");
+    }
+  }, [user]);
   if (!isClient) {
     return <Loading />;
   }
@@ -61,12 +71,16 @@ const CartPage = () => {
   };
 
   const handleCheckout = async () => {
+    if (!customerName || !customerEmail) {
+      toast.error("Please enter your name and email address.");
+      return;
+    }
     setLoading(true);
     try {
       const metadata: Metadata = {
         orderNumber: crypto.randomUUID(),
-        customerName: user?.fullName ?? "Unknown",
-        customerEmail: user?.emailAddresses[0]?.emailAddress ?? "Unknown",
+        customerName,
+        customerEmail,
         clerkUserId: user!.id,
       };
       const checkoutUrl = await createCheckoutSession(cartProducts, metadata);
@@ -209,24 +223,63 @@ const CartPage = () => {
                           className="text-lg font-bold text-black"
                         />
                       </div>
+                      <div className="space-y-3 py-2">
+                        <div className="space-y-1">
+                          <Label htmlFor="customerName">Full Name</Label>
+                          <Input
+                            id="customerName"
+                            type="text"
+                            placeholder="Enter your full name"
+                            value={customerName}
+                            onChange={(e) => setCustomerName(e.target.value)}
+                            required
+                            className="bg-white"
+                          />
+                        </div>
+                        <div className="space-y-1">
+                          <Label htmlFor="customerEmail">Email Address</Label>
+                          <Input
+                            id="customerEmail"
+                            type="email"
+                            placeholder="Enter your email"
+                            value={customerEmail}
+                            onChange={(e) => setCustomerEmail(e.target.value)}
+                            required
+                            className="bg-white"
+                          />
+                        </div>
+                        <p className="text-xs text-lightColor italic">
+                          * Your digital product will be delivered to this email
+                          address.
+                        </p>
+                      </div>
                       <Button
                         disabled={loading}
                         onClick={handleCheckout}
                         className="w-full rounded-full font-semibold tracking-wide"
                         size="lg"
                       >
-                        Proceed to Checkout
+                        Pay with Card (Stripe)
                       </Button>
-                      <Link
-                        href={"/"}
-                        className="flex items-center justify-center py-2 border border-darkColor/50 rounded-full hover:border-darkColor hover:bg-darkColor/5 hoverEffect"
-                      >
-                        <Image
-                          src={paypalLogo}
-                          alt="paypalLogo"
-                          className="w-20"
-                        />
-                      </Link>
+                      <div className="relative py-2">
+                        <div className="absolute inset-0 flex items-center">
+                          <Separator />
+                        </div>
+                        <div className="relative flex justify-center text-xs uppercase">
+                          <span className="bg-white px-2 text-gray-500">
+                            Or pay with
+                          </span>
+                        </div>
+                      </div>
+                      <PayPalButtons
+                        items={cartProducts}
+                        totalPrice={getTotalPrice()}
+                        metadata={{
+                          customerName,
+                          customerEmail,
+                          clerkUserId: user?.id || "",
+                        }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -255,23 +308,64 @@ const CartPage = () => {
                           className="text-lg font-bold text-black"
                         />
                       </div>
+                      <div className="space-y-3 py-2">
+                        <div className="space-y-1">
+                          <Label htmlFor="customerNameMobile">Full Name</Label>
+                          <Input
+                            id="customerNameMobile"
+                            type="text"
+                            placeholder="Enter your full name"
+                            value={customerName}
+                            onChange={(e) => setCustomerName(e.target.value)}
+                            required
+                            className="bg-white"
+                          />
+                        </div>
+                        <div className="space-y-1">
+                          <Label htmlFor="customerEmailMobile">
+                            Email Address
+                          </Label>
+                          <Input
+                            id="customerEmailMobile"
+                            type="email"
+                            placeholder="Enter your email"
+                            value={customerEmail}
+                            onChange={(e) => setCustomerEmail(e.target.value)}
+                            required
+                            className="bg-white"
+                          />
+                        </div>
+                        <p className="text-xs text-lightColor italic">
+                          * Your digital product will be delivered to this email
+                          address.
+                        </p>
+                      </div>
                       <Button
                         onClick={handleCheckout}
                         className="w-full rounded-full font-semibold tracking-wide"
                         size="lg"
                       >
-                        Proceed to Checkout
+                        Pay with Card (Stripe)
                       </Button>
-                      <Link
-                        href={"/"}
-                        className="flex items-center justify-center py-2 border border-darkColor/50 rounded-full hover:border-darkColor hover:bg-darkColor/5 hoverEffect"
-                      >
-                        <Image
-                          src={paypalLogo}
-                          alt="paypalLogo"
-                          className="w-20"
-                        />
-                      </Link>
+                      <div className="relative py-2">
+                        <div className="absolute inset-0 flex items-center">
+                          <Separator />
+                        </div>
+                        <div className="relative flex justify-center text-xs uppercase">
+                          <span className="bg-white px-2 text-gray-500">
+                            Or pay with
+                          </span>
+                        </div>
+                      </div>
+                      <PayPalButtons
+                        items={cartProducts}
+                        totalPrice={getTotalPrice()}
+                        metadata={{
+                          customerName,
+                          customerEmail,
+                          clerkUserId: user?.id || "",
+                        }}
+                      />
                     </div>
                   </div>
                 </div>

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { ClerkProvider } from "@clerk/nextjs";
 import localFont from "next/font/local";
 import { Toaster } from "react-hot-toast";
+import { PayPalProvider } from "@/components/PayPalProvider";
 
 const raleway = localFont({
   src: "../fonts/Raleway.woff2",
@@ -26,9 +27,11 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${raleway.variable} antialiased`}>
-          <Header />
-          {children}
-          <Footer />
+          <PayPalProvider>
+            <Header />
+            {children}
+            <Footer />
+          </PayPalProvider>
           <Toaster
             position="bottom-right"
             toastOptions={{

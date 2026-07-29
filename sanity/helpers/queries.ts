@@ -39,7 +39,7 @@ export const getMyOrders = async (userId: string) => {
     throw new Error("User ID is required");
   }
   const MY_ORDERS_QUERY =
-    defineQuery(`*[_type == 'order' && clerkUserId == $userId] | order(orderData desc){
+    defineQuery(`*[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){
     ...,products[]{
       ...,product->
     }
@@ -49,10 +49,35 @@ export const getMyOrders = async (userId: string) => {
     const orders = await sanityFetch({
       query: MY_ORDERS_QUERY,
       params: { userId },
+      // Ensure we always get fresh data for orders
+      staleTime: 0,
     });
     return orders?.data || [];
   } catch (error) {
     console.error("Error fetching orders:", error);
     return [];
+  }
+};
+
+export const getOrderByNumber = async (orderNumber: string) => {
+  if (!orderNumber) {
+    throw new Error("Order number is required");
+  }
+  const ORDER_BY_NUMBER_QUERY =
+    defineQuery(`*[_type == 'order' && orderNumber == $orderNumber][0]{
+    ...,products[]{
+      ...,product->
+    }
+  }`);
+
+  try {
+    const order = await sanityFetch({
+      query: ORDER_BY_NUMBER_QUERY,
+      params: { orderNumber },
+    });
+    return order?.data || null;
+  } catch (error) {
+    console.error("Error fetching order by number:", error);
+    return null;
   }
 };
