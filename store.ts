@@ -9,6 +9,13 @@ export interface CartItem {
     color?: string;
     size?: string;
     variantSku?: string;
+    variantImage?: {
+      _type: "image";
+      asset: {
+        _ref: string;
+        _type: "reference";
+      };
+    };
     stock?: number;
     price?: number;
   } | null;
