@@ -46,18 +46,21 @@ export async function POST(req: NextRequest) {
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
     console.log("Processing checkout.session.completed for session:", session.id);
-    console.log("Session details:", JSON.stringify({
-      id: session.id,
-      payment_status: session.payment_status,
-      amount_total: session.amount_total,
-      metadata: session.metadata
-    }));
+
     const invoice = session.invoice
       ? await stripe.invoices.retrieve(session.invoice as string)
       : null;
 
+    // Fetch Payment Intent to get receipt_url if invoice is not available
+    let paymentIntent = null;
+    if (session.payment_intent) {
+      paymentIntent = await stripe.paymentIntents.retrieve(
+        session.payment_intent as string,
+      );
+    }
+
     try {
-      const order = await createOrderInSanity(session, invoice);
+      const order = await createOrderInSanity(session, invoice, paymentIntent);
       console.log("Successfully created order in Sanity:", order._id);
     } catch (error) {
       console.error("Error creating order in sanity:", error);
@@ -82,6 +85,7 @@ export async function POST(req: NextRequest) {
 async function createOrderInSanity(
   session: Stripe.Checkout.Session,
   invoice: Stripe.Invoice | null,
+  paymentIntent: Stripe.PaymentIntent | null,
 ) {
   const {
     id,
@@ -137,6 +141,18 @@ async function createOrderInSanity(
       paymentMethod: "stripe",
       stripeCheckoutSessionId: id,
       stripePaymentIntentId: payment_intent || "none",
+      receiptUrl: paymentIntent?.latest_charge
+        ? ((await stripe.charges.retrieve(
+            paymentIntent.latest_charge as string,
+          )) as Stripe.Charge).receipt_url
+        : undefined,
+      invoice: invoice
+        ? {
+            id: invoice.id,
+            number: invoice.number || "",
+            hosted_invoice_url: invoice.hosted_invoice_url || "",
+          }
+        : undefined,
     };
 
     const order = await createOrderInSanity(orderData);

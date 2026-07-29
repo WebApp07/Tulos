@@ -13,17 +13,21 @@ import {
 } from "./ui/table";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
+import { Download, Printer } from "lucide-react";
 import PriceFormatter from "./PriceFormatter";
 
 interface Props {
-  order: MY_ORDERS_QUERYResult[number] | null;
+  order: any | null;
   isOpen: boolean;
   onClose: () => void;
 }
 
 const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
   if (!order) return null;
-  console.log(order);
+  
+  const handlePrint = () => {
+    window.print();
+  };
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
@@ -50,16 +54,55 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
             </span>
           </p>
           <p>
-            <strong>Invoice Number:</strong> {order?.invoice?.number}
+            <strong>Payment Method:</strong>{" "}
+            <span className="capitalize">{order?.paymentMethod || "Stripe"}</span>
           </p>
-          {order?.invoice && (
-            <Button variant="outline" className="mt-2">
-              {order?.invoice?.hosted_invoice_url && (
-                <Link href={order?.invoice?.hosted_invoice_url} target="blank">
+          <p>
+            <strong>Invoice Number:</strong> {order?.invoice?.number || "N/A"}
+          </p>
+          <div className="flex flex-wrap gap-2 mt-2">
+            {order?.invoice?.hosted_invoice_url ? (
+              <Button variant="outline" size="sm" asChild>
+                <Link
+                  href={order?.invoice?.hosted_invoice_url}
+                  target="blank"
+                  className="flex items-center gap-2"
+                >
+                  <Download className="h-4 w-4" />
                   Download Invoice
                 </Link>
-              )}
-            </Button>
+              </Button>
+            ) : order?.receiptUrl ? (
+              <Button variant="outline" size="sm" asChild>
+                <Link
+                  href={order?.receiptUrl}
+                  target="blank"
+                  className="flex items-center gap-2"
+                >
+                  <Download className="h-4 w-4" />
+                  Download Receipt
+                </Link>
+              </Button>
+            ) : (
+              order?.paymentMethod === "paypal" && (
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={handlePrint}
+                  className="flex items-center gap-2 print:hidden"
+                >
+                  <Printer className="h-4 w-4" />
+                  Print Receipt
+                </Button>
+              )
+            )}
+          </div>
+          {!order?.invoice?.hosted_invoice_url && !order?.receiptUrl && (
+            <p className="text-sm text-gray-500 mt-2 italic print:hidden">
+              {order?.paymentMethod === "paypal"
+                ? "Official Stripe invoice is not available for PayPal orders. You can print this page as a receipt."
+                : "Invoice download is not available for this order."}
+            </p>
           )}
         </div>
         <Table>

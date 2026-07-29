@@ -23,6 +23,11 @@ export const orderType = defineType({
       ],
     },
     defineField({
+      name: "receiptUrl",
+      title: "Receipt URL",
+      type: "url",
+    }),
+    defineField({
       name: "stripeCheckoutSessionId",
       title: "Stripe Checkout Session ID",
       type: "string",
@@ -115,6 +120,17 @@ export const orderType = defineType({
       validation: (Rule) => Rule.required(),
     }),
 
+    defineField({
+      name: "paymentMethod",
+      title: "Payment Method",
+      type: "string",
+      options: {
+        list: [
+          { title: "Stripe", value: "stripe" },
+          { title: "PayPal", value: "paypal" },
+        ],
+      },
+    }),
     defineField({
       name: "status",
       title: "Order Status",

@@ -40,8 +40,12 @@ const OrdersPage = async () => {
                     <TableHead>Total</TableHead>
                     <TableHead>Status</TableHead>
                     <TableHead className="hidden sm:table-cell">
+                      Method
+                    </TableHead>
+                    <TableHead className="hidden sm:table-cell">
                       Invoice Number
                     </TableHead>
+                    <TableHead className="text-right">Action</TableHead>
                   </TableRow>
                 </TableHeader>
                 <OrdersComponent orders={orders} />
