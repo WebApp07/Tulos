@@ -16,7 +16,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { urlFor } from "@/sanity/lib/image";
-import useCartStore from "@/store";
+import useCartStore, { CartItem } from "@/store";
 import { useAuth, useUser } from "@clerk/nextjs";
 import { Heart, ShoppingBag, Trash } from "lucide-react";
 import Image from "next/image";
