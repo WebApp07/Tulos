@@ -46,7 +46,7 @@ export default function ProductInfo({ product }: { product: Product }) {
   const displayImages = variantImage
     ? [
         variantImage,
-        ...productImages.filter((img) => img._key !== variantImage._key),
+        ...productImages.filter((img) => img.asset?._ref !== variantImage.asset?._ref),
       ]
     : productImages;
 

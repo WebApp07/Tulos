@@ -20,7 +20,7 @@ interface Props {
     hotspot?: SanityImageHotspot;
     crop?: SanityImageCrop;
     _type: "image";
-    _key: string;
+    _key?: string;
   }>;
 }
 const ImageView = ({ images = [] }: Props) => {
@@ -36,7 +36,7 @@ const ImageView = ({ images = [] }: Props) => {
     <div className="w-full md:w-1/2 space-y-2 md:space-y-4">
       <AnimatePresence mode="wait">
         <motion.div
-          key={active?._key}
+          key={active?._key || active?.asset?._ref}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -57,8 +57,13 @@ const ImageView = ({ images = [] }: Props) => {
         {images?.map((image) => (
           <button
             onClick={() => setActive(image)}
-            key={image?._key}
-            className={`border rounded-md overflow-hidden ${active?._key === image?._key ? "ring-1 ring-darkColor" : ""}`}
+            key={image?._key || image?.asset?._ref}
+            className={`border rounded-md overflow-hidden ${
+              (active?._key && active?._key === image?._key) ||
+              (active?.asset?._ref && active?.asset?._ref === image?.asset?._ref)
+                ? "ring-1 ring-darkColor"
+                : ""
+            }`}
           >
             <Image
               src={urlFor(image).url()}
