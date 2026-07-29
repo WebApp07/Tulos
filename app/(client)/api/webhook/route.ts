@@ -60,7 +60,7 @@ export async function POST(req: NextRequest) {
     }
 
     try {
-      const order = await createOrderInSanity(session, invoice, paymentIntent);
+      const order = await saveOrder(session, invoice, paymentIntent);
       console.log("Successfully created order in Sanity:", order._id);
     } catch (error) {
       console.error("Error creating order in sanity:", error);
@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({ received: true });
 }
 
-async function createOrderInSanity(
+async function saveOrder(
   session: Stripe.Checkout.Session,
   invoice: Stripe.Invoice | null,
   paymentIntent: Stripe.PaymentIntent | null,
