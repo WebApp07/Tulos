@@ -15,6 +15,12 @@ export interface SanityOrderData {
       _ref: string;
     };
     quantity: number;
+    selectedVariant?: {
+      color?: string;
+      size?: string;
+      variantSku?: string;
+      price?: number;
+    };
   }[];
   paymentMethod: "stripe" | "paypal";
   stripeCheckoutSessionId?: string;

@@ -69,6 +69,7 @@ export default function ProductDetails({ product }: { product: Product }) {
         <div className="flex items-center gap-2.5 lg:gap-5">
           <AddToCartButton
             product={product}
+            selectedVariant={selectedVariant}
             className="flex-1 bg-black text-white py-4 rounded-none uppercase font-bold tracking-widest hover:bg-gray-800 transition-colors"
           />
           <button className="border border-gray-200 p-4 hover:border-black transition-colors">

@@ -41,14 +41,22 @@ export async function capturePayPalOrder(
     const data = await response.json();
 
     if (data.status === "COMPLETED") {
-      const sanityProducts = items.map((item) => ({
-        _key: crypto.randomUUID(),
-        product: {
-          _type: "reference" as const,
-          _ref: item.product._id,
-        },
-        quantity: item.quantity,
-      }));
+    const sanityProducts = items.map((item) => ({
+      _key: crypto.randomUUID(),
+      product: {
+        _type: "reference" as const,
+        _ref: item.product._id,
+      },
+      quantity: item.quantity,
+      selectedVariant: item.selectedVariant
+        ? {
+            color: item.selectedVariant.color,
+            size: item.selectedVariant.size,
+            variantSku: item.selectedVariant.variantSku,
+            price: item.selectedVariant.price,
+          }
+        : undefined,
+    }));
 
       const orderData: SanityOrderData = {
         orderNumber: metadata.orderNumber,

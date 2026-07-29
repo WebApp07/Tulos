@@ -106,12 +106,17 @@ async function saveOrder(
   );
 
     const sanityProducts = lineItemsWithProduct.data.map((item) => {
-      const productId = (item.price?.product as Stripe.Product)?.metadata?.id;
+      const productMetadata = (item.price?.product as Stripe.Product)?.metadata;
+      const productId = productMetadata?.id;
+      const variantSku = productMetadata?.variantSku;
       if (!productId) {
-        console.warn(`Product ID missing in Stripe metadata for item: ${item.id}`, {
-          price: item.price,
-          product: item.price?.product
-        });
+        console.warn(
+          `Product ID missing in Stripe metadata for item: ${item.id}`,
+          {
+            price: item.price,
+            product: item.price?.product,
+          },
+        );
       }
       return {
         _key: crypto.randomUUID(),
@@ -120,6 +125,7 @@ async function saveOrder(
           _ref: productId,
         },
         quantity: item?.quantity || 0,
+        selectedVariant: variantSku ? { variantSku } : undefined,
       };
     });
 

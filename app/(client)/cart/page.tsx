@@ -64,8 +64,11 @@ const CartPage = () => {
       toast.success("Your cart reset successfully!");
     }
   };
-  const handleDeleteProduct = (id: string) => {
-    deleteCartProduct(id);
+  const handleDeleteProduct = (
+    id: string,
+    selectedVariant?: CartItem["selectedVariant"],
+  ) => {
+    deleteCartProduct(id, selectedVariant);
     toast.success("Product deleted successfully!");
   };
 
@@ -107,11 +110,14 @@ const CartPage = () => {
                 {/* Products */}
                 <div className="lg:col-span-2 rounded-lg">
                   <div className="border bg-white rounded-md">
-                    {cartProducts?.map(({ product }) => {
-                      const itemCount = getItemCount(product?._id);
+                    {cartProducts?.map(({ product, selectedVariant }) => {
+                      const itemCount = getItemCount(
+                        product?._id,
+                        selectedVariant,
+                      );
                       return (
                         <div
-                          key={product?._id}
+                          key={`${product?._id}-${selectedVariant?.variantSku || ""}-${selectedVariant?.color || ""}-${selectedVariant?.size || ""}`}
                           className="border-b p-2.5 last:border-b-0 flex items-center justify-between gap-5"
                         >
                           <div className="flex flex-1 items-center gap-2 h-36 md:h-44">
@@ -141,7 +147,9 @@ const CartPage = () => {
                                 <p className="text-sm capitalize">
                                   Variant:{" "}
                                   <span className="font-semibold">
-                                    {product.variant}
+                                    {selectedVariant
+                                      ? `${selectedVariant.color || ""} / ${selectedVariant.size || ""}`
+                                      : "Default"}
                                   </span>
                                 </p>
                                 <p className="text-sm capitalize">
@@ -165,7 +173,10 @@ const CartPage = () => {
                                     <TooltipTrigger>
                                       <Trash
                                         onClick={() =>
-                                          handleDeleteProduct(product?._id)
+                                          handleDeleteProduct(
+                                            product?._id,
+                                            selectedVariant,
+                                          )
                                         }
                                         className="w-4 h-4 md:w-5 md:h-5 hover:text-red-600 hoverEffect"
                                       />
@@ -179,10 +190,16 @@ const CartPage = () => {
                             </div>
                             <div className="flex flex-col items-start justify-between h-36 md:h-44 p-0.5 md:p-1">
                               <PriceFormatter
-                                amount={(product?.price as number) * itemCount}
+                                amount={
+                                  (selectedVariant?.price ||
+                                    (product?.price as number)) * itemCount
+                                }
                                 className="font-bold text-lg"
                               />
-                              <QuantityButtons product={product} />
+                              <QuantityButtons
+                                product={product}
+                                selectedVariant={selectedVariant}
+                              />
                             </div>
                           </div>
                         </div>
