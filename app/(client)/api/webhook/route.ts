@@ -140,7 +140,9 @@ async function saveOrder(
       status: "paid",
       paymentMethod: "stripe",
       stripeCheckoutSessionId: id,
-      stripePaymentIntentId: payment_intent || "none",
+      stripePaymentIntentId: typeof payment_intent === "string" 
+        ? payment_intent 
+        : payment_intent?.id || "none",
       receiptUrl: paymentIntent?.latest_charge
         ? ((await stripe.charges.retrieve(
             paymentIntent.latest_charge as string,
