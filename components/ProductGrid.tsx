@@ -11,16 +11,16 @@ import { Loader2 } from "lucide-react";
 
 const ProductGrid = () => {
   const [selectedTab, setSelectedTab] = useState(productType[0]?.title || "");
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
-  const query = `*[_type == 'product' && productType == $productType] | order(name asc)`;
-  const params = { productType: selectedTab.toLocaleLowerCase() };
   useEffect(() => {
+    const query = `*[_type == 'product' && productType == $productType] | order(name asc)`;
+    const params = { productType: selectedTab.toLocaleLowerCase() };
     const fetchData = async () => {
       setLoading(true);
       try {
         const response = await client.fetch(query, params);
-        setProducts(await response);
+        setProducts(response);
       } catch (error) {
         console.log("Product fetching Error", error);
       } finally {

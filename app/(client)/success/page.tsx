@@ -10,7 +10,13 @@ import Link from "next/link";
 interface OrderProduct {
   product: {
     name: string;
-    image?: any;
+    image?: {
+      _type: "image";
+      asset: {
+        _ref: string;
+        _type: "reference";
+      };
+    };
   };
   quantity: number;
 }

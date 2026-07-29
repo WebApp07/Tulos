@@ -1,4 +1,4 @@
-import { MY_ORDERS_QUERYResult } from "@/sanity.types";
+import { MY_ORDERS_QUERY_RESULT } from "@/sanity.types";
 import { FC } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
 import { Button } from "./ui/button";
@@ -17,7 +17,7 @@ import { Download, Printer } from "lucide-react";
 import PriceFormatter from "./PriceFormatter";
 
 interface Props {
-  order: any | null;
+  order: MY_ORDERS_QUERY_RESULT[number] | null;
   isOpen: boolean;
   onClose: () => void;
 }

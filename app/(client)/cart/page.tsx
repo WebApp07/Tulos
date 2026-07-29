@@ -23,7 +23,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import paypalLogo from "@/images/paypalLogo.png";
 import {
   createCheckoutSession,
   Metadata,

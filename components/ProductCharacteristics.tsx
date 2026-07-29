@@ -12,7 +12,13 @@ const ProductCharacteristics = ({
   selectedVariant,
 }: {
   product: Product;
-  selectedVariant?: any;
+  selectedVariant?: {
+    color?: string;
+    size?: string;
+    variantSku?: string;
+    stock?: number;
+    price?: number;
+  };
 }) => {
   return (
     <Accordion type="single" collapsible>

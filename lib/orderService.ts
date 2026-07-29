@@ -1,5 +1,4 @@
 import { backendClient } from "@/sanity/lib/backendClient";
-import { Metadata } from "@/actions/createCheckoutSession";
 
 export interface SanityOrderData {
   orderNumber: string;
