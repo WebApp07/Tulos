@@ -1,6 +1,6 @@
 import { Metadata } from "@/actions/createCheckoutSession";
 import stripe from "@/lib/stripe";
-import { backendClient } from "@/sanity/lib/backendClient";
+import { createOrderInSanity, SanityOrderData } from "@/lib/orderService";
 import { headers } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
@@ -45,14 +45,27 @@ export async function POST(req: NextRequest) {
 
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
+    console.log("Processing checkout.session.completed for session:", session.id);
+    console.log("Session details:", JSON.stringify({
+      id: session.id,
+      payment_status: session.payment_status,
+      amount_total: session.amount_total,
+      metadata: session.metadata
+    }));
     const invoice = session.invoice
       ? await stripe.invoices.retrieve(session.invoice as string)
       : null;
 
     try {
-      await createOrderInsanity(session, invoice);
+      const order = await createOrderInSanity(session, invoice);
+      console.log("Successfully created order in Sanity:", order._id);
     } catch (error) {
       console.error("Error creating order in sanity:", error);
+      // Log more details about the failure
+      if (error instanceof Error) {
+        console.error("Error message:", error.message);
+        console.error("Error stack:", error.stack);
+      }
       return NextResponse.json(
         {
           error: `Error creating order: ${error}`,
@@ -60,11 +73,13 @@ export async function POST(req: NextRequest) {
         { status: 400 },
       );
     }
+  } else {
+    console.log(`Unhandled event type: ${event.type}`);
   }
   return NextResponse.json({ received: true });
 }
 
-async function createOrderInsanity(
+async function createOrderInSanity(
   session: Stripe.Checkout.Session,
   invoice: Stripe.Invoice | null,
 ) {
@@ -79,44 +94,55 @@ async function createOrderInsanity(
   const { orderNumber, customerName, customerEmail, clerkUserId } =
     metadata as unknown as Metadata;
 
+  console.log("Metadata received in webhook:", { orderNumber, customerName, customerEmail, clerkUserId });
+
   const lineItemsWithProduct = await stripe.checkout.sessions.listLineItems(
     id,
     { expand: ["data.price.product"] },
   );
 
-  // Creating sanity product reference
-  const sanityProducts = lineItemsWithProduct.data.map((item) => ({
-    _key: crypto.randomUUID(),
-    product: {
-      _type: "reference",
-      _ref: (item.price?.product as Stripe.Product)?.metadata?.id,
-    },
-    quantity: item?.quantity || 0,
-  }));
-  const order = await backendClient.create({
-    _type: "order",
-    orderNumber,
-    stripeCheckoutSessionId: id,
-    stripePaymentIntentId: payment_intent,
-    customerName,
-    stripeCustomerId: customerEmail,
-    clerkUserId,
-    email: customerEmail,
-    currency,
-    amountDiscount: total_details?.amount_discount
-      ? total_details?.amount_discount / 100
-      : 0,
-    products: sanityProducts,
-    totalPrice: amount_total ? amount_total / 100 : 0,
-    status: "paid",
-    orderDate: new Date().toISOString(),
-    invoice: invoice
-      ? {
-          id: invoice.id,
-          number: invoice.number,
-          hosted_invoice_url: invoice.hosted_invoice_url,
-        }
-      : null,
-  });
-  return order;
+    const sanityProducts = lineItemsWithProduct.data.map((item) => {
+      const productId = (item.price?.product as Stripe.Product)?.metadata?.id;
+      if (!productId) {
+        console.warn(`Product ID missing in Stripe metadata for item: ${item.id}`, {
+          price: item.price,
+          product: item.price?.product
+        });
+      }
+      return {
+        _key: crypto.randomUUID(),
+        product: {
+          _type: "reference",
+          _ref: productId,
+        },
+        quantity: item?.quantity || 0,
+      };
+    });
+
+  console.log("Creating order in Sanity with products:", JSON.stringify(sanityProducts));
+
+  try {
+    const orderData: SanityOrderData = {
+      orderNumber: orderNumber || `UNK-${Date.now()}`,
+      customerName: customerName || "Unknown",
+      customerEmail: customerEmail || "unknown",
+      clerkUserId: clerkUserId || "unknown",
+      totalPrice: amount_total ? amount_total / 100 : 0,
+      currency: currency || "usd",
+      amountDiscount: total_details?.amount_discount
+        ? total_details?.amount_discount / 100
+        : 0,
+      products: sanityProducts,
+      status: "paid",
+      paymentMethod: "stripe",
+      stripeCheckoutSessionId: id,
+      stripePaymentIntentId: payment_intent || "none",
+    };
+
+    const order = await createOrderInSanity(orderData);
+    return order;
+  } catch (error) {
+    console.error("Critical error in createOrderInSanity:", error);
+    throw error;
+  }
 }
