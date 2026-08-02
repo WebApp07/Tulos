@@ -1,19 +1,20 @@
+import { Category } from "@/sanity.types";
 import React, { FC } from "react";
 import { motion } from "motion/react";
 import Logo from "./Logo";
 import { X } from "lucide-react";
-import { headerData } from "@/constants";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import SocialMedia from "./SocialMedia";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
-
+ 
 interface SidebarProps {
   isOpen: boolean;
   onClose: () => void;
+  categories: Category[];
 }
-
-const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
+ 
+const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
   const pathname = usePathname();
   const sidebarRef = useOutsideClick<HTMLDivElement>(onClose);
   return (
@@ -38,13 +39,22 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose }) => {
           </button>
         </div>
         <div className="flex flex-col gap-3.5 text-base font-semibold tracking-wide">
-          {headerData?.map((item) => (
+          <Link
+            onClick={onClose}
+            href={"/"}
+            className={`hover:text-white hoverEffect w-24 ${
+              pathname === "/" && "text-white"
+            }`}
+          >
+            Home
+          </Link>
+          {categories?.map((item) => (
             <Link
               onClick={onClose}
-              key={item?.title}
-              href={item?.href}
+              key={item?._id}
+              href={`/category/${item?.slug?.current}`}
               className={`hover:text-white hoverEffect w-24 ${
-                pathname === item?.href && "text-white"
+                pathname === `/category/${item?.slug?.current}` && "text-white"
               }`}
             >
               {item?.title}

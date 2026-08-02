@@ -20,7 +20,7 @@ export const getProductBySlug = async (slug: string) => {
 
 export const getAllCategories = async () => {
   const CATEGORIES_QUERY = defineQuery(
-    `*[_type=="category"] | order(name asc)`,
+    `*[_type=="category"] | order(title asc)`,
   );
   try {
     const categories = await sanityFetch({
