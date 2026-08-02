@@ -1,54 +1,31 @@
 "use client";
-import { CATEGORIES_QUERY_RESULT } from "@/sanity.types";
+import { headerData } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
-const HeaderMenu = ({
-  categories,
-}: {
-  categories: CATEGORIES_QUERY_RESULT;
-}) => {
+const HeaderMenu = () => {
   const pathname = usePathname();
 
   return (
     <div className="hidden md:inline-flex w-1/3 items-center gap-5 text-sm capitalize font-semibold">
-      <Link
-        href={"/"}
-        className={`hover:text-darkColor hoverEffect relative group ${
-          pathname === "/" && "text-darkColor"
-        }`}
-      >
-        Home
-        <span
-          className={`absolute -bottom-0.5 left-1/2 w-0 h-0.5 bg-darkColor hoverEffect group-hover:w-1/2 group-hover:left-0 ${
-            pathname === "/" && "w-1/2"
-          }`}
-        />
-        <span
-          className={`absolute -bottom-0.5 right-1/2 w-0 h-0.5 bg-darkColor hoverEffect group-hover:w-1/2 group-hover:right-0 ${
-            pathname === "/" && "w-1/2"
-          }`}
-        />
-      </Link>
-      {categories?.map((category) => (
+      {headerData?.map((item) => (
         <Link
-          key={category?._id}
-          href={`/category/${category?.slug?.current}`}
+          key={item?.title}
+          href={item?.href}
           className={`hover:text-darkColor hoverEffect relative group ${
-            pathname === `/category/${category?.slug?.current}` &&
-            "text-darkColor"
+            pathname === item?.href && "text-darkColor"
           }`}
         >
-          {category?.title}
+          {item?.title}
           <span
             className={`absolute -bottom-0.5 left-1/2 w-0 h-0.5 bg-darkColor hoverEffect group-hover:w-1/2 group-hover:left-0 ${
-              pathname === `/category/${category?.slug?.current}` && "w-1/2"
+              pathname === item?.href && "w-1/2"
             }`}
           />
           <span
             className={`absolute -bottom-0.5 right-1/2 w-0 h-0.5 bg-darkColor hoverEffect group-hover:w-1/2 group-hover:right-0 ${
-              pathname === `/category/${category?.slug?.current}` && "w-1/2"
+              pathname === item?.href && "w-1/2"
             }`}
           />
         </Link>

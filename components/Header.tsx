@@ -9,12 +9,11 @@ import { auth, currentUser } from "@clerk/nextjs/server";
 import { ClerkLoaded, SignedIn, SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { ListOrdered } from "lucide-react";
-import { getAllCategories, getMyOrders } from "@/sanity/helpers/queries";
+import { getMyOrders } from "@/sanity/helpers/queries";
 
 const Header = async () => {
   const user = await currentUser();
   const { userId } = await auth();
-  const categories = await getAllCategories();
   let orders = null;
   if (userId) {
     orders = await getMyOrders(userId);
@@ -22,7 +21,7 @@ const Header = async () => {
   return (
     <header className="border-b border-b-gray-400 py-5 sticky top-0 z-50 bg-white">
       <Container className="flex items-center justify-between gap-7 text-lightColor">
-        <HeaderMenu categories={categories} />
+        <HeaderMenu />
         <div className="w-auto md:w-1/3 flex items-center justify-center gap-2.5">
           <MobileMenu />
           <Logo>Tulos</Logo>
