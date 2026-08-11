@@ -2,6 +2,7 @@ import Container from "@/components/Container";
 import HomeBanner from "@/components/HomeBanner";
 import ProductGrid from "@/components/ProductGrid";
 import PurchaseProcess from "@/components/PurchaseProcess";
+import TrustedTechnologyPartners from "@/components/TrustedTechnologyPartners";
 import { getAllCategories } from "@/sanity/helpers/queries";
 
 export default async function Home() {
@@ -14,6 +15,7 @@ export default async function Home() {
         <ProductGrid categories={categories} />
       </Container>
       <PurchaseProcess />
+      <TrustedTechnologyPartners />
     </div>
   );
 }
