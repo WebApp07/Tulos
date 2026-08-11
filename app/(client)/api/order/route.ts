@@ -11,7 +11,7 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const ORDER_BY_NUMBER_QUERY =
+    const GET_ORDER_BY_NUMBER_QUERY =
       defineQuery(`*[_type == 'order' && orderNumber == $orderNumber][0]{
       ...,products[]{
         ...,product->
@@ -19,7 +19,7 @@ export async function GET(req: NextRequest) {
     }`);
 
     // Use backendClient to bypass any potential caching issues with live fetch
-    const order = await backendClient.fetch(ORDER_BY_NUMBER_QUERY, { orderNumber });
+    const order = await backendClient.fetch(GET_ORDER_BY_NUMBER_QUERY, { orderNumber });
     return NextResponse.json({ order });
   } catch (error) {
     console.error("Error in order API:", error);

@@ -1,5 +1,4 @@
 import { backendClient } from "@/sanity/lib/backendClient";
-import { Metadata } from "@/actions/createCheckoutSession";
 
 export interface SanityOrderData {
   orderNumber: string;
@@ -16,12 +15,24 @@ export interface SanityOrderData {
       _ref: string;
     };
     quantity: number;
+    selectedVariant?: {
+      color?: string;
+      size?: string;
+      variantSku?: string;
+      price?: number;
+    };
   }[];
   paymentMethod: "stripe" | "paypal";
   stripeCheckoutSessionId?: string;
   stripePaymentIntentId?: string;
   paypalOrderId?: string;
   status: "paid" | "pending";
+  receiptUrl?: string;
+  invoice?: {
+    id: string;
+    number: string;
+    hosted_invoice_url: string;
+  };
 }
 
 export async function createOrderInSanity(orderData: SanityOrderData) {
@@ -38,6 +49,9 @@ export async function createOrderInSanity(orderData: SanityOrderData) {
       totalPrice: orderData.totalPrice,
       status: orderData.status,
       orderDate: new Date().toISOString(),
+      invoice: orderData.invoice,
+      receiptUrl: orderData.receiptUrl,
+      paymentMethod: orderData.paymentMethod,
       // Flexible fields based on payment method
       ...(orderData.paymentMethod === "stripe" && {
         stripeCheckoutSessionId: orderData.stripeCheckoutSessionId,

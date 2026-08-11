@@ -20,7 +20,7 @@ export const getProductBySlug = async (slug: string) => {
 
 export const getAllCategories = async () => {
   const CATEGORIES_QUERY = defineQuery(
-    `*[_type=="category"] | order(name asc)`,
+    `*[_type=="category"] | order(title asc)`,
   );
   try {
     const categories = await sanityFetch({
@@ -40,7 +40,10 @@ export const getMyOrders = async (userId: string) => {
   }
   const MY_ORDERS_QUERY =
     defineQuery(`*[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){
-    ...,products[]{
+    ...,
+    paymentMethod,
+    receiptUrl,
+    products[]{
       ...,product->
     }
   }`);
@@ -49,8 +52,6 @@ export const getMyOrders = async (userId: string) => {
     const orders = await sanityFetch({
       query: MY_ORDERS_QUERY,
       params: { userId },
-      // Ensure we always get fresh data for orders
-      staleTime: 0,
     });
     return orders?.data || [];
   } catch (error) {

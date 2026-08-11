@@ -23,6 +23,11 @@ export const orderType = defineType({
       ],
     },
     defineField({
+      name: "receiptUrl",
+      title: "Receipt URL",
+      type: "url",
+    }),
+    defineField({
       name: "stripeCheckoutSessionId",
       title: "Stripe Checkout Session ID",
       type: "string",
@@ -76,6 +81,17 @@ export const orderType = defineType({
               title: "Quantity Purchased",
               type: "number",
             }),
+            defineField({
+              name: "selectedVariant",
+              title: "Selected Variant",
+              type: "object",
+              fields: [
+                { name: "color", type: "string" },
+                { name: "size", type: "string" },
+                { name: "variantSku", type: "string" },
+                { name: "price", type: "number" },
+              ],
+            }),
           ],
           preview: {
             select: {
@@ -83,12 +99,20 @@ export const orderType = defineType({
               quantity: "quantity",
               image: "product.images.0",
               price: "product.price",
+              variantPrice: "selectedVariant.price",
               currency: "product.currency",
+              color: "selectedVariant.color",
+              size: "selectedVariant.size",
             },
             prepare(select) {
+              const displayPrice = select.variantPrice || select.price;
+              const variantInfo =
+                select.color || select.size
+                  ? ` (${select.color || ""}${select.color && select.size ? "/" : ""}${select.size || ""})`
+                  : "";
               return {
-                title: `${select.product} x ${select.quantity}`,
-                subtitle: `${select.price * select.quantity}`,
+                title: `${select.product}${variantInfo} x ${select.quantity}`,
+                subtitle: `${displayPrice * select.quantity}`,
                 media: select.image,
               };
             },
@@ -115,6 +139,17 @@ export const orderType = defineType({
       validation: (Rule) => Rule.required(),
     }),
 
+    defineField({
+      name: "paymentMethod",
+      title: "Payment Method",
+      type: "string",
+      options: {
+        list: [
+          { title: "Stripe", value: "stripe" },
+          { title: "PayPal", value: "paypal" },
+        ],
+      },
+    }),
     defineField({
       name: "status",
       title: "Order Status",

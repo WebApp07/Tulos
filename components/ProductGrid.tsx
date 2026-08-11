@@ -1,26 +1,31 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import HomeTabbar from "./HomeTabbar";
-import { productType } from "@/constants";
 import { client } from "@/sanity/lib/client";
-import { Product } from "@/sanity.types";
+import { Category, Product } from "@/sanity.types";
 import ProductCard from "./ProductCard";
 import NoProductsAvailable from "./NoProductsAvailable";
 import { motion, AnimatePresence } from "motion/react";
 import { Loader2 } from "lucide-react";
 
-const ProductGrid = () => {
-  const [selectedTab, setSelectedTab] = useState(productType[0]?.title || "");
-  const [products, setProducts] = useState([]);
+interface Props {
+  categories: Category[];
+}
+
+const ProductGrid = ({ categories }: Props) => {
+  const [selectedTab, setSelectedTab] = useState(
+    categories[0]?.slug?.current || ""
+  );
+  const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
-  const query = `*[_type == 'product' && productType == $productType] | order(name asc)`;
-  const params = { productType: selectedTab.toLocaleLowerCase() };
   useEffect(() => {
+    const query = `*[_type == 'product' && references(*[_type == 'category' && slug.current == $categorySlug]._id)] | order(name asc)`;
+    const params = { categorySlug: selectedTab };
     const fetchData = async () => {
       setLoading(true);
       try {
         const response = await client.fetch(query, params);
-        setProducts(await response);
+        setProducts(response);
       } catch (error) {
         console.log("Product fetching Error", error);
       } finally {
@@ -32,7 +37,11 @@ const ProductGrid = () => {
 
   return (
     <div className="mt-10 flex flex-col items-center">
-      <HomeTabbar selectedTab={selectedTab} onTabSelect={setSelectedTab} />
+      <HomeTabbar
+        selectedTab={selectedTab}
+        onTabSelect={setSelectedTab}
+        categories={categories}
+      />
       {loading ? (
         <div className="flex flex-col items-center justify-center py-10 min-h-80 space-y-4 text-center bg-gray-100 rounded-lg w-full mt-10">
           <div className="flex items-center space-x-2 text-blue-600">

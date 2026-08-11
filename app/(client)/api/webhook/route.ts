@@ -46,18 +46,21 @@ export async function POST(req: NextRequest) {
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
     console.log("Processing checkout.session.completed for session:", session.id);
-    console.log("Session details:", JSON.stringify({
-      id: session.id,
-      payment_status: session.payment_status,
-      amount_total: session.amount_total,
-      metadata: session.metadata
-    }));
+
     const invoice = session.invoice
       ? await stripe.invoices.retrieve(session.invoice as string)
       : null;
 
+    // Fetch Payment Intent to get receipt_url if invoice is not available
+    let paymentIntent = null;
+    if (session.payment_intent) {
+      paymentIntent = await stripe.paymentIntents.retrieve(
+        session.payment_intent as string,
+      );
+    }
+
     try {
-      const order = await createOrderInSanity(session, invoice);
+      const order = await saveOrder(session, invoice, paymentIntent);
       console.log("Successfully created order in Sanity:", order._id);
     } catch (error) {
       console.error("Error creating order in sanity:", error);
@@ -79,9 +82,10 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({ received: true });
 }
 
-async function createOrderInSanity(
+async function saveOrder(
   session: Stripe.Checkout.Session,
   invoice: Stripe.Invoice | null,
+  paymentIntent: Stripe.PaymentIntent | null,
 ) {
   const {
     id,
@@ -102,20 +106,26 @@ async function createOrderInSanity(
   );
 
     const sanityProducts = lineItemsWithProduct.data.map((item) => {
-      const productId = (item.price?.product as Stripe.Product)?.metadata?.id;
+      const productMetadata = (item.price?.product as Stripe.Product)?.metadata;
+      const productId = productMetadata?.id;
+      const variantSku = productMetadata?.variantSku;
       if (!productId) {
-        console.warn(`Product ID missing in Stripe metadata for item: ${item.id}`, {
-          price: item.price,
-          product: item.price?.product
-        });
+        console.warn(
+          `Product ID missing in Stripe metadata for item: ${item.id}`,
+          {
+            price: item.price,
+            product: item.price?.product,
+          },
+        );
       }
       return {
         _key: crypto.randomUUID(),
         product: {
-          _type: "reference",
+          _type: "reference" as const,
           _ref: productId,
         },
         quantity: item?.quantity || 0,
+        selectedVariant: variantSku ? { variantSku } : undefined,
       };
     });
 
@@ -136,7 +146,21 @@ async function createOrderInSanity(
       status: "paid",
       paymentMethod: "stripe",
       stripeCheckoutSessionId: id,
-      stripePaymentIntentId: payment_intent || "none",
+      stripePaymentIntentId: typeof payment_intent === "string" 
+        ? payment_intent 
+        : payment_intent?.id || "none",
+      receiptUrl: paymentIntent?.latest_charge
+        ? ((await stripe.charges.retrieve(
+            paymentIntent.latest_charge as string,
+          )) as Stripe.Charge).receipt_url || undefined
+        : undefined,
+      invoice: invoice
+        ? {
+            id: invoice.id,
+            number: invoice.number || "",
+            hosted_invoice_url: invoice.hosted_invoice_url || "",
+          }
+        : undefined,
     };
 
     const order = await createOrderInSanity(orderData);

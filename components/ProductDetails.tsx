@@ -1,19 +1,18 @@
 "use client";
 
-import { Product } from "@/sanity.types";
 import { useState } from "react";
 import ImageView from "./ImageView";
 import PriceView from "./PriceView";
 import AddToCartButton from "./AddToCartButton";
 import { Heart } from "lucide-react";
+import { Product } from "@/sanity.types";
 
-export default function ProductDetails({ product }: { product: any }) {
+export default function ProductDetails({ product }: { product: Product }) {
   const [selectedVariant, setSelectedVariant] = useState(
     product.variants && product.variants.length > 0 ? product.variants[0] : null
   );
 
-  const price = selectedVariant?.price || product.price;
-  const stock = selectedVariant?.stock !== undefined ? selectedVariant.stock : product.stock;
+  const price = selectedVariant?.price || (product.price ?? 0);
 
   return (
     <div className="flex flex-col md:flex-row gap-10">
@@ -50,7 +49,7 @@ export default function ProductDetails({ product }: { product: any }) {
               <span className="text-xs text-gray-500 underline cursor-pointer">Size Guide</span>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
-              {product.variants.map((variant: any, index: number) => (
+              {product.variants?.map((variant, index: number) => (
                 <button
                   key={index}
                   onClick={() => setSelectedVariant(variant)}
@@ -58,8 +57,8 @@ export default function ProductDetails({ product }: { product: any }) {
                     selectedVariant === variant
                       ? "border-black bg-black text-white"
                       : "border-gray-200 hover:border-black"
-                  } ${variant.stock <= 0 ? "opacity-50 cursor-not-allowed" : ""}`}
-                  disabled={variant.stock <= 0}
+                  } ${(variant.stock ?? 0) <= 0 ? "opacity-50 cursor-not-allowed" : ""}`}
+                  disabled={(variant.stock ?? 0) <= 0}
                 >
                   {variant.size}
                 </button>
@@ -71,6 +70,7 @@ export default function ProductDetails({ product }: { product: any }) {
         <div className="flex items-center gap-2.5 lg:gap-5">
           <AddToCartButton
             product={product}
+            selectedVariant={selectedVariant}
             className="flex-1 bg-black text-white py-4 rounded-none uppercase font-bold tracking-widest hover:bg-gray-800 transition-colors"
           />
           <button className="border border-gray-200 p-4 hover:border-black transition-colors">

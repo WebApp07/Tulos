@@ -34,6 +34,7 @@ export type Order = {
     number?: string;
     hosted_invoice_url?: string;
   };
+  receiptUrl?: string;
   stripeCheckoutSessionId?: string;
   stripeCustomerId?: string;
   clerkUserId?: string;
@@ -43,11 +44,18 @@ export type Order = {
   products?: Array<{
     product?: ProductReference;
     quantity?: number;
+    selectedVariant?: {
+      color?: string;
+      size?: string;
+      variantSku?: string;
+      price?: number;
+    };
     _key: string;
   }>;
   totalPrice?: number;
   currency?: string;
   amountDiscount?: number;
+  paymentMethod?: "stripe" | "paypal";
   status?: "pending" | "paid" | "shipped" | "delivered" | "cancelled";
   orderDate?: string;
 };
@@ -115,6 +123,21 @@ export type Product = {
   stock?: number;
   status?: "new" | "hot" | "sale";
   productType?: "tshirt" | "jacket" | "pants" | "hoodie" | "short" | "others";
+  osType?: string;
+  operatingSystemsSupported?: string;
+  versionType?: string;
+  productStatus?: string;
+  placeOfOrigin?: string;
+  brandName?: string;
+  activation?: string;
+  shippingMethod?: string;
+  packageInclude?: string;
+  language?: string;
+  warranty?: string;
+  deliveryTime?: string;
+  support?: string;
+  function?: string;
+  paymentMethods?: string;
 };
 
 export type SanityImageCrop = {
@@ -272,85 +295,10 @@ export type AllSanitySchemaTypes =
   | SanityImageAsset
   | Geopoint;
 
-// Source: sanity/helpers/queries.ts
-// Variable: PRODUCT_BY_SLUG_QUERY
-// Query: *[_type == 'product' && slug.current == $slug] | order(name asc) [0]
-export type PRODUCT_BY_SLUG_QUERY_RESULT = {
-  _id: string;
-  _type: "product";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  name?: string;
-  slug?: Slug;
-  images?: Array<{
-    asset?: SanityImageAssetReference;
-    media?: unknown;
-    hotspot?: SanityImageHotspot;
-    crop?: SanityImageCrop;
-    _type: "image";
-    _key: string;
-  }>;
-  intro?: string;
-  description?: string;
-  brand?: string;
-  sku?: string;
-  gender?: string;
-  nickname?: string;
-  releaseDate?: string;
-  variants?: Array<{
-    color?: string;
-    size?: string;
-    variantSku?: string;
-    stock?: number;
-    price?: number;
-    variantImage?: {
-      asset?: SanityImageAssetReference;
-      media?: unknown;
-      hotspot?: SanityImageHotspot;
-      crop?: SanityImageCrop;
-      _type: "image";
-    };
-    _type: "variant";
-    _key: string;
-  }>;
-  price?: number;
-  discount?: number;
-  categories?: Array<
-    {
-      _key: string;
-    } & CategoryReference
-  >;
-  stock?: number;
-  status?: "hot" | "new" | "sale";
-  productType?: "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
-} | null;
-
-// Source: sanity/helpers/queries.ts
-// Variable: CATEGORIES_QUERY
-// Query: *[_type=="category"] | order(name asc)
-export type CATEGORIES_QUERY_RESULT = Array<{
-  _id: string;
-  _type: "category";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  title?: string;
-  slug?: Slug;
-  description?: string;
-  image?: {
-    asset?: SanityImageAssetReference;
-    media?: unknown;
-    hotspot?: SanityImageHotspot;
-    crop?: SanityImageCrop;
-    _type: "image";
-  };
-}>;
-
-// Source: sanity/helpers/queries.ts
-// Variable: MY_ORDERS_QUERY
-// Query: *[_type == 'order' && clerkUserId == $userId] | order(orderData desc){    ...,products[]{      ...,product->    }  }
-export type MY_ORDERS_QUERY_RESULT = Array<{
+// Source: app/(client)/api/order/route.ts
+// Variable: GET_ORDER_BY_NUMBER_QUERY
+// Query: *[_type == 'order' && orderNumber == $orderNumber][0]{      ...,products[]{        ...,product->      }    }
+export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
   _id: string;
   _type: "order";
   _createdAt: string;
@@ -362,6 +310,7 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
     number?: string;
     hosted_invoice_url?: string;
   };
+  receiptUrl?: string;
   stripeCheckoutSessionId?: string;
   stripeCustomerId?: string;
   clerkUserId?: string;
@@ -419,23 +368,349 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
       status?: "hot" | "new" | "sale";
       productType?:
         "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+      osType?: string;
+      operatingSystemsSupported?: string;
+      versionType?: string;
+      productStatus?: string;
+      placeOfOrigin?: string;
+      brandName?: string;
+      activation?: string;
+      shippingMethod?: string;
+      packageInclude?: string;
+      language?: string;
+      warranty?: string;
+      deliveryTime?: string;
+      support?: string;
+      function?: string;
+      paymentMethods?: string;
     } | null;
     quantity?: number;
+    selectedVariant?: {
+      color?: string;
+      size?: string;
+      variantSku?: string;
+      price?: number;
+    };
     _key: string;
   }> | null;
   totalPrice?: number;
   currency?: string;
   amountDiscount?: number;
+  paymentMethod?: "paypal" | "stripe";
+  status?: "cancelled" | "delivered" | "paid" | "pending" | "shipped";
+  orderDate?: string;
+} | null;
+
+// Source: sanity/helpers/queries.ts
+// Variable: PRODUCT_BY_SLUG_QUERY
+// Query: *[_type == 'product' && slug.current == $slug] | order(name asc) [0]
+export type PRODUCT_BY_SLUG_QUERY_RESULT = {
+  _id: string;
+  _type: "product";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  name?: string;
+  slug?: Slug;
+  images?: Array<{
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+    _key: string;
+  }>;
+  intro?: string;
+  description?: string;
+  brand?: string;
+  sku?: string;
+  gender?: string;
+  nickname?: string;
+  releaseDate?: string;
+  variants?: Array<{
+    color?: string;
+    size?: string;
+    variantSku?: string;
+    stock?: number;
+    price?: number;
+    variantImage?: {
+      asset?: SanityImageAssetReference;
+      media?: unknown;
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+    };
+    _type: "variant";
+    _key: string;
+  }>;
+  price?: number;
+  discount?: number;
+  categories?: Array<
+    {
+      _key: string;
+    } & CategoryReference
+  >;
+  stock?: number;
+  status?: "hot" | "new" | "sale";
+  productType?: "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+  osType?: string;
+  operatingSystemsSupported?: string;
+  versionType?: string;
+  productStatus?: string;
+  placeOfOrigin?: string;
+  brandName?: string;
+  activation?: string;
+  shippingMethod?: string;
+  packageInclude?: string;
+  language?: string;
+  warranty?: string;
+  deliveryTime?: string;
+  support?: string;
+  function?: string;
+  paymentMethods?: string;
+} | null;
+
+// Source: sanity/helpers/queries.ts
+// Variable: CATEGORIES_QUERY
+// Query: *[_type=="category"] | order(title asc)
+export type CATEGORIES_QUERY_RESULT = Array<{
+  _id: string;
+  _type: "category";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  title?: string;
+  slug?: Slug;
+  description?: string;
+  image?: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  };
+}>;
+
+// Source: sanity/helpers/queries.ts
+// Variable: MY_ORDERS_QUERY
+// Query: *[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){    ...,    paymentMethod,    receiptUrl,    products[]{      ...,product->    }  }
+export type MY_ORDERS_QUERY_RESULT = Array<{
+  _id: string;
+  _type: "order";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  orderNumber?: string;
+  invoice?: {
+    id?: string;
+    number?: string;
+    hosted_invoice_url?: string;
+  };
+  receiptUrl: string | null;
+  stripeCheckoutSessionId?: string;
+  stripeCustomerId?: string;
+  clerkUserId?: string;
+  customerName?: string;
+  email?: string;
+  stripePaymentIntentId?: string;
+  products: Array<{
+    product: {
+      _id: string;
+      _type: "product";
+      _createdAt: string;
+      _updatedAt: string;
+      _rev: string;
+      name?: string;
+      slug?: Slug;
+      images?: Array<{
+        asset?: SanityImageAssetReference;
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+        _key: string;
+      }>;
+      intro?: string;
+      description?: string;
+      brand?: string;
+      sku?: string;
+      gender?: string;
+      nickname?: string;
+      releaseDate?: string;
+      variants?: Array<{
+        color?: string;
+        size?: string;
+        variantSku?: string;
+        stock?: number;
+        price?: number;
+        variantImage?: {
+          asset?: SanityImageAssetReference;
+          media?: unknown;
+          hotspot?: SanityImageHotspot;
+          crop?: SanityImageCrop;
+          _type: "image";
+        };
+        _type: "variant";
+        _key: string;
+      }>;
+      price?: number;
+      discount?: number;
+      categories?: Array<
+        {
+          _key: string;
+        } & CategoryReference
+      >;
+      stock?: number;
+      status?: "hot" | "new" | "sale";
+      productType?:
+        "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+      osType?: string;
+      operatingSystemsSupported?: string;
+      versionType?: string;
+      productStatus?: string;
+      placeOfOrigin?: string;
+      brandName?: string;
+      activation?: string;
+      shippingMethod?: string;
+      packageInclude?: string;
+      language?: string;
+      warranty?: string;
+      deliveryTime?: string;
+      support?: string;
+      function?: string;
+      paymentMethods?: string;
+    } | null;
+    quantity?: number;
+    selectedVariant?: {
+      color?: string;
+      size?: string;
+      variantSku?: string;
+      price?: number;
+    };
+    _key: string;
+  }> | null;
+  totalPrice?: number;
+  currency?: string;
+  amountDiscount?: number;
+  paymentMethod: "paypal" | "stripe" | null;
   status?: "cancelled" | "delivered" | "paid" | "pending" | "shipped";
   orderDate?: string;
 }>;
+
+// Source: sanity/helpers/queries.ts
+// Variable: ORDER_BY_NUMBER_QUERY
+// Query: *[_type == 'order' && orderNumber == $orderNumber][0]{    ...,products[]{      ...,product->    }  }
+export type ORDER_BY_NUMBER_QUERY_RESULT = {
+  _id: string;
+  _type: "order";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  orderNumber?: string;
+  invoice?: {
+    id?: string;
+    number?: string;
+    hosted_invoice_url?: string;
+  };
+  receiptUrl?: string;
+  stripeCheckoutSessionId?: string;
+  stripeCustomerId?: string;
+  clerkUserId?: string;
+  customerName?: string;
+  email?: string;
+  stripePaymentIntentId?: string;
+  products: Array<{
+    product: {
+      _id: string;
+      _type: "product";
+      _createdAt: string;
+      _updatedAt: string;
+      _rev: string;
+      name?: string;
+      slug?: Slug;
+      images?: Array<{
+        asset?: SanityImageAssetReference;
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+        _key: string;
+      }>;
+      intro?: string;
+      description?: string;
+      brand?: string;
+      sku?: string;
+      gender?: string;
+      nickname?: string;
+      releaseDate?: string;
+      variants?: Array<{
+        color?: string;
+        size?: string;
+        variantSku?: string;
+        stock?: number;
+        price?: number;
+        variantImage?: {
+          asset?: SanityImageAssetReference;
+          media?: unknown;
+          hotspot?: SanityImageHotspot;
+          crop?: SanityImageCrop;
+          _type: "image";
+        };
+        _type: "variant";
+        _key: string;
+      }>;
+      price?: number;
+      discount?: number;
+      categories?: Array<
+        {
+          _key: string;
+        } & CategoryReference
+      >;
+      stock?: number;
+      status?: "hot" | "new" | "sale";
+      productType?:
+        "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+      osType?: string;
+      operatingSystemsSupported?: string;
+      versionType?: string;
+      productStatus?: string;
+      placeOfOrigin?: string;
+      brandName?: string;
+      activation?: string;
+      shippingMethod?: string;
+      packageInclude?: string;
+      language?: string;
+      warranty?: string;
+      deliveryTime?: string;
+      support?: string;
+      function?: string;
+      paymentMethods?: string;
+    } | null;
+    quantity?: number;
+    selectedVariant?: {
+      color?: string;
+      size?: string;
+      variantSku?: string;
+      price?: number;
+    };
+    _key: string;
+  }> | null;
+  totalPrice?: number;
+  currency?: string;
+  amountDiscount?: number;
+  paymentMethod?: "paypal" | "stripe";
+  status?: "cancelled" | "delivered" | "paid" | "pending" | "shipped";
+  orderDate?: string;
+} | null;
 
 // Query TypeMap
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
+    "*[_type == 'order' && orderNumber == $orderNumber][0]{\n      ...,products[]{\n        ...,product->\n      }\n    }": GET_ORDER_BY_NUMBER_QUERY_RESULT;
     "*[_type == 'product' && slug.current == $slug] | order(name asc) [0]": PRODUCT_BY_SLUG_QUERY_RESULT;
-    '*[_type=="category"] | order(name asc)': CATEGORIES_QUERY_RESULT;
-    "*[_type == 'order' && clerkUserId == $userId] | order(orderData desc){\n    ...,products[]{\n      ...,product->\n    }\n  }": MY_ORDERS_QUERY_RESULT;
+    '*[_type=="category"] | order(title asc)': CATEGORIES_QUERY_RESULT;
+    "*[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){\n    ...,\n    paymentMethod,\n    receiptUrl,\n    products[]{\n      ...,product->\n    }\n  }": MY_ORDERS_QUERY_RESULT;
+    "*[_type == 'order' && orderNumber == $orderNumber][0]{\n    ...,products[]{\n      ...,product->\n    }\n  }": ORDER_BY_NUMBER_QUERY_RESULT;
   }
 }

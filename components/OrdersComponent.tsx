@@ -2,6 +2,8 @@
 import { MY_ORDERS_QUERY_RESULT } from "@/sanity.types";
 import React, { useState } from "react";
 import { TableBody, TableCell, TableRow } from "./ui/table";
+import { Download } from "lucide-react";
+import { Button } from "./ui/button";
 import {
   Tooltip,
   TooltipContent,
@@ -10,6 +12,7 @@ import {
 } from "./ui/tooltip";
 import { format } from "date-fns";
 import PriceFormatter from "./PriceFormatter";
+import { Badge } from "./ui/badge";
 
 import OrderDetailsDialog from "./OrderDetailsDialog";
 const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
@@ -55,8 +58,63 @@ const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
                     )}
                   </TableCell>
                   <TableCell className="hidden md:table-cell">
-                    {order?.invoice && (
-                      <p>{order?.invoice ? order?.invoice?.number : "----"}</p>
+                    {order?.paymentMethod === "paypal" ? (
+                      <Badge variant="outline" className="text-[10px] font-normal py-0">
+                        PayPal
+                      </Badge>
+                    ) : (
+                      <Badge variant="outline" className="text-[10px] font-normal py-0">
+                        Stripe
+                      </Badge>
+                    )}
+                  </TableCell>
+                  <TableCell className="hidden md:table-cell">
+                    <p>{order?.invoice?.number || "----"}</p>
+                  </TableCell>
+                  <TableCell className="text-right">
+                    {order?.invoice?.hosted_invoice_url ? (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="text-xs h-8 gap-1"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          if (order?.invoice?.hosted_invoice_url) {
+                            window.open(order.invoice.hosted_invoice_url, "_blank");
+                          }
+                        }}
+                      >
+                        <Download className="h-3.5 w-3.5" />
+                        Invoice
+                      </Button>
+                    ) : order?.receiptUrl ? (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="text-xs h-8 gap-1"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          if (order?.receiptUrl) {
+                            window.open(order.receiptUrl, "_blank");
+                          }
+                        }}
+                      >
+                        <Download className="h-3.5 w-3.5" />
+                        Receipt
+                      </Button>
+                    ) : (
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <span className="text-xs text-gray-400 cursor-help">
+                            N/A
+                          </span>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          {order?.paymentMethod === "paypal"
+                            ? "Invoice not available for PayPal orders"
+                            : "Invoice not available for this order"}
+                        </TooltipContent>
+                      </Tooltip>
                     )}
                   </TableCell>
                 </TableRow>

@@ -67,7 +67,7 @@
     @apply transition-all ease-in-out duration-300 cursor-pointer;
   }
 }
-
+ 
 /* Our font setup */
 :root {
   --font-raleway: "Raleway", sans-serif;

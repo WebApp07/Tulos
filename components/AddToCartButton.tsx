@@ -10,12 +10,19 @@ import useCartStore from "@/store";
 interface Props {
   product: Product;
   className?: string;
+  selectedVariant?: {
+    color?: string;
+    size?: string;
+    variantSku?: string;
+    stock?: number;
+    price?: number;
+  } | null;
 }
 
-const AddToCartButton = ({ product, className }: Props) => {
+const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
   const { addItem, getItemCount } = useCartStore();
-  const itemCount = getItemCount(product?._id);
-  const isOutOfStock = product?.stock === 0;
+  const itemCount = getItemCount(product?._id, selectedVariant);
+  const isOutOfStock = (selectedVariant ? selectedVariant.stock : product?.stock) === 0;
 
   return (
     <div className="w-full h-12 flex items-center">
@@ -23,19 +30,24 @@ const AddToCartButton = ({ product, className }: Props) => {
         <div className="w-full text-sm">
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted-foreground">Quantity</span>
-            <QuantityButtons product={product} />
+            <QuantityButtons
+              product={product}
+              selectedVariant={selectedVariant}
+            />
           </div>
           <div className="flex items-center justify-between border-t pt-1">
             <span className="text-xs font-semibold">Subtotal</span>
             <PriceFormatter
-              amount={product?.price ? product?.price * itemCount : 0}
+              amount={
+                (selectedVariant?.price || product?.price || 0) * itemCount
+              }
             />
           </div>
         </div>
       ) : (
         <Button
           onClick={() => {
-            addItem(product);
+            addItem(product, selectedVariant);
             toast.success(
               `${product?.name?.substring(0, 12)}... added successfully!`,
             );

@@ -2,7 +2,7 @@
 
 import useCartStore from "@/store";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { motion } from "motion/react";
 import { Check, Home, Package, ShoppingBag, Loader2 } from "lucide-react";
 import Link from "next/link";
@@ -10,7 +10,13 @@ import Link from "next/link";
 interface OrderProduct {
   product: {
     name: string;
-    image?: any;
+    image?: {
+      _type: "image";
+      asset: {
+        _ref: string;
+        _type: "reference";
+      };
+    };
   };
   quantity: number;
 }
@@ -25,7 +31,7 @@ interface Order {
   products: OrderProduct[];
 }
 
-const SuccessPage = () => {
+const SuccessPageContent = () => {
   const searchParams = useSearchParams();
   const orderNumber = searchParams.get("orderNumber");
   const sessionId = searchParams.get("session_id");
@@ -198,6 +204,21 @@ const SuccessPage = () => {
         </div>
       </motion.div>
     </div>
+  );
+};
+
+const SuccessPage = () => {
+  return (
+    <Suspense fallback={
+      <div className="py-10 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
+        <div className="bg-white rounded-2xl shadow-2xl px-8 py-12 max-w-2xl w-full text-center">
+          <Loader2 className="w-12 h-12 animate-spin text-gray-400 mx-auto mb-4" />
+          <p className="text-gray-500">Loading order status...</p>
+        </div>
+      </div>
+    }>
+      <SuccessPageContent />
+    </Suspense>
   );
 };
 

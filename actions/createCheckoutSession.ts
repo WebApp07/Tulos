@@ -42,30 +42,45 @@ export async function createCheckoutSession(
 
       cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/cart`,
 
-      line_items: items.map((item) => ({
-        quantity: item.quantity,
-        price_data: {
-          currency: "usd",
-          unit_amount: Math.round(item.product.price! * 100),
+      line_items: items.map((item) => {
+        const itemPrice = item.selectedVariant?.price || item.product.price || 0;
+        const variantInfo = item.selectedVariant
+          ? ` (${item.selectedVariant.color || ""} / ${item.selectedVariant.size || ""})`
+          : "";
 
-          product_data: {
-            name: item.product.name || "Unnamed Product",
+        return {
+          quantity: item.quantity,
+          price_data: {
+            currency: "usd",
+            unit_amount: Math.round(itemPrice * 100),
 
-            description: item.product.description || "",
+            product_data: {
+              name: `${item.product.name || "Unnamed Product"}${variantInfo}`,
 
-            // Required for Managed Payments
-            tax_code: "txcd_10000000",
+              description: item.product.description || "",
 
-            metadata: {
-              id: item.product._id,
+              // Required for Managed Payments
+              tax_code: "txcd_10000000",
+
+              metadata: {
+                id: item.product._id,
+                variantSku: item.selectedVariant?.variantSku || "",
+              },
+
+              images:
+                item.selectedVariant?.variantImage?.asset ||
+                item.product.images?.length
+                  ? [
+                      urlFor(
+                        item.selectedVariant?.variantImage ||
+                          item.product.images![0],
+                      ).url(),
+                    ]
+                  : [],
             },
-
-            images: item.product.images?.length
-              ? [urlFor(item.product.images[0]).url()]
-              : [],
           },
-        },
-      })),
+        };
+      }),
     };
 
     if (customerId) {

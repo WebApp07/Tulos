@@ -51,7 +51,7 @@ export function PayPalButtons({ items, totalPrice, metadata }: Props) {
             ],
           });
         }}
-        onApprove={async (data, actions) => {
+        onApprove={async (data) => {
           setIsPending(true);
           try {
             const result = await capturePayPalOrder(data.orderID, items, {
