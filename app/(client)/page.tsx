@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import HomeBanner from "@/components/HomeBanner";
 import ProductGrid from "@/components/ProductGrid";
+import PurchaseProcess from "@/components/PurchaseProcess";
 import { getAllCategories } from "@/sanity/helpers/queries";
 
 export default async function Home() {
@@ -12,6 +13,7 @@ export default async function Home() {
         <HomeBanner />
         <ProductGrid categories={categories} />
       </Container>
+      <PurchaseProcess />
     </div>
   );
 }

@@ -123,6 +123,21 @@ export type Product = {
   stock?: number;
   status?: "new" | "hot" | "sale";
   productType?: "tshirt" | "jacket" | "pants" | "hoodie" | "short" | "others";
+  osType?: string;
+  operatingSystemsSupported?: string;
+  versionType?: string;
+  productStatus?: string;
+  placeOfOrigin?: string;
+  brandName?: string;
+  activation?: string;
+  shippingMethod?: string;
+  packageInclude?: string;
+  language?: string;
+  warranty?: string;
+  deliveryTime?: string;
+  support?: string;
+  function?: string;
+  paymentMethods?: string;
 };
 
 export type SanityImageCrop = {
@@ -353,6 +368,21 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
       status?: "hot" | "new" | "sale";
       productType?:
         "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+      osType?: string;
+      operatingSystemsSupported?: string;
+      versionType?: string;
+      productStatus?: string;
+      placeOfOrigin?: string;
+      brandName?: string;
+      activation?: string;
+      shippingMethod?: string;
+      packageInclude?: string;
+      language?: string;
+      warranty?: string;
+      deliveryTime?: string;
+      support?: string;
+      function?: string;
+      paymentMethods?: string;
     } | null;
     quantity?: number;
     selectedVariant?: {
@@ -423,11 +453,26 @@ export type PRODUCT_BY_SLUG_QUERY_RESULT = {
   stock?: number;
   status?: "hot" | "new" | "sale";
   productType?: "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+  osType?: string;
+  operatingSystemsSupported?: string;
+  versionType?: string;
+  productStatus?: string;
+  placeOfOrigin?: string;
+  brandName?: string;
+  activation?: string;
+  shippingMethod?: string;
+  packageInclude?: string;
+  language?: string;
+  warranty?: string;
+  deliveryTime?: string;
+  support?: string;
+  function?: string;
+  paymentMethods?: string;
 } | null;
 
 // Source: sanity/helpers/queries.ts
 // Variable: CATEGORIES_QUERY
-// Query: *[_type=="category"] | order(name asc)
+// Query: *[_type=="category"] | order(title asc)
 export type CATEGORIES_QUERY_RESULT = Array<{
   _id: string;
   _type: "category";
@@ -519,6 +564,21 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
       status?: "hot" | "new" | "sale";
       productType?:
         "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+      osType?: string;
+      operatingSystemsSupported?: string;
+      versionType?: string;
+      productStatus?: string;
+      placeOfOrigin?: string;
+      brandName?: string;
+      activation?: string;
+      shippingMethod?: string;
+      packageInclude?: string;
+      language?: string;
+      warranty?: string;
+      deliveryTime?: string;
+      support?: string;
+      function?: string;
+      paymentMethods?: string;
     } | null;
     quantity?: number;
     selectedVariant?: {
@@ -610,6 +670,21 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
       status?: "hot" | "new" | "sale";
       productType?:
         "hoodie" | "jacket" | "others" | "pants" | "short" | "tshirt";
+      osType?: string;
+      operatingSystemsSupported?: string;
+      versionType?: string;
+      productStatus?: string;
+      placeOfOrigin?: string;
+      brandName?: string;
+      activation?: string;
+      shippingMethod?: string;
+      packageInclude?: string;
+      language?: string;
+      warranty?: string;
+      deliveryTime?: string;
+      support?: string;
+      function?: string;
+      paymentMethods?: string;
     } | null;
     quantity?: number;
     selectedVariant?: {
@@ -634,7 +709,7 @@ declare module "@sanity/client" {
   interface SanityQueries {
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n      ...,products[]{\n        ...,product->\n      }\n    }": GET_ORDER_BY_NUMBER_QUERY_RESULT;
     "*[_type == 'product' && slug.current == $slug] | order(name asc) [0]": PRODUCT_BY_SLUG_QUERY_RESULT;
-    '*[_type=="category"] | order(name asc)': CATEGORIES_QUERY_RESULT;
+    '*[_type=="category"] | order(title asc)': CATEGORIES_QUERY_RESULT;
     "*[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){\n    ...,\n    paymentMethod,\n    receiptUrl,\n    products[]{\n      ...,product->\n    }\n  }": MY_ORDERS_QUERY_RESULT;
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n    ...,products[]{\n      ...,product->\n    }\n  }": ORDER_BY_NUMBER_QUERY_RESULT;
   }

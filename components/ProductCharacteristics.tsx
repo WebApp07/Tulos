@@ -28,7 +28,7 @@ const ProductCharacteristics = ({
           <p className="flex items-center justify-between">
             Brand:{" "}
             <span className="font-semibold tracking-wide">
-              {product?.brand || "Unknown"}
+              {product?.brandName || product?.brand || "Unknown"}
             </span>
           </p>
           <p className="flex items-center justify-between">
@@ -38,7 +38,7 @@ const ProductCharacteristics = ({
           <p className="flex items-center justify-between">
             Type:{" "}
             <span className="font-semibold tracking-wide capitalize">
-              {product?.productType}
+              {product?.osType || product?.productType}
             </span>
           </p>
           <p className="flex items-center justify-between">
@@ -60,6 +60,110 @@ const ProductCharacteristics = ({
               Size:{" "}
               <span className="font-semibold tracking-wide uppercase">
                 {selectedVariant.size}
+              </span>
+            </p>
+          )}
+          {product?.operatingSystemsSupported && (
+            <p className="flex items-center justify-between">
+              Operating Systems Supported:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.operatingSystemsSupported}
+              </span>
+            </p>
+          )}
+          {product?.versionType && (
+            <p className="flex items-center justify-between">
+              Version Type:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.versionType}
+              </span>
+            </p>
+          )}
+          {product?.productStatus && (
+            <p className="flex items-center justify-between">
+              Product Status:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.productStatus}
+              </span>
+            </p>
+          )}
+          {product?.placeOfOrigin && (
+            <p className="flex items-center justify-between">
+              Place of Origin:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.placeOfOrigin}
+              </span>
+            </p>
+          )}
+          {product?.activation && (
+            <p className="flex items-center justify-between">
+              Activation:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.activation}
+              </span>
+            </p>
+          )}
+          {product?.shippingMethod && (
+            <p className="flex items-center justify-between">
+              Shipping Method:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.shippingMethod}
+              </span>
+            </p>
+          )}
+          {product?.packageInclude && (
+            <p className="flex items-center justify-between">
+              Package Include:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.packageInclude}
+              </span>
+            </p>
+          )}
+          {product?.language && (
+            <p className="flex items-center justify-between">
+              Language:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.language}
+              </span>
+            </p>
+          )}
+          {product?.warranty && (
+            <p className="flex items-center justify-between">
+              Warranty:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.warranty}
+              </span>
+            </p>
+          )}
+          {product?.deliveryTime && (
+            <p className="flex items-center justify-between">
+              Delivery Time:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.deliveryTime}
+              </span>
+            </p>
+          )}
+          {product?.support && (
+            <p className="flex items-center justify-between">
+              Support:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.support}
+              </span>
+            </p>
+          )}
+          {product?.function && (
+            <p className="flex items-center justify-between">
+              Function:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.function}
+              </span>
+            </p>
+          )}
+          {product?.paymentMethods && (
+            <p className="flex items-center justify-between">
+              Payment Methods:{" "}
+              <span className="font-semibold tracking-wide">
+                {product.paymentMethods}
               </span>
             </p>
           )}
