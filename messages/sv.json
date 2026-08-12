@@ -248,9 +248,17 @@
   },
   "contact": {
     "title": "Kontakta oss",
-    "desc": "Vi vill gärna höra från dig. Fyll i formuläret nedan så återkommer vi till dig så snart som möjligt.",
-    "name": "Namn",
+    "desc": "Frågor om en beställning, aktivering eller en licensnyckel? Vårt supportteam finns här för att hjälpa dig. Vi svarar vanligtvis inom 24 timmar på vardagar.",
+    "businessTitle": "Företagsinformation",
+    "companyName": "Juridiskt företagsnamn",
+    "companyValue": "KeyVersely LLC",
+    "address": "Registrerad adress",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
     "email": "E-post",
+    "emailValue": "support@keyversely.com",
+    "hours": "Supporttider",
+    "hoursValue": "Måndag – Fredag, 9:00 – 18:00 (CET)",
+    "name": "Namn",
     "message": "Meddelande",
     "send": "Skicka meddelande"
   },
@@ -258,24 +266,36 @@
     "title": "Vanliga frågor",
     "items": [
       {
-        "q": "Vilka tjänster erbjuder Licendi?",
-        "a": "Licendi erbjuder ett brett utbud av teknologilösningar, inklusive skräddarsydd programvaruutveckling, molntjänster och konsultation inom digital transformation."
+        "q": "Hur snabbt får jag min licensnyckel?",
+        "a": "Omedelbart efter att din betalning har bekräftats skickas din licensnyckel och nedladdningslänkar till den e-postadress du angav vid kassan — vanligtvis inom några minuter."
       },
       {
-        "q": "Hur får jag support för Licendi-produkter?",
-        "a": "Du kan nå vårt supportteam via vår kontaktsida eller genom att mejla support@tulos.com."
+        "q": "Vad får jag efter att ha lagt en beställning?",
+        "a": "Du får en äkta Microsoft-licensnyckel tillsammans med officiella nedladdningslänkar och en installationsguide, levererad till din inkorg."
       },
       {
-        "q": "Erbjuder Licendi utbildning för sina produkter?",
-        "a": "Ja, vi erbjuder omfattande utbildningsprogram för alla våra produkter och tjänster. Kontakta vårt säljteam för mer information."
+        "q": "Är era licensnycklar äkta?",
+        "a": "Ja. Licendi drivs av KeyVersely LLC, en officiell Microsoft-partner. Varje nyckel vi säljer är äkta och kommer från auktoriserade kanaler."
       },
       {
-        "q": "Vilka branscher betjänar Licendi?",
-        "a": "Licendi betjänar ett brett spektrum av branscher, inklusive finans, sjukvård, detaljhandel och tillverkning."
+        "q": "Kan jag få återbetalning?",
+        "a": "Eftersom digitala licensnycklar levereras direkt och kan aktiveras omedelbart, är köp ej återbetalningsbara när nyckeln väl har skickats. Om du har ett verkligt problem, kontakta vårt supportteam så hjälper vi dig så gott vi kan."
       },
       {
-        "q": "Hur säkerställer Licendi datasäkerhet?",
-        "a": "Vi använder branschstandardiserade säkerhetsåtgärder och följer alla relevanta dataskyddsregler för att säkerställa säkerheten för våra kunders data."
+        "q": "Vilka betalningsmetoder accepterar ni?",
+        "a": "Vi accepterar alla större kredit- och betalkort via Stripe, samt PayPal."
+      },
+      {
+        "q": "Vad händer om jag inte får e-post med min licensnyckel?",
+        "a": "Kontrollera först din skräppost- eller skräppostmapp. Om den inte finns där, kontakta oss på support@keyversely.com så skickar vi din nyckel inom några minuter."
+      },
+      {
+        "q": "Fungerar licensen i mitt land?",
+        "a": "Ja, våra Microsoft-licenser är utformade för global aktivering och fungerar över hela världen."
+      },
+      {
+        "q": "Vilken support erbjuder ni?",
+        "a": "Varje köp inkluderar livstidssupport. Om du behöver hjälp med aktivering eller installation, kontakta oss så hjälper vårt team dig."
       }
     ]
   },
@@ -284,23 +304,39 @@
     "sections": [
       {
         "heading": "1. Godkännande av villkor",
-        "body": "Genom att komma åt och använda Licendi tjänster samtycker du till att vara bunden av dessa villkor."
+        "body": "Genom att komma åt eller använda Licendi-webbplatsen ('Webbplatsen') samtycker du till att vara bunden av dessa villkor. Om du inte samtycker, vänligen använd inte Webbplatsen."
       },
       {
-        "heading": "2. Användning av tjänster",
-        "body": "Du samtycker till att använda Licendi tjänster endast för lagliga ändamål och i enlighet med dessa villkor."
+        "heading": "2. Produkter och tjänster",
+        "body": "Licendi, som drivs av KeyVersely LLC, säljer digitala programlicenser, främst äkta Microsoft-produkter som Windows, Microsoft Office och Windows Server. Alla produkter levereras elektroniskt."
       },
       {
-        "heading": "3. Immateriella rättigheter",
-        "body": "Allt innehåll och alla material som finns tillgängliga på Licendi tjänster tillhör Licendi och skyddas av tillämpliga immateriella rättigheter."
+        "heading": "3. Digital leverans",
+        "body": "Omedelbart efter en lyckad betalning skickas licensnycklar och nedladdningsinstruktioner till den e-postadress du angav. Du ansvarar för att ange en giltig och nåbar e-postadress."
       },
       {
-        "heading": "4. Ansvarsbegränsning",
-        "body": "Licendi ska inte vara ansvarigt för några indirekta, oförutsedda, särskilda, följdaktiga eller bestraffande skador som uppstår från din användning av våra tjänster."
+        "heading": "4. Återbetalningspolicy",
+        "body": "På grund av omedelbar elektronisk leverans av licensnycklar är alla försäljningar slutgiltiga och ej återbetalningsbara när nyckeln har skickats. Undantag prövas från fall till fall vid verkliga leverans- eller tekniska problem."
       },
       {
-        "heading": "5. Tillämplig lag",
-        "body": "Dessa villkor styrs och tolkas i enlighet med lagarna i den jurisdiktion där Licendi verkar."
+        "heading": "5. Licensanvändning",
+        "body": "Du får använda de köpta licensnycklarna endast för ditt eget personliga eller företagsmässiga bruk i enlighet med Microsofts licensvillkor. Vidareförsäljning, delning eller redistribuering av nycklar är förbjuden."
+      },
+      {
+        "heading": "6. Immateriella rättigheter",
+        "body": "Allt innehåll på Webbplatsen, inklusive text, grafik, logotyper och programvara, tillhör KeyVersely LLC eller dess licensgivare och skyddas av tillämpliga immaterialrättsliga lagar."
+      },
+      {
+        "heading": "7. Ansvarsbegränsning",
+        "body": "I den utsträckning lagen tillåter ska KeyVersely LLC inte vara ansvarigt för några indirekta, tillfälliga, särskilda, följaktiga eller straffande skador som uppstår från din användning av Webbplatsen eller våra produkter."
+      },
+      {
+        "heading": "8. Tillämplig lag",
+        "body": "Dessa villkor styrs och tolkas i enlighet med lagarna i delstaten Wyoming, USA, utan hänsyn till lagvalsprinciper."
+      },
+      {
+        "heading": "9. Kontaktuppgifter",
+        "body": "Om du har frågor om dessa villkor, kontakta oss på support@keyversely.com eller skriv till KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -308,24 +344,48 @@
     "title": "Integritetspolicy",
     "sections": [
       {
-        "heading": "1. Insamling av information",
-        "body": "Vi samlar in information som du direkt tillhandahåller oss när du använder våra tjänster, samt information om din användning av våra tjänster."
+        "heading": "1. Introduktion",
+        "body": "KeyVersely LLC ('vi', 'oss') driver webbplatsen Licendi. Denna integritetspolicy förklarar vilken information vi samlar in, hur vi använder den och vilka val du har."
       },
       {
-        "heading": "2. Användning av information",
-        "body": "Vi använder den information vi samlar in för att tillhandahålla, underhålla och förbättra våra tjänster, samt för att kommunicera med dig."
+        "heading": "2. Information vi samlar in",
+        "body": "Vi samlar in information du lämnar direkt, såsom ditt namn och din e-postadress när du lägger en beställning, skapar ett konto eller kontaktar supporten. Vi samlar även automatiskt in teknisk information såsom din IP-adress, webbläsartyp och besökta sidor."
       },
       {
-        "heading": "3. Delning av information",
-        "body": "Vi delar inte din personliga information med tredje part förutom som beskrivs i denna integritetspolicy eller med ditt samtycke."
+        "heading": "3. Hur vi använder din information",
+        "body": "Vi använder din information för att behandla och leverera dina beställningar, kommunicera med dig, förbättra vår Webbplats, förhindra bedrägerier och uppfylla juridiska skyldigheter."
       },
       {
-        "heading": "4. Datasäkerhet",
-        "body": "Vi vidtar rimliga åtgärder för att skydda din personliga information från förlust, stöld, missbruk och obehörig åtkomst."
+        "heading": "4. Cookies och spårning",
+        "body": "Vi använder cookies för att förbättra din upplevelse, analysera webbplatstrafik och stödja personaliserad reklam. Du kan acceptera eller avvisa cookies via vår cookie-banner och hantera eller ta bort cookies när som helst i dina webbläsarinställningar."
       },
       {
-        "heading": "5. Dina rättigheter",
-        "body": "Du har rätt att komma åt, korrigera eller radera din personliga information. Kontakta oss för hjälp med dessa förfrågningar."
+        "heading": "5. Tredjepartstjänster",
+        "body": "Vi samarbetar med pålitliga tredje parter för att driva vår butik: Stripe och PayPal för betalningshantering, Clerk för autentisering och analysleverantörer för att förstå webbplatsanvändningen. Dessa parter behandlar data endast i den mån det behövs och enligt sina egna integritetspolicyer."
+      },
+      {
+        "heading": "6. Informationsdelning",
+        "body": "Vi säljer inte din personliga information. Vi delar din information endast med de tjänsteleverantörer som beskrivs ovan, när lagen kräver det eller med ditt samtycke."
+      },
+      {
+        "heading": "7. Datasäkerhet",
+        "body": "Vi använder branschstandardmått för att skydda din personliga information från förlust, stöld, missbruk och obehörig åtkomst."
+      },
+      {
+        "heading": "8. Dina rättigheter",
+        "body": "Beroende på var du befinner dig kan du ha rätt att få åtkomst till, korrigera eller radera din personliga information och att invända mot viss behandling. För att utöva dessa rättigheter, kontakta oss på support@keyversely.com."
+      },
+      {
+        "heading": "9. Barns integritet",
+        "body": "Våra tjänster riktar sig inte till barn under 16 år, och vi samlar inte medvetet in personlig information från barn."
+      },
+      {
+        "heading": "10. Ändringar av denna policy",
+        "body": "Vi kan uppdatera denna integritetspolicy då och då. Vi publicerar eventuella ändringar på denna sida med ett reviderat datum."
+      },
+      {
+        "heading": "11. Kontakta oss",
+        "body": "För frågor om denna integritetspolicy, kontakta oss på support@keyversely.com eller skriv till KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },

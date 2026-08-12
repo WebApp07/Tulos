@@ -248,9 +248,17 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "desc": "Nous serions ravis de vous entendre. Veuillez remplir le formulaire ci-dessous et nous vous répondrons dès que possible.",
-    "name": "Nom",
+    "desc": "Des questions sur une commande, une activation ou une clé de licence ? Notre équipe d'assistance est là pour vous aider. Nous répondons généralement sous 24 heures en semaine.",
+    "businessTitle": "Informations sur l'entreprise",
+    "companyName": "Nom légal de l'entreprise",
+    "companyValue": "KeyVersely LLC",
+    "address": "Adresse enregistrée",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
     "email": "E-mail",
+    "emailValue": "support@keyversely.com",
+    "hours": "Horaires d'assistance",
+    "hoursValue": "Lundi – Vendredi, 9h00 – 18h00 (CET)",
+    "name": "Nom",
     "message": "Message",
     "send": "Envoyer le message"
   },
@@ -258,24 +266,36 @@
     "title": "Questions fréquemment posées",
     "items": [
       {
-        "q": "Quels services Licendi propose-t-il ?",
-        "a": "Licendi propose une large gamme de solutions technologiques, notamment le développement logiciel sur mesure, les services cloud et le conseil en transformation numérique."
+        "q": "À quelle vitesse vais-je recevoir ma clé de licence ?",
+        "a": "Immédiatement après confirmation de votre paiement, votre clé de licence et vos liens de téléchargement sont envoyés à l'adresse e-mail fournie lors du paiement — généralement en quelques minutes."
       },
       {
-        "q": "Comment obtenir de l'assistance pour les produits Licendi ?",
-        "a": "Vous pouvez contacter notre équipe d'assistance via notre page de contact ou en écrivant à support@tulos.com."
+        "q": "Que reçois-je après avoir passé une commande ?",
+        "a": "Vous recevez une clé de licence Microsoft authentique accompagnée de liens de téléchargement officiels et d'un guide d'installation, livrés dans votre boîte mail."
       },
       {
-        "q": "Licendi propose-t-il une formation pour ses produits ?",
-        "a": "Oui, nous proposons des programmes de formation complets pour tous nos produits et services. Veuillez contacter notre équipe commerciale pour plus d'informations."
+        "q": "Vos clés de licence sont-elles authentiques ?",
+        "a": "Oui. Licendi est exploité par KeyVersely LLC, un partenaire Microsoft officiel. Chaque clé vendue est authentique et provient de canaux autorisés."
       },
       {
-        "q": "Quels secteurs Licendi dessert-il ?",
-        "a": "Licendi dessert un large éventail de secteurs, notamment la finance, la santé, la vente au détail et l'industrie manufacturière."
+        "q": "Puis-je obtenir un remboursement ?",
+        "a": "Comme les clés de licence numériques sont livrées instantanément et peuvent être activées immédiatement, les achats sont non remboursables une fois la clé envoyée. En cas de problème réel, contactez notre équipe d'assistance et nous ferons de notre mieux pour vous aider."
       },
       {
-        "q": "Comment Licendi assure-t-il la sécurité des données ?",
-        "a": "Nous employons des mesures de sécurité conformes aux normes de l'industrie et nous nous conformons à toutes les réglementations applicables en matière de protection des données pour garantir la sécurité des données de nos clients."
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Nous acceptons toutes les principales cartes de crédit et de débit via Stripe, ainsi que PayPal."
+      },
+      {
+        "q": "Et si je ne reçois pas l'e-mail avec ma clé de licence ?",
+        "a": "Vérifiez d'abord votre dossier spam ou courrier indésirable. S'il n'y est pas, contactez-nous à support@keyversely.com et nous renverrons votre clé en quelques minutes."
+      },
+      {
+        "q": "La licence fonctionne-t-elle dans mon pays ?",
+        "a": "Oui, nos licences Microsoft sont conçues pour une activation mondiale et fonctionnent partout dans le monde."
+      },
+      {
+        "q": "Quelle assistance offrez-vous ?",
+        "a": "Chaque achat inclut une assistance à vie. Si vous avez besoin d'aide pour l'activation ou l'installation, contactez-nous et notre équipe vous aidera."
       }
     ]
   },
@@ -284,23 +304,39 @@
     "sections": [
       {
         "heading": "1. Acceptation des conditions",
-        "body": "En accédant aux services de Licendi et en les utilisant, vous acceptez d'être lié par les présentes conditions générales."
+        "body": "En accédant au site Licendi (le 'Site') ou en l'utilisant, vous acceptez d'être lié par les présentes Conditions générales. Si vous n'êtes pas d'accord, veuillez ne pas utiliser le Site."
       },
       {
-        "heading": "2. Utilisation des services",
-        "body": "Vous acceptez d'utiliser les services de Licendi uniquement à des fins légales et conformément aux présentes conditions générales."
+        "heading": "2. Produits et services",
+        "body": "Licendi, exploité par KeyVersely LLC, vend des licences logicielles numériques, principalement des produits Microsoft authentiques tels que Windows, Microsoft Office et Windows Server. Tous les produits sont livrés par voie électronique."
       },
       {
-        "heading": "3. Propriété intellectuelle",
-        "body": "Tout le contenu et tout le matériel disponibles sur les services de Licendi sont la propriété de Licendi et sont protégés par les lois applicables en matière de propriété intellectuelle."
+        "heading": "3. Livraison numérique",
+        "body": "Immédiatement après un paiement réussi, les clés de licence et les instructions de téléchargement sont envoyées à l'adresse e-mail fournie. Vous êtes responsable de fournir une adresse e-mail valide et accessible."
       },
       {
-        "heading": "4. Limitation de responsabilité",
-        "body": "Licendi ne pourra être tenu responsable de tout dommage indirect, accessoire, spécial, consécutif ou punitif résultant de l'utilisation de nos services."
+        "heading": "4. Politique de remboursement",
+        "body": "En raison de la livraison électronique instantanée des clés de licence, toutes les ventes sont définitives et non remboursables une fois la clé envoyée. Des exceptions sont examinées au cas par cas pour de véritables problèmes de livraison ou techniques."
       },
       {
-        "heading": "5. Droit applicable",
-        "body": "Les présentes conditions générales sont régies et interprétées conformément au droit de la juridiction dans laquelle Licendi opère."
+        "heading": "5. Utilisation de la licence",
+        "body": "Vous ne pouvez utiliser les clés de licence achetées que pour votre propre usage personnel ou professionnel conformément aux conditions de licence de Microsoft. La revente, le partage ou la redistribution des clés est interdit."
+      },
+      {
+        "heading": "6. Propriété intellectuelle",
+        "body": "Tout le contenu du Site, y compris les textes, graphiques, logos et logiciels, est la propriété de KeyVersely LLC ou de ses concédants et est protégé par les lois applicables en matière de propriété intellectuelle."
+      },
+      {
+        "heading": "7. Limitation de responsabilité",
+        "body": "Dans la mesure maximale permise par la loi, KeyVersely LLC ne pourra être tenu responsable de tout dommage indirect, accessoire, spécial, consécutif ou punitif résultant de votre utilisation du Site ou de nos produits."
+      },
+      {
+        "heading": "8. Droit applicable",
+        "body": "Les présentes Conditions générales sont régies et interprétées conformément aux lois de l'État du Wyoming, États-Unis, sans égard aux principes de conflit de lois."
+      },
+      {
+        "heading": "9. Coordonnées",
+        "body": "Pour toute question sur ces Conditions, contactez-nous à support@keyversely.com ou écrivez à KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -308,24 +344,48 @@
     "title": "Politique de confidentialité",
     "sections": [
       {
-        "heading": "1. Collecte d'informations",
-        "body": "Nous collectons les informations que vous nous fournissez directement lors de l'utilisation de nos services, ainsi que des informations sur votre utilisation de nos services."
+        "heading": "1. Introduction",
+        "body": "KeyVersely LLC ('nous', 'notre') exploite le site Licendi. Cette politique de confidentialité explique quelles informations nous collectons, comment nous les utilisons et les choix dont vous disposez."
       },
       {
-        "heading": "2. Utilisation des informations",
-        "body": "Nous utilisons les informations que nous collectons pour fournir, maintenir et améliorer nos services, ainsi que pour communiquer avec vous."
+        "heading": "2. Informations que nous collectons",
+        "body": "Nous collectons les informations que vous fournissez directement, comme votre nom et votre adresse e-mail lorsque vous passez une commande, créez un compte ou contactez l'assistance. Nous collectons également automatiquement des informations techniques telles que votre adresse IP, votre type de navigateur et les pages visitées."
       },
       {
-        "heading": "3. Partage des informations",
-        "body": "Nous ne partageons pas vos informations personnelles avec des tiers sauf comme décrit dans cette politique de confidentialité ou avec votre consentement."
+        "heading": "3. Utilisation de vos informations",
+        "body": "Nous utilisons vos informations pour traiter et livrer vos commandes, communiquer avec vous, améliorer notre Site, prévenir la fraude et respecter nos obligations légales."
       },
       {
-        "heading": "4. Sécurité des données",
-        "body": "Nous prenons des mesures raisonnables pour protéger vos informations personnelles contre la perte, le vol, l'utilisation abusive et l'accès non autorisé."
+        "heading": "4. Cookies et suivi",
+        "body": "Nous utilisons des cookies pour améliorer votre expérience, analyser le trafic du site et prendre en charge la publicité personnalisée. Vous pouvez accepter ou refuser les cookies via notre bannière, et les gérer ou les supprimer à tout moment dans les paramètres de votre navigateur."
       },
       {
-        "heading": "5. Vos droits",
-        "body": "Vous avez le droit d'accéder à vos informations personnelles, de les corriger ou de les supprimer. Veuillez nous contacter pour obtenir de l'aide concernant ces demandes."
+        "heading": "5. Services tiers",
+        "body": "Nous collaborons avec des tiers de confiance pour gérer notre boutique : Stripe et PayPal pour le traitement des paiements, Clerk pour l'authentification, et des fournisseurs d'analyse pour comprendre l'utilisation du site. Ces parties traitent les données uniquement dans la mesure nécessaire et selon leurs propres politiques de confidentialité."
+      },
+      {
+        "heading": "6. Partage des informations",
+        "body": "Nous ne vendons pas vos informations personnelles. Nous ne les partageons qu'avec les prestataires décrits ci-dessus, lorsqu'exigé par la loi, ou avec votre consentement."
+      },
+      {
+        "heading": "7. Sécurité des données",
+        "body": "Nous utilisons des mesures conformes aux normes du secteur pour protéger vos informations personnelles contre la perte, le vol, l'utilisation abusive et l'accès non autorisé."
+      },
+      {
+        "heading": "8. Vos droits",
+        "body": "Selon votre lieu de résidence, vous pouvez avoir le droit d'accéder à vos informations personnelles, de les corriger ou de les supprimer, et de vous opposer à certains traitements. Pour exercer ces droits, contactez-nous à support@keyversely.com."
+      },
+      {
+        "heading": "9. Confidentialité des enfants",
+        "body": "Nos services ne s'adressent pas aux enfants de moins de 16 ans, et nous ne collectons pas sciemment d'informations personnelles auprès d'enfants."
+      },
+      {
+        "heading": "10. Modifications de cette politique",
+        "body": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page avec une date révisée."
+      },
+      {
+        "heading": "11. Nous contacter",
+        "body": "Pour toute question sur cette politique de confidentialité, contactez-nous à support@keyversely.com ou écrivez à KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
