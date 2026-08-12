@@ -306,6 +306,12 @@
       }
     ]
   },
+  "cookieConsent": {
+    "message": "Vi använder cookies för att förbättra din upplevelse, analysera webbplatstrafik och stödja personaliserad reklam.",
+    "privacyLink": "Integritetspolicy",
+    "accept": "Acceptera",
+    "decline": "Avvisa"
+  },
   "cms": {
     "statusNew": "Ny",
     "statusHot": "Populär",

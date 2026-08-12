@@ -306,6 +306,12 @@
       }
     ]
   },
+  "cookieConsent": {
+    "message": "Käytämme evästeitä parantaaksemme käyttökokemustasi, analysoidaksemme verkkosivuston liikennettä ja tukeaksemme kohdennettua mainontaa.",
+    "privacyLink": "Tietosuojakäytäntö",
+    "accept": "Hyväksy",
+    "decline": "Hylkää"
+  },
   "cms": {
     "statusNew": "Uusi",
     "statusHot": "Suosittu",

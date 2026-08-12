@@ -306,6 +306,12 @@
       }
     ]
   },
+  "cookieConsent": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Website-Verkehr zu analysieren und personalisierte Werbung zu unterstützen.",
+    "privacyLink": "Datenschutzrichtlinie",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
   "cms": {
     "statusNew": "Neu",
     "statusHot": "Beliebt",

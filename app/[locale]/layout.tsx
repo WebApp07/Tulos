@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 import { ClerkProvider } from "@clerk/nextjs";
 import localFont from "next/font/local";
 import { Toaster } from "react-hot-toast";
@@ -51,6 +52,7 @@ export default async function RootLayout({
                 <Header />
                 {children}
                 <Footer />
+                <CookieConsent />
               </PayPalProvider>
               <Toaster
                 position="bottom-right"
