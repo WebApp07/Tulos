@@ -49,9 +49,6 @@ export default function ProductInfo({ product }: { product: Product }) {
   const description = hasKey(`${slug}.description`)
     ? t(tKey(`${slug}.description`))
     : product.description;
-  const intro = hasKey(`${slug}.intro`)
-    ? t(tKey(`${slug}.intro`))
-    : product.intro;
 
   // Compute images to show
   const productImages = product.images || [];

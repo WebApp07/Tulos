@@ -7,6 +7,7 @@ import localFont from "next/font/local";
 import { Toaster } from "react-hot-toast";
 import { PayPalProvider } from "@/components/PayPalProvider";
 import { NextIntlClientProvider } from "next-intl";
+import { CurrencyProvider } from "@/components/CurrencyProvider";
 import { getMessages } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -45,20 +46,22 @@ export default async function RootLayout({
       <html lang={locale}>
         <body className={`${raleway.variable} antialiased`}>
           <NextIntlClientProvider messages={messages}>
-            <PayPalProvider>
-              <Header />
-              {children}
-              <Footer />
-            </PayPalProvider>
-            <Toaster
-              position="bottom-right"
-              toastOptions={{
-                style: {
-                  background: "#000000",
-                  color: "#ffffff",
-                },
-              }}
-            />
+            <CurrencyProvider>
+              <PayPalProvider>
+                <Header />
+                {children}
+                <Footer />
+              </PayPalProvider>
+              <Toaster
+                position="bottom-right"
+                toastOptions={{
+                  style: {
+                    background: "#000000",
+                    color: "#ffffff",
+                  },
+                }}
+              />
+            </CurrencyProvider>
           </NextIntlClientProvider>
         </body>
       </html>

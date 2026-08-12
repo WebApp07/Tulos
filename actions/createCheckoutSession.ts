@@ -3,6 +3,8 @@
 import stripe from "@/lib/stripe";
 import { urlFor } from "@/sanity/lib/image";
 import { CartItem } from "@/store";
+import { getExchangeRate } from "@/lib/currency";
+import { DEFAULT_CURRENCY } from "@/lib/currencyConfig";
 import Stripe from "stripe";
 
 export interface Metadata {
@@ -15,8 +17,12 @@ export interface Metadata {
 export async function createCheckoutSession(
   items: CartItem[],
   metadata: Metadata,
+  currency: string = DEFAULT_CURRENCY,
 ) {
   try {
+    const rate = await getExchangeRate(currency);
+    const targetCurrency = currency.toLowerCase();
+
     // Find existing customer
     const customers = await stripe.customers.list({
       email: metadata.customerEmail,
@@ -51,8 +57,8 @@ export async function createCheckoutSession(
         return {
           quantity: item.quantity,
           price_data: {
-            currency: "usd",
-            unit_amount: Math.round(itemPrice * 100),
+            currency: targetCurrency,
+            unit_amount: Math.round(itemPrice * rate * 100),
 
             product_data: {
               name: `${item.product.name || "Unnamed Product"}${variantInfo}`,

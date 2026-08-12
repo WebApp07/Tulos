@@ -6,6 +6,7 @@ import MobileMenu from "./MobileMenu";
 import SearchBar from "./SearchBar";
 import CartIcon from "./CartIcon";
 import LanguageSwitcher from "./LanguageSwitcher";
+import CurrencySwitcher from "./CurrencySwitcher";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { ClerkLoaded, SignedIn, SignInButton, UserButton } from "@clerk/nextjs";
 import { Link } from "@/i18n/navigation";
@@ -33,6 +34,7 @@ const Header = async () => {
         <div className="w-auto md:w-1/3 flex items-center justify-end gap-5">
           <SearchBar />
           <LanguageSwitcher />
+          <CurrencySwitcher />
           <CartIcon />
 
           <ClerkLoaded>

@@ -142,6 +142,7 @@ const OrderDetailsDialog: FC<Props> = async ({ order, isOpen, onClose }) => {
                     <PriceFormatter
                       className="text-black font-medium"
                       amount={product?.product?.price * product?.quantity}
+                      currency={order?.currency}
                     />
                   </TableCell>
                 )}
@@ -159,13 +160,17 @@ const OrderDetailsDialog: FC<Props> = async ({ order, isOpen, onClose }) => {
                     (order?.totalPrice as number) +
                     (order?.amountDiscount as number)
                   }
+                  currency={order?.currency}
                 />
               </div>
             )}
             {order?.amountDiscount !== 0 && (
               <div className="w-full flex items-center justify-between">
                 <strong>{tc("discount")}</strong>
-                <PriceFormatter amount={order?.amountDiscount} />
+                <PriceFormatter
+                  amount={order?.amountDiscount}
+                  currency={order?.currency}
+                />
               </div>
             )}
 
@@ -173,6 +178,7 @@ const OrderDetailsDialog: FC<Props> = async ({ order, isOpen, onClose }) => {
               <strong>{t("total")}:</strong>
               <PriceFormatter
                 amount={order?.totalPrice}
+                currency={order?.currency}
                 className="text-black font-bold"
               />
             </div>

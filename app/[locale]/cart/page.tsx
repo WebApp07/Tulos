@@ -29,11 +29,13 @@ import {
   Metadata,
 } from "@/actions/createCheckoutSession";
 import { PayPalButtons } from "@/components/PayPalButtons";
+import { useCurrency } from "@/components/CurrencyProvider";
 
 const CartPage = () => {
   const t = useTranslations("cart");
   const tCommon = useTranslations("common");
   const tSearch = useTranslations("search");
+  const { currency } = useCurrency();
   const [isClient, setIsClient] = useState(false);
   const [loading, setLoading] = useState(false);
   const { isSignedIn } = useAuth();
@@ -89,7 +91,11 @@ const CartPage = () => {
         customerEmail,
         clerkUserId: user!.id,
       };
-      const checkoutUrl = await createCheckoutSession(cartProducts, metadata);
+      const checkoutUrl = await createCheckoutSession(
+        cartProducts,
+        metadata,
+        currency,
+      );
       if (checkoutUrl) {
         window.location.href = checkoutUrl;
       }
