@@ -53,7 +53,9 @@
     "contactUs": "Kontakta oss",
     "termsConditions": "Villkor",
     "privacyPolicy": "Integritetspolicy",
-    "faqs": "FAQ"
+    "faqs": "FAQ",
+    "refundPolicy": "Återbetalningspolicy",
+    "shippingPolicy": "Frakt- och leveranspolicy"
   },
   "banner": {
     "title": "Officiella Microsoft-produkter",
@@ -399,5 +401,67 @@
     "statusNew": "Ny",
     "statusHot": "Populär",
     "statusSale": "Rea"
+  },
+  "refundPolicy": {
+    "title": "Återbetalnings- och returpolicy",
+    "sections": [
+      {
+        "heading": "1. Översikt",
+        "body": "Eftersom våra produkter är digitala licensnycklar som levereras direkt, är alla försäljningar slutgiltiga när nyckeln väl har skickats."
+      },
+      {
+        "heading": "2. Ej återbetalningsbara digitala produkter",
+        "body": "Digitala produkter, inklusive programlicensnycklar, är varken återbetalningsbara eller returbara när licensnyckeln har levererats till din e-post, eftersom nyckeln kan aktiveras omedelbart."
+      },
+      {
+        "heading": "3. Undantag",
+        "body": "Vi överväger återbetalning eller ersättning från fall till fall om: licensnyckeln inte aktiveras, nyckeln inte levererades på grund av ett tekniskt fel hos oss, eller du fick fel produkt."
+      },
+      {
+        "heading": "4. Så begär du återbetalning eller ersättning",
+        "body": "Kontakta vårt supportteam på support@keyversely.com inom 14 dagar efter köpet med ditt ordernummer och en beskrivning av problemet. Vi undersöker ärendet och svarar inom 24 timmar."
+      },
+      {
+        "heading": "5. Obehöriga transaktioner",
+        "body": "Om du tror att en debitering var obehörig, kontakta omedelbart din betalleverantör och vårt supportteam så att vi kan undersöka saken."
+      },
+      {
+        "heading": "6. Kontaktuppgifter",
+        "body": "För frågor om denna policy, kontakta KeyVersely LLC på support@keyversely.com eller skriv till 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Frakt- och leveranspolicy",
+    "sections": [
+      {
+        "heading": "1. Digital leverans",
+        "body": "Alla produkter som säljs på Licendi är digitala programlicenser. Inga fysiska artiklar skickas. Efter en lyckad betalning skickas din licensnyckel och nedladdningslänkar omedelbart."
+      },
+      {
+        "heading": "2. Leveranstid",
+        "body": "Licensnycklar levereras vanligtvis inom några minuter efter att betalningen har bekräftats. I sällsynta fall kan leveransen ta upp till några timmar på grund av betalningsverifiering."
+      },
+      {
+        "heading": "3. Vad du får",
+        "body": "Din leveransmejl innehåller din licensnyckel, officiella nedladdningslänkar och installationsinstruktioner."
+      },
+      {
+        "heading": "4. Leverans via e-post",
+        "body": "Nycklar skickas till den e-postadress du angav vid kassan. Kontrollera att adressen är korrekt. Kontrollera din skräppostmapp om du inte ser e-postmeddelandet."
+      },
+      {
+        "heading": "5. Missad leverans",
+        "body": "Om du inte har fått din e-post inom några timmar, kontakta oss på support@keyversely.com så skickar vi den igen."
+      },
+      {
+        "heading": "6. Ingen fysisk frakt",
+        "body": "Eftersom alla produkter är digitala finns inga fraktkostnader, och leveransen sker över hela världen utan tull- eller importavgifter."
+      },
+      {
+        "heading": "7. Kontaktuppgifter",
+        "body": "För frågor, kontakta KeyVersely LLC på support@keyversely.com eller skriv till 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
   }
 }

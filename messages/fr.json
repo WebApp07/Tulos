@@ -53,7 +53,9 @@
     "contactUs": "Contactez-nous",
     "termsConditions": "Conditions générales",
     "privacyPolicy": "Politique de confidentialité",
-    "faqs": "FAQ"
+    "faqs": "FAQ",
+    "refundPolicy": "Politique de remboursement",
+    "shippingPolicy": "Politique d'expédition et de livraison"
   },
   "banner": {
     "title": "Produits Microsoft officiels",
@@ -399,5 +401,67 @@
     "statusNew": "Nouveau",
     "statusHot": "Populaire",
     "statusSale": "Promotion"
+  },
+  "refundPolicy": {
+    "title": "Politique de remboursement et de retour",
+    "sections": [
+      {
+        "heading": "1. Aperçu",
+        "body": "Comme nos produits sont des clés de licence numériques livrées instantanément, toutes les ventes sont définitives une fois la clé envoyée."
+      },
+      {
+        "heading": "2. Produits numériques non remboursables",
+        "body": "Les produits numériques, y compris les clés de licence logicielle, ne sont ni remboursables ni retournables une fois la clé de licence livrée à votre e-mail, car la clé peut être activée immédiatement."
+      },
+      {
+        "heading": "3. Exceptions",
+        "body": "Nous examinerons un remboursement ou un remplacement au cas par cas si : la clé de licence ne s'active pas, la clé n'a pas été livrée en raison d'une erreur technique de notre côté, ou vous avez reçu le mauvais produit."
+      },
+      {
+        "heading": "4. Comment demander un remboursement ou un remplacement",
+        "body": "Contactez notre équipe d'assistance à support@keyversely.com dans les 14 jours suivant l'achat avec votre numéro de commande et une description du problème. Nous enquêterons et répondrons sous 24 heures."
+      },
+      {
+        "heading": "5. Transactions non autorisées",
+        "body": "Si vous pensez qu'un débit n'était pas autorisé, contactez immédiatement votre prestataire de paiement et notre équipe d'assistance afin que nous puissions enquêter."
+      },
+      {
+        "heading": "6. Coordonnées",
+        "body": "Pour toute question sur cette politique, contactez KeyVersely LLC à support@keyversely.com ou écrivez à 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Politique d'expédition et de livraison",
+    "sections": [
+      {
+        "heading": "1. Livraison numérique",
+        "body": "Tous les produits vendus sur Licendi sont des licences logicielles numériques. Aucun article physique n'est expédié. Après un paiement réussi, votre clé de licence et vos liens de téléchargement sont envoyés instantanément."
+      },
+      {
+        "heading": "2. Délai de livraison",
+        "body": "Les clés de licence sont généralement livrées en quelques minutes après confirmation du paiement. Dans de rares cas, la livraison peut prendre jusqu'à quelques heures en raison de la vérification du paiement."
+      },
+      {
+        "heading": "3. Ce que vous recevez",
+        "body": "Votre e-mail de livraison contient votre clé de licence, les liens de téléchargement officiels et les instructions d'installation."
+      },
+      {
+        "heading": "4. Livraison par e-mail",
+        "body": "Les clés sont envoyées à l'adresse e-mail fournie lors du paiement. Veuillez vous assurer que l'adresse est correcte. Vérifiez votre dossier spam ou courrier indésirable si vous ne voyez pas l'e-mail."
+      },
+      {
+        "heading": "5. Livraison manquée",
+        "body": "Si vous n'avez pas reçu votre e-mail dans quelques heures, contactez-nous à support@keyversely.com et nous le renverrons."
+      },
+      {
+        "heading": "6. Aucune expédition physique",
+        "body": "Comme tous les produits sont numériques, il n'y a aucuns frais d'expédition, et la livraison est mondiale sans droits de douane ni frais d'importation."
+      },
+      {
+        "heading": "7. Coordonnées",
+        "body": "Pour toute question, contactez KeyVersely LLC à support@keyversely.com ou écrivez à 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
   }
 }

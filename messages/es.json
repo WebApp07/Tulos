@@ -53,7 +53,9 @@
     "contactUs": "Contáctenos",
     "termsConditions": "Términos y condiciones",
     "privacyPolicy": "Política de privacidad",
-    "faqs": "Preguntas frecuentes"
+    "faqs": "Preguntas frecuentes",
+    "refundPolicy": "Política de reembolso",
+    "shippingPolicy": "Política de envío y entrega"
   },
   "banner": {
     "title": "Productos oficiales de Microsoft",
@@ -399,5 +401,67 @@
     "statusNew": "Nuevo",
     "statusHot": "Popular",
     "statusSale": "Oferta"
+  },
+  "refundPolicy": {
+    "title": "Política de reembolso y devoluciones",
+    "sections": [
+      {
+        "heading": "1. Resumen",
+        "body": "Debido a que nuestros productos son claves de licencia digitales entregadas al instante, todas las ventas son definitivas una vez enviada la clave."
+      },
+      {
+        "heading": "2. Productos digitales no reembolsables",
+        "body": "Los productos digitales, incluidas las claves de licencia de software, no son reembolsables ni devolvibles una vez que la clave de licencia se ha entregado a su correo, porque la clave puede activarse de inmediato."
+      },
+      {
+        "heading": "3. Excepciones",
+        "body": "Consideraremos un reembolso o reemplazo caso por caso si: la clave de licencia no se activa, la clave no se entregó debido a un error técnico de nuestra parte o recibió el producto equivocado."
+      },
+      {
+        "heading": "4. Cómo solicitar un reembolso o reemplazo",
+        "body": "Contacte a nuestro equipo de soporte en support@keyversely.com dentro de los 14 días posteriores a la compra con su número de pedido y una descripción del problema. Investigaremos y responderemos dentro de 24 horas."
+      },
+      {
+        "heading": "5. Transacciones no autorizadas",
+        "body": "Si cree que un cargo no fue autorizado, contacte a su proveedor de pagos y a nuestro equipo de soporte de inmediato para que podamos investigar."
+      },
+      {
+        "heading": "6. Información de contacto",
+        "body": "Para cualquier pregunta sobre esta política, contacte a KeyVersely LLC en support@keyversely.com o escriba a 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Política de envío y entrega",
+    "sections": [
+      {
+        "heading": "1. Entrega digital",
+        "body": "Todos los productos vendidos en Licendi son licencias de software digitales. No se envían artículos físicos. Después de un pago exitoso, su clave de licencia y sus enlaces de descarga se envían al instante."
+      },
+      {
+        "heading": "2. Tiempo de entrega",
+        "body": "Las claves de licencia generalmente se entregan en minutos después de confirmarse el pago. En casos raros, la entrega puede tardar hasta unas horas debido a la verificación del pago."
+      },
+      {
+        "heading": "3. Lo que recibe",
+        "body": "Su correo de entrega contiene su clave de licencia, enlaces de descarga oficiales e instrucciones de instalación."
+      },
+      {
+        "heading": "4. Entrega por correo",
+        "body": "Las claves se envían a la dirección de correo proporcionada al pagar. Asegúrese de que la dirección sea correcta. Revise su carpeta de spam o correo no deseado si no ve el correo."
+      },
+      {
+        "heading": "5. Entrega no recibida",
+        "body": "Si no ha recibido su correo en unas horas, contáctenos en support@keyversely.com y lo reenviaremos."
+      },
+      {
+        "heading": "6. Sin envío físico",
+        "body": "Dado que todos los productos son digitales, no hay costos de envío y la entrega es mundial sin aranceles ni cargos de importación."
+      },
+      {
+        "heading": "7. Información de contacto",
+        "body": "Para cualquier pregunta, contacte a KeyVersely LLC en support@keyversely.com o escriba a 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
   }
 }

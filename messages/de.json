@@ -53,7 +53,9 @@
     "contactUs": "Kontakt",
     "termsConditions": "AGB",
     "privacyPolicy": "Datenschutz",
-    "faqs": "FAQ"
+    "faqs": "FAQ",
+    "refundPolicy": "Rückerstattungs- & Umtauschrichtlinie",
+    "shippingPolicy": "Versand- & Lieferrichtlinie"
   },
   "banner": {
     "title": "Offizielle Microsoft-Produkte",
@@ -399,5 +401,67 @@
     "statusNew": "Neu",
     "statusHot": "Beliebt",
     "statusSale": "Angebot"
+  },
+  "refundPolicy": {
+    "title": "Rückerstattungs- und Umtauschrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Überblick",
+        "body": "Da unsere Produkte digitale Lizenzschlüssel sind, die sofort geliefert werden, sind alle Verkäufe endgültig, sobald der Schlüssel gesendet wurde."
+      },
+      {
+        "heading": "2. Nicht erstattungsfähige digitale Produkte",
+        "body": "Digitale Produkte, einschließlich Software-Lizenzschlüsseln, sind nicht erstattungs- und nicht umtauschbar, sobald der Lizenzschlüssel an Ihre E-Mail geliefert wurde, da der Schlüssel sofort aktiviert werden kann."
+      },
+      {
+        "heading": "3. Ausnahmen",
+        "body": "Wir prüfen eine Erstattung oder einen Ersatz im Einzelfall, wenn: der Lizenzschlüssel nicht aktiviert werden kann, der Schlüssel aufgrund eines technischen Fehlers auf unserer Seite nicht geliefert wurde oder Sie das falsche Produkt erhalten haben."
+      },
+      {
+        "heading": "4. So beantragen Sie eine Erstattung oder einen Ersatz",
+        "body": "Kontaktieren Sie unser Support-Team unter support@keyversely.com innerhalb von 14 Tagen nach dem Kauf mit Ihrer Bestellnummer und einer Beschreibung des Problems. Wir prüfen den Fall und antworten innerhalb von 24 Stunden."
+      },
+      {
+        "heading": "5. Nicht autorisierte Transaktionen",
+        "body": "Wenn Sie glauben, dass eine Abbuchung nicht autorisiert war, kontaktieren Sie Ihren Zahlungsanbieter und unser Support-Team sofort, damit wir den Fall untersuchen können."
+      },
+      {
+        "heading": "6. Kontaktinformationen",
+        "body": "Bei Fragen zu dieser Richtlinie kontaktieren Sie KeyVersely LLC unter support@keyversely.com oder schreiben Sie an 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Versand- und Lieferrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Digitale Lieferung",
+        "body": "Alle auf Licendi verkauften Produkte sind digitale Softwarelizenzen. Es werden keine physischen Artikel versendet. Nach einer erfolgreichen Zahlung werden Ihr Lizenzschlüssel und Ihre Download-Links sofort gesendet."
+      },
+      {
+        "heading": "2. Lieferzeit",
+        "body": "Lizenzschlüssel werden in der Regel innerhalb weniger Minuten nach Bestätigung der Zahlung geliefert. In seltenen Fällen kann die Lieferung aufgrund der Zahlungsprüfung bis zu ein paar Stunden dauern."
+      },
+      {
+        "heading": "3. Was Sie erhalten",
+        "body": "Ihre Liefer-E-Mail enthält Ihren Lizenzschlüssel, offizielle Download-Links und Installationsanweisungen."
+      },
+      {
+        "heading": "4. E-Mail-Zustellung",
+        "body": "Schlüssel werden an die bei der Bestellung angegebene E-Mail-Adresse gesendet. Bitte stellen Sie sicher, dass die Adresse korrekt ist. Prüfen Sie Ihren Spam- oder Junk-Ordner, wenn Sie die E-Mail nicht sehen."
+      },
+      {
+        "heading": "5. Verpasste Zustellung",
+        "body": "Wenn Sie Ihre E-Mail innerhalb weniger Stunden nicht erhalten haben, kontaktieren Sie uns unter support@keyversely.com und wir senden sie erneut."
+      },
+      {
+        "heading": "6. Kein physischer Versand",
+        "body": "Da alle Produkte digital sind, fallen keine Versandkosten an, und die Lieferung erfolgt weltweit ohne Zoll- oder Einfuhrabgaben."
+      },
+      {
+        "heading": "7. Kontaktinformationen",
+        "body": "Bei Fragen kontaktieren Sie KeyVersely LLC unter support@keyversely.com oder schreiben Sie an 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
   }
 }

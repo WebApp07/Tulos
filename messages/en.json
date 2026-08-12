@@ -53,7 +53,9 @@
     "contactUs": "Contact us",
     "termsConditions": "Terms & Conditions",
     "privacyPolicy": "Privacy Policy",
-    "faqs": "FAQs"
+    "faqs": "FAQs",
+    "refundPolicy": "Refund & Returns Policy",
+    "shippingPolicy": "Shipping & Delivery Policy"
   },
   "banner": {
     "title": "Official Microsoft Products",
@@ -399,5 +401,67 @@
     "statusNew": "New",
     "statusHot": "Hot",
     "statusSale": "Sale"
+  },
+  "refundPolicy": {
+    "title": "Refund & Returns Policy",
+    "sections": [
+      {
+        "heading": "1. Overview",
+        "body": "Because our products are digital license keys delivered instantly, all sales are final once the key has been sent."
+      },
+      {
+        "heading": "2. Non-Refundable Digital Products",
+        "body": "Digital products, including software license keys, are non-refundable and non-returnable once the license key has been delivered to your email, because the key can be activated immediately."
+      },
+      {
+        "heading": "3. Exceptions",
+        "body": "We will consider a refund or replacement on a case-by-case basis if: the license key does not activate, the key was not delivered due to a technical error on our side, or you received the wrong product."
+      },
+      {
+        "heading": "4. How to Request a Refund or Replacement",
+        "body": "Contact our support team at support@keyversely.com within 14 days of purchase with your order number and a description of the issue. We will investigate and respond within 24 hours."
+      },
+      {
+        "heading": "5. Unauthorized Transactions",
+        "body": "If you believe a charge was unauthorized, contact your payment provider and our support team immediately so we can investigate."
+      },
+      {
+        "heading": "6. Contact Information",
+        "body": "For any questions about this policy, contact KeyVersely LLC at support@keyversely.com or write to 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Shipping & Delivery Policy",
+    "sections": [
+      {
+        "heading": "1. Digital Delivery",
+        "body": "All products sold on Licendi are digital software licenses. No physical items are shipped. After a successful payment, your license key and download links are sent instantly."
+      },
+      {
+        "heading": "2. Delivery Time",
+        "body": "License keys are usually delivered within minutes after payment is confirmed. In rare cases, delivery may take up to a few hours due to payment verification."
+      },
+      {
+        "heading": "3. What You Receive",
+        "body": "Your delivery email contains your license key, official download links, and installation instructions."
+      },
+      {
+        "heading": "4. Email Delivery",
+        "body": "Keys are sent to the email address you provided at checkout. Please make sure the address is correct. Check your spam or junk folder if you do not see the email."
+      },
+      {
+        "heading": "5. Missed Delivery",
+        "body": "If you have not received your email within a few hours, contact us at support@keyversely.com and we will resend it."
+      },
+      {
+        "heading": "6. No Physical Shipping",
+        "body": "Since all products are digital, there are no shipping fees, and delivery is worldwide with no customs or import charges."
+      },
+      {
+        "heading": "7. Contact Information",
+        "body": "For any questions, contact KeyVersely LLC at support@keyversely.com or write to 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
   }
 }

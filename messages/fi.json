@@ -53,7 +53,9 @@
     "contactUs": "Ota yhteyttä",
     "termsConditions": "Käyttöehdot",
     "privacyPolicy": "Tietosuojakäytäntö",
-    "faqs": "UKK"
+    "faqs": "UKK",
+    "refundPolicy": "Hyvitys- ja palautuskäytäntö",
+    "shippingPolicy": "Toimitus- ja toimitusehdot"
   },
   "banner": {
     "title": "Viralliset Microsoft-tuotteet",
@@ -399,5 +401,67 @@
     "statusNew": "Uusi",
     "statusHot": "Suosittu",
     "statusSale": "Ale"
+  },
+  "refundPolicy": {
+    "title": "Hyvitys- ja palautuskäytäntö",
+    "sections": [
+      {
+        "heading": "1. Yleiskatsaus",
+        "body": "Koska tuotteemme ovat digitaalisia lisenssiavaimia, jotka toimitetaan heti, kaikki myynnit ovat lopullisia, kun avain on lähetetty."
+      },
+      {
+        "heading": "2. Ei-hyvitettävät digitaaliset tuotteet",
+        "body": "Digitaaliset tuotteet, mukaan lukien ohjelmistolisenssiavaimet, eivät ole hyvitettäviä eivätkä palautettavissa, kun lisenssiavain on toimitettu sähköpostiisi, koska avain voidaan aktivoida välittömästi."
+      },
+      {
+        "heading": "3. Poikkeukset",
+        "body": "Harkitsemme hyvitystä tai korvausta tapauskohtaisesti, jos: lisenssiavain ei aktivoidu, avainta ei toimitettu meistä johtuvan teknisen virheen vuoksi tai sait väärän tuotteen."
+      },
+      {
+        "heading": "4. Näin haet hyvitystä tai korvausta",
+        "body": "Ota yhteyttä tukitiimiimme osoitteeseen support@keyversely.com 14 päivän kuluessa ostosta ja kerro tilausnumerosi sekä kuvaus ongelmasta. Tutkimme asian ja vastaamme 24 tunnin kuluessa."
+      },
+      {
+        "heading": "5. Luvattomat tapahtumat",
+        "body": "Jos uskot veloituksen olevan luvaton, ota välittömästi yhteyttä maksupalveluntarjoajaasi ja tukitiimiimme, jotta voimme tutkia asian."
+      },
+      {
+        "heading": "6. Yhteystiedot",
+        "body": "Jos sinulla on kysyttävää tästä käytännöstä, ota yhteyttä KeyVersely LLC:hen osoitteessa support@keyversely.com tai kirjoita osoitteeseen 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Toimitus- ja toimitusehtokäytäntö",
+    "sections": [
+      {
+        "heading": "1. Digitaalinen toimitus",
+        "body": "Kaikki Licendissä myytävät tuotteet ovat digitaalisia ohjelmistolisenssejä. Fyysisiä tuotteita ei lähetetä. Onnistuneen maksun jälkeen lisenssiavain ja latauslinkit lähetetään heti."
+      },
+      {
+        "heading": "2. Toimitusaika",
+        "body": "Lisenssiavaimet toimitetaan yleensä muutamassa minuutissa maksun vahvistamisen jälkeen. Harvinaisissa tapauksissa toimitus voi kestää muutaman tunnin maksun vahvistuksen vuoksi."
+      },
+      {
+        "heading": "3. Mitä saat",
+        "body": "Toimitussähköpostisi sisältää lisenssiavaimen, viralliset latauslinkit ja asennusohjeet."
+      },
+      {
+        "heading": "4. Sähköpostitoimitus",
+        "body": "Avaimet lähetetään maksun yhteydessä antamaasi sähköpostiosoitteeseen. Varmista, että osoite on oikea. Tarkista roskaposti- tai roskapostikansio, jos et näe sähköpostia."
+      },
+      {
+        "heading": "5. Toimitus, jota ei saapunut",
+        "body": "Jos et ole saanut sähköpostia muutamassa tunnissa, ota yhteyttä osoitteeseen support@keyversely.com ja lähetämme sen uudelleen."
+      },
+      {
+        "heading": "6. Ei fyysistä toimitusta",
+        "body": "Koska kaikki tuotteet ovat digitaalisia, toimituskuluja ei ole, ja toimitus on maailmanlaajuinen ilman tulli- tai tuontikuluja."
+      },
+      {
+        "heading": "7. Yhteystiedot",
+        "body": "Jos sinulla on kysyttävää, ota yhteyttä KeyVersely LLC:hen osoitteessa support@keyversely.com tai kirjoita osoitteeseen 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
   }
 }
