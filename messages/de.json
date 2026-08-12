@@ -128,7 +128,10 @@
     "deliveryNote": "* Ihr digitales Produkt wird an diese E-Mail-Adresse geliefert.",
     "enterNameEmail": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse ein.",
     "payStripe": "Mit Karte bezahlen (Stripe)",
-    "orPayWith": "Oder bezahlen mit"
+    "orPayWith": "Oder bezahlen mit",
+    "guestBanner": "Sie bezahlen als Gast",
+    "guestNote": "Ihre Bestellung wird keinem Konto zugeordnet. Melden Sie sich an, um Bestellungen zu verfolgen und jederzeit darauf zuzugreifen.",
+    "guestSignIn": "Anmelden"
   },
   "emptyCart": {
     "title": "Ihr Warenkorb fühlt sich einsam an",
@@ -137,10 +140,13 @@
   },
   "auth": {
     "welcomeBack": "Willkommen zurück!",
-    "loginDesc": "Melden Sie sich an, um Ihre Warenkorbartikel anzusehen und zur Kasse zu gehen. Verpassen Sie Ihre Lieblingsprodukte nicht!",
+    "loginDesc": "Melden Sie sich an, um Ihren Warenkorb anzusehen und zur Kasse zu gehen, oder fahren Sie ohne Konto als Gast fort.",
     "signIn": "Anmelden",
     "noAccount": "Noch kein Konto?",
-    "createAccount": "Konto erstellen"
+    "createAccount": "Konto erstellen",
+    "or": "oder",
+    "continueAsGuest": "Als Gast fortfahren",
+    "guestDesc": "Bestellen ohne Konto. Ihre Bestellung wird keinem Profil zugeordnet."
   },
   "orders": {
     "title": "Bestellliste",

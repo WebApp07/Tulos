@@ -128,7 +128,10 @@
     "deliveryNote": "* Su producto digital se entregará a esta dirección de correo electrónico.",
     "enterNameEmail": "Introduzca su nombre y dirección de correo electrónico.",
     "payStripe": "Pagar con tarjeta (Stripe)",
-    "orPayWith": "O pague con"
+    "orPayWith": "O pague con",
+    "guestBanner": "Está comprando como invitado",
+    "guestNote": "Su pedido no se vinculará a una cuenta. Inicie sesión para seguir sus pedidos y acceder a ellos en cualquier momento.",
+    "guestSignIn": "Iniciar sesión"
   },
   "emptyCart": {
     "title": "Su carrito se siente solo",
@@ -137,10 +140,13 @@
   },
   "auth": {
     "welcomeBack": "¡Bienvenido de nuevo!",
-    "loginDesc": "Inicie sesión para ver los artículos de su carrito y finalizar la compra. ¡No se pierda sus productos favoritos!",
+    "loginDesc": "Inicie sesión para ver los artículos de su carrito y finalizar la compra, o continúe como invitado sin crear una cuenta.",
     "signIn": "Iniciar sesión",
     "noAccount": "¿No tiene una cuenta?",
-    "createAccount": "Crear una cuenta"
+    "createAccount": "Crear una cuenta",
+    "or": "o",
+    "continueAsGuest": "Continuar como invitado",
+    "guestDesc": "Finalice la compra sin una cuenta. Su pedido no se vinculará a un perfil."
   },
   "orders": {
     "title": "Lista de pedidos",

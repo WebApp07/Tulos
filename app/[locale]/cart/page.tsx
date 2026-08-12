@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { urlFor } from "@/sanity/lib/image";
 import useCartStore, { CartItem } from "@/store";
-import { useAuth, useUser } from "@clerk/nextjs";
+import { useAuth, useUser, SignInButton } from "@clerk/nextjs";
 import { Heart, ShoppingBag, Trash } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
@@ -38,6 +38,7 @@ const CartPage = () => {
   const { currency } = useCurrency();
   const [isClient, setIsClient] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [guestMode, setGuestMode] = useState(false);
   const { isSignedIn } = useAuth();
   const {
     deleteCartProduct,
@@ -62,6 +63,7 @@ const CartPage = () => {
     return <Loading />;
   }
   const cartProducts = getGroupedItems();
+  const canCheckout = isSignedIn || guestMode;
 
   const handleResetCart = () => {
     const confirmed = window.confirm(t("confirmReset"));
@@ -89,7 +91,7 @@ const CartPage = () => {
         orderNumber: crypto.randomUUID(),
         customerName,
         customerEmail,
-        clerkUserId: user!.id,
+        clerkUserId: user?.id,
       };
       const checkoutUrl = await createCheckoutSession(
         cartProducts,
@@ -108,8 +110,21 @@ const CartPage = () => {
 
   return (
     <div className="bg-gray-50 pb-52 md:pb-10">
-      {isSignedIn ? (
+      {canCheckout ? (
         <Container>
+          {!isSignedIn && guestMode && (
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 py-4">
+              <div>
+                <p className="font-semibold">{t("guestBanner")}</p>
+                <p className="text-sm text-lightColor">{t("guestNote")}</p>
+              </div>
+              <SignInButton mode="modal">
+                <Button variant="outline" size="sm" className="font-semibold shrink-0">
+                  {t("guestSignIn")}
+                </Button>
+              </SignInButton>
+            </div>
+          )}
           {cartProducts?.length ? (
             <>
               <div className="flex items-center gap-2 py-5">
@@ -400,7 +415,7 @@ const CartPage = () => {
           )}
         </Container>
       ) : (
-        <NoAccessToCart />
+        <NoAccessToCart onContinueAsGuest={() => setGuestMode(true)} />
       )}
     </div>
   );

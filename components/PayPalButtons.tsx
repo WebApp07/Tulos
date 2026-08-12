@@ -14,7 +14,7 @@ interface Props {
   metadata: {
     customerName: string;
     customerEmail: string;
-    clerkUserId: string;
+    clerkUserId?: string;
   };
 }
 

@@ -128,7 +128,10 @@
     "deliveryNote": "* Digitaalinen tuotteesi toimitetaan tähän sähköpostiosoitteeseen.",
     "enterNameEmail": "Syötä nimesi ja sähköpostiosoitteesi.",
     "payStripe": "Maksa kortilla (Stripe)",
-    "orPayWith": "Tai maksa"
+    "orPayWith": "Tai maksa",
+    "guestBanner": "Ostat vieraana",
+    "guestNote": "Tilaustasi ei yhdistetä tiliin. Kirjaudu sisään seurataksesi tilauksiasi ja päästäksesi niihin käsiksi milloin tahansa.",
+    "guestSignIn": "Kirjaudu"
   },
   "emptyCart": {
     "title": "Ostoskorisi tuntee olonsa yksinäiseksi",
@@ -137,10 +140,13 @@
   },
   "auth": {
     "welcomeBack": "Tervetuloa takaisin!",
-    "loginDesc": "Kirjaudu sisään nähdäksesi ostoskorin sisällön ja viimeistelläksesi ostoksen. Älä missaa suosikkituotteitasi!",
+    "loginDesc": "Kirjaudu sisään nähdäksesi ostoskorin sisällön ja viimeistelläksesi ostoksen tai jatka vieraana ilman tiliä.",
     "signIn": "Kirjaudu",
     "noAccount": "Ei vielä tiliä?",
-    "createAccount": "Luo tili"
+    "createAccount": "Luo tili",
+    "or": "tai",
+    "continueAsGuest": "Jatka vieraana",
+    "guestDesc": "Osta ilman tiliä. Tilaustasi ei yhdistetä profiiliin."
   },
   "orders": {
     "title": "Tilauslista",

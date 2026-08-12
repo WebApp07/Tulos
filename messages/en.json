@@ -128,7 +128,10 @@
     "deliveryNote": "* Your digital product will be delivered to this email address.",
     "enterNameEmail": "Please enter your name and email address.",
     "payStripe": "Pay with Card (Stripe)",
-    "orPayWith": "Or pay with"
+    "orPayWith": "Or pay with",
+    "guestBanner": "You are checking out as a guest",
+    "guestNote": "Your order will not be linked to an account. Sign in to track your orders and access them anytime.",
+    "guestSignIn": "Sign in"
   },
   "emptyCart": {
     "title": "Your cart is feeling lonely",
@@ -137,10 +140,13 @@
   },
   "auth": {
     "welcomeBack": "Welcome Back!",
-    "loginDesc": "Log in to view your cart items and checkout. Do not miss out on your favorite products!",
+    "loginDesc": "Log in to view your cart items and checkout, or continue as a guest without creating an account.",
     "signIn": "Sign in",
     "noAccount": "Do not have an account?",
-    "createAccount": "Create an account"
+    "createAccount": "Create an account",
+    "or": "or",
+    "continueAsGuest": "Continue as Guest",
+    "guestDesc": "Checkout without an account. Your order will not be linked to a profile."
   },
   "orders": {
     "title": "Order List",

@@ -128,7 +128,10 @@
     "deliveryNote": "* Din digitala produkt levereras till den här e-postadressen.",
     "enterNameEmail": "Ange ditt namn och din e-postadress.",
     "payStripe": "Betala med kort (Stripe)",
-    "orPayWith": "Eller betala med"
+    "orPayWith": "Eller betala med",
+    "guestBanner": "Du betalar som gäst",
+    "guestNote": "Din beställning kopplas inte till ett konto. Logga in för att följa dina beställningar och komma åt dem när som helst.",
+    "guestSignIn": "Logga in"
   },
   "emptyCart": {
     "title": "Din varukorg känner sig ensam",
@@ -137,10 +140,13 @@
   },
   "auth": {
     "welcomeBack": "Välkommen tillbaka!",
-    "loginDesc": "Logga in för att se din varukorg och slutföra köpet. Missa inte dina favoritprodukter!",
+    "loginDesc": "Logga in för att se din varukorg och slutföra köpet, eller fortsätt som gäst utan att skapa ett konto.",
     "signIn": "Logga in",
     "noAccount": "Har du inget konto?",
-    "createAccount": "Skapa konto"
+    "createAccount": "Skapa konto",
+    "or": "eller",
+    "continueAsGuest": "Fortsätt som gäst",
+    "guestDesc": "Slutför köpet utan konto. Din beställning kopplas inte till en profil."
   },
   "orders": {
     "title": "Orderlista",
