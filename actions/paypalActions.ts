@@ -2,6 +2,7 @@
 
 import { createOrderInSanity, SanityOrderData } from "@/lib/orderService";
 import { CartItem } from "@/store";
+import { DEFAULT_CURRENCY } from "@/lib/currencyConfig";
 
 export async function capturePayPalOrder(
   orderId: string,
@@ -12,6 +13,7 @@ export async function capturePayPalOrder(
     customerEmail: string;
     clerkUserId: string;
     totalPrice: number;
+    currency: string;
   }
 ) {
   try {
@@ -40,6 +42,8 @@ export async function capturePayPalOrder(
 
     const data = await response.json();
 
+    const currency = metadata.currency || DEFAULT_CURRENCY;
+
     if (data.status === "COMPLETED") {
     const sanityProducts = items.map((item) => ({
       _key: crypto.randomUUID(),
@@ -64,7 +68,7 @@ export async function capturePayPalOrder(
         customerEmail: metadata.customerEmail,
         clerkUserId: metadata.clerkUserId,
         totalPrice: metadata.totalPrice,
-        currency: "USD",
+        currency,
         amountDiscount: 0,
         products: sanityProducts,
         status: "paid",

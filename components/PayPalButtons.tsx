@@ -6,6 +6,7 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { capturePayPalOrder } from "@/actions/paypalActions";
 import { CartItem } from "@/store";
+import { useCurrency } from "./CurrencyProvider";
 
 interface Props {
   items: CartItem[];
@@ -20,8 +21,11 @@ interface Props {
 export function PayPalButtons({ items, totalPrice, metadata }: Props) {
   const router = useRouter();
   const [isPending, setIsPending] = useState(false);
+  const { currency, rate, ready } = useCurrency();
 
   const orderNumber = crypto.randomUUID();
+
+  const convertedTotal = (totalPrice * rate).toFixed(2);
 
   return (
     <div className="w-full relative z-0">
@@ -32,6 +36,7 @@ export function PayPalButtons({ items, totalPrice, metadata }: Props) {
       )}
       <PayPalButtonsLib
         style={{ layout: "vertical", label: "checkout", shape: "pill" }}
+        disabled={!ready}
         createOrder={(data, actions) => {
           if (!metadata.customerName || !metadata.customerEmail) {
             toast.error("Please enter your name and email address first.");
@@ -43,8 +48,8 @@ export function PayPalButtons({ items, totalPrice, metadata }: Props) {
             purchase_units: [
               {
                 amount: {
-                  currency_code: "USD",
-                  value: totalPrice.toFixed(2),
+                  currency_code: currency,
+                  value: convertedTotal,
                 },
                 description: `Order ${orderNumber}`,
               },
@@ -54,11 +59,16 @@ export function PayPalButtons({ items, totalPrice, metadata }: Props) {
         onApprove={async (data) => {
           setIsPending(true);
           try {
-            const result = await capturePayPalOrder(data.orderID, items, {
-              ...metadata,
-              orderNumber,
-              totalPrice,
-            });
+            const result = await capturePayPalOrder(
+              data.orderID,
+              items,
+              {
+                ...metadata,
+                orderNumber,
+                totalPrice: parseFloat(convertedTotal),
+                currency,
+              },
+            );
 
             if (result.success) {
               toast.success("Payment successful!");

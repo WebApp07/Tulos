@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Tulos – Offizielle Microsoft-Softwarelizenzen",
+    "title": "Licendi – Offizielle Microsoft-Softwarelizenzen",
     "description": "Kaufen Sie echte Microsoft-Softwarelizenzen, Download-Schlüssel und sofortige digitale Lieferung."
   },
   "common": {
-    "loading": "Tulos wird geladen...",
+    "loading": "Licendi wird geladen...",
     "home": "Startseite",
     "login": "Anmelden",
     "addToCart": "In den Warenkorb",
@@ -34,7 +34,7 @@
     "placeholder": "Durchsuchen Sie Ihre Produkte...",
     "searching": "Suche läuft...",
     "noMatch": "Nichts passt zum Suchbegriff {keyword}. Bitte versuchen Sie etwas anderes.",
-    "explore": "Durchsuchen und entdecken Sie Ihre Produkte von Tulos.",
+    "explore": "Durchsuchen und entdecken Sie Ihre Produkte von Licendi.",
     "productImage": "Produktbild"
   },
   "footer": {
@@ -216,12 +216,35 @@
     "subtitle": "Wir arbeiten mit vertrauenswürdigen führenden Plattformen und Technologien zusammen, um sichere, zuverlässige und nahtlose Softwarelizenzierung zu gewährleisten."
   },
   "about": {
-    "title": "Über Tulos",
-    "paragraphs": [
-      "Tulos ist ein hochmodernes Technologieunternehmen, das innovative Lösungen für moderne Unternehmen bereitstellt. Seit unserer Gründung im Jahr 2020 haben wir uns schnell als führend in digitaler Transformation und Softwareentwicklung etabliert.",
-      "Unser Team aus Experten, Entwicklern, Designern und Strategen arbeitet unermüdlich daran, maßgeschneiderte Lösungen zu schaffen, die unseren Kunden helfen, ihre Abläufe zu optimieren, die Effizienz zu steigern und Wachstum zu fördern.",
-      "Bei Tulos glauben wir an die Kraft der Technologie, Unternehmen zu transformieren und Leben zu verbessern. Wir verpflichten uns, an der Spitze technologischer Fortschritte zu bleiben und unseren Kunden einen außergewöhnlichen Mehrwert zu bieten."
-    ]
+    "title": "Über Licendi",
+    "intro": "Licendi ist der Online-Shop von KeyVersely LLC, einem offiziellen Microsoft-Partner, der echte Microsoft-Softwarelizenzen mit sofortiger digitaler Lieferung anbietet.",
+    "missionTitle": "Unsere Mission",
+    "mission": "Wir machen echte Microsoft-Software einfach, sicher und sofort verfügbar. Von Windows und Office bis hin zu Windows Server liefern wir verifizierte Lizenzschlüssel direkt in Ihr Postfach – nur wenige Minuten nach Ihrer Bestellung.",
+    "partnerTitle": "Offizieller Microsoft-Partner",
+    "partner": "Licendi wird von KeyVersely LLC betrieben, einem verifizierten Partner im offiziellen Microsoft-Partnerverzeichnis. Jede von uns verkaufte Lizenz ist echt und stammt aus autorisierten Kanälen.",
+    "partnerCta": "Microsoft-Partnerprofil ansehen",
+    "productsTitle": "Was wir verkaufen",
+    "products": "Wir sind spezialisiert auf echte Microsoft-Softwarelizenzen, einschließlich Windows-Betriebssystemen, Microsoft Office und Windows Server – digital und zu wettbewerbsfähigen Preisen.",
+    "deliveryTitle": "Sofortige digitale Lieferung",
+    "delivery": "Nach dem Checkout werden Ihr Lizenzschlüssel und Ihre Download-Links innerhalb weniger Minuten an Ihre E-Mail gesendet. Kein Versand, kein Warten – direkt aktivieren und installieren.",
+    "trustTitle": "Warum bei Licendi kaufen?",
+    "trust": [
+      "Offizieller Microsoft-Partner",
+      "Echte, verifizierte Lizenzschlüssel",
+      "Sofortige E-Mail-Zustellung",
+      "Sicherer Checkout mit Stripe & PayPal",
+      "Lebenslanger Produktsupport"
+    ],
+    "businessTitle": "Unternehmensdaten",
+    "businessCompany": "Rechtlicher Firmenname",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Registrierte Adresse",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "E-Mail",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Bereit loszulegen?",
+    "ctaDesc": "Entdecken Sie unsere echten Microsoft-Lizenzen und erhalten Sie Ihren Schlüssel in wenigen Minuten.",
+    "ctaButton": "Lizenzen kaufen"
   },
   "contact": {
     "title": "Kontakt",
@@ -235,23 +258,23 @@
     "title": "Häufig gestellte Fragen",
     "items": [
       {
-        "q": "Welche Dienstleistungen bietet Tulos an?",
-        "a": "Tulos bietet eine breite Palette an Technologielösungen an, darunter kundenspezifische Softwareentwicklung, Cloud-Dienste und Beratung zur digitalen Transformation."
+        "q": "Welche Dienstleistungen bietet Licendi an?",
+        "a": "Licendi bietet eine breite Palette an Technologielösungen an, darunter kundenspezifische Softwareentwicklung, Cloud-Dienste und Beratung zur digitalen Transformation."
       },
       {
-        "q": "Wie erhalte ich Support für Tulos-Produkte?",
+        "q": "Wie erhalte ich Support für Licendi-Produkte?",
         "a": "Sie erreichen unser Support-Team über unsere Kontaktseite oder per E-Mail an support@tulos.com."
       },
       {
-        "q": "Bietet Tulos Schulungen für seine Produkte an?",
+        "q": "Bietet Licendi Schulungen für seine Produkte an?",
         "a": "Ja, wir bieten umfassende Schulungsprogramme für alle unsere Produkte und Dienstleistungen an. Kontaktieren Sie bitte unser Vertriebsteam für weitere Informationen."
       },
       {
-        "q": "Welche Branchen bedient Tulos?",
-        "a": "Tulos bedient ein breites Spektrum an Branchen, darunter Finanzen, Gesundheitswesen, Einzelhandel und Fertigung."
+        "q": "Welche Branchen bedient Licendi?",
+        "a": "Licendi bedient ein breites Spektrum an Branchen, darunter Finanzen, Gesundheitswesen, Einzelhandel und Fertigung."
       },
       {
-        "q": "Wie gewährleistet Tulos Datensicherheit?",
+        "q": "Wie gewährleistet Licendi Datensicherheit?",
         "a": "Wir setzen branchenübliche Sicherheitsmaßnahmen ein und halten alle relevanten Datenschutzvorschriften ein, um die Sicherheit der Daten unserer Kunden zu gewährleisten."
       }
     ]
@@ -261,23 +284,23 @@
     "sections": [
       {
         "heading": "1. Annahme der Bedingungen",
-        "body": "Durch den Zugriff auf und die Nutzung der Dienste von Tulos stimmen Sie zu, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein."
+        "body": "Durch den Zugriff auf und die Nutzung der Dienste von Licendi stimmen Sie zu, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein."
       },
       {
         "heading": "2. Nutzung der Dienste",
-        "body": "Sie stimmen zu, die Dienste von Tulos nur für rechtmäßige Zwecke und in Übereinstimmung mit diesen Allgemeinen Geschäftsbedingungen zu nutzen."
+        "body": "Sie stimmen zu, die Dienste von Licendi nur für rechtmäßige Zwecke und in Übereinstimmung mit diesen Allgemeinen Geschäftsbedingungen zu nutzen."
       },
       {
         "heading": "3. Geistiges Eigentum",
-        "body": "Alle Inhalte und Materialien auf den Diensten von Tulos sind Eigentum von Tulos und durch geltende Gesetze zum geistigen Eigentum geschützt."
+        "body": "Alle Inhalte und Materialien auf den Diensten von Licendi sind Eigentum von Licendi und durch geltende Gesetze zum geistigen Eigentum geschützt."
       },
       {
         "heading": "4. Haftungsbeschränkung",
-        "body": "Tulos haftet nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung unserer Dienste resultieren."
+        "body": "Licendi haftet nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung unserer Dienste resultieren."
       },
       {
         "heading": "5. Anwendbares Recht",
-        "body": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der Tulos tätig ist, und werden nach diesen ausgelegt."
+        "body": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der Licendi tätig ist, und werden nach diesen ausgelegt."
       }
     ]
   },
@@ -305,6 +328,12 @@
         "body": "Sie haben das Recht, auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren oder zu löschen. Kontaktieren Sie uns bitte für Unterstützung bei diesen Anfragen."
       }
     ]
+  },
+  "cookieConsent": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Website-Verkehr zu analysieren und personalisierte Werbung zu unterstützen.",
+    "privacyLink": "Datenschutzrichtlinie",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
   },
   "cms": {
     "statusNew": "Neu",

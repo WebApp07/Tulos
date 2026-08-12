@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 import { ClerkProvider } from "@clerk/nextjs";
 import localFont from "next/font/local";
 import { Toaster } from "react-hot-toast";
 import { PayPalProvider } from "@/components/PayPalProvider";
 import { NextIntlClientProvider } from "next-intl";
+import { CurrencyProvider } from "@/components/CurrencyProvider";
 import { getMessages } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -19,8 +21,9 @@ const raleway = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tulos Ecommerce app for shoppers",
-  description: "An Ecommerce app for education purposes",
+  title: "Licendi – Official Microsoft Software Licensing",
+  description:
+    "Shop genuine Microsoft software licenses, download keys and instant digital delivery from an official Microsoft partner.",
 };
 
 export default async function RootLayout({
@@ -45,20 +48,23 @@ export default async function RootLayout({
       <html lang={locale}>
         <body className={`${raleway.variable} antialiased`}>
           <NextIntlClientProvider messages={messages}>
-            <PayPalProvider>
-              <Header />
-              {children}
-              <Footer />
-            </PayPalProvider>
-            <Toaster
-              position="bottom-right"
-              toastOptions={{
-                style: {
-                  background: "#000000",
-                  color: "#ffffff",
-                },
-              }}
-            />
+            <CurrencyProvider>
+              <PayPalProvider>
+                <Header />
+                {children}
+                <Footer />
+                <CookieConsent />
+              </PayPalProvider>
+              <Toaster
+                position="bottom-right"
+                toastOptions={{
+                  style: {
+                    background: "#000000",
+                    color: "#ffffff",
+                  },
+                }}
+              />
+            </CurrencyProvider>
           </NextIntlClientProvider>
         </body>
       </html>

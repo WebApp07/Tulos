@@ -5,6 +5,9 @@ const locales = [
   { id: "fr", title: "Français" },
   { id: "de", title: "Deutsch" },
   { id: "es", title: "Español" },
+  { id: "it", title: "Italiano" },
+  { id: "fi", title: "Suomi" },
+  { id: "sv", title: "Svenska" },
 ];
 
 // https://www.sanity.io/docs/structure-builder-cheat-sheet
@@ -12,7 +15,7 @@ export const structure: StructureResolver = (S) => {
   const notIncluded = ["category", "translation"];
   return (
     S.list()
-      .title("Tulos Backend")
+      .title("Licendi Backend")
       .items([
         S.documentTypeListItem("category").title("Categories"),
         S.divider(),

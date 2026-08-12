@@ -29,7 +29,7 @@ const Footer = async () => {
         <FooterTop />
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <Logo>Tulos</Logo>
+            <Logo>Licendi</Logo>
             <p className="text-gray-600 text-sm">{t("description")}</p>
             <SocialMedia
               className="text-darkColor/60"

@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "title": "Licendi – Virallisia Microsoft-ohjelmistolisenssejä",
+    "description": "Osta aitoja Microsoft-ohjelmistolisenssejä, latausavaimia ja välitön digitaalinen toimitus."
+  },
+  "common": {
+    "loading": "Licendi latautuu...",
+    "home": "Etusivu",
+    "login": "Kirjaudu",
+    "addToCart": "Lisää ostoskoriin",
+    "addedToCart": "{name} lisätty onnistuneesti!",
+    "removedFromCart": "{name} poistettu onnistuneesti!",
+    "quantityDecreased": "Määrää vähennettiin onnistuneesti!",
+    "outOfStock": "Loppuunmyyty",
+    "inStock": "Varastossa",
+    "quantity": "Määrä",
+    "subtotal": "Välisumma",
+    "discount": "Alennus",
+    "total": "Yhteensä",
+    "na": "N/A",
+    "default": "Oletus",
+    "variant": "Variantti",
+    "status": "Tila"
+  },
+  "localeSwitcher": {
+    "label": "Kieli",
+    "ariaLabel": "Valitse kieli"
+  },
+  "header": {
+    "home": "Etusivu"
+  },
+  "search": {
+    "title": "Tuotehaku",
+    "placeholder": "Hae tuotetta tästä...",
+    "searching": "Haku käynnissä...",
+    "noMatch": "Mikään ei vastannut hakusanaa {keyword}. Kokeile jotain muuta.",
+    "explore": "Hae ja tutustu tuotteisiisi Licendiissa.",
+    "productImage": "tuotekuva"
+  },
+  "footer": {
+    "description": "Luotettava lähde aidoille Microsoft-ohjelmistolisensseille välittömällä toimituksella ja elinikäisellä tuella.",
+    "quickLinks": "Pikalinkit",
+    "categories": "Kategoriat",
+    "newsletter": "Uutiskirje",
+    "newsletterDesc": "Tilaa uutiskirjeemme saadaksesi päivityksiä ja eksklusiivisia tarjouksia.",
+    "emailPlaceholder": "Syötä sähköpostisi",
+    "subscribe": "Tilaa",
+    "visitUs": "Vieraile luonamme",
+    "chatWhatsapp": "Keskustele WhatsAppissa",
+    "workingHours": "Aukioloajat",
+    "emailUs": "Lähetä meille sähköpostia",
+    "aboutUs": "Meistä",
+    "contactUs": "Ota yhteyttä",
+    "termsConditions": "Käyttöehdot",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "faqs": "UKK"
+  },
+  "banner": {
+    "title": "Viralliset Microsoft-tuotteet",
+    "subtitle": "Osta aitoja Microsoft-ohjelmistoja ja -ratkaisuja viralliselta Microsoft-kumppanilta. Hanki uusimmat tuotteet, turvalliset lisenssit ja luotettava tuki kaikkiin digitaalisiin tarpeisiisi."
+  },
+  "home": {
+    "productsByCategory": "Tuotteet kategorioittain",
+    "noProductAvailable": "Tuotetta ei saatavilla",
+    "noMatchCriteria": "Valitettavasti mikään tuote ei vastaa kriteeriä {tab} tällä hetkellä.",
+    "restocking": "Täydennämme varastoa pian",
+    "checkBack": "Palaa myöhemmin tai tutustu muihin tuotekategorioihimme.",
+    "loading": "Tuote latautuu..."
+  },
+  "product": {
+    "color": "Väri",
+    "size": "Koko",
+    "selectSize": "Valitse koko",
+    "sizeGuide": "Kokotaulukko",
+    "up": "ja ylöspäin",
+    "productDetails": "Tuotetiedot",
+    "manufacturerSku": "Valmistajan SKU",
+    "brand": "Merkki",
+    "gender": "Sukupuoli",
+    "nickname": "Lempinimi",
+    "releaseDate": "Julkaisupäivä",
+    "compareColor": "Vertaa väriä",
+    "askQuestion": "Kysy kysymys",
+    "deliveryReturn": "Toimitus ja palautus",
+    "share": "Jaa",
+    "freeShipping": "Ilmainen toimitus",
+    "freeShippingDesc": "Ilmainen toimitus yli 120 $ tilauksille",
+    "flexiblePayment": "Joustava maksu",
+    "payWithCards": "Maksa useilla luottokorteilla",
+    "characteristics": "{name}: Ominaisuudet",
+    "collection": "Kokoelma",
+    "type": "Tyyppi",
+    "sku": "SKU",
+    "operatingSystems": "Tuetut käyttöjärjestelmät",
+    "versionType": "Versiotyyppi",
+    "productStatus": "Tuotteen tila",
+    "placeOfOrigin": "Alkuperämaa",
+    "activation": "Aktivointi",
+    "shippingMethod": "Toimitustapa",
+    "packageInclude": "Pakkauksen sisältö",
+    "language": "Kieli",
+    "warranty": "Takuu",
+    "deliveryTime": "Toimitusaika",
+    "support": "Tuki",
+    "function": "Toiminto",
+    "paymentMethods": "Maksutavat",
+    "stock": "Varasto",
+    "available": "Saatavilla",
+    "intro": "Johdanto",
+    "brandName": "Brändin nimi",
+    "unknown": "Tuntematon"
+  },
+  "cart": {
+    "title": "Ostoskori",
+    "addToFavorite": "Lisää suosikkeihin",
+    "deleteProduct": "Poista tuote",
+    "resetCart": "Tyhjennä ostoskori",
+    "confirmReset": "Haluatko varmasti tyhjentää ostoskorin?",
+    "cartReset": "Ostoskori tyhjennettiin onnistuneesti!",
+    "productDeleted": "Tuote poistettu onnistuneesti!",
+    "orderSummary": "Tilausyhteenveto",
+    "fullName": "Koko nimi",
+    "namePlaceholder": "Syötä koko nimesi",
+    "emailAddress": "Sähköpostiosoite",
+    "emailPlaceholder": "Syötä sähköpostisi",
+    "deliveryNote": "* Digitaalinen tuotteesi toimitetaan tähän sähköpostiosoitteeseen.",
+    "enterNameEmail": "Syötä nimesi ja sähköpostiosoitteesi.",
+    "payStripe": "Maksa kortilla (Stripe)",
+    "orPayWith": "Tai maksa"
+  },
+  "emptyCart": {
+    "title": "Ostoskorisi tuntee olonsa yksinäiseksi",
+    "desc": "Näyttää siltä, ettet ole vielä lisännyt mitään ostoskoriin. Muutetaan se ja löydetään sinulle upeita tuotteita!",
+    "cta": "Tutustu tuotteisiin"
+  },
+  "auth": {
+    "welcomeBack": "Tervetuloa takaisin!",
+    "loginDesc": "Kirjaudu sisään nähdäksesi ostoskorin sisällön ja viimeistelläksesi ostoksen. Älä missaa suosikkituotteitasi!",
+    "signIn": "Kirjaudu",
+    "noAccount": "Ei vielä tiliä?",
+    "createAccount": "Luo tili"
+  },
+  "orders": {
+    "title": "Tilauslista",
+    "orderNumber": "Tilausnumero",
+    "date": "Päivämäärä",
+    "customer": "Asiakas",
+    "email": "Sähköposti",
+    "total": "Yhteensä",
+    "status": "Tila",
+    "method": "Menetelmä",
+    "invoiceNumber": "Laskun numero",
+    "action": "Toiminto",
+    "invoice": "Lasku",
+    "receipt": "Kuitti",
+    "noOrders": "Tilauksia ei löytynyt",
+    "noOrdersDesc": "Näyttää siltä, ettet ole vielä tehnyt tilauksia. Aloita ostokset nähdäksesi tilauksesi tässä!",
+    "browseProducts": "Selaa tuotteita",
+    "invoiceNotAvailable": "Lasku ei ole saatavilla tälle tilaukselle",
+    "invoiceNotPaypal": "Lasku ei ole saatavilla PayPal-tilauksille",
+    "clickForDetails": "Näytä tilauksen tiedot",
+    "orderDetails": "Tilauksen tiedot - {orderNumber}",
+    "paymentMethod": "Maksutapa",
+    "downloadInvoice": "Lataa lasku",
+    "downloadReceipt": "Lataa kuitti",
+    "printReceipt": "Licendita kuitti",
+    "invoiceNotePaypal": "Virallista Stripe-laskua ei ole saatavilla PayPal-tilauksille. Voit tulostaa tämän sivun kuitiksi.",
+    "invoiceNote": "Laskun lataus ei ole saatavilla tälle tilaukselle.",
+    "product": "Tuote",
+    "quantity": "Määrä",
+    "price": "Hinta"
+  },
+  "success": {
+    "confirmed": "Tilaus vahvistettu!",
+    "successNote": "Onnistui! Digitaalinen tilauksesi on käsitelty. Tarkista sähköpostisi toimitustietojen osalta.",
+    "thankYou": "Kiitos ostoksestasi. Käsittelemme tilaustasi. Vahvistussähköposti tilauksen tiedoilla on lähetetty sähköpostiisi.",
+    "orderNumber": "Tilausnumero",
+    "sentTo": "Lähetetty osoitteeseen",
+    "retrieving": "Haetaan tilauksen tietoja...",
+    "orderItems": "Tilauksen tuotteet",
+    "qty": "Määrä: {quantity}",
+    "totalPaid": "Maksettu yhteensä",
+    "updating": "Tilauksen tietoja päivitetään. Voit tarkastella niitä tililläsi hetken kuluttua.",
+    "whatsNext": "Mitä seuraavaksi?",
+    "next1": "Tarkista sähköpostistasi tilausvahvistus",
+    "next2": "Digitaaliset tuotteet lähetetään välittömästi sähköpostiisi",
+    "next3": "Seuraa tilauksesi tilaa milloin tahansa hallintapaneelistasi",
+    "home": "Etusivu",
+    "orders": "Tilaukset",
+    "shop": "Kauppa",
+    "loadingStatus": "Ladataan tilauksen tilaa..."
+  },
+  "payment": {
+    "processing": "Käsitellään...",
+    "paymentSuccess": "Maksu onnistui!",
+    "paymentFailed": "Maksun kaappaus epäonnistui",
+    "paymentError": "Maksun käsittelyssä tapahtui virhe",
+    "paypalInitFailed": "PayPal-maksun alustaminen epäonnistui",
+    "enterInfo": "Syötä ensin nimesi ja sähköpostiosoitteesi.",
+    "secureNote": "Turvallinen maksu PayPalin kautta. Luotto- ja debit-kortit hyväksytään."
+  },
+  "purchaseProcess": {
+    "title": "Ostoprosessi",
+    "subtitle": "Hanki ohjelmistolisenssi(t) vain 4 yksinkertaisessa vaiheessa",
+    "step1Title": "Lisää tuote ostoskoriin",
+    "step1Desc": "Löydä tarpeisiisi parhaiten sopiva lisenssi ja lisää se ostoskoriin yhdellä klikkauksella.",
+    "step2Title": "Valitse maksutapa",
+    "step2Desc": "Valitse itsellesi sopivin maksutapa ja viimeistele ostos.",
+    "step3Title": "Vastaanota lisenssisi heti",
+    "step3Desc": "Löydät lisenssiavaimesi, latauslinkit ja asennusoppaan asiakasalueeltasi ja sähköpostistasi.",
+    "step4Title": "Olemme täällä auttamassa",
+    "step4Desc": "Olemme ylpeitä erinomaisesta asiakaspalvelustamme. Jos tarvitset tukea, voit ottaa meihin yhteyttä chatin, sähköpostin tai puhelimen välityksellä. Lisäksi saat elinikäisen takuun Licendiltä."
+  },
+  "trustedPartners": {
+    "title": "Luottamus käyttämäämme teknologiaan",
+    "subtitle": "Teemme yhteistyötä alan johtavien ja luotettujen alustojen sekä teknologioiden kanssa tarjotaksemme turvallisia, luotettavia ja saumattomia ohjelmistolisenssejä."
+  },
+  "about": {
+    "title": "Tietoja Licendistä",
+    "intro": "Licendi on KeyVersely LLC:n verkkokauppa, joka on virallinen Microsoft-kumppani ja tarjoaa aitoja Microsoft-ohjelmistolisenssejä välittömällä digitaalisella toimituksella.",
+    "missionTitle": "Tehtävämme",
+    "mission": "Teemme aidosta Microsoft-ohjelmistosta yksinkertaista, turvallista ja välitöntä. Windowsista ja Officesta Windows Serveriin toimitamme vahvistetut lisenssiavaimet suoraan sähköpostiisi muutamassa minuutissa tilauksesta.",
+    "partnerTitle": "Virallinen Microsoft-kumppani",
+    "partner": "Licendiä ylläpitää KeyVersely LLC, vahvistettu kumppani virallisessa Microsoft-kumppaniluettelossa. Jokainen myymämme lisenssi on aito ja peräisin valtuutetuista kanavista.",
+    "partnerCta": "Näytä Microsoft-kumppaniprofiilimme",
+    "productsTitle": "Mitä myymme",
+    "products": "Erikoistumme aitoihin Microsoft-ohjelmistolisensseihin, kuten Windows-käyttöjärjestelmiin, Microsoft Officeen ja Windows Serveriin — toimitettuna digitaalisesti kilpailukykyiseen hintaan.",
+    "deliveryTitle": "Välitön digitaalinen toimitus",
+    "delivery": "Maksun jälkeen lisenssiavain ja latauslinkit lähetetään sähköpostiisi muutamassa minuutissa. Ei postikuluja, ei odottelua — aktivoi ja asenna heti.",
+    "trustTitle": "Miksi ostaa Licendistä",
+    "trust": [
+      "Virallinen Microsoft-kumppani",
+      "Aidot, vahvistetut lisenssiavaimet",
+      "Välitön sähköpostitoimitus",
+      "Turvallinen maksu Stripe & PayPal",
+      "Elinaikainen tuotetuki"
+    ],
+    "businessTitle": "Yritystiedot",
+    "businessCompany": "Yrityksen virallinen nimi",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Rekisteröity osoite",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "Sähköposti",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Valmiina aloittamaan?",
+    "ctaDesc": "Selaa aitoja Microsoft-lisenssejämme ja saat avaimesi minuuteissa.",
+    "ctaButton": "Osta lisenssejä"
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "desc": "Kuulisimme mielellämme sinusta. Täytä alla oleva lomake, niin vastaamme sinulle mahdollisimman pian.",
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "message": "Viesti",
+    "send": "Lähetä viesti"
+  },
+  "faqs": {
+    "title": "Usein kysytyt kysymykset",
+    "items": [
+      {
+        "q": "Mitä palveluita Licendi tarjoaa?",
+        "a": "Licendi tarjoaa laajan valikoiman teknologiaratkaisuja, mukaan lukien räätälöity ohjelmistokehitys, pilvipalvelut ja digitaalisen muutoksen konsultointi."
+      },
+      {
+        "q": "Miten saan tukea Licendi-tuotteille?",
+        "a": "Voit ottaa yhteyttä tukitiimiimme yhteyssivun kautta tai lähettämällä sähköpostia osoitteeseen support@tulos.com."
+      },
+      {
+        "q": "Tarjoaako Licendi koulutusta tuotteilleen?",
+        "a": "Kyllä, tarjoamme kattavia koulutusohjelmia kaikille tuotteillemme ja palveluillemme. Ota yhteyttä myyntitiimiimme saadaksesi lisätietoja."
+      },
+      {
+        "q": "Mitä toimialoja Licendi palvelee?",
+        "a": "Licendi palvelee monia toimialoja, mukaan lukien rahoitus, terveydenhuolto, vähittäiskauppa ja valmistus."
+      },
+      {
+        "q": "Miten Licendi varmistaa tietoturvan?",
+        "a": "Käytämme alan standardien mukaisia suojatoimia ja noudatamme kaikkia sovellettavia tietosuojasäännöksiä varmistaaksemme asiakkaidemme tietojen turvallisuuden."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Käyttöehdot",
+    "sections": [
+      {
+        "heading": "1. Ehtojen hyväksyminen",
+        "body": "Käyttämällä Licendiin palveluita sitoudut noudattamaan näitä käyttöehtoja."
+      },
+      {
+        "heading": "2. Palveluiden käyttö",
+        "body": "Sitoudut käyttämään Licendiin palveluita vain laillisiin tarkoituksiin ja näiden käyttöehtojen mukaisesti."
+      },
+      {
+        "heading": "3. Immateriaalioikeudet",
+        "body": "Kaikki Licendiin palveluissa saatavilla oleva sisältö ja materiaalit ovat Licendiin omaisuutta ja suojattu sovellettavilla immateriaalioikeuslaeilla."
+      },
+      {
+        "heading": "4. Vastuunrajoitus",
+        "body": "Licendi ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä, seurannaisista tai rankaisevista vahingoista, jotka aiheutuvat palveluidemme käytöstä."
+      },
+      {
+        "heading": "5. Sovellettava laki",
+        "body": "Näitä käyttöehtoja säännellään ja tulkitaan sen lainkäyttöalueen lakien mukaisesti, jossa Licendi toimii."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "sections": [
+      {
+        "heading": "1. Tietojen kerääminen",
+        "body": "Keräämme tietoja, jotka annat meille suoraan käyttäessäsi palveluitamme, sekä tietoja palveluidemme käytöstä."
+      },
+      {
+        "heading": "2. Tietojen käyttö",
+        "body": "Käytämme kerättyjä tietoja palveluidemme tarjoamiseen, ylläpitämiseen ja parantamiseen sekä kommunikointiin kanssasi."
+      },
+      {
+        "heading": "3. Tietojen jakaminen",
+        "body": "Emme jaa henkilökohtaisia tietojasi kolmansille osapuolille, paitsi kuten tässä tietosuojakäytännössä kuvataan tai suostumuksellasi."
+      },
+      {
+        "heading": "4. Tietoturva",
+        "body": "Ryhdymme kohtuullisiin toimenpiteisiin suojataksemme henkilökohtaiset tietosi häviämiseltä, varkaudelta, väärinkäytöltä ja luvattomalta pääsyltä."
+      },
+      {
+        "heading": "5. Oikeutesi",
+        "body": "Sinulla on oikeus tarkastella, korjata tai poistaa henkilökohtaiset tietosi. Ota meihin yhteyttä näitä pyyntöjä koskevassa avussa."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "message": "Käytämme evästeitä parantaaksemme käyttökokemustasi, analysoidaksemme verkkosivuston liikennettä ja tukeaksemme kohdennettua mainontaa.",
+    "privacyLink": "Tietosuojakäytäntö",
+    "accept": "Hyväksy",
+    "decline": "Hylkää"
+  },
+  "cms": {
+    "statusNew": "Uusi",
+    "statusHot": "Suosittu",
+    "statusSale": "Ale"
+  }
+}
