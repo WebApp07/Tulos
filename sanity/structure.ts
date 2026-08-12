@@ -5,6 +5,9 @@ const locales = [
   { id: "fr", title: "Français" },
   { id: "de", title: "Deutsch" },
   { id: "es", title: "Español" },
+  { id: "it", title: "Italiano" },
+  { id: "fi", title: "Suomi" },
+  { id: "sv", title: "Svenska" },
 ];
 
 // https://www.sanity.io/docs/structure-builder-cheat-sheet

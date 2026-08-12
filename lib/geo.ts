@@ -23,6 +23,9 @@ const COUNTRY_TO_LOCALE: Record<string, Locale> = {
   CO: "es",
   CL: "es",
   PE: "es",
+  IT: "it",
+  FI: "fi",
+  SE: "sv",
 };
 
 const COUNTRY_TO_CURRENCY: Record<string, string> = {
@@ -39,6 +42,8 @@ const COUNTRY_TO_CURRENCY: Record<string, string> = {
   LU: "EUR",
   PT: "EUR",
   IE: "EUR",
+  FI: "EUR",
+  SE: "SEK",
   LI: "CHF",
   CH: "CHF",
   JP: "JPY",
@@ -51,6 +56,7 @@ export const SUPPORTED_CURRENCIES = [
   "USD",
   "EUR",
   "GBP",
+  "SEK",
   "JPY",
   "CAD",
   "AUD",

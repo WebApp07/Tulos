@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "Tulos – Licenze software ufficiali Microsoft",
+    "description": "Acquista licenze software Microsoft autentiche, chiavi di download e consegna digitale istantanea."
+  },
+  "common": {
+    "loading": "Tulos si sta caricando...",
+    "home": "Home",
+    "login": "Accedi",
+    "addToCart": "Aggiungi al carrello",
+    "addedToCart": "{name} aggiunto con successo!",
+    "removedFromCart": "{name} rimosso con successo!",
+    "quantityDecreased": "Quantità diminuita con successo!",
+    "outOfStock": "Esaurito",
+    "inStock": "Disponibile",
+    "quantity": "Quantità",
+    "subtotal": "Subtotale",
+    "discount": "Sconto",
+    "total": "Totale",
+    "na": "N/D",
+    "default": "Predefinito",
+    "variant": "Variante",
+    "status": "Stato"
+  },
+  "localeSwitcher": {
+    "label": "Lingua",
+    "ariaLabel": "Scegli la lingua"
+  },
+  "header": {
+    "home": "Home"
+  },
+  "search": {
+    "title": "Barra di ricerca prodotti",
+    "placeholder": "Cerca il tuo prodotto qui...",
+    "searching": "Ricerca in corso...",
+    "noMatch": "Niente corrisponde alla parola chiave {keyword}. Riprova con qualcos'altro.",
+    "explore": "Cerca ed esplora i tuoi prodotti su Tulos.",
+    "productImage": "immagine del prodotto"
+  },
+  "footer": {
+    "description": "La tua fonte affidabile per licenze software Microsoft autentiche con consegna istantanea e supporto a vita.",
+    "quickLinks": "Link rapidi",
+    "categories": "Categorie",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Iscriviti alla nostra newsletter per ricevere aggiornamenti e offerte esclusive.",
+    "emailPlaceholder": "Inserisci la tua email",
+    "subscribe": "Iscriviti",
+    "visitUs": "Vieni a trovarci",
+    "chatWhatsapp": "Chatta su WhatsApp",
+    "workingHours": "Orari di lavoro",
+    "emailUs": "Scrivici un'email",
+    "aboutUs": "Chi siamo",
+    "contactUs": "Contattaci",
+    "termsConditions": "Termini e condizioni",
+    "privacyPolicy": "Informativa sulla privacy",
+    "faqs": "Domande frequenti"
+  },
+  "banner": {
+    "title": "Prodotti Microsoft ufficiali",
+    "subtitle": "Acquista software e soluzioni Microsoft autentici da un partner ufficiale Microsoft. Ottieni i prodotti più recenti, licenze sicure e supporto affidabile per tutte le tue esigenze digitali."
+  },
+  "home": {
+    "productsByCategory": "Prodotti per categoria",
+    "noProductAvailable": "Nessun prodotto disponibile",
+    "noMatchCriteria": "Ci dispiace, ma al momento non ci sono prodotti che corrispondono ai criteri {tab}.",
+    "restocking": "Stiamo rifornendo il magazzino a breve",
+    "checkBack": "Riprova più tardi o esplora le altre categorie di prodotti.",
+    "loading": "Il prodotto si sta caricando..."
+  },
+  "product": {
+    "color": "Colore",
+    "size": "Taglia",
+    "selectSize": "Seleziona la taglia",
+    "sizeGuide": "Guida alle taglie",
+    "up": "e oltre",
+    "productDetails": "Dettagli del prodotto",
+    "manufacturerSku": "SKU produttore",
+    "brand": "Marca",
+    "gender": "Genere",
+    "nickname": "Soprannome",
+    "releaseDate": "Data di rilascio",
+    "compareColor": "Confronta il colore",
+    "askQuestion": "Fai una domanda",
+    "deliveryReturn": "Consegna e reso",
+    "share": "Condividi",
+    "freeShipping": "Spedizione gratuita",
+    "freeShippingDesc": "Spedizione gratuita per ordini oltre i 120 $",
+    "flexiblePayment": "Pagamento flessibile",
+    "payWithCards": "Paga con più carte di credito",
+    "characteristics": "{name}: Caratteristiche",
+    "collection": "Collezione",
+    "type": "Tipo",
+    "sku": "SKU",
+    "operatingSystems": "Sistemi operativi supportati",
+    "versionType": "Tipo di versione",
+    "productStatus": "Stato del prodotto",
+    "placeOfOrigin": "Luogo di origine",
+    "activation": "Attivazione",
+    "shippingMethod": "Metodo di spedizione",
+    "packageInclude": "Contenuto del pacchetto",
+    "language": "Lingua",
+    "warranty": "Garanzia",
+    "deliveryTime": "Tempi di consegna",
+    "support": "Supporto",
+    "function": "Funzione",
+    "paymentMethods": "Metodi di pagamento",
+    "stock": "Disponibilità",
+    "available": "Disponibile",
+    "intro": "Introduzione",
+    "brandName": "Nome del marchio",
+    "unknown": "Sconosciuto"
+  },
+  "cart": {
+    "title": "Carrello",
+    "addToFavorite": "Aggiungi ai preferiti",
+    "deleteProduct": "Elimina prodotto",
+    "resetCart": "Svuota carrello",
+    "confirmReset": "Sei sicuro di voler svuotare il carrello?",
+    "cartReset": "Carrello svuotato con successo!",
+    "productDeleted": "Prodotto eliminato con successo!",
+    "orderSummary": "Riepilogo ordine",
+    "fullName": "Nome completo",
+    "namePlaceholder": "Inserisci il tuo nome completo",
+    "emailAddress": "Indirizzo email",
+    "emailPlaceholder": "Inserisci la tua email",
+    "deliveryNote": "* Il tuo prodotto digitale verrà consegnato a questo indirizzo email.",
+    "enterNameEmail": "Inserisci il tuo nome e indirizzo email.",
+    "payStripe": "Paga con carta (Stripe)",
+    "orPayWith": "Oppure paga con"
+  },
+  "emptyCart": {
+    "title": "Il tuo carrello si sente solo",
+    "desc": "Sembra che tu non abbia ancora aggiunto nulla al tuo carrello. Cambiamo le cose e troviamo prodotti fantastici per te!",
+    "cta": "Scopri i prodotti"
+  },
+  "auth": {
+    "welcomeBack": "Bentornato!",
+    "loginDesc": "Accedi per visualizzare gli articoli del carrello e completare l'acquisto. Non perderti i tuoi prodotti preferiti!",
+    "signIn": "Accedi",
+    "noAccount": "Non hai un account?",
+    "createAccount": "Crea un account"
+  },
+  "orders": {
+    "title": "Elenco ordini",
+    "orderNumber": "Numero ordine",
+    "date": "Data",
+    "customer": "Cliente",
+    "email": "Email",
+    "total": "Totale",
+    "status": "Stato",
+    "method": "Metodo",
+    "invoiceNumber": "Numero fattura",
+    "action": "Azione",
+    "invoice": "Fattura",
+    "receipt": "Ricevuta",
+    "noOrders": "Nessun ordine trovato",
+    "noOrdersDesc": "Sembra che tu non abbia ancora effettuato alcun ordine. Inizia a fare acquisti per vedere i tuoi ordini qui!",
+    "browseProducts": "Sfoglia i prodotti",
+    "invoiceNotAvailable": "Fattura non disponibile per questo ordine",
+    "invoiceNotPaypal": "Fattura non disponibile per gli ordini PayPal",
+    "clickForDetails": "Clicca per vedere i dettagli dell'ordine",
+    "orderDetails": "Dettagli ordine - {orderNumber}",
+    "paymentMethod": "Metodo di pagamento",
+    "downloadInvoice": "Scarica fattura",
+    "downloadReceipt": "Scarica ricevuta",
+    "printReceipt": "Stampa ricevuta",
+    "invoiceNotePaypal": "La fattura ufficiale Stripe non è disponibile per gli ordini PayPal. Puoi stampare questa pagina come ricevuta.",
+    "invoiceNote": "Il download della fattura non è disponibile per questo ordine.",
+    "product": "Prodotto",
+    "quantity": "Quantità",
+    "price": "Prezzo"
+  },
+  "success": {
+    "confirmed": "Ordine confermato!",
+    "successNote": "Successo! Il tuo ordine digitale è stato elaborato. Controlla la tua email per i dettagli di consegna.",
+    "thankYou": "Grazie per il tuo acquisto. Stiamo elaborando il tuo ordine. Una email di conferma con i dettagli dell'ordine è stata inviata alla tua casella di posta.",
+    "orderNumber": "Numero ordine",
+    "sentTo": "Inviato a",
+    "retrieving": "Recupero dei dettagli dell'ordine...",
+    "orderItems": "Articoli dell'ordine",
+    "qty": "Qtà: {quantity}",
+    "totalPaid": "Totale pagato",
+    "updating": "I dettagli dell'ordine sono in fase di aggiornamento. Potrai visualizzarli nel tuo account tra pochi istanti.",
+    "whatsNext": "Cosa succede dopo?",
+    "next1": "Controlla la tua email per la conferma dell'ordine",
+    "next2": "Gli articoli digitali vengono inviati immediatamente alla tua casella di posta",
+    "next3": "Tieni traccia dello stato del tuo ordine in qualsiasi momento nella tua dashboard",
+    "home": "Home",
+    "orders": "Ordini",
+    "shop": "Negozio",
+    "loadingStatus": "Caricamento dello stato dell'ordine..."
+  },
+  "payment": {
+    "processing": "Elaborazione in corso...",
+    "paymentSuccess": "Pagamento riuscito!",
+    "paymentFailed": "Cattura del pagamento non riuscita",
+    "paymentError": "Si è verificato un errore durante l'elaborazione del pagamento",
+    "paypalInitFailed": "Impossibile inizializzare il pagamento PayPal",
+    "enterInfo": "Inserisci prima il tuo nome e il tuo indirizzo email.",
+    "secureNote": "Pagamento sicuro tramite PayPal. Carte di credito e debito accettate."
+  },
+  "purchaseProcess": {
+    "title": "Processo di acquisto",
+    "subtitle": "Ottieni la tua licenza software in soli 4 semplici passaggi",
+    "step1Title": "Aggiungi il prodotto al carrello",
+    "step1Desc": "Trova la licenza più adatta alle tue esigenze e aggiungila al carrello con un solo clic.",
+    "step2Title": "Scegli il metodo di pagamento",
+    "step2Desc": "Scegli il metodo di pagamento più comodo per il tuo acquisto e completa l'ordine.",
+    "step3Title": "Ricevi subito la tua licenza",
+    "step3Desc": "Trova la tua chiave di licenza, i link di download e la guida all'installazione nella tua area clienti e nella casella di posta.",
+    "step4Title": "Siamo qui per aiutarti",
+    "step4Desc": "Siamo orgogliosi del nostro eccellente servizio clienti. Se hai bisogno di supporto, contattaci immediatamente via chat, email o telefono. Inoltre, ricevi una garanzia a vita con Licendi."
+  },
+  "trustedPartners": {
+    "title": "La fiducia della tecnologia che utilizziamo",
+    "subtitle": "Collaboriamo con piattaforme e tecnologie leader di settore per offrire licenze software sicure, affidabili e senza interruzioni."
+  },
+  "about": {
+    "title": "Chi siamo",
+    "paragraphs": [
+      "Tulos è un'azienda tecnologica all'avanguardia dedicata a fornire soluzioni innovative per le aziende moderne. Fondata nel 2020, ci siamo rapidamente affermati come leader nella trasformazione digitale e nello sviluppo software.",
+      "Il nostro team di esperti sviluppatori, designer e strateghi lavora instancabilmente per creare soluzioni personalizzate che aiutano i nostri clienti a snellire le operazioni, aumentare l'efficienza e stimolare la crescita.",
+      "In Tulos crediamo nel potere della tecnologia di trasformare le aziende e migliorare le vite. Siamo impegnati a rimanere all'avanguardia dei progressi tecnologici e a offrire un valore eccezionale ai nostri clienti."
+    ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "desc": "Saremo lieti di sentirti. Compila il modulo sottostante e ti risponderemo il prima possibile.",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "send": "Invia messaggio"
+  },
+  "faqs": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Quali servizi offre Tulos?",
+        "a": "Tulos offre un'ampia gamma di soluzioni tecnologiche, tra cui sviluppo software personalizzato, servizi cloud e consulenza per la trasformazione digitale."
+      },
+      {
+        "q": "Come posso ottenere supporto per i prodotti Tulos?",
+        "a": "Puoi contattare il nostro team di supporto tramite la pagina dei contatti o scrivendo a support@tulos.com."
+      },
+      {
+        "q": "Tulos offre formazione per i suoi prodotti?",
+        "a": "Sì, offriamo programmi di formazione completi per tutti i nostri prodotti e servizi. Contatta il nostro team commerciale per maggiori informazioni."
+      },
+      {
+        "q": "Quali settori serve Tulos?",
+        "a": "Tulos serve un'ampia gamma di settori, tra cui finanza, sanità, vendita al dettaglio e manifatturiero."
+      },
+      {
+        "q": "Come garantisce Tulos la sicurezza dei dati?",
+        "a": "Adottiamo misure di sicurezza standard di settore e ci conformiamo a tutte le normative vigenti sulla protezione dei dati per garantire la sicurezza dei dati dei nostri clienti."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termini e condizioni",
+    "sections": [
+      {
+        "heading": "1. Accettazione dei termini",
+        "body": "Accedendo e utilizzando i servizi di Tulos, accetti di essere vincolato dai presenti Termini e condizioni."
+      },
+      {
+        "heading": "2. Utilizzo dei servizi",
+        "body": "Accetti di utilizzare i servizi di Tulos solo per scopi leciti e in conformità con i presenti Termini e condizioni."
+      },
+      {
+        "heading": "3. Proprietà intellettuale",
+        "body": "Tutti i contenuti e i materiali disponibili sui servizi di Tulos sono di proprietà di Tulos e sono protetti dalle leggi applicabili sulla proprietà intellettuale."
+      },
+      {
+        "heading": "4. Limitazione di responsabilità",
+        "body": "Tulos non sarà responsabile per eventuali danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dall'utilizzo dei nostri servizi."
+      },
+      {
+        "heading": "5. Legge applicabile",
+        "body": "I presenti Termini e condizioni sono disciplinati e interpretati secondo le leggi della giurisdizione in cui opera Tulos."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "sections": [
+      {
+        "heading": "1. Raccolta delle informazioni",
+        "body": "Raccogliamo le informazioni che ci fornisci direttamente quando utilizzi i nostri servizi, nonché informazioni sull'uso dei nostri servizi."
+      },
+      {
+        "heading": "2. Utilizzo delle informazioni",
+        "body": "Utilizziamo le informazioni raccolte per fornire, mantenere e migliorare i nostri servizi, oltre che per comunicare con te."
+      },
+      {
+        "heading": "3. Condivisione delle informazioni",
+        "body": "Non condividiamo le tue informazioni personali con terze parti se non come descritto nella presente Informativa sulla privacy o con il tuo consenso."
+      },
+      {
+        "heading": "4. Sicurezza dei dati",
+        "body": "Adottiamo misure ragionevoli per proteggere le tue informazioni personali da perdita, furto, uso improprio e accesso non autorizzato."
+      },
+      {
+        "heading": "5. I tuoi diritti",
+        "body": "Hai il diritto di accedere, correggere o eliminare le tue informazioni personali. Contattaci per assistenza con queste richieste."
+      }
+    ]
+  },
+  "cms": {
+    "statusNew": "Nuovo",
+    "statusHot": "Popolare",
+    "statusSale": "Sconto"
+  }
+}

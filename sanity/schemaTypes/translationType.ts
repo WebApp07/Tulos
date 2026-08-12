@@ -5,6 +5,9 @@ const locales = [
   { title: "Français", value: "fr" },
   { title: "Deutsch", value: "de" },
   { title: "Español", value: "es" },
+  { title: "Italiano", value: "it" },
+  { title: "Suomi", value: "fi" },
+  { title: "Svenska", value: "sv" },
 ];
 
 export const translationType = defineType({
