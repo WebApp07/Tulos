@@ -1,7 +1,7 @@
 "use client";
 import { Category } from "@/sanity.types";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import React from "react";
  
 interface Props {
@@ -9,6 +9,7 @@ interface Props {
 }
  
 const HeaderMenu = ({ categories }: Props) => {
+  const t = useTranslations("header");
   const pathname = usePathname();
  
   return (
@@ -19,7 +20,7 @@ const HeaderMenu = ({ categories }: Props) => {
           pathname === "/" && "text-darkColor"
         }`}
       >
-        Home
+        {t("home")}
         <span
           className={`absolute -bottom-0.5 left-1/2 w-0 h-0.5 bg-darkColor hoverEffect group-hover:w-1/2 group-hover:left-0 ${
             pathname === "/" && "w-1/2"

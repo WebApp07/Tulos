@@ -3,8 +3,10 @@ import emptyCart from "@/images/emptyCart.png";
 import Image from "next/image";
 import { motion } from "motion/react";
 import { ShoppingCart } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 const EmptyCart = () => {
+  const t = useTranslations("emptyCart");
   return (
     <div className="py-10 md:py-20 bg-gradient-to-b from-blue-50 to-white flex items-center justify-center p-4">
       <motion.div
@@ -33,18 +35,17 @@ const EmptyCart = () => {
         </motion.div>
         <div className="text-center space-y-4">
           <h2 className="text-3xl font-bold text-gray-800">
-            Your cart is feeling lonely
+            {t("title")}
           </h2>
           <p className="text-gray-600">
-            It looks like you haven&apos;t added anything to your cart yet.
-            Let&apos;s change and find some amazing products for you!
+            {t("desc")}
           </p>
         </div>
         <Link
           href={"/"}
           className="block bg-darkColor/5 border border-darkColor/20 text-center py-2.5 rounded-full text-sm font-semibold tracking-wide hover:border-darkColor hover:bg-darkColor hover:text-white hoverEffect"
         >
-          Discover Products
+          {t("cta")}
         </Link>
       </motion.div>
     </div>

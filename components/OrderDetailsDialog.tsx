@@ -2,7 +2,8 @@ import { MY_ORDERS_QUERY_RESULT } from "@/sanity.types";
 import { FC } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
 import { Button } from "./ui/button";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
 import {
   Table,
   TableBody,
@@ -22,7 +23,9 @@ interface Props {
   onClose: () => void;
 }
 
-const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
+const OrderDetailsDialog: FC<Props> = async ({ order, isOpen, onClose }) => {
+  const t = await getTranslations("orders");
+  const tc = await getTranslations("common");
   if (!order) return null;
   
   const handlePrint = () => {
@@ -33,32 +36,35 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-scroll">
         <DialogHeader>
-          <DialogTitle>Order Details - {order?.orderNumber}</DialogTitle>
+          <DialogTitle>
+            {t("orderDetails", { orderNumber: order?.orderNumber ?? "" })}
+          </DialogTitle>
         </DialogHeader>
         <div className="mt-4 space-y-1">
           <p>
-            <strong>Customer:</strong> {order?.customerName}
+            <strong>{t("customer")}:</strong> {order?.customerName}
           </p>
           <p>
-            <strong>Email:</strong> {order?.email}
+            <strong>{t("email")}:</strong> {order?.email}
           </p>
           <p>
-            <strong>Date:</strong>{" "}
+            <strong>{t("date")}:</strong>{" "}
             {order?.orderDate &&
               new Date(order?.orderDate).toLocaleDateString()}
           </p>
           <p>
-            <strong>Status:</strong>{" "}
+            <strong>{t("status")}:</strong>{" "}
             <span className="capitalize text-green-600 font-medium">
               {order?.status}
             </span>
           </p>
           <p>
-            <strong>Payment Method:</strong>{" "}
+            <strong>{t("paymentMethod")}:</strong>{" "}
             <span className="capitalize">{order?.paymentMethod || "Stripe"}</span>
           </p>
           <p>
-            <strong>Invoice Number:</strong> {order?.invoice?.number || "N/A"}
+            <strong>{t("invoiceNumber")}:</strong>{" "}
+            {order?.invoice?.number || tc("na")}
           </p>
           <div className="flex flex-wrap gap-2 mt-2">
             {order?.invoice?.hosted_invoice_url ? (
@@ -69,7 +75,7 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
                   className="flex items-center gap-2"
                 >
                   <Download className="h-4 w-4" />
-                  Download Invoice
+                  {t("downloadInvoice")}
                 </Link>
               </Button>
             ) : order?.receiptUrl ? (
@@ -80,7 +86,7 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
                   className="flex items-center gap-2"
                 >
                   <Download className="h-4 w-4" />
-                  Download Receipt
+                  {t("downloadReceipt")}
                 </Link>
               </Button>
             ) : (
@@ -92,7 +98,7 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
                   className="flex items-center gap-2 print:hidden"
                 >
                   <Printer className="h-4 w-4" />
-                  Print Receipt
+                  {t("printReceipt")}
                 </Button>
               )
             )}
@@ -100,17 +106,17 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
           {!order?.invoice?.hosted_invoice_url && !order?.receiptUrl && (
             <p className="text-sm text-gray-500 mt-2 italic print:hidden">
               {order?.paymentMethod === "paypal"
-                ? "Official Stripe invoice is not available for PayPal orders. You can print this page as a receipt."
-                : "Invoice download is not available for this order."}
+                ? t("invoiceNotePaypal")
+                : t("invoiceNote")}
             </p>
           )}
         </div>
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead>Product</TableHead>
-              <TableHead>Quantity</TableHead>
-              <TableHead>Price</TableHead>
+              <TableHead>{t("product")}</TableHead>
+              <TableHead>{t("quantity")}</TableHead>
+              <TableHead>{t("price")}</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -147,7 +153,7 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
           <div className="w-44 flex flex-col gap-1">
             {order?.amountDiscount !== 0 && (
               <div className="w-full flex items-center justify-between">
-                <strong>Subtotal</strong>
+                <strong>{tc("subtotal")}</strong>
                 <PriceFormatter
                   amount={
                     (order?.totalPrice as number) +
@@ -158,13 +164,13 @@ const OrderDetailsDialog: FC<Props> = ({ order, isOpen, onClose }) => {
             )}
             {order?.amountDiscount !== 0 && (
               <div className="w-full flex items-center justify-between">
-                <strong>Discount</strong>
+                <strong>{tc("discount")}</strong>
                 <PriceFormatter amount={order?.amountDiscount} />
               </div>
             )}
 
             <div className="w-full flex items-center justify-between">
-              <strong>Total:</strong>
+              <strong>{t("total")}:</strong>
               <PriceFormatter
                 amount={order?.totalPrice}
                 className="text-black font-bold"

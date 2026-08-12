@@ -1,6 +1,7 @@
 "use client";
 import { MY_ORDERS_QUERY_RESULT } from "@/sanity.types";
 import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 import { TableBody, TableCell, TableRow } from "./ui/table";
 import { Download } from "lucide-react";
 import { Button } from "./ui/button";
@@ -16,6 +17,8 @@ import { Badge } from "./ui/badge";
 
 import OrderDetailsDialog from "./OrderDetailsDialog";
 const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
+  const t = useTranslations("orders");
+  const tc = useTranslations("common");
   const [selectedOrder, setSelectedOrder] = useState<
     MY_ORDERS_QUERY_RESULT[number] | null
   >(null);
@@ -32,7 +35,7 @@ const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
                   onClick={() => setSelectedOrder(order)}
                 >
                   <TableCell className="font-medium">
-                    {order.orderNumber?.slice(-10) ?? "N/A"}
+                    {order.orderNumber?.slice(-10) ?? tc("na")}
                   </TableCell>
                   <TableCell className="hidden md:table-cell">
                     {order?.orderDate &&
@@ -85,7 +88,7 @@ const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
                         }}
                       >
                         <Download className="h-3.5 w-3.5" />
-                        Invoice
+                        {t("invoice")}
                       </Button>
                     ) : order?.receiptUrl ? (
                       <Button
@@ -100,26 +103,26 @@ const OrdersComponent = ({ orders }: { orders: MY_ORDERS_QUERY_RESULT }) => {
                         }}
                       >
                         <Download className="h-3.5 w-3.5" />
-                        Receipt
+                        {t("receipt")}
                       </Button>
                     ) : (
                       <Tooltip>
                         <TooltipTrigger asChild>
                           <span className="text-xs text-gray-400 cursor-help">
-                            N/A
+                            {tc("na")}
                           </span>
                         </TooltipTrigger>
                         <TooltipContent>
                           {order?.paymentMethod === "paypal"
-                            ? "Invoice not available for PayPal orders"
-                            : "Invoice not available for this order"}
+                            ? t("invoiceNotPaypal")
+                            : t("invoiceNotAvailable")}
                         </TooltipContent>
                       </Tooltip>
                     )}
                   </TableCell>
                 </TableRow>
               </TooltipTrigger>
-              <TooltipContent>Click to see order details</TooltipContent>
+              <TooltipContent>{t("clickForDetails")}</TooltipContent>
             </Tooltip>
           ))}
         </TooltipProvider>

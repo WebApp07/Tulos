@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import QuantityButtons from "./QuantityButton";
 import PriceFormatter from "./PriceFormatter";
 import useCartStore from "@/store";
+import { useTranslations } from "next-intl";
 interface Props {
   product: Product;
   className?: string;
@@ -20,6 +21,7 @@ interface Props {
 }
 
 const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
+  const t = useTranslations("common");
   const { addItem, getItemCount } = useCartStore();
   const itemCount = getItemCount(product?._id, selectedVariant);
   const isOutOfStock = (selectedVariant ? selectedVariant.stock : product?.stock) === 0;
@@ -29,14 +31,14 @@ const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
       {itemCount ? (
         <div className="w-full text-sm">
           <div className="flex items-center justify-between">
-            <span className="text-xs text-muted-foreground">Quantity</span>
+            <span className="text-xs text-muted-foreground">{t("quantity")}</span>
             <QuantityButtons
               product={product}
               selectedVariant={selectedVariant}
             />
           </div>
           <div className="flex items-center justify-between border-t pt-1">
-            <span className="text-xs font-semibold">Subtotal</span>
+            <span className="text-xs font-semibold">{t("subtotal")}</span>
             <PriceFormatter
               amount={
                 (selectedVariant?.price || product?.price || 0) * itemCount
@@ -49,7 +51,9 @@ const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
           onClick={() => {
             addItem(product, selectedVariant);
             toast.success(
-              `${product?.name?.substring(0, 12)}... added successfully!`,
+              t("addedToCart", {
+                name: `${product?.name?.substring(0, 12)}...`,
+              }),
             );
           }}
           disabled={isOutOfStock}
@@ -58,7 +62,7 @@ const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
             className,
           )}
         >
-          Add to cart
+          {t("addToCart")}
         </Button>
       )}
     </div>
