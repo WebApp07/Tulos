@@ -1,12 +1,14 @@
 import { Product } from "@/sanity.types";
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import React from "react";
 import PriceView from "./PriceView";
 import AddToCartButton from "./AddToCartButton";
+import { useTranslations } from "next-intl";
 
 const ProductCard = ({ product }: { product: Product }) => {
+  const t = useTranslations("common");
   return (
     <div className="group text-sm rounded-lg overflow-hidden">
       <div className=" bg-gradient-to-r from-zinc-200 via-zinc-300 to-zinc-200 overflow-hidden relative">
@@ -25,7 +27,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         {product?.stock === 0 && (
           <div className="absolute top-0 left-0 w-full h-full bg-darkColor/50 flex items-center justify-center">
             <p className="text-xl text-white font-semibold text-center">
-              Out of Stock
+              {t("outOfStock")}
             </p>
           </div>
         )}

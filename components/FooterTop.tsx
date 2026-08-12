@@ -1,49 +1,54 @@
 import {Clock, Mail, MapPin, Phone} from "lucide-react";
 import React from "react";
+import { getTranslations } from "next-intl/server";
 
 interface Props {
   title: string;
   subtitle: string;
   icon: React.ReactNode;
 }
-const data: Props[] = [
+
+type FooterTitleKey = "visitUs" | "chatWhatsapp" | "workingHours" | "emailUs";
+
+const data: (Omit<Props, "title"> & { title: FooterTitleKey })[] = [
   {
-    title: "Visit Us",
+    title: "visitUs",
     subtitle: " 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
     icon: (
       <MapPin className="text-gray-600 group-hover:text-darkColor transition-colors" />
     ),
   },
   {
-    title: "Chat on WhatsApp",
+    title: "chatWhatsapp",
     subtitle: "+1 307 785 6160",
     icon: (
       <Phone className="text-gray-600 group-hover:text-darkColor transition-colors" />
     ),
   },
   {
-    title: "Working Hours",
+    title: "workingHours",
     subtitle: "Mon - Sat: 10:00 AM - 7:00 PM",
     icon: (
       <Clock className="text-gray-600 group-hover:text-darkColor transition-colors" />
     ),
   },
   {
-    title: "Email Us",
+    title: "emailUs",
     subtitle: "tulos@gmail.com",
     icon: (
       <Mail className="text-gray-600 group-hover:text-darkColor transition-colors" />
     ),
   },
 ];
-const FooterTop = () => {
+const FooterTop = async () => {
+  const t = await getTranslations("footer");
   return (
     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 border-b">
       {data?.map((item, index) => (
         <ContactItem
           key={index}
           icon={item?.icon}
-          title={item?.title}
+          title={t(item.title)}
           subtitle={item?.subtitle}
         />
       ))}

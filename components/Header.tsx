@@ -5,13 +5,16 @@ import Container from "./Container";
 import MobileMenu from "./MobileMenu";
 import SearchBar from "./SearchBar";
 import CartIcon from "./CartIcon";
+import LanguageSwitcher from "./LanguageSwitcher";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { ClerkLoaded, SignedIn, SignInButton, UserButton } from "@clerk/nextjs";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
 import { ListOrdered } from "lucide-react";
 import { getAllCategories, getMyOrders } from "@/sanity/helpers/queries";
  
 const Header = async () => {
+  const t = await getTranslations("common");
   const categories = await getAllCategories();
   const user = await currentUser();
   const { userId } = await auth();
@@ -29,6 +32,7 @@ const Header = async () => {
         </div>
         <div className="w-auto md:w-1/3 flex items-center justify-end gap-5">
           <SearchBar />
+          <LanguageSwitcher />
           <CartIcon />
 
           <ClerkLoaded>
@@ -44,7 +48,7 @@ const Header = async () => {
             {!user && (
               <SignInButton mode="modal">
                 <button className="text-sm font-semibold hover:text-darkColor hoverEffect">
-                  Login
+                  {t("login")}
                 </button>
               </SignInButton>
             )}

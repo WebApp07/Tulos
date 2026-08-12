@@ -6,48 +6,26 @@ import {
 } from "lucide-react";
 import Container from "./Container";
 import Title from "./Title";
+import { getTranslations } from "next-intl/server";
 
 const steps = [
-  {
-    number: "01",
-    icon: ShoppingCart,
-    title: "Add your product to the cart",
-    description:
-      "Find the licence that best suits your needs and add it to your cart with just one click.",
-  },
-  {
-    number: "02",
-    icon: CreditCard,
-    title: "Select your payment method",
-    description:
-      "Select the most convenient payment method for your purchase and complete the purchase.",
-  },
-  {
-    number: "03",
-    icon: KeyRound,
-    title: "Receive your licence immediately",
-    description:
-      "Find your license key, download links, and installation guide in your customer area and in your email inbox.",
-  },
-  {
-    number: "04",
-    icon: Headphones,
-    title: "We are here to help you",
-    description:
-      "We take pride in our excellent customer service. If you need support, you can contact us instantly via chat, email, or phone. Additionally, you get a lifetime warranty with Licendi.",
-  },
-];
+  { number: "01", icon: ShoppingCart, titleKey: "step1Title", descKey: "step1Desc" },
+  { number: "02", icon: CreditCard, titleKey: "step2Title", descKey: "step2Desc" },
+  { number: "03", icon: KeyRound, titleKey: "step3Title", descKey: "step3Desc" },
+  { number: "04", icon: Headphones, titleKey: "step4Title", descKey: "step4Desc" },
+] as const;
 
-const PurchaseProcess = () => {
+const PurchaseProcess = async () => {
+  const t = await getTranslations("purchaseProcess");
   return (
-    <section className="bg-lightBg" aria-label="Purchase process">
+    <section className="bg-lightBg" aria-label={t("title")}>
       <Container className="py-16 md:py-20">
         <div className="text-center">
           <Title className="text-3xl md:text-4xl font-bold text-darkColor">
-            Purchase process
+            {t("title")}
           </Title>
           <p className="mt-4 text-sm md:text-base text-lightColor/80 max-w-xl mx-auto">
-            Get your software license(s) in just 4 simple steps
+            {t("subtitle")}
           </p>
         </div>
 
@@ -73,10 +51,10 @@ const PurchaseProcess = () => {
                     </span>
                   </div>
                   <h3 className="mt-6 text-base md:text-lg font-semibold text-darkColor">
-                    {step.title}
+                    {t(step.titleKey)}
                   </h3>
                   <p className="mt-2.5 text-sm text-lightColor/75 leading-relaxed">
-                    {step.description}
+                    {t(step.descKey)}
                   </p>
                 </article>
               </li>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import paypalLogo from "@/images/paypalLogo.png";
 import Container from "./Container";
 import Title from "./Title";
+import { getTranslations } from "next-intl/server";
 
 const partners = [
   {
@@ -60,20 +61,20 @@ const partners = [
   },
 ];
 
-const TrustedTechnologyPartners = () => {
+const TrustedTechnologyPartners = async () => {
+  const t = await getTranslations("trustedPartners");
   return (
     <section
       className="bg-white"
-      aria-label="Trusted by the technology we use"
+      aria-label={t("title")}
     >
       <Container className="py-16 md:py-20">
         <div className="text-center">
           <Title className="text-3xl md:text-4xl font-bold text-darkColor">
-            Trusted by the technology we use
+            {t("title")}
           </Title>
           <p className="mt-4 text-sm md:text-base text-lightColor/80 max-w-xl mx-auto">
-            We work with trusted industry-leading platforms and technologies to
-            provide secure, reliable, and seamless software licensing.
+            {t("subtitle")}
           </p>
         </div>
 

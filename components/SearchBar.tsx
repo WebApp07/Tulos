@@ -11,13 +11,15 @@ import {
 import { Input } from "./ui/input";
 import { client } from "@/sanity/lib/client";
 import { Product } from "@/sanity.types";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import PriceView from "./PriceView";
 import AddToCartButton from "./AddToCartButton";
+import { useTranslations } from "next-intl";
 
 const SearchBar = () => {
+  const t = useTranslations("search");
   const [search, setSearch] = useState("");
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -53,10 +55,10 @@ const SearchBar = () => {
       </DialogTrigger>
       <DialogContent className="max-w-5xl min-h-[90vh] max-h-[90vh] flex flex-col overflow-hidden">
         <DialogHeader>
-          <DialogTitle className="mb-1">Product Searchbar</DialogTitle>
+          <DialogTitle className="mb-1">{t("title")}</DialogTitle>
           <form className="relative" onSubmit={(e) => e.preventDefault()}>
             <Input
-              placeholder="Search your product here..."
+              placeholder={t("placeholder")}
               className="flex-1 rounded-md py-5"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
@@ -80,7 +82,7 @@ const SearchBar = () => {
             {loading ? (
               <p className="flex items-center px-6 py-10 gap-1 text-center text-yellow-600 font-semibold">
                 <Loader2 className="w-5 h-5 animate-spin" />
-                Searching on progress...
+                {t("searching")}
               </p>
             ) : products.length ? (
               products?.map((product: Product) => (
@@ -99,7 +101,7 @@ const SearchBar = () => {
                           width={200}
                           height={200}
                           src={urlFor(product?.images[0]).url()}
-                          alt="productImage"
+                          alt={t("productImage")}
                           className="object-cover w-full h-full group-hover:scale-110 hoverEffect"
                         />
                       )}
@@ -131,15 +133,11 @@ const SearchBar = () => {
             ) : (
               <div className="text-center py-10 font-semibold tracking-wide">
                 {search && !loading ? (
-                  <p>
-                    Nothing match with the keyword{" "}
-                    <span className="underline text-red-600">{search}</span>.
-                    Please try something else.
-                  </p>
+                  <p>{t("noMatch", { keyword: search })}</p>
                 ) : (
                   <p className="text-green-600 flex items-center justify-center gap-1">
                     <Search className="w-5 h-5" />
-                    Search and explore your products from Tulos.
+                    {t("explore")}
                   </p>
                 )}
               </div>

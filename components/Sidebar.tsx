@@ -3,8 +3,8 @@ import React, { FC } from "react";
 import { motion } from "motion/react";
 import Logo from "./Logo";
 import { X } from "lucide-react";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import SocialMedia from "./SocialMedia";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
  
@@ -15,6 +15,7 @@ interface SidebarProps {
 }
  
 const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
+  const t = useTranslations("header");
   const pathname = usePathname();
   const sidebarRef = useOutsideClick<HTMLDivElement>(onClose);
   return (
@@ -46,7 +47,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
               pathname === "/" && "text-white"
             }`}
           >
-            Home
+            {t("home")}
           </Link>
           {categories?.map((item) => (
             <Link

@@ -5,7 +5,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "./ui/tooltip";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 

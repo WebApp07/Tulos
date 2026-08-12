@@ -1,5 +1,6 @@
 import { Product } from "@/sanity.types";
 import React from "react";
+import { useTranslations } from "next-intl";
 import {
   Accordion,
   AccordionContent,
@@ -20,36 +21,46 @@ const ProductCharacteristics = ({
     price?: number;
   };
 }) => {
+  const t = useTranslations("product");
+  const tc = useTranslations("common");
+  const slug = product?.slug?.current || "";
+  const tKey = (key: string) => key as Parameters<typeof t>[0];
+  const intro =
+    t.has(tKey(`${slug}.intro`))
+      ? t(tKey(`${slug}.intro`))
+      : product?.intro;
   return (
     <Accordion type="single" collapsible>
       <AccordionItem value="item-1">
-        <AccordionTrigger>{product?.name}: Characteristics</AccordionTrigger>
+        <AccordionTrigger>
+          {t("characteristics", { name: product?.name ?? "" })}
+        </AccordionTrigger>
         <AccordionContent className="flex flex-col gap-1">
           <p className="flex items-center justify-between">
-            Brand:{" "}
+            {t("brand")}:{" "}
             <span className="font-semibold tracking-wide">
-              {product?.brandName || product?.brand || "Unknown"}
+              {product?.brandName || product?.brand || t("unknown")}
             </span>
           </p>
           <p className="flex items-center justify-between">
-            Collection:{" "}
+            {t("collection")}:{" "}
             <span className="font-semibold tracking-wide">2024</span>
           </p>
           <p className="flex items-center justify-between">
-            Type:{" "}
+            {t("type")}:{" "}
             <span className="font-semibold tracking-wide capitalize">
               {product?.osType || product?.productType}
             </span>
           </p>
           <p className="flex items-center justify-between">
-            SKU:{" "}
+            {t("sku")}:{" "}
             <span className="font-semibold tracking-wide uppercase">
-              {selectedVariant?.variantSku || product?.sku || "N/A"}
+              {selectedVariant?.variantSku || product?.sku || tc("na")}
             </span>
           </p>
           {selectedVariant?.color && (
             <p className="flex items-center justify-between">
-              Color:{" "}
+              {t("color")}:{" "}
               <span className="font-semibold tracking-wide capitalize">
                 {selectedVariant.color}
               </span>
@@ -57,7 +68,7 @@ const ProductCharacteristics = ({
           )}
           {selectedVariant?.size && (
             <p className="flex items-center justify-between">
-              Size:{" "}
+              {t("size")}:{" "}
               <span className="font-semibold tracking-wide uppercase">
                 {selectedVariant.size}
               </span>
@@ -65,7 +76,7 @@ const ProductCharacteristics = ({
           )}
           {product?.operatingSystemsSupported && (
             <p className="flex items-center justify-between">
-              Operating Systems Supported:{" "}
+              {t("operatingSystems")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.operatingSystemsSupported}
               </span>
@@ -73,7 +84,7 @@ const ProductCharacteristics = ({
           )}
           {product?.versionType && (
             <p className="flex items-center justify-between">
-              Version Type:{" "}
+              {t("versionType")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.versionType}
               </span>
@@ -81,7 +92,7 @@ const ProductCharacteristics = ({
           )}
           {product?.productStatus && (
             <p className="flex items-center justify-between">
-              Product Status:{" "}
+              {t("productStatus")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.productStatus}
               </span>
@@ -89,7 +100,7 @@ const ProductCharacteristics = ({
           )}
           {product?.placeOfOrigin && (
             <p className="flex items-center justify-between">
-              Place of Origin:{" "}
+              {t("placeOfOrigin")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.placeOfOrigin}
               </span>
@@ -97,7 +108,7 @@ const ProductCharacteristics = ({
           )}
           {product?.activation && (
             <p className="flex items-center justify-between">
-              Activation:{" "}
+              {t("activation")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.activation}
               </span>
@@ -105,7 +116,7 @@ const ProductCharacteristics = ({
           )}
           {product?.shippingMethod && (
             <p className="flex items-center justify-between">
-              Shipping Method:{" "}
+              {t("shippingMethod")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.shippingMethod}
               </span>
@@ -113,7 +124,7 @@ const ProductCharacteristics = ({
           )}
           {product?.packageInclude && (
             <p className="flex items-center justify-between">
-              Package Include:{" "}
+              {t("packageInclude")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.packageInclude}
               </span>
@@ -121,7 +132,7 @@ const ProductCharacteristics = ({
           )}
           {product?.language && (
             <p className="flex items-center justify-between">
-              Language:{" "}
+              {t("language")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.language}
               </span>
@@ -129,7 +140,7 @@ const ProductCharacteristics = ({
           )}
           {product?.warranty && (
             <p className="flex items-center justify-between">
-              Warranty:{" "}
+              {t("warranty")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.warranty}
               </span>
@@ -137,7 +148,7 @@ const ProductCharacteristics = ({
           )}
           {product?.deliveryTime && (
             <p className="flex items-center justify-between">
-              Delivery Time:{" "}
+              {t("deliveryTime")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.deliveryTime}
               </span>
@@ -145,7 +156,7 @@ const ProductCharacteristics = ({
           )}
           {product?.support && (
             <p className="flex items-center justify-between">
-              Support:{" "}
+              {t("support")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.support}
               </span>
@@ -153,7 +164,7 @@ const ProductCharacteristics = ({
           )}
           {product?.function && (
             <p className="flex items-center justify-between">
-              Function:{" "}
+              {t("function")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.function}
               </span>
@@ -161,22 +172,22 @@ const ProductCharacteristics = ({
           )}
           {product?.paymentMethods && (
             <p className="flex items-center justify-between">
-              Payment Methods:{" "}
+              {t("paymentMethods")}:{" "}
               <span className="font-semibold tracking-wide">
                 {product.paymentMethods}
               </span>
             </p>
           )}
           <p className="flex items-center justify-between">
-            Stock:{" "}
+            {t("stock")}:{" "}
             <span className="font-semibold tracking-wide">
-              {selectedVariant ? (selectedVariant.stock ? "Available" : "Out of Stock") : (product?.stock ? "Available" : "Out of Stock")}
+              {selectedVariant ? (selectedVariant.stock ? t("available") : tc("outOfStock")) : (product?.stock ? t("available") : tc("outOfStock"))}
             </span>
           </p>
           <p className="flex items-center justify-between">
-            Intro:{" "}
+            {t("intro")}:{" "}
             <span className="font-semibold tracking-wide">
-              {product?.intro}
+              {intro}
             </span>
           </p>
         </AccordionContent>

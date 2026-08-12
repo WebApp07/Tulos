@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "Tulos – Licence officielle de logiciels Microsoft",
+    "description": "Achetez de véritables licences logicielles Microsoft, des clés de téléchargement et une livraison numérique instantanée."
+  },
+  "common": {
+    "loading": "Tulos se charge...",
+    "home": "Accueil",
+    "login": "Connexion",
+    "addToCart": "Ajouter au panier",
+    "addedToCart": "{name} ajouté avec succès !",
+    "removedFromCart": "{name} supprimé avec succès !",
+    "quantityDecreased": "Quantité diminuée avec succès !",
+    "outOfStock": "Rupture de stock",
+    "inStock": "En stock",
+    "quantity": "Quantité",
+    "subtotal": "Sous-total",
+    "discount": "Remise",
+    "total": "Total",
+    "na": "N/A",
+    "default": "Par défaut",
+    "variant": "Variante",
+    "status": "Statut"
+  },
+  "localeSwitcher": {
+    "label": "Langue",
+    "ariaLabel": "Choisir la langue"
+  },
+  "header": {
+    "home": "Accueil"
+  },
+  "search": {
+    "title": "Barre de recherche de produits",
+    "placeholder": "Recherchez votre produit ici...",
+    "searching": "Recherche en cours...",
+    "noMatch": "Aucun résultat pour le mot-clé {keyword}. Veuillez essayer autre chose.",
+    "explore": "Recherchez et explorez vos produits sur Tulos.",
+    "productImage": "Image du produit"
+  },
+  "footer": {
+    "description": "Votre source de confiance pour de véritables licences logicielles Microsoft avec livraison instantanée et assistance à vie.",
+    "quickLinks": "Liens rapides",
+    "categories": "Catégories",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Abonnez-vous à notre newsletter pour recevoir des mises à jour et des offres exclusives.",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "subscribe": "S'abonner",
+    "visitUs": "Visitez-nous",
+    "chatWhatsapp": "Discuter sur WhatsApp",
+    "workingHours": "Horaires d'ouverture",
+    "emailUs": "Envoyez-nous un e-mail",
+    "aboutUs": "À propos",
+    "contactUs": "Contactez-nous",
+    "termsConditions": "Conditions générales",
+    "privacyPolicy": "Politique de confidentialité",
+    "faqs": "FAQ"
+  },
+  "banner": {
+    "title": "Produits Microsoft officiels",
+    "subtitle": "Achetez de véritables logiciels et solutions Microsoft auprès d'un partenaire Microsoft officiel. Obtenez les derniers produits, des licences sécurisées et une assistance fiable pour tous vos besoins numériques."
+  },
+  "home": {
+    "productsByCategory": "Produits par catégorie",
+    "noProductAvailable": "Aucun produit disponible",
+    "noMatchCriteria": "Nous sommes désolés, mais aucun produit ne correspond pour le moment aux critères de {tab}.",
+    "restocking": "Nous réapprovisionnons bientôt",
+    "checkBack": "Revenez plus tard ou explorez nos autres catégories de produits.",
+    "loading": "Chargement du produit..."
+  },
+  "product": {
+    "color": "Couleur",
+    "size": "Taille",
+    "selectSize": "Sélectionner la taille",
+    "sizeGuide": "Guide des tailles",
+    "up": "et plus",
+    "productDetails": "Détails du produit",
+    "manufacturerSku": "Réf. fabricant",
+    "brand": "Marque",
+    "gender": "Genre",
+    "nickname": "Surnom",
+    "releaseDate": "Date de sortie",
+    "compareColor": "Comparer la couleur",
+    "askQuestion": "Poser une question",
+    "deliveryReturn": "Livraison et retour",
+    "share": "Partager",
+    "freeShipping": "Livraison gratuite",
+    "freeShippingDesc": "Livraison gratuite dès 120 $ de commande",
+    "flexiblePayment": "Paiement flexible",
+    "payWithCards": "Payez avec plusieurs cartes de crédit",
+    "characteristics": "{name} : Caractéristiques",
+    "collection": "Collection",
+    "type": "Type",
+    "sku": "Réf.",
+    "operatingSystems": "Systèmes d'exploitation pris en charge",
+    "versionType": "Type de version",
+    "productStatus": "Statut du produit",
+    "placeOfOrigin": "Lieu d'origine",
+    "activation": "Activation",
+    "shippingMethod": "Mode de livraison",
+    "packageInclude": "Contenu du lot",
+    "language": "Langue",
+    "warranty": "Garantie",
+    "deliveryTime": "Délai de livraison",
+    "support": "Assistance",
+    "function": "Fonction",
+    "paymentMethods": "Modes de paiement",
+    "stock": "Stock",
+    "available": "Disponible",
+    "intro": "Introduction",
+    "brandName": "Nom de la marque",
+    "unknown": "Inconnu"
+  },
+  "cart": {
+    "title": "Panier",
+    "addToFavorite": "Ajouter aux favoris",
+    "deleteProduct": "Supprimer le produit",
+    "resetCart": "Réinitialiser le panier",
+    "confirmReset": "Êtes-vous sûr de vouloir réinitialiser votre panier ?",
+    "cartReset": "Votre panier a été réinitialisé avec succès !",
+    "productDeleted": "Produit supprimé avec succès !",
+    "orderSummary": "Récapitulatif de la commande",
+    "fullName": "Nom complet",
+    "namePlaceholder": "Entrez votre nom complet",
+    "emailAddress": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "deliveryNote": "* Votre produit numérique sera livré à cette adresse e-mail.",
+    "enterNameEmail": "Veuillez entrer votre nom et votre adresse e-mail.",
+    "payStripe": "Payer par carte (Stripe)",
+    "orPayWith": "Ou payez avec"
+  },
+  "emptyCart": {
+    "title": "Votre panier se sent seul",
+    "desc": "On dirait que vous n'avez encore rien ajouté à votre panier. Changeons cela et trouvons des produits incroyables pour vous !",
+    "cta": "Découvrir les produits"
+  },
+  "auth": {
+    "welcomeBack": "Bon retour !",
+    "loginDesc": "Connectez-vous pour voir votre panier et passer commande. Ne manquez pas vos produits préférés !",
+    "signIn": "Se connecter",
+    "noAccount": "Pas encore de compte ?",
+    "createAccount": "Créer un compte"
+  },
+  "orders": {
+    "title": "Liste des commandes",
+    "orderNumber": "N° de commande",
+    "date": "Date",
+    "customer": "Client",
+    "email": "E-mail",
+    "total": "Total",
+    "status": "Statut",
+    "method": "Méthode",
+    "invoiceNumber": "N° de facture",
+    "action": "Action",
+    "invoice": "Facture",
+    "receipt": "Reçu",
+    "noOrders": "Aucune commande trouvée",
+    "noOrdersDesc": "On dirait que vous n'avez encore passé aucune commande. Commencez à magasiner pour voir vos commandes ici !",
+    "browseProducts": "Parcourir les produits",
+    "invoiceNotAvailable": "Facture indisponible pour cette commande",
+    "invoiceNotPaypal": "Facture indisponible pour les commandes PayPal",
+    "clickForDetails": "Cliquez pour voir le détail de la commande",
+    "orderDetails": "Détails de la commande - {orderNumber}",
+    "paymentMethod": "Méthode de paiement",
+    "downloadInvoice": "Télécharger la facture",
+    "downloadReceipt": "Télécharger le reçu",
+    "printReceipt": "Imprimer le reçu",
+    "invoiceNotePaypal": "La facture officielle Stripe n'est pas disponible pour les commandes PayPal. Vous pouvez imprimer cette page comme reçu.",
+    "invoiceNote": "Le téléchargement de la facture n'est pas disponible pour cette commande.",
+    "product": "Produit",
+    "quantity": "Quantité",
+    "price": "Prix"
+  },
+  "success": {
+    "confirmed": "Commande confirmée !",
+    "successNote": "Succès ! Votre commande numérique a été traitée. Vérifiez votre e-mail pour les détails de livraison.",
+    "thankYou": "Merci pour votre achat. Nous traitons votre commande. Un e-mail de confirmation avec les détails de votre commande a été envoyé dans votre boîte de réception.",
+    "orderNumber": "N° de commande",
+    "sentTo": "Envoyé à",
+    "retrieving": "Récupération des détails de la commande...",
+    "orderItems": "Articles de la commande",
+    "qty": "Qté : {quantity}",
+    "totalPaid": "Total payé",
+    "updating": "Les détails de la commande sont en cours de mise à jour. Vous pourrez les consulter dans votre compte dans quelques instants.",
+    "whatsNext": "Et ensuite ?",
+    "next1": "Vérifiez votre e-mail pour la confirmation de commande",
+    "next2": "Les articles numériques sont envoyés immédiatement dans votre boîte de réception",
+    "next3": "Suivez le statut de votre commande à tout moment dans votre tableau de bord",
+    "home": "Accueil",
+    "orders": "Commandes",
+    "shop": "Boutique",
+    "loadingStatus": "Chargement du statut de la commande..."
+  },
+  "payment": {
+    "processing": "Traitement en cours...",
+    "paymentSuccess": "Paiement réussi !",
+    "paymentFailed": "Échec de la capture du paiement",
+    "paymentError": "Une erreur est survenue lors du traitement du paiement",
+    "paypalInitFailed": "Échec de l'initialisation du paiement PayPal",
+    "enterInfo": "Veuillez d'abord entrer votre nom et votre adresse e-mail.",
+    "secureNote": "Paiement sécurisé via PayPal. Cartes de crédit et de débit acceptées."
+  },
+  "purchaseProcess": {
+    "title": "Processus d'achat",
+    "subtitle": "Obtenez votre ou vos licences logicielles en seulement 4 étapes simples",
+    "step1Title": "Ajoutez votre produit au panier",
+    "step1Desc": "Trouvez la licence qui correspond le mieux à vos besoins et ajoutez-la à votre panier en un seul clic.",
+    "step2Title": "Choisissez votre méthode de paiement",
+    "step2Desc": "Choisissez la méthode de paiement la plus pratique pour votre achat et finalisez-le.",
+    "step3Title": "Recevez votre licence immédiatement",
+    "step3Desc": "Trouvez votre clé de licence, vos liens de téléchargement et votre guide d'installation dans votre espace client et dans votre boîte de réception.",
+    "step4Title": "Nous sommes là pour vous aider",
+    "step4Desc": "Nous sommes fiers de notre excellent service client. Si vous avez besoin d'aide, contactez-nous instantanément par chat, e-mail ou téléphone. De plus, vous bénéficiez d'une garantie à vie avec Licendi."
+  },
+  "trustedPartners": {
+    "title": "La technologie que nous utilisons nous fait confiance",
+    "subtitle": "Nous collaborons avec des plateformes et technologies de premier plan et de confiance pour offrir une licence logicielle sécurisée, fiable et fluide."
+  },
+  "about": {
+    "title": "À propos de Tulos",
+    "paragraphs": [
+      "Tulos est une entreprise technologique de pointe dédiée à fournir des solutions innovantes pour les entreprises modernes. Fondée en 2020, nous nous sommes rapidement imposés comme un leader de la transformation numérique et du développement logiciel.",
+      "Notre équipe d'experts développeurs, designers et stratèges travaille sans relâche pour créer des solutions sur mesure qui aident nos clients à rationaliser leurs opérations, accroître leur efficacité et stimuler leur croissance.",
+      "Chez Tulos, nous croyons au pouvoir de la technologie pour transformer les entreprises et améliorer les vies. Nous nous engageons à rester à la pointe des avancées technologiques et à offrir une valeur exceptionnelle à nos clients."
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "desc": "Nous serions ravis de vous entendre. Veuillez remplir le formulaire ci-dessous et nous vous répondrons dès que possible.",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "send": "Envoyer le message"
+  },
+  "faqs": {
+    "title": "Questions fréquemment posées",
+    "items": [
+      {
+        "q": "Quels services Tulos propose-t-il ?",
+        "a": "Tulos propose une large gamme de solutions technologiques, notamment le développement logiciel sur mesure, les services cloud et le conseil en transformation numérique."
+      },
+      {
+        "q": "Comment obtenir de l'assistance pour les produits Tulos ?",
+        "a": "Vous pouvez contacter notre équipe d'assistance via notre page de contact ou en écrivant à support@tulos.com."
+      },
+      {
+        "q": "Tulos propose-t-il une formation pour ses produits ?",
+        "a": "Oui, nous proposons des programmes de formation complets pour tous nos produits et services. Veuillez contacter notre équipe commerciale pour plus d'informations."
+      },
+      {
+        "q": "Quels secteurs Tulos dessert-il ?",
+        "a": "Tulos dessert un large éventail de secteurs, notamment la finance, la santé, la vente au détail et l'industrie manufacturière."
+      },
+      {
+        "q": "Comment Tulos assure-t-il la sécurité des données ?",
+        "a": "Nous employons des mesures de sécurité conformes aux normes de l'industrie et nous nous conformons à toutes les réglementations applicables en matière de protection des données pour garantir la sécurité des données de nos clients."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions générales",
+    "sections": [
+      {
+        "heading": "1. Acceptation des conditions",
+        "body": "En accédant aux services de Tulos et en les utilisant, vous acceptez d'être lié par les présentes conditions générales."
+      },
+      {
+        "heading": "2. Utilisation des services",
+        "body": "Vous acceptez d'utiliser les services de Tulos uniquement à des fins légales et conformément aux présentes conditions générales."
+      },
+      {
+        "heading": "3. Propriété intellectuelle",
+        "body": "Tout le contenu et tout le matériel disponibles sur les services de Tulos sont la propriété de Tulos et sont protégés par les lois applicables en matière de propriété intellectuelle."
+      },
+      {
+        "heading": "4. Limitation de responsabilité",
+        "body": "Tulos ne pourra être tenu responsable de tout dommage indirect, accessoire, spécial, consécutif ou punitif résultant de l'utilisation de nos services."
+      },
+      {
+        "heading": "5. Droit applicable",
+        "body": "Les présentes conditions générales sont régies et interprétées conformément au droit de la juridiction dans laquelle Tulos opère."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "sections": [
+      {
+        "heading": "1. Collecte d'informations",
+        "body": "Nous collectons les informations que vous nous fournissez directement lors de l'utilisation de nos services, ainsi que des informations sur votre utilisation de nos services."
+      },
+      {
+        "heading": "2. Utilisation des informations",
+        "body": "Nous utilisons les informations que nous collectons pour fournir, maintenir et améliorer nos services, ainsi que pour communiquer avec vous."
+      },
+      {
+        "heading": "3. Partage des informations",
+        "body": "Nous ne partageons pas vos informations personnelles avec des tiers sauf comme décrit dans cette politique de confidentialité ou avec votre consentement."
+      },
+      {
+        "heading": "4. Sécurité des données",
+        "body": "Nous prenons des mesures raisonnables pour protéger vos informations personnelles contre la perte, le vol, l'utilisation abusive et l'accès non autorisé."
+      },
+      {
+        "heading": "5. Vos droits",
+        "body": "Vous avez le droit d'accéder à vos informations personnelles, de les corriger ou de les supprimer. Veuillez nous contacter pour obtenir de l'aide concernant ces demandes."
+      }
+    ]
+  },
+  "cms": {
+    "statusNew": "Nouveau",
+    "statusHot": "Populaire",
+    "statusSale": "Promotion"
+  }
+}

@@ -13,8 +13,11 @@ import {
 } from "lucide-react";
 import ProductCharacteristics from "./ProductCharacteristics";
 import ImageView from "./ImageView";
+import { useTranslations } from "next-intl";
 
 export default function ProductInfo({ product }: { product: Product }) {
+  const t = useTranslations("product");
+  const tCommon = useTranslations("common");
   const [selectedColor, setSelectedColor] = useState(
     product.variants && product.variants.length > 0 ? product.variants[0].color : null
   );
@@ -39,6 +42,16 @@ export default function ProductInfo({ product }: { product: Product }) {
   const price = selectedVariant?.price || product.price;
   const stock =
     selectedVariant?.stock !== undefined ? selectedVariant.stock : product.stock;
+
+  const slug = product.slug?.current || "";
+  const tKey = (key: string) => key as Parameters<typeof t>[0];
+  const hasKey = (key: string) => t.has(tKey(key));
+  const description = hasKey(`${slug}.description`)
+    ? t(tKey(`${slug}.description`))
+    : product.description;
+  const intro = hasKey(`${slug}.intro`)
+    ? t(tKey(`${slug}.intro`))
+    : product.intro;
 
   // Compute images to show
   const productImages = product.images || [];
@@ -68,23 +81,23 @@ export default function ProductInfo({ product }: { product: Product }) {
 
         {stock && stock > 0 ? (
           <p className="bg-green-100 w-24 text-center text-green-600 text-sm py-2.5 font-semibold rounded-lg">
-            In Stock
+            {tCommon("inStock")}
           </p>
         ) : (
           <p className="bg-red-100 w-24 text-center text-red-600 text-sm py-2.5 font-semibold rounded-lg">
-            Out of Stock
+            {tCommon("outOfStock")}
           </p>
         )}
 
         <p className="text-sm text-gray-600 tracking-wide">
-          {product.description}
+          {description}
         </p>
 
         {/* Color Selection */}
         {colors.length > 0 && (
           <div className="flex flex-col gap-3">
             <label className="text-sm font-bold uppercase">
-              Color: {selectedColor}
+              {t("color")}: {selectedColor}
             </label>
             <div className="flex flex-wrap gap-2">
               {colors.map((color) => (
@@ -118,10 +131,10 @@ export default function ProductInfo({ product }: { product: Product }) {
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between">
               <label className="text-sm font-bold uppercase">
-                Size: {selectedSize}
+                {t("size")}: {selectedSize}
               </label>
               <span className="text-xs text-gray-500 underline cursor-pointer">
-                Size Guide
+                {t("sizeGuide")}
               </span>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -166,32 +179,32 @@ export default function ProductInfo({ product }: { product: Product }) {
         <div className="flex flex-wrap items-center justify-between gap-2.5 border-b border-b-gray-200 py-5 -mt-2">
           <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
             <BoxIcon className="w-5 h-5" />
-            <p>Compare color</p>
+            <p>{t("compareColor")}</p>
           </div>
           <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
             <FileQuestion className="w-5 h-5" />
-            <p>Ask a question</p>
+            <p>{t("askQuestion")}</p>
           </div>
           <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
             <ListOrderedIcon className="w-5 h-5" />
-            <p>Delivery & Return</p>
+            <p>{t("deliveryReturn")}</p>
           </div>
           <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
             <Share className="w-5 h-5" />
-            <p>Share</p>
+            <p>{t("share")}</p>
           </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-5">
           <div className="border border-darkBlue/20 text-center p-3 hover:border-darkBlue rounded-md hoverEffect">
-            <p className="text-base font-semibold text-darkColor">Free Shipping</p>
-            <p className="text-sm text-gray-500">Free shipping over order $120</p>
+            <p className="text-base font-semibold text-darkColor">{t("freeShipping")}</p>
+            <p className="text-sm text-gray-500">{t("freeShippingDesc")}</p>
           </div>
           <div className="border border-darkBlue/20 text-center p-3 hover:border-darkBlue rounded-md hoverEffect">
             <p className="text-base font-semibold text-darkColor">
-              Flexible Payment
+              {t("flexiblePayment")}
             </p>
-            <p className="text-sm text-gray-500">Pay with Multiple Credit Cards</p>
+            <p className="text-sm text-gray-500">{t("payWithCards")}</p>
           </div>
         </div>
       </div>

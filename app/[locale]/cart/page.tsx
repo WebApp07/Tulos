@@ -20,9 +20,10 @@ import useCartStore, { CartItem } from "@/store";
 import { useAuth, useUser } from "@clerk/nextjs";
 import { Heart, ShoppingBag, Trash } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
+import { useTranslations } from "next-intl";
 import {
   createCheckoutSession,
   Metadata,
@@ -30,6 +31,9 @@ import {
 import { PayPalButtons } from "@/components/PayPalButtons";
 
 const CartPage = () => {
+  const t = useTranslations("cart");
+  const tCommon = useTranslations("common");
+  const tSearch = useTranslations("search");
   const [isClient, setIsClient] = useState(false);
   const [loading, setLoading] = useState(false);
   const { isSignedIn } = useAuth();
@@ -58,10 +62,10 @@ const CartPage = () => {
   const cartProducts = getGroupedItems();
 
   const handleResetCart = () => {
-    const confirmed = window.confirm("Are you sure to reset your Cart?");
+    const confirmed = window.confirm(t("confirmReset"));
     if (confirmed) {
       resetCart();
-      toast.success("Your cart reset successfully!");
+      toast.success(t("cartReset"));
     }
   };
   const handleDeleteProduct = (
@@ -69,12 +73,12 @@ const CartPage = () => {
     selectedVariant?: CartItem["selectedVariant"],
   ) => {
     deleteCartProduct(id, selectedVariant);
-    toast.success("Product deleted successfully!");
+    toast.success(t("productDeleted"));
   };
 
   const handleCheckout = async () => {
     if (!customerName || !customerEmail) {
-      toast.error("Please enter your name and email address.");
+      toast.error(t("enterNameEmail"));
       return;
     }
     setLoading(true);
@@ -104,7 +108,7 @@ const CartPage = () => {
             <>
               <div className="flex items-center gap-2 py-5">
                 <ShoppingBag />
-                <h1 className="text-2xl font-semibold">Shopping Cart</h1>
+                <h1 className="text-2xl font-semibold">{t("title")}</h1>
               </div>
               <div className="grid lg:grid-cols-3 md:gap-8">
                 {/* Products */}
@@ -128,7 +132,7 @@ const CartPage = () => {
                               >
                                 <Image
                                   src={urlFor(product?.images[0]).url()}
-                                  alt="productImage"
+                                  alt={tSearch("productImage")}
                                   width={500}
                                   height={500}
                                   loading="lazy"
@@ -145,15 +149,15 @@ const CartPage = () => {
                                   {product?.intro}
                                 </p>
                                 <p className="text-sm capitalize">
-                                  Variant:{" "}
+                                  {tCommon("variant")}:{" "}
                                   <span className="font-semibold">
                                     {selectedVariant
                                       ? `${selectedVariant.color || ""} / ${selectedVariant.size || ""}`
-                                      : "Default"}
+                                      : tCommon("default")}
                                   </span>
                                 </p>
                                 <p className="text-sm capitalize">
-                                  Status:{" "}
+                                  {tCommon("status")}:{" "}
                                   <span className="font-semibold">
                                     {product?.status}
                                   </span>
@@ -166,7 +170,7 @@ const CartPage = () => {
                                       <Heart className="w-4 h-4 md:w-5 md:h-5 hover:text-green-600 hoverEffect" />
                                     </TooltipTrigger>
                                     <TooltipContent className="font-bold">
-                                      Add to Favorite
+                                      {t("addToFavorite")}
                                     </TooltipContent>
                                   </Tooltip>
                                   <Tooltip>
@@ -182,7 +186,7 @@ const CartPage = () => {
                                       />
                                     </TooltipTrigger>
                                     <TooltipContent className="font-bold bg-red-600">
-                                      Delete product
+                                      {t("deleteProduct")}
                                     </TooltipContent>
                                   </Tooltip>
                                 </TooltipProvider>
@@ -210,7 +214,7 @@ const CartPage = () => {
                       className="m-5 font-semibold"
                       variant="destructive"
                     >
-                      Reset Cart
+                      {t("resetCart")}
                     </Button>
                   </div>
                 </div>
@@ -218,22 +222,22 @@ const CartPage = () => {
                 <div className="lg:col-span-1">
                   <div className="hidden md:inline-block w-full bg-white p-6 rounded-lg border">
                     <h2 className="text-xl font-semibold mb-4">
-                      Order Summary
+                      {t("orderSummary")}
                     </h2>
                     <div className="space-y-4">
                       <div className="flex justify-between">
-                        <span>Subtotal</span>
+                        <span>{tCommon("subtotal")}</span>
                         <PriceFormatter amount={getSubtotalPrice()} />
                       </div>
                       <div className="flex justify-between">
-                        <span>Discount</span>
+                        <span>{tCommon("discount")}</span>
                         <PriceFormatter
                           amount={getSubtotalPrice() - getTotalPrice()}
                         />
                       </div>
                       <Separator />
                       <div className="flex justify-between">
-                        <span>Total</span>
+                        <span>{tCommon("total")}</span>
                         <PriceFormatter
                           amount={getTotalPrice()}
                           className="text-lg font-bold text-black"
@@ -241,11 +245,11 @@ const CartPage = () => {
                       </div>
                       <div className="space-y-3 py-2">
                         <div className="space-y-1">
-                          <Label htmlFor="customerName">Full Name</Label>
+                          <Label htmlFor="customerName">{t("fullName")}</Label>
                           <Input
                             id="customerName"
                             type="text"
-                            placeholder="Enter your full name"
+                            placeholder={t("namePlaceholder")}
                             value={customerName}
                             onChange={(e) => setCustomerName(e.target.value)}
                             required
@@ -253,11 +257,11 @@ const CartPage = () => {
                           />
                         </div>
                         <div className="space-y-1">
-                          <Label htmlFor="customerEmail">Email Address</Label>
+                          <Label htmlFor="customerEmail">{t("emailAddress")}</Label>
                           <Input
                             id="customerEmail"
                             type="email"
-                            placeholder="Enter your email"
+                            placeholder={t("emailPlaceholder")}
                             value={customerEmail}
                             onChange={(e) => setCustomerEmail(e.target.value)}
                             required
@@ -265,8 +269,7 @@ const CartPage = () => {
                           />
                         </div>
                         <p className="text-xs text-lightColor italic">
-                          * Your digital product will be delivered to this email
-                          address.
+                          {t("deliveryNote")}
                         </p>
                       </div>
                       <Button
@@ -275,7 +278,7 @@ const CartPage = () => {
                         className="w-full rounded-full font-semibold tracking-wide"
                         size="lg"
                       >
-                        Pay with Card (Stripe)
+                        {t("payStripe")}
                       </Button>
                       <div className="relative py-2">
                         <div className="absolute inset-0 flex items-center">
@@ -283,7 +286,7 @@ const CartPage = () => {
                         </div>
                         <div className="relative flex justify-center text-xs uppercase">
                           <span className="bg-white px-2 text-gray-500">
-                            Or pay with
+                            {t("orPayWith")}
                           </span>
                         </div>
                       </div>
@@ -303,22 +306,22 @@ const CartPage = () => {
                 <div className="md:hidden fixed bottom-0 left-0 w-full bg-white pt-2">
                   <div className="p-4 rounded-lg border mx-4">
                     <h2 className="text-xl font-semibold mb-4">
-                      Order Summary
+                      {t("orderSummary")}
                     </h2>
                     <div className="space-y-4">
                       <div className="flex justify-between">
-                        <span>Subtotal</span>
+                        <span>{tCommon("subtotal")}</span>
                         <PriceFormatter amount={getSubtotalPrice()} />
                       </div>
                       <div className="flex justify-between">
-                        <span>Discount</span>
+                        <span>{tCommon("discount")}</span>
                         <PriceFormatter
                           amount={getSubtotalPrice() - getTotalPrice()}
                         />
                       </div>
                       <Separator />
                       <div className="flex justify-between">
-                        <span>Total</span>
+                        <span>{tCommon("total")}</span>
                         <PriceFormatter
                           amount={getTotalPrice()}
                           className="text-lg font-bold text-black"
@@ -326,11 +329,11 @@ const CartPage = () => {
                       </div>
                       <div className="space-y-3 py-2">
                         <div className="space-y-1">
-                          <Label htmlFor="customerNameMobile">Full Name</Label>
+                          <Label htmlFor="customerNameMobile">{t("fullName")}</Label>
                           <Input
                             id="customerNameMobile"
                             type="text"
-                            placeholder="Enter your full name"
+                            placeholder={t("namePlaceholder")}
                             value={customerName}
                             onChange={(e) => setCustomerName(e.target.value)}
                             required
@@ -339,12 +342,12 @@ const CartPage = () => {
                         </div>
                         <div className="space-y-1">
                           <Label htmlFor="customerEmailMobile">
-                            Email Address
+                            {t("emailAddress")}
                           </Label>
                           <Input
                             id="customerEmailMobile"
                             type="email"
-                            placeholder="Enter your email"
+                            placeholder={t("emailPlaceholder")}
                             value={customerEmail}
                             onChange={(e) => setCustomerEmail(e.target.value)}
                             required
@@ -352,8 +355,7 @@ const CartPage = () => {
                           />
                         </div>
                         <p className="text-xs text-lightColor italic">
-                          * Your digital product will be delivered to this email
-                          address.
+                          {t("deliveryNote")}
                         </p>
                       </div>
                       <Button
@@ -361,7 +363,7 @@ const CartPage = () => {
                         className="w-full rounded-full font-semibold tracking-wide"
                         size="lg"
                       >
-                        Pay with Card (Stripe)
+                        {t("payStripe")}
                       </Button>
                       <div className="relative py-2">
                         <div className="absolute inset-0 flex items-center">
@@ -369,7 +371,7 @@ const CartPage = () => {
                         </div>
                         <div className="relative flex justify-center text-xs uppercase">
                           <span className="bg-white px-2 text-gray-500">
-                            Or pay with
+                            {t("orPayWith")}
                           </span>
                         </div>
                       </div>

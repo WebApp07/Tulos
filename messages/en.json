@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "Tulos – Official Microsoft Software Licensing",
+    "description": "Shop genuine Microsoft software licenses, download keys and instant digital delivery."
+  },
+  "common": {
+    "loading": "Tulos is loading...",
+    "home": "Home",
+    "login": "Login",
+    "addToCart": "Add to cart",
+    "addedToCart": "{name} added successfully!",
+    "removedFromCart": "{name} removed successfully!",
+    "quantityDecreased": "Quantity decreased successfully!",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "na": "N/A",
+    "default": "Default",
+    "variant": "Variant",
+    "status": "Status"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "ariaLabel": "Choose language"
+  },
+  "header": {
+    "home": "Home"
+  },
+  "search": {
+    "title": "Product Searchbar",
+    "placeholder": "Search your product here...",
+    "searching": "Searching on progress...",
+    "noMatch": "Nothing matched the keyword {keyword}. Please try something else.",
+    "explore": "Search and explore your products from Tulos.",
+    "productImage": "productImage"
+  },
+  "footer": {
+    "description": "Your trusted source for genuine Microsoft software licenses with instant delivery and lifetime support.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter to receive updates and exclusive offers.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "visitUs": "Visit Us",
+    "chatWhatsapp": "Chat on WhatsApp",
+    "workingHours": "Working Hours",
+    "emailUs": "Email Us",
+    "aboutUs": "About us",
+    "contactUs": "Contact us",
+    "termsConditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "faqs": "FAQs"
+  },
+  "banner": {
+    "title": "Official Microsoft Products",
+    "subtitle": "Shop genuine Microsoft software and solutions from an official Microsoft partner. Get the latest products, secure licenses, and trusted support for all your digital needs."
+  },
+  "home": {
+    "productsByCategory": "Products by Category",
+    "noProductAvailable": "No Product Available",
+    "noMatchCriteria": "We are sorry, but there are no products matching {tab} criteria at the moment.",
+    "restocking": "We are restocking shortly",
+    "checkBack": "Please check back later or explore our other product categories.",
+    "loading": "Product is loading..."
+  },
+  "product": {
+    "color": "Color",
+    "size": "Size",
+    "selectSize": "Select Size",
+    "sizeGuide": "Size Guide",
+    "up": "& up",
+    "productDetails": "Product Details",
+    "manufacturerSku": "Manufacturer SKU",
+    "brand": "Brand",
+    "gender": "Gender",
+    "nickname": "Nickname",
+    "releaseDate": "Release Date",
+    "compareColor": "Compare color",
+    "askQuestion": "Ask a question",
+    "deliveryReturn": "Delivery & Return",
+    "share": "Share",
+    "freeShipping": "Free Shipping",
+    "freeShippingDesc": "Free shipping over order $120",
+    "flexiblePayment": "Flexible Payment",
+    "payWithCards": "Pay with multiple credit cards",
+    "characteristics": "{name}: Characteristics",
+    "collection": "Collection",
+    "type": "Type",
+    "sku": "SKU",
+    "operatingSystems": "Operating Systems Supported",
+    "versionType": "Version Type",
+    "productStatus": "Product Status",
+    "placeOfOrigin": "Place of Origin",
+    "activation": "Activation",
+    "shippingMethod": "Shipping Method",
+    "packageInclude": "Package Include",
+    "language": "Language",
+    "warranty": "Warranty",
+    "deliveryTime": "Delivery Time",
+    "support": "Support",
+    "function": "Function",
+    "paymentMethods": "Payment Methods",
+    "stock": "Stock",
+    "available": "Available",
+    "intro": "Intro",
+    "brandName": "Brand Name",
+    "unknown": "Unknown"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "addToFavorite": "Add to Favorite",
+    "deleteProduct": "Delete product",
+    "resetCart": "Reset Cart",
+    "confirmReset": "Are you sure you want to reset your cart?",
+    "cartReset": "Your cart has been reset successfully!",
+    "productDeleted": "Product deleted successfully!",
+    "orderSummary": "Order Summary",
+    "fullName": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "deliveryNote": "* Your digital product will be delivered to this email address.",
+    "enterNameEmail": "Please enter your name and email address.",
+    "payStripe": "Pay with Card (Stripe)",
+    "orPayWith": "Or pay with"
+  },
+  "emptyCart": {
+    "title": "Your cart is feeling lonely",
+    "desc": "It looks like you have not added anything to your cart yet. Let us change that and find some amazing products for you!",
+    "cta": "Discover Products"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back!",
+    "loginDesc": "Log in to view your cart items and checkout. Do not miss out on your favorite products!",
+    "signIn": "Sign in",
+    "noAccount": "Do not have an account?",
+    "createAccount": "Create an account"
+  },
+  "orders": {
+    "title": "Order List",
+    "orderNumber": "Order Number",
+    "date": "Date",
+    "customer": "Customer",
+    "email": "Email",
+    "total": "Total",
+    "status": "Status",
+    "method": "Method",
+    "invoiceNumber": "Invoice Number",
+    "action": "Action",
+    "invoice": "Invoice",
+    "receipt": "Receipt",
+    "noOrders": "No orders found",
+    "noOrdersDesc": "It looks like you have not placed any orders yet. Start shopping to see your orders here!",
+    "browseProducts": "Browse Products",
+    "invoiceNotAvailable": "Invoice not available for this order",
+    "invoiceNotPaypal": "Invoice not available for PayPal orders",
+    "clickForDetails": "Click to see order details",
+    "orderDetails": "Order Details - {orderNumber}",
+    "paymentMethod": "Payment Method",
+    "downloadInvoice": "Download Invoice",
+    "downloadReceipt": "Download Receipt",
+    "printReceipt": "Print Receipt",
+    "invoiceNotePaypal": "Official Stripe invoice is not available for PayPal orders. You can print this page as a receipt.",
+    "invoiceNote": "Invoice download is not available for this order.",
+    "product": "Product",
+    "quantity": "Quantity",
+    "price": "Price"
+  },
+  "success": {
+    "confirmed": "Order confirmed!",
+    "successNote": "Success! Your digital order has been processed. Check your email for delivery details.",
+    "thankYou": "Thank you for your purchase. We are processing your order. A confirmation email with your order details has been sent to your inbox.",
+    "orderNumber": "Order Number",
+    "sentTo": "Sent To",
+    "retrieving": "Retrieving order details...",
+    "orderItems": "Order Items",
+    "qty": "Qty: {quantity}",
+    "totalPaid": "Total Paid",
+    "updating": "Order details are being updated. You can view them in your account in a few moments.",
+    "whatsNext": "What is Next?",
+    "next1": "Check your email for order confirmation",
+    "next2": "Digital items are sent immediately to your inbox",
+    "next3": "Track your order status anytime in your dashboard",
+    "home": "Home",
+    "orders": "Orders",
+    "shop": "Shop",
+    "loadingStatus": "Loading order status..."
+  },
+  "payment": {
+    "processing": "Processing...",
+    "paymentSuccess": "Payment successful!",
+    "paymentFailed": "Payment capture failed",
+    "paymentError": "An error occurred during payment processing",
+    "paypalInitFailed": "PayPal payment failed to initialize",
+    "enterInfo": "Please enter your name and email address first.",
+    "secureNote": "Secure payment via PayPal. Credit and Debit cards accepted."
+  },
+  "purchaseProcess": {
+    "title": "Purchase process",
+    "subtitle": "Get your software license(s) in just 4 simple steps",
+    "step1Title": "Add your product to the cart",
+    "step1Desc": "Find the licence that best suits your needs and add it to your cart with just one click.",
+    "step2Title": "Select your payment method",
+    "step2Desc": "Select the most convenient payment method for your purchase and complete the purchase.",
+    "step3Title": "Receive your licence immediately",
+    "step3Desc": "Find your license key, download links, and installation guide in your customer area and in your email inbox.",
+    "step4Title": "We are here to help you",
+    "step4Desc": "We take pride in our excellent customer service. If you need support, you can contact us instantly via chat, email, or phone. Additionally, you get a lifetime warranty with Licendi."
+  },
+  "trustedPartners": {
+    "title": "Trusted by the technology we use",
+    "subtitle": "We work with trusted industry-leading platforms and technologies to provide secure, reliable, and seamless software licensing."
+  },
+  "about": {
+    "title": "About Tulos",
+    "paragraphs": [
+      "Tulos is a cutting-edge technology company dedicated to providing innovative solutions for modern businesses. Founded in 2020, we quickly established ourselves as a leader in digital transformation and software development.",
+      "Our team of expert developers, designers, and strategists work tirelessly to create custom solutions that help our clients streamline their operations, increase efficiency, and drive growth.",
+      "At Tulos, we believe in the power of technology to transform businesses and improve lives. We are committed to staying at the forefront of technological advancements and delivering exceptional value to our clients."
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "desc": "We would love to hear from you. Please fill out the form below and we will get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What services does Tulos offer?",
+        "a": "Tulos offers a wide range of technology solutions including custom software development, cloud services, and digital transformation consulting."
+      },
+      {
+        "q": "How can I get support for Tulos products?",
+        "a": "You can reach our support team through our contact page or by emailing support@tulos.com."
+      },
+      {
+        "q": "Does Tulos offer training for its products?",
+        "a": "Yes, we offer comprehensive training programs for all our products and services. Please contact our sales team for more information."
+      },
+      {
+        "q": "What industries does Tulos serve?",
+        "a": "Tulos serves a wide range of industries including finance, healthcare, retail, and manufacturing."
+      },
+      {
+        "q": "How does Tulos ensure data security?",
+        "a": "We employ industry-standard security measures and comply with all relevant data protection regulations to ensure the security of our clients' data."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "body": "By accessing and using Tulos' services, you agree to be bound by these Terms and Conditions."
+      },
+      {
+        "heading": "2. Use of Services",
+        "body": "You agree to use Tulos' services only for lawful purposes and in accordance with these Terms and Conditions."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "body": "All content and materials available on Tulos' services are the property of Tulos and are protected by applicable intellectual property laws."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "body": "Tulos shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services."
+      },
+      {
+        "heading": "5. Governing Law",
+        "body": "These Terms and Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which Tulos operates."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "body": "We collect information you provide directly to us when using our services, as well as information about your use of our services."
+      },
+      {
+        "heading": "2. Use of Information",
+        "body": "We use the information we collect to provide, maintain, and improve our services, as well as to communicate with you."
+      },
+      {
+        "heading": "3. Information Sharing",
+        "body": "We do not share your personal information with third parties except as described in this Privacy Policy or with your consent."
+      },
+      {
+        "heading": "4. Data Security",
+        "body": "We take reasonable measures to help protect your personal information from loss, theft, misuse, and unauthorized access."
+      },
+      {
+        "heading": "5. Your Rights",
+        "body": "You have the right to access, correct, or delete your personal information. Please contact us for assistance with these requests."
+      }
+    ]
+  },
+  "cms": {
+    "statusNew": "New",
+    "statusHot": "Hot",
+    "statusSale": "Sale"
+  }
+}

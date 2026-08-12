@@ -8,11 +8,13 @@ import { Table, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { getMyOrders } from "@/sanity/helpers/queries";
 import { auth } from "@clerk/nextjs/server";
 import { FileX } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { redirect } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 
 const OrdersPage = async () => {
+  const t = await getTranslations("orders");
   const { userId } = await auth();
   if (!userId) {
     return redirect("/");
@@ -24,28 +26,28 @@ const OrdersPage = async () => {
       {orders?.length ? (
         <Card className="w-full">
           <CardHeader>
-            <CardTitle className="text-2xl md:text-3xl">Order List</CardTitle>
+            <CardTitle className="text-2xl md:text-3xl">{t("title")}</CardTitle>
           </CardHeader>
           <CardContent>
             <ScrollArea className="w-full">
               <Table>
                 <TableHeader>
                   <TableRow>
-                    <TableHead className="w-auto">Order Number</TableHead>
-                    <TableHead className="hidden md:table-cell">Date</TableHead>
-                    <TableHead>Customer</TableHead>
+                    <TableHead className="w-auto">{t("orderNumber")}</TableHead>
+                    <TableHead className="hidden md:table-cell">{t("date")}</TableHead>
+                    <TableHead>{t("customer")}</TableHead>
                     <TableHead className="hidden sm:table-cell">
-                      Email
+                      {t("email")}
                     </TableHead>
-                    <TableHead>Total</TableHead>
-                    <TableHead>Status</TableHead>
+                    <TableHead>{t("total")}</TableHead>
+                    <TableHead>{t("status")}</TableHead>
                     <TableHead className="hidden sm:table-cell">
-                      Method
+                      {t("method")}
                     </TableHead>
                     <TableHead className="hidden sm:table-cell">
-                      Invoice Number
+                      {t("invoiceNumber")}
                     </TableHead>
-                    <TableHead className="text-right">Action</TableHead>
+                    <TableHead className="text-right">{t("action")}</TableHead>
                   </TableRow>
                 </TableHeader>
                 <OrdersComponent orders={orders} />
@@ -57,13 +59,12 @@ const OrdersPage = async () => {
       ) : (
         <div className="flex flex-col items-center justify-center py-5 md:py-10 px-4">
           <FileX className="h-24 w-24 text-gray-400 mb-4" />
-          <Title>No orders found</Title>
+          <Title>{t("noOrders")}</Title>
           <p className="mt-2 text-sm text-gray-600 text-center max-w-md">
-            It looks like you haven&apos;t placed any orders yet. Start shopping
-            to see your orders here!
+            {t("noOrdersDesc")}
           </p>
           <Button asChild className="mt-6">
-            <Link href={"/"}>Browse Products</Link>
+            <Link href={"/"}>{t("browseProducts")}</Link>
           </Button>
         </div>
       )}

@@ -6,8 +6,11 @@ import PriceView from "./PriceView";
 import AddToCartButton from "./AddToCartButton";
 import { Heart } from "lucide-react";
 import { Product } from "@/sanity.types";
+import { useTranslations } from "next-intl";
 
 export default function ProductDetails({ product }: { product: Product }) {
+  const t = useTranslations("product");
+  const tc = useTranslations("common");
   const [selectedVariant, setSelectedVariant] = useState(
     product.variants && product.variants.length > 0 ? product.variants[0] : null
   );
@@ -27,7 +30,7 @@ export default function ProductDetails({ product }: { product: Product }) {
           </h1>
           {selectedVariant?.color && (
             <p className="text-sm font-semibold text-darkColor mb-1">
-              Color: <span className="font-bold">{selectedVariant.color}</span>
+              {t("color")}: <span className="font-bold">{selectedVariant.color}</span>
             </p>
           )}
           <div className="flex items-center gap-2">
@@ -37,7 +40,7 @@ export default function ProductDetails({ product }: { product: Product }) {
               className="text-xl font-bold"
             />
             {product.variants && product.variants.length > 0 && (
-              <span className="text-sm text-gray-500 font-medium">& up</span>
+              <span className="text-sm text-gray-500 font-medium">{t("up")}</span>
             )}
           </div>
         </div>
@@ -45,8 +48,8 @@ export default function ProductDetails({ product }: { product: Product }) {
         {product.variants && product.variants.length > 0 && (
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between">
-              <label className="text-sm font-bold uppercase">Select Size</label>
-              <span className="text-xs text-gray-500 underline cursor-pointer">Size Guide</span>
+              <label className="text-sm font-bold uppercase">{t("selectSize")}</label>
+              <span className="text-xs text-gray-500 underline cursor-pointer">{t("sizeGuide")}</span>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
               {product.variants?.map((variant, index: number) => (
@@ -81,7 +84,7 @@ export default function ProductDetails({ product }: { product: Product }) {
         {/* Product Details Section */}
         <div className="border-t pt-6 mt-4">
           <h3 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-4">
-            Product Details
+            {t("productDetails")}
           </h3>
           <p className="text-sm text-gray-700 leading-relaxed">
             {product.description}
@@ -92,36 +95,36 @@ export default function ProductDetails({ product }: { product: Product }) {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-6 gap-x-4 border-t border-b py-8 mt-6">
           <div className="flex flex-col gap-1">
             <p className="text-[10px] uppercase text-gray-400 font-extrabold tracking-tighter">
-              Manufacturer SKU
+              {t("manufacturerSku")}
             </p>
-            <p className="text-xs font-bold uppercase">{product.sku || "N/A"}</p>
+            <p className="text-xs font-bold uppercase">{product.sku || tc("na")}</p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-[10px] uppercase text-gray-400 font-extrabold tracking-tighter">
-              Brand
+              {t("brand")}
             </p>
-            <p className="text-xs font-bold uppercase">{product.brand || "N/A"}</p>
+            <p className="text-xs font-bold uppercase">{product.brand || tc("na")}</p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-[10px] uppercase text-gray-400 font-extrabold tracking-tighter">
-              Gender
+              {t("gender")}
             </p>
-            <p className="text-xs font-bold uppercase">{product.gender || "N/A"}</p>
+            <p className="text-xs font-bold uppercase">{product.gender || tc("na")}</p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-[10px] uppercase text-gray-400 font-extrabold tracking-tighter">
-              Nickname
+              {t("nickname")}
             </p>
             <p className="text-xs font-bold uppercase">
-              {product.nickname || "N/A"}
+              {product.nickname || tc("na")}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-[10px] uppercase text-gray-400 font-extrabold tracking-tighter">
-              Release Date
+              {t("releaseDate")}
             </p>
             <p className="text-xs font-bold uppercase">
-              {product.releaseDate || "N/A"}
+              {product.releaseDate || tc("na")}
             </p>
           </div>
         </div>

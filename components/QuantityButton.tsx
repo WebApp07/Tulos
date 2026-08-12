@@ -5,6 +5,7 @@ import { Minus, Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
 import useCartStore from "@/store";
 import toast from "react-hot-toast";
+import { useTranslations } from "next-intl";
 
 interface Props {
   product: Product;
@@ -18,15 +19,20 @@ interface Props {
   } | null;
 }
 const QuantityButtons = ({ product, className, selectedVariant }: Props) => {
+  const t = useTranslations("common");
   const { addItem, getItemCount, removeItem } = useCartStore();
   const itemCount = getItemCount(product?._id, selectedVariant);
   const isOutOfStock = (selectedVariant ? selectedVariant.stock : product?.stock) === 0;
   const handleRemoveProduct = () => {
     removeItem(product?._id, selectedVariant);
     if (itemCount > 1) {
-      toast.success("Quantity Decreased successfully!");
+      toast.success(t("quantityDecreased"));
     } else {
-      toast.success(`${product?.name?.substring(0, 12)} removed successfully!`);
+      toast.success(
+        t("removedFromCart", {
+          name: `${product?.name?.substring(0, 12)}`,
+        }),
+      );
     }
   };
   return (
@@ -47,7 +53,9 @@ const QuantityButtons = ({ product, className, selectedVariant }: Props) => {
         onClick={() => {
           addItem(product, selectedVariant);
           toast.success(
-            `${product?.name?.substring(0, 12)}... added successfully!`,
+            t("addedToCart", {
+              name: `${product?.name?.substring(0, 12)}...`,
+            }),
           );
         }}
         variant="outline"

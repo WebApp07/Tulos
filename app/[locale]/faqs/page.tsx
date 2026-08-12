@@ -6,26 +6,29 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faqsData } from "@/constants";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 
-const FaqsPage = () => {
+const FaqsPage = async () => {
+  const t = await getTranslations("faqs");
+  const faqs = t.raw("items") as { q: string; a: string }[];
+
   return (
     <Container className="max-w-4xl sm:px-6 lg:px-8 py-12">
-      <Title className="text-3xl">Frequently Asked Questions</Title>
+      <Title className="text-3xl">{t("title")}</Title>
       <Accordion
         type="single"
         collapsible
         className="w-full"
         defaultValue="item-0"
       >
-        {faqsData?.map((faq, index) => (
+        {faqs?.map((faq, index) => (
           <AccordionItem key={index} value={`item-${index}`} className="group">
             <AccordionTrigger className="text-left text-lg font-semibold text-darkColor/80 group-hover:text-darkColor hover:no-underline hoverEffect">
-              {faq?.question}
+              {faq?.q}
             </AccordionTrigger>
             <AccordionContent className="text-gray-600">
-              {faq?.answer}
+              {faq?.a}
             </AccordionContent>
           </AccordionItem>
         ))}
