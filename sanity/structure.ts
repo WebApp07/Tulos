@@ -15,7 +15,7 @@ export const structure: StructureResolver = (S) => {
   const notIncluded = ["category", "translation"];
   return (
     S.list()
-      .title("Tulos Backend")
+      .title("Licendi Backend")
       .items([
         S.documentTypeListItem("category").title("Categories"),
         S.divider(),

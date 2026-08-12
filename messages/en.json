@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Tulos – Official Microsoft Software Licensing",
+    "title": "Licendi – Official Microsoft Software Licensing",
     "description": "Shop genuine Microsoft software licenses, download keys and instant digital delivery."
   },
   "common": {
-    "loading": "Tulos is loading...",
+    "loading": "Licendi is loading...",
     "home": "Home",
     "login": "Login",
     "addToCart": "Add to cart",
@@ -34,7 +34,7 @@
     "placeholder": "Search your product here...",
     "searching": "Searching on progress...",
     "noMatch": "Nothing matched the keyword {keyword}. Please try something else.",
-    "explore": "Search and explore your products from Tulos.",
+    "explore": "Search and explore your products from Licendi.",
     "productImage": "productImage"
   },
   "footer": {
@@ -216,12 +216,35 @@
     "subtitle": "We work with trusted industry-leading platforms and technologies to provide secure, reliable, and seamless software licensing."
   },
   "about": {
-    "title": "About Tulos",
-    "paragraphs": [
-      "Tulos is a cutting-edge technology company dedicated to providing innovative solutions for modern businesses. Founded in 2020, we quickly established ourselves as a leader in digital transformation and software development.",
-      "Our team of expert developers, designers, and strategists work tirelessly to create custom solutions that help our clients streamline their operations, increase efficiency, and drive growth.",
-      "At Tulos, we believe in the power of technology to transform businesses and improve lives. We are committed to staying at the forefront of technological advancements and delivering exceptional value to our clients."
-    ]
+    "title": "About Licendi",
+    "intro": "Licendi is the online storefront of KeyVersely LLC, an official Microsoft partner delivering genuine Microsoft software licenses with instant digital delivery.",
+    "missionTitle": "Our Mission",
+    "mission": "We make genuine Microsoft software simple, secure and instant. From Windows and Office to Windows Server, we deliver verified license keys straight to your inbox minutes after you order.",
+    "partnerTitle": "Official Microsoft Partner",
+    "partner": "Licendi is operated by KeyVersely LLC, a verified partner listed in the official Microsoft Partner Directory. Every license we sell is genuine and sourced through authorized channels.",
+    "partnerCta": "View our Microsoft Partner profile",
+    "productsTitle": "What We Sell",
+    "products": "We specialize in genuine Microsoft software licenses, including Windows operating systems, Microsoft Office, and Windows Server — delivered digitally at competitive prices.",
+    "deliveryTitle": "Instant Digital Delivery",
+    "delivery": "After checkout, your license key and download links are sent to your email within minutes. No shipping, no waiting — activate and install right away.",
+    "trustTitle": "Why Buy From Licendi",
+    "trust": [
+      "Official Microsoft partner",
+      "Genuine, verified license keys",
+      "Instant email delivery",
+      "Secure checkout with Stripe & PayPal",
+      "Lifetime product support"
+    ],
+    "businessTitle": "Business Details",
+    "businessCompany": "Legal Company Name",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Registered Address",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "Email",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Ready to get started?",
+    "ctaDesc": "Browse our genuine Microsoft licenses and receive your key in minutes.",
+    "ctaButton": "Shop Licenses"
   },
   "contact": {
     "title": "Contact Us",
@@ -235,23 +258,23 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "q": "What services does Tulos offer?",
-        "a": "Tulos offers a wide range of technology solutions including custom software development, cloud services, and digital transformation consulting."
+        "q": "What services does Licendi offer?",
+        "a": "Licendi offers a wide range of technology solutions including custom software development, cloud services, and digital transformation consulting."
       },
       {
-        "q": "How can I get support for Tulos products?",
+        "q": "How can I get support for Licendi products?",
         "a": "You can reach our support team through our contact page or by emailing support@tulos.com."
       },
       {
-        "q": "Does Tulos offer training for its products?",
+        "q": "Does Licendi offer training for its products?",
         "a": "Yes, we offer comprehensive training programs for all our products and services. Please contact our sales team for more information."
       },
       {
-        "q": "What industries does Tulos serve?",
-        "a": "Tulos serves a wide range of industries including finance, healthcare, retail, and manufacturing."
+        "q": "What industries does Licendi serve?",
+        "a": "Licendi serves a wide range of industries including finance, healthcare, retail, and manufacturing."
       },
       {
-        "q": "How does Tulos ensure data security?",
+        "q": "How does Licendi ensure data security?",
         "a": "We employ industry-standard security measures and comply with all relevant data protection regulations to ensure the security of our clients' data."
       }
     ]
@@ -261,23 +284,23 @@
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
-        "body": "By accessing and using Tulos' services, you agree to be bound by these Terms and Conditions."
+        "body": "By accessing and using Licendi's services, you agree to be bound by these Terms and Conditions."
       },
       {
         "heading": "2. Use of Services",
-        "body": "You agree to use Tulos' services only for lawful purposes and in accordance with these Terms and Conditions."
+        "body": "You agree to use Licendi's services only for lawful purposes and in accordance with these Terms and Conditions."
       },
       {
         "heading": "3. Intellectual Property",
-        "body": "All content and materials available on Tulos' services are the property of Tulos and are protected by applicable intellectual property laws."
+        "body": "All content and materials available on Licendi's services are the property of Licendi and are protected by applicable intellectual property laws."
       },
       {
         "heading": "4. Limitation of Liability",
-        "body": "Tulos shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services."
+        "body": "Licendi shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services."
       },
       {
         "heading": "5. Governing Law",
-        "body": "These Terms and Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which Tulos operates."
+        "body": "These Terms and Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which Licendi operates."
       }
     ]
   },

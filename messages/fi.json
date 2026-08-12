@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Tulos – Virallisia Microsoft-ohjelmistolisenssejä",
+    "title": "Licendi – Virallisia Microsoft-ohjelmistolisenssejä",
     "description": "Osta aitoja Microsoft-ohjelmistolisenssejä, latausavaimia ja välitön digitaalinen toimitus."
   },
   "common": {
-    "loading": "Tulos latautuu...",
+    "loading": "Licendi latautuu...",
     "home": "Etusivu",
     "login": "Kirjaudu",
     "addToCart": "Lisää ostoskoriin",
@@ -34,7 +34,7 @@
     "placeholder": "Hae tuotetta tästä...",
     "searching": "Haku käynnissä...",
     "noMatch": "Mikään ei vastannut hakusanaa {keyword}. Kokeile jotain muuta.",
-    "explore": "Hae ja tutustu tuotteisiisi Tulosissa.",
+    "explore": "Hae ja tutustu tuotteisiisi Licendiissa.",
     "productImage": "tuotekuva"
   },
   "footer": {
@@ -163,7 +163,7 @@
     "paymentMethod": "Maksutapa",
     "downloadInvoice": "Lataa lasku",
     "downloadReceipt": "Lataa kuitti",
-    "printReceipt": "Tulosta kuitti",
+    "printReceipt": "Licendita kuitti",
     "invoiceNotePaypal": "Virallista Stripe-laskua ei ole saatavilla PayPal-tilauksille. Voit tulostaa tämän sivun kuitiksi.",
     "invoiceNote": "Laskun lataus ei ole saatavilla tälle tilaukselle.",
     "product": "Tuote",
@@ -216,12 +216,35 @@
     "subtitle": "Teemme yhteistyötä alan johtavien ja luotettujen alustojen sekä teknologioiden kanssa tarjotaksemme turvallisia, luotettavia ja saumattomia ohjelmistolisenssejä."
   },
   "about": {
-    "title": "Tietoja Tulosista",
-    "paragraphs": [
-      "Tulos on huipputeknologian yritys, joka on omistautunut tarjoamaan innovatiivisia ratkaisuja moderneille yrityksille. Vuonna 2020 perustettu yritys vakiinnutti nopeasti asemansa digitaalisen muutoksen ja ohjelmistokehityksen johtajana.",
-      "Asiantuntijatiimimme kehittäjät, suunnittelijat ja strategit työskentelevät väsymättä luodakseen räätälöityjä ratkaisuja, jotka auttavat asiakkaitamme tehostamaan toimintojaan, lisäämään tehokkuutta ja kasvua.",
-      "Tulosissa uskomme teknologian voimaan muuttaa yrityksiä ja parantaa elämää. Sitoudumme pysymään teknologisen kehityksen kärjessä ja tarjoamaan asiakkaillemme poikkeuksellista arvoa."
-    ]
+    "title": "Tietoja Licendistä",
+    "intro": "Licendi on KeyVersely LLC:n verkkokauppa, joka on virallinen Microsoft-kumppani ja tarjoaa aitoja Microsoft-ohjelmistolisenssejä välittömällä digitaalisella toimituksella.",
+    "missionTitle": "Tehtävämme",
+    "mission": "Teemme aidosta Microsoft-ohjelmistosta yksinkertaista, turvallista ja välitöntä. Windowsista ja Officesta Windows Serveriin toimitamme vahvistetut lisenssiavaimet suoraan sähköpostiisi muutamassa minuutissa tilauksesta.",
+    "partnerTitle": "Virallinen Microsoft-kumppani",
+    "partner": "Licendiä ylläpitää KeyVersely LLC, vahvistettu kumppani virallisessa Microsoft-kumppaniluettelossa. Jokainen myymämme lisenssi on aito ja peräisin valtuutetuista kanavista.",
+    "partnerCta": "Näytä Microsoft-kumppaniprofiilimme",
+    "productsTitle": "Mitä myymme",
+    "products": "Erikoistumme aitoihin Microsoft-ohjelmistolisensseihin, kuten Windows-käyttöjärjestelmiin, Microsoft Officeen ja Windows Serveriin — toimitettuna digitaalisesti kilpailukykyiseen hintaan.",
+    "deliveryTitle": "Välitön digitaalinen toimitus",
+    "delivery": "Maksun jälkeen lisenssiavain ja latauslinkit lähetetään sähköpostiisi muutamassa minuutissa. Ei postikuluja, ei odottelua — aktivoi ja asenna heti.",
+    "trustTitle": "Miksi ostaa Licendistä",
+    "trust": [
+      "Virallinen Microsoft-kumppani",
+      "Aidot, vahvistetut lisenssiavaimet",
+      "Välitön sähköpostitoimitus",
+      "Turvallinen maksu Stripe & PayPal",
+      "Elinaikainen tuotetuki"
+    ],
+    "businessTitle": "Yritystiedot",
+    "businessCompany": "Yrityksen virallinen nimi",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Rekisteröity osoite",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "Sähköposti",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Valmiina aloittamaan?",
+    "ctaDesc": "Selaa aitoja Microsoft-lisenssejämme ja saat avaimesi minuuteissa.",
+    "ctaButton": "Osta lisenssejä"
   },
   "contact": {
     "title": "Ota yhteyttä",
@@ -235,23 +258,23 @@
     "title": "Usein kysytyt kysymykset",
     "items": [
       {
-        "q": "Mitä palveluita Tulos tarjoaa?",
-        "a": "Tulos tarjoaa laajan valikoiman teknologiaratkaisuja, mukaan lukien räätälöity ohjelmistokehitys, pilvipalvelut ja digitaalisen muutoksen konsultointi."
+        "q": "Mitä palveluita Licendi tarjoaa?",
+        "a": "Licendi tarjoaa laajan valikoiman teknologiaratkaisuja, mukaan lukien räätälöity ohjelmistokehitys, pilvipalvelut ja digitaalisen muutoksen konsultointi."
       },
       {
-        "q": "Miten saan tukea Tulos-tuotteille?",
+        "q": "Miten saan tukea Licendi-tuotteille?",
         "a": "Voit ottaa yhteyttä tukitiimiimme yhteyssivun kautta tai lähettämällä sähköpostia osoitteeseen support@tulos.com."
       },
       {
-        "q": "Tarjoaako Tulos koulutusta tuotteilleen?",
+        "q": "Tarjoaako Licendi koulutusta tuotteilleen?",
         "a": "Kyllä, tarjoamme kattavia koulutusohjelmia kaikille tuotteillemme ja palveluillemme. Ota yhteyttä myyntitiimiimme saadaksesi lisätietoja."
       },
       {
-        "q": "Mitä toimialoja Tulos palvelee?",
-        "a": "Tulos palvelee monia toimialoja, mukaan lukien rahoitus, terveydenhuolto, vähittäiskauppa ja valmistus."
+        "q": "Mitä toimialoja Licendi palvelee?",
+        "a": "Licendi palvelee monia toimialoja, mukaan lukien rahoitus, terveydenhuolto, vähittäiskauppa ja valmistus."
       },
       {
-        "q": "Miten Tulos varmistaa tietoturvan?",
+        "q": "Miten Licendi varmistaa tietoturvan?",
         "a": "Käytämme alan standardien mukaisia suojatoimia ja noudatamme kaikkia sovellettavia tietosuojasäännöksiä varmistaaksemme asiakkaidemme tietojen turvallisuuden."
       }
     ]
@@ -261,23 +284,23 @@
     "sections": [
       {
         "heading": "1. Ehtojen hyväksyminen",
-        "body": "Käyttämällä Tulosin palveluita sitoudut noudattamaan näitä käyttöehtoja."
+        "body": "Käyttämällä Licendiin palveluita sitoudut noudattamaan näitä käyttöehtoja."
       },
       {
         "heading": "2. Palveluiden käyttö",
-        "body": "Sitoudut käyttämään Tulosin palveluita vain laillisiin tarkoituksiin ja näiden käyttöehtojen mukaisesti."
+        "body": "Sitoudut käyttämään Licendiin palveluita vain laillisiin tarkoituksiin ja näiden käyttöehtojen mukaisesti."
       },
       {
         "heading": "3. Immateriaalioikeudet",
-        "body": "Kaikki Tulosin palveluissa saatavilla oleva sisältö ja materiaalit ovat Tulosin omaisuutta ja suojattu sovellettavilla immateriaalioikeuslaeilla."
+        "body": "Kaikki Licendiin palveluissa saatavilla oleva sisältö ja materiaalit ovat Licendiin omaisuutta ja suojattu sovellettavilla immateriaalioikeuslaeilla."
       },
       {
         "heading": "4. Vastuunrajoitus",
-        "body": "Tulos ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä, seurannaisista tai rankaisevista vahingoista, jotka aiheutuvat palveluidemme käytöstä."
+        "body": "Licendi ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä, seurannaisista tai rankaisevista vahingoista, jotka aiheutuvat palveluidemme käytöstä."
       },
       {
         "heading": "5. Sovellettava laki",
-        "body": "Näitä käyttöehtoja säännellään ja tulkitaan sen lainkäyttöalueen lakien mukaisesti, jossa Tulos toimii."
+        "body": "Näitä käyttöehtoja säännellään ja tulkitaan sen lainkäyttöalueen lakien mukaisesti, jossa Licendi toimii."
       }
     ]
   },

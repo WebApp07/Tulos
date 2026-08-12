@@ -21,8 +21,9 @@ const raleway = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tulos Ecommerce app for shoppers",
-  description: "An Ecommerce app for education purposes",
+  title: "Licendi – Official Microsoft Software Licensing",
+  description:
+    "Shop genuine Microsoft software licenses, download keys and instant digital delivery from an official Microsoft partner.",
 };
 
 export default async function RootLayout({
