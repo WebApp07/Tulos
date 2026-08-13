@@ -23,7 +23,7 @@ export async function generateMetadata({
   const url = localizedUrl(locale, "");
 
   return {
-    title: t("title"),
+    title: { absolute: `${t("title")} | ${SITE_NAME}` },
     description: t("subtitle"),
     alternates: {
       canonical: url,
