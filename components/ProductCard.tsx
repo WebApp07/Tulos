@@ -18,8 +18,7 @@ const ProductCard = ({ product }: { product: Product }) => {
               src={urlFor(product?.images[0]).url()}
               width={500}
               height={500}
-              alt="productImage"
-              priority
+              alt={product?.name || "productImage"}
               className={`w-full h-72 object-contain overflow-hidden hoverEffect ${product?.stock !== 0 && "group-hover:scale-105"}`}
             />
           </Link>

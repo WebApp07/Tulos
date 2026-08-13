@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "@/components/Container";
 import { getTranslations } from "next-intl/server";
+import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
+import type { Locale } from "@/i18n/routing";
+import type { Metadata } from "next";
 import {
   BadgeCheck,
   Building2,
@@ -15,6 +18,37 @@ import { Link } from "@/i18n/navigation";
 
 const MICROSOFT_PARTNER_URL =
   "https://marketplace.microsoft.com/en-us/marketplace/partner-dir/f2266aa5-5704-4384-ad55-100cf2c530cb/overview";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale: locale as Locale,
+    namespace: "about",
+  });
+
+  const url = localizedUrl(locale, "/about");
+
+  return {
+    title: t("title"),
+    description: t("intro"),
+    alternates: {
+      canonical: url,
+      languages: hreflangAlternates("/about"),
+    },
+    openGraph: {
+      title: `${t("title")} | ${SITE_NAME}`,
+      description: t("intro"),
+      type: "website",
+      url,
+      siteName: SITE_NAME,
+      locale,
+    },
+  };
+}
 
 const AboutPage = async () => {
   const t = await getTranslations("about");

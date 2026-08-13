@@ -5,6 +5,7 @@ import { urlFor } from "@/sanity/lib/image";
 import { CartItem } from "@/store";
 import { getExchangeRate } from "@/lib/currency";
 import { DEFAULT_CURRENCY } from "@/lib/currencyConfig";
+import { SITE_URL } from "@/lib/site";
 import Stripe from "stripe";
 
 export interface Metadata {
@@ -44,9 +45,9 @@ export async function createCheckoutSession(
 
       allow_promotion_codes: true,
 
-      success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/success?session_id={CHECKOUT_SESSION_ID}&orderNumber=${metadata.orderNumber}`,
+      success_url: `${SITE_URL}/success?session_id={CHECKOUT_SESSION_ID}&orderNumber=${metadata.orderNumber}`,
 
-      cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/cart`,
+      cancel_url: `${SITE_URL}/cart`,
 
       line_items: items.map((item) => {
         const itemPrice = item.selectedVariant?.price || item.product.price || 0;

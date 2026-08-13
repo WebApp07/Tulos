@@ -1,6 +1,38 @@
+import type { Metadata } from "next";
 import Container from "@/components/Container";
 import { getTranslations } from "next-intl/server";
+import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
+import type { Locale } from "@/i18n/routing";
 import React from "react";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale: locale as Locale,
+    namespace: "shippingPolicy",
+  });
+
+  const url = localizedUrl(locale, "/shipping-policy");
+
+  return {
+    title: t("title"),
+    alternates: {
+      canonical: url,
+      languages: hreflangAlternates("/shipping-policy"),
+    },
+    openGraph: {
+      title: `${t("title")} | ${SITE_NAME}`,
+      type: "website",
+      url,
+      siteName: SITE_NAME,
+      locale,
+    },
+  };
+}
 
 const ShippingPolicyPage = async () => {
   const t = await getTranslations("shippingPolicy");

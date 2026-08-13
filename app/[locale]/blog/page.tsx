@@ -10,8 +10,7 @@ import { ArrowRight, Calendar, Clock, Newspaper } from "lucide-react";
 import { calculateReadingTime, formatBlogDate } from "@/lib/blog";
 import BlogCard from "@/components/blog/BlogCard";
 import type { Locale } from "@/i18n/routing";
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://licendi.xyz";
+import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
 
 export async function generateMetadata({
   params,
@@ -24,16 +23,21 @@ export async function generateMetadata({
     namespace: "blog",
   });
 
+  const url = localizedUrl(locale, "/blog");
+
   return {
-    title: t("title"),
+    title: { absolute: t("title") },
     description: t("description"),
-    alternates: { canonical: `${BASE_URL}/${locale}/blog` },
+    alternates: {
+      canonical: url,
+      languages: hreflangAlternates("/blog"),
+    },
     openGraph: {
       title: t("title"),
       description: t("description"),
       type: "website",
-      url: `${BASE_URL}/${locale}/blog`,
-      siteName: "Licendi",
+      url,
+      siteName: SITE_NAME,
       locale,
     },
   };

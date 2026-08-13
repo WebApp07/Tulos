@@ -18,8 +18,7 @@ import BlogAuthor from "@/components/blog/BlogAuthor";
 import BlogShare from "@/components/blog/BlogShare";
 import BlogCard from "@/components/blog/BlogCard";
 import type { Post } from "@/sanity.types";
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://licendi.xyz";
+import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
 
 type BlogPostPageProps = {
   params: Promise<{ slug: string; locale: string }>;
@@ -47,18 +46,21 @@ export async function generateMetadata({
     ? urlFor(post.coverImage).width(1200).url()
     : undefined;
 
-  const canonicalUrl = `${BASE_URL}/${locale}/blog/${slug}`;
+  const canonicalUrl = localizedUrl(locale, `/blog/${slug}`);
 
   return {
     title,
     description,
-    alternates: { canonical: canonicalUrl },
+    alternates: {
+      canonical: canonicalUrl,
+      languages: hreflangAlternates(`/blog/${slug}`),
+    },
     openGraph: {
       title,
       description,
       type: "article",
       url: canonicalUrl,
-      siteName: "Licendi",
+      siteName: SITE_NAME,
       locale,
       images: cover ? [{ url: cover, width: 1200, height: 630 }] : undefined,
       publishedTime: post.publishedAt || post._createdAt,
@@ -95,7 +97,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     ? urlFor(post.coverImage).width(1200).height(675).url()
     : undefined;
 
-  const canonicalUrl = `${BASE_URL}/${locale}/blog/${slug}`;
+  const canonicalUrl = localizedUrl(locale, `/blog/${slug}`);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -113,9 +115,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       : undefined,
     publisher: {
       "@type": "Organization",
-      name: "Licendi",
-      url: BASE_URL,
-      logo: { "@type": "ImageObject", url: `${BASE_URL}/logo.png` },
+      name: SITE_NAME,
+      url: localizedUrl(locale, ""),
     },
     mainEntityOfPage: canonicalUrl,
     inLanguage: locale,
