@@ -18,9 +18,11 @@ const quickLinkTitleKeys: Record<
   | "refundPolicy"
   | "shippingPolicy"
   | "faqs"
+  | "blog"
 > = {
   "About us": "aboutUs",
   "Contact us": "contactUs",
+  "Blog": "blog",
   "Terms & Conditions": "termsConditions",
   "Privacy Policy": "privacyPolicy",
   "Refund Policy": "refundPolicy",

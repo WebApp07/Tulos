@@ -1,4 +1,5 @@
 import { getAllCategories, getAllProducts } from "@/sanity/helpers/queries";
+import { getAllPosts } from "@/sanity/helpers/blogQueries";
 import { routing } from "@/i18n/routing";
 import type { MetadataRoute } from "next";
 
@@ -9,6 +10,7 @@ const staticRoutes = [
   "/about",
   "/faqs",
   "/contact",
+  "/blog",
   "/privacy",
   "/terms",
   "/refund-policy",
@@ -16,9 +18,10 @@ const staticRoutes = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [categories, products] = await Promise.all([
+  const [categories, products, posts] = await Promise.all([
     getAllCategories(),
     getAllProducts(),
+    getAllPosts(),
   ]);
 
   const entries: MetadataRoute.Sitemap = [];
@@ -52,6 +55,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           : new Date(),
         changeFrequency: "weekly",
         priority: 0.6,
+      });
+    }
+
+    for (const post of posts) {
+      if (!post?.slug?.current) continue;
+      entries.push({
+        url: `${BASE_URL}/${locale}/blog/${post.slug.current}`,
+        lastModified: post._updatedAt ? new Date(post._updatedAt) : new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
       });
     }
   }

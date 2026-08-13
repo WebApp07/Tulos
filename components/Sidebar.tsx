@@ -61,6 +61,15 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
               {item?.title}
             </Link>
           ))}
+          <Link
+            onClick={onClose}
+            href={"/blog"}
+            className={`hover:text-white hoverEffect w-24 ${
+              pathname.startsWith("/blog") && "text-white"
+            }`}
+          >
+            {t("blog")}
+          </Link>
         </div>
         <SocialMedia />
       </motion.div>

@@ -27,7 +27,8 @@
     "ariaLabel": "Valitse kieli"
   },
   "header": {
-    "home": "Etusivu"
+    "home": "Etusivu",
+    "blog": "Blogi"
   },
   "search": {
     "title": "Tuotehaku",
@@ -55,7 +56,8 @@
     "privacyPolicy": "Tietosuojakäytäntö",
     "faqs": "UKK",
     "refundPolicy": "Hyvitys- ja palautuskäytäntö",
-    "shippingPolicy": "Toimitus- ja toimitusehdot"
+    "shippingPolicy": "Toimitus- ja toimitusehdot",
+    "blog": "Blogi"
   },
   "banner": {
     "title": "Viralliset Microsoft-tuotteet",
@@ -470,5 +472,22 @@
         "body": "Jos sinulla on kysyttävää, ota yhteyttä KeyVersely LLC:hen osoitteessa support@keyversely.com tai kirjoita osoitteeseen 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
+  },
+  "blog": {
+    "title": "Licendi-blogi",
+    "description": "Oppaita, vinkkejä ja uutisia aidoista Microsoft-ohjelmistolisensseistä Licendiltä.",
+    "readMore": "Lue lisää",
+    "readArticle": "Lue artikkeli",
+    "publishedOn": "Julkaistu",
+    "by": "kirjoittaja",
+    "backToBlog": "Takaisin blogiin",
+    "featured": "Suositeltu",
+    "latestPosts": "Uusimmat artikkelit",
+    "recentPosts": "Viimeisimmät kirjoitukset",
+    "share": "Jaa tämä artikkeli",
+    "minRead": "min lukuaika",
+    "noPosts": "Ei vielä julkaistuja artikkeleita. Palaa pian!",
+    "browseAll": "Näytä kaikki artikkelit",
+    "authorTitle": "Kirjoittajasta"
   }
 }

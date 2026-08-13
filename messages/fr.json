@@ -27,7 +27,8 @@
     "ariaLabel": "Choisir la langue"
   },
   "header": {
-    "home": "Accueil"
+    "home": "Accueil",
+    "blog": "Blog"
   },
   "search": {
     "title": "Barre de recherche de produits",
@@ -55,7 +56,8 @@
     "privacyPolicy": "Politique de confidentialité",
     "faqs": "FAQ",
     "refundPolicy": "Politique de remboursement",
-    "shippingPolicy": "Politique d'expédition et de livraison"
+    "shippingPolicy": "Politique d'expédition et de livraison",
+    "blog": "Blog"
   },
   "banner": {
     "title": "Produits Microsoft officiels",
@@ -470,5 +472,22 @@
         "body": "Pour toute question, contactez KeyVersely LLC à support@keyversely.com ou écrivez à 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
+  },
+  "blog": {
+    "title": "Blog Licendi",
+    "description": "Guides, conseils et actualités sur les licences logicielles Microsoft authentiques de Licendi.",
+    "readMore": "Lire la suite",
+    "readArticle": "Lire l'article",
+    "publishedOn": "Publié le",
+    "by": "par",
+    "backToBlog": "Retour au blog",
+    "featured": "À la une",
+    "latestPosts": "Derniers articles",
+    "recentPosts": "Articles récents",
+    "share": "Partager cet article",
+    "minRead": "min de lecture",
+    "noPosts": "Aucun article publié pour le moment. Revenez bientôt !",
+    "browseAll": "Voir tous les articles",
+    "authorTitle": "À propos de l'auteur"
   }
 }

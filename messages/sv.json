@@ -27,7 +27,8 @@
     "ariaLabel": "Välj språk"
   },
   "header": {
-    "home": "Hem"
+    "home": "Hem",
+    "blog": "Blogg"
   },
   "search": {
     "title": "Produktsökfält",
@@ -55,7 +56,8 @@
     "privacyPolicy": "Integritetspolicy",
     "faqs": "FAQ",
     "refundPolicy": "Återbetalningspolicy",
-    "shippingPolicy": "Frakt- och leveranspolicy"
+    "shippingPolicy": "Frakt- och leveranspolicy",
+    "blog": "Blogg"
   },
   "banner": {
     "title": "Officiella Microsoft-produkter",
@@ -470,5 +472,22 @@
         "body": "För frågor, kontakta KeyVersely LLC på support@keyversely.com eller skriv till 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
+  },
+  "blog": {
+    "title": "Licendi-bloggen",
+    "description": "Guider, tips och nyheter om äkta Microsoft-programlicenser från Licendi.",
+    "readMore": "Läs mer",
+    "readArticle": "Läs artikel",
+    "publishedOn": "Publicerad",
+    "by": "av",
+    "backToBlog": "Tillbaka till bloggen",
+    "featured": "Utvalt",
+    "latestPosts": "Senaste artiklarna",
+    "recentPosts": "Senaste inläggen",
+    "share": "Dela den här artikeln",
+    "minRead": "min läsning",
+    "noPosts": "Inga artiklar publicerade ännu. Kom tillbaka snart!",
+    "browseAll": "Visa alla artiklar",
+    "authorTitle": "Om författaren"
   }
 }

@@ -1,6 +1,7 @@
 export const quickLinksData = [
   { title: "About us", href: "/about" },
   { title: "Contact us", href: "/contact" },
+  { title: "Blog", href: "/blog" },
   { title: "Terms & Conditions", href: "/terms" },
   { title: "Privacy Policy", href: "/privacy" },
   { title: "Refund Policy", href: "/refund-policy" },
