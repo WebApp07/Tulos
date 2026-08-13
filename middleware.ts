@@ -18,7 +18,13 @@ const hasLocalePrefix = (pathname: string) =>
 
 export default clerkMiddleware((auth, req) => {
   const { pathname, search } = req.nextUrl;
-  if (pathname.startsWith("/studio") || pathname.startsWith("/api")) {
+  if (
+    pathname.startsWith("/studio") ||
+    pathname.startsWith("/api") ||
+    pathname === "/robots.txt" ||
+    pathname === "/sitemap.xml" ||
+    pathname === "/favicon.ico"
+  ) {
     return;
   }
 

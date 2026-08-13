@@ -64,7 +64,9 @@ async function loadCmsMessages(locale: string) {
 
   let docs: TranslationDoc[] = [];
   try {
-    docs = await backendClient.fetch(TRANSLATIONS_QUERY, { locale });
+    docs = (await backendClient.fetch(TRANSLATIONS_QUERY, {
+      locale,
+    })) as TranslationDoc[];
   } catch (error) {
     console.error(
       `Failed to load CMS translations for "${locale}":`,

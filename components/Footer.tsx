@@ -11,12 +11,22 @@ import { getAllCategories } from "@/sanity/helpers/queries";
 
 const quickLinkTitleKeys: Record<
   string,
-  "aboutUs" | "contactUs" | "termsConditions" | "privacyPolicy" | "faqs"
+  | "aboutUs"
+  | "contactUs"
+  | "termsConditions"
+  | "privacyPolicy"
+  | "refundPolicy"
+  | "shippingPolicy"
+  | "faqs"
+  | "blog"
 > = {
   "About us": "aboutUs",
   "Contact us": "contactUs",
+  "Blog": "blog",
   "Terms & Conditions": "termsConditions",
   "Privacy Policy": "privacyPolicy",
+  "Refund Policy": "refundPolicy",
+  "Shipping Policy": "shippingPolicy",
   "FAQs": "faqs",
 };
 

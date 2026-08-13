@@ -11,7 +11,7 @@ export interface Metadata {
   orderNumber: string;
   customerName: string;
   customerEmail: string;
-  clerkUserId: string;
+  clerkUserId?: string;
 }
 
 export async function createCheckoutSession(
@@ -39,7 +39,7 @@ export async function createCheckoutSession(
         orderNumber: metadata.orderNumber,
         customerName: metadata.customerName,
         customerEmail: metadata.customerEmail,
-        clerkUserId: metadata.clerkUserId,
+        ...(metadata.clerkUserId && { clerkUserId: metadata.clerkUserId }),
       },
 
       allow_promotion_codes: true,

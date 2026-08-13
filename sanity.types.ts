@@ -15,6 +15,126 @@
 export declare const internalGroqTypeReferenceTo: unique symbol;
 
 // Source: schema.json
+export type SanityImageAssetReference = {
+  _ref: string;
+  _type: "reference";
+  _weak?: boolean;
+  [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+};
+
+export type AuthorReference = {
+  _ref: string;
+  _type: "reference";
+  _weak?: boolean;
+  [internalGroqTypeReferenceTo]?: "author";
+};
+
+export type Post = {
+  _id: string;
+  _type: "post";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  title?: string;
+  slug?: Slug;
+  excerpt?: string;
+  coverImage?: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  };
+  body?: Array<
+    | {
+        children?: Array<{
+          marks?: Array<string>;
+          text?: string;
+          _type: "span";
+          _key: string;
+        }>;
+        style?:
+          "normal" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "blockquote";
+        listItem?: "bullet" | "number";
+        markDefs?: Array<{
+          href?: string;
+          _type: "link";
+          _key: string;
+        }>;
+        level?: number;
+        _type: "block";
+        _key: string;
+      }
+    | {
+        asset?: SanityImageAssetReference;
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+        _key: string;
+      }
+  >;
+  author?: AuthorReference;
+  tags?: Array<string>;
+  publishedAt?: string;
+  featured?: boolean;
+  seoTitle?: string;
+  seoDescription?: string;
+};
+
+export type SanityImageCrop = {
+  _type: "sanity.imageCrop";
+  top?: number;
+  bottom?: number;
+  left?: number;
+  right?: number;
+};
+
+export type SanityImageHotspot = {
+  _type: "sanity.imageHotspot";
+  x?: number;
+  y?: number;
+  height?: number;
+  width?: number;
+};
+
+export type Slug = {
+  _type: "slug";
+  current?: string;
+  source?: string;
+};
+
+export type Author = {
+  _id: string;
+  _type: "author";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  name?: string;
+  slug?: Slug;
+  image?: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  };
+  role?: string;
+  bio?: string;
+};
+
+export type Translation = {
+  _id: string;
+  _type: "translation";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  key?: string;
+  locale?: "en" | "fr" | "de" | "es" | "it" | "fi" | "sv";
+  structured?: boolean;
+  value?: string;
+};
+
 export type ProductReference = {
   _ref: string;
   _type: "reference";
@@ -58,13 +178,6 @@ export type Order = {
   paymentMethod?: "stripe" | "paypal";
   status?: "pending" | "paid" | "shipped" | "delivered" | "cancelled";
   orderDate?: string;
-};
-
-export type SanityImageAssetReference = {
-  _ref: string;
-  _type: "reference";
-  _weak?: boolean;
-  [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
 };
 
 export type CategoryReference = {
@@ -138,28 +251,6 @@ export type Product = {
   support?: string;
   function?: string;
   paymentMethods?: string;
-};
-
-export type SanityImageCrop = {
-  _type: "sanity.imageCrop";
-  top?: number;
-  bottom?: number;
-  left?: number;
-  right?: number;
-};
-
-export type SanityImageHotspot = {
-  _type: "sanity.imageHotspot";
-  x?: number;
-  y?: number;
-  height?: number;
-  width?: number;
-};
-
-export type Slug = {
-  _type: "slug";
-  current?: string;
-  source?: string;
 };
 
 export type Category = {
@@ -277,14 +368,18 @@ export type Geopoint = {
 };
 
 export type AllSanitySchemaTypes =
-  | ProductReference
-  | Order
   | SanityImageAssetReference
-  | CategoryReference
-  | Product
+  | AuthorReference
+  | Post
   | SanityImageCrop
   | SanityImageHotspot
   | Slug
+  | Author
+  | Translation
+  | ProductReference
+  | Order
+  | CategoryReference
+  | Product
   | Category
   | SanityImagePaletteSwatch
   | SanityImagePalette
@@ -295,7 +390,7 @@ export type AllSanitySchemaTypes =
   | SanityImageAsset
   | Geopoint;
 
-// Source: app/(client)/api/order/route.ts
+// Source: app/api/order/route.ts
 // Variable: GET_ORDER_BY_NUMBER_QUERY
 // Query: *[_type == 'order' && orderNumber == $orderNumber][0]{      ...,products[]{        ...,product->      }    }
 export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
@@ -489,6 +584,14 @@ export type CATEGORIES_QUERY_RESULT = Array<{
     crop?: SanityImageCrop;
     _type: "image";
   };
+}>;
+
+// Source: sanity/helpers/queries.ts
+// Variable: PRODUCTS_QUERY
+// Query: *[_type=="product"]{slug,_updatedAt} | order(_updatedAt desc)
+export type PRODUCTS_QUERY_RESULT = Array<{
+  slug: Slug | null;
+  _updatedAt: string;
 }>;
 
 // Source: sanity/helpers/queries.ts
@@ -703,6 +806,15 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
   orderDate?: string;
 } | null;
 
+// Source: sanity/helpers/translations.ts
+// Variable: TRANSLATIONS_QUERY
+// Query: *[_type == 'translation' && locale == $locale]{ key, structured, value }
+export type TRANSLATIONS_QUERY_RESULT = Array<{
+  key: string | null;
+  structured: boolean | null;
+  value: string | null;
+}>;
+
 // Query TypeMap
 import "@sanity/client";
 declare module "@sanity/client" {
@@ -710,7 +822,9 @@ declare module "@sanity/client" {
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n      ...,products[]{\n        ...,product->\n      }\n    }": GET_ORDER_BY_NUMBER_QUERY_RESULT;
     "*[_type == 'product' && slug.current == $slug] | order(name asc) [0]": PRODUCT_BY_SLUG_QUERY_RESULT;
     '*[_type=="category"] | order(title asc)': CATEGORIES_QUERY_RESULT;
+    '*[_type=="product"]{slug,_updatedAt} | order(_updatedAt desc)': PRODUCTS_QUERY_RESULT;
     "*[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){\n    ...,\n    paymentMethod,\n    receiptUrl,\n    products[]{\n      ...,product->\n    }\n  }": MY_ORDERS_QUERY_RESULT;
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n    ...,products[]{\n      ...,product->\n    }\n  }": ORDER_BY_NUMBER_QUERY_RESULT;
+    "*[_type == 'translation' && locale == $locale]{ key, structured, value }": TRANSLATIONS_QUERY_RESULT;
   }
 }

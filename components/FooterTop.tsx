@@ -1,4 +1,4 @@
-import {Clock, Mail, MapPin, Phone} from "lucide-react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import React from "react";
 import { getTranslations } from "next-intl/server";
 
@@ -34,7 +34,7 @@ const data: (Omit<Props, "title"> & { title: FooterTitleKey })[] = [
   },
   {
     title: "emailUs",
-    subtitle: "tulos@gmail.com",
+    subtitle: "support@keyversely.com",
     icon: (
       <Mail className="text-gray-600 group-hover:text-darkColor transition-colors" />
     ),

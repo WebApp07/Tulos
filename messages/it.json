@@ -27,7 +27,8 @@
     "ariaLabel": "Scegli la lingua"
   },
   "header": {
-    "home": "Home"
+    "home": "Home",
+    "blog": "Blog"
   },
   "search": {
     "title": "Barra di ricerca prodotti",
@@ -53,7 +54,10 @@
     "contactUs": "Contattaci",
     "termsConditions": "Termini e condizioni",
     "privacyPolicy": "Informativa sulla privacy",
-    "faqs": "Domande frequenti"
+    "faqs": "Domande frequenti",
+    "refundPolicy": "Politica di rimborso",
+    "shippingPolicy": "Politica di spedizione e consegna",
+    "blog": "Blog"
   },
   "banner": {
     "title": "Prodotti Microsoft ufficiali",
@@ -125,8 +129,12 @@
     "emailPlaceholder": "Inserisci la tua email",
     "deliveryNote": "* Il tuo prodotto digitale verrà consegnato a questo indirizzo email.",
     "enterNameEmail": "Inserisci il tuo nome e indirizzo email.",
-    "payStripe": "Paga con carta (Stripe)",
-    "orPayWith": "Oppure paga con"
+    "payStripe": "Effettua ordine",
+    "orPayWith": "Oppure paga con",
+    "guestBanner": "Stai pagando come ospite",
+    "guestNote": "Il tuo ordine non sarà collegato a un account. Accedi per tracciare i tuoi ordini e accedervi in qualsiasi momento.",
+    "guestSignIn": "Accedi",
+    "stripeHint": "Pagamento sicuro tramite Stripe"
   },
   "emptyCart": {
     "title": "Il tuo carrello si sente solo",
@@ -135,10 +143,13 @@
   },
   "auth": {
     "welcomeBack": "Bentornato!",
-    "loginDesc": "Accedi per visualizzare gli articoli del carrello e completare l'acquisto. Non perderti i tuoi prodotti preferiti!",
+    "loginDesc": "Accedi per visualizzare gli articoli del carrello e completare l'acquisto, oppure continua come ospite senza creare un account.",
     "signIn": "Accedi",
     "noAccount": "Non hai un account?",
-    "createAccount": "Crea un account"
+    "createAccount": "Crea un account",
+    "or": "oppure",
+    "continueAsGuest": "Continua come ospite",
+    "guestDesc": "Completa l'acquisto senza un account. Il tuo ordine non sarà collegato a un profilo."
   },
   "orders": {
     "title": "Elenco ordini",
@@ -248,9 +259,17 @@
   },
   "contact": {
     "title": "Contattaci",
-    "desc": "Saremo lieti di sentirti. Compila il modulo sottostante e ti risponderemo il prima possibile.",
+    "desc": "Domande su un ordine, un'attivazione o una chiave di licenza? Il nostro team di supporto è qui per aiutarti. Di solito rispondiamo entro 24 ore nei giorni lavorativi.",
+    "businessTitle": "Informazioni aziendali",
+    "companyName": "Nome legale dell'azienda",
+    "companyValue": "KeyVersely LLC",
+    "address": "Indirizzo registrato",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "email": "E-mail",
+    "emailValue": "support@keyversely.com",
+    "hours": "Orari di supporto",
+    "hoursValue": "Lunedì – Venerdì, 9:00 – 18:00 (CET)",
     "name": "Nome",
-    "email": "Email",
     "message": "Messaggio",
     "send": "Invia messaggio"
   },
@@ -258,24 +277,36 @@
     "title": "Domande frequenti",
     "items": [
       {
-        "q": "Quali servizi offre Licendi?",
-        "a": "Licendi offre un'ampia gamma di soluzioni tecnologiche, tra cui sviluppo software personalizzato, servizi cloud e consulenza per la trasformazione digitale."
+        "q": "Quanto velocemente riceverò la mia chiave di licenza?",
+        "a": "Immediatamente dopo la conferma del pagamento, la tua chiave di licenza e i link di download vengono inviati all'indirizzo e-mail fornito al momento dell'acquisto — di solito in pochi minuti."
       },
       {
-        "q": "Come posso ottenere supporto per i prodotti Licendi?",
-        "a": "Puoi contattare il nostro team di supporto tramite la pagina dei contatti o scrivendo a support@tulos.com."
+        "q": "Cosa ricevo dopo aver effettuato un ordine?",
+        "a": "Ricevi una chiave di licenza Microsoft autentica insieme a link di download ufficiali e una guida all'installazione, consegnata nella tua casella di posta."
       },
       {
-        "q": "Licendi offre formazione per i suoi prodotti?",
-        "a": "Sì, offriamo programmi di formazione completi per tutti i nostri prodotti e servizi. Contatta il nostro team commerciale per maggiori informazioni."
+        "q": "Le vostre chiavi di licenza sono autentiche?",
+        "a": "Sì. Licendi è gestita da KeyVersely LLC, un partner Microsoft ufficiale. Ogni chiave che vendiamo è autentica e proviene da canali autorizzati."
       },
       {
-        "q": "Quali settori serve Licendi?",
-        "a": "Licendi serve un'ampia gamma di settori, tra cui finanza, sanità, vendita al dettaglio e manifatturiero."
+        "q": "Posso ottenere un rimborso?",
+        "a": "Poiché le chiavi di licenza digitali vengono consegnate immediatamente e possono essere attivate subito, gli acquisti non sono rimborsabili una volta inviata la chiave. In caso di problema reale, contatta il nostro team di supporto e faremo del nostro meglio per aiutarti."
       },
       {
-        "q": "Come garantisce Licendi la sicurezza dei dati?",
-        "a": "Adottiamo misure di sicurezza standard di settore e ci conformiamo a tutte le normative vigenti sulla protezione dei dati per garantire la sicurezza dei dati dei nostri clienti."
+        "q": "Quali metodi di pagamento accettate?",
+        "a": "Accettiamo tutte le principali carte di credito e debito tramite Stripe, oltre a PayPal."
+      },
+      {
+        "q": "Cosa succede se non ricevo l'e-mail con la mia chiave di licenza?",
+        "a": "Controlla prima la cartella spam o posta indesiderata. Se non c'è, contattaci a support@keyversely.com e ti rinvieremo la chiave in pochi minuti."
+      },
+      {
+        "q": "La licenza funziona nel mio paese?",
+        "a": "Sì, le nostre licenze Microsoft sono progettate per l'attivazione globale e funzionano in tutto il mondo."
+      },
+      {
+        "q": "Che assistenza offrite?",
+        "a": "Ogni acquisto include assistenza a vita. Se hai bisogno di aiuto con l'attivazione o l'installazione, contattaci e il nostro team ti assisterà."
       }
     ]
   },
@@ -284,23 +315,39 @@
     "sections": [
       {
         "heading": "1. Accettazione dei termini",
-        "body": "Accedendo e utilizzando i servizi di Licendi, accetti di essere vincolato dai presenti Termini e condizioni."
+        "body": "Accedendo o utilizzando il sito web Licendi (il 'Sito web'), accetti di essere vincolato ai presenti Termini e condizioni. Se non sei d'accordo, non utilizzare il Sito web."
       },
       {
-        "heading": "2. Utilizzo dei servizi",
-        "body": "Accetti di utilizzare i servizi di Licendi solo per scopi leciti e in conformità con i presenti Termini e condizioni."
+        "heading": "2. Prodotti e servizi",
+        "body": "Licendi, gestita da KeyVersely LLC, vende licenze software digitali, principalmente prodotti Microsoft autentici come Windows, Microsoft Office e Windows Server. Tutti i prodotti vengono consegnati elettronicamente."
       },
       {
-        "heading": "3. Proprietà intellettuale",
-        "body": "Tutti i contenuti e i materiali disponibili sui servizi di Licendi sono di proprietà di Licendi e sono protetti dalle leggi applicabili sulla proprietà intellettuale."
+        "heading": "3. Consegna digitale",
+        "body": "Immediatamente dopo un pagamento riuscito, le chiavi di licenza e le istruzioni di download vengono inviate all'indirizzo e-mail fornito. Sei responsabile di fornire un indirizzo e-mail valido e raggiungibile."
       },
       {
-        "heading": "4. Limitazione di responsabilità",
-        "body": "Licendi non sarà responsabile per eventuali danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dall'utilizzo dei nostri servizi."
+        "heading": "4. Politica di rimborso",
+        "body": "A causa della consegna elettronica immediata delle chiavi di licenza, tutte le vendite sono definitive e non rimborsabili una volta inviata la chiave. Le eccezioni vengono valutate caso per caso per problemi reali di consegna o tecnici."
       },
       {
-        "heading": "5. Legge applicabile",
-        "body": "I presenti Termini e condizioni sono disciplinati e interpretati secondo le leggi della giurisdizione in cui opera Licendi."
+        "heading": "5. Utilizzo della licenza",
+        "body": "Puoi utilizzare le chiavi di licenza acquistate solo per il tuo uso personale o aziendale in conformità con i termini di licenza di Microsoft. È vietata la rivendita, la condivisione o la ridistribuzione delle chiavi."
+      },
+      {
+        "heading": "6. Proprietà intellettuale",
+        "body": "Tutto il contenuto del Sito web, inclusi testi, grafiche, loghi e software, è di proprietà di KeyVersely LLC o dei suoi licenzianti ed è protetto dalle leggi applicabili sulla proprietà intellettuale."
+      },
+      {
+        "heading": "7. Limitazione di responsabilità",
+        "body": "Nella misura massima consentita dalla legge, KeyVersely LLC non sarà responsabile per danni indiretti, incidentali, speciali, consequenziali o punitivi derivanti dall'uso del Sito web o dei nostri prodotti."
+      },
+      {
+        "heading": "8. Legge applicabile",
+        "body": "I presenti Termini e condizioni sono disciplinati e interpretati secondo le leggi dello Stato del Wyoming, Stati Uniti, senza considerare i principi di conflitto di leggi."
+      },
+      {
+        "heading": "9. Informazioni di contatto",
+        "body": "Per qualsiasi domanda su questi Termini, contattaci a support@keyversely.com o scrivi a KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -308,24 +355,48 @@
     "title": "Informativa sulla privacy",
     "sections": [
       {
-        "heading": "1. Raccolta delle informazioni",
-        "body": "Raccogliamo le informazioni che ci fornisci direttamente quando utilizzi i nostri servizi, nonché informazioni sull'uso dei nostri servizi."
+        "heading": "1. Introduzione",
+        "body": "KeyVersely LLC ('noi', 'nostro') gestisce il sito web Licendi. Questa informativa sulla privacy spiega quali informazioni raccogliamo, come le utilizziamo e le scelte che hai."
       },
       {
-        "heading": "2. Utilizzo delle informazioni",
-        "body": "Utilizziamo le informazioni raccolte per fornire, mantenere e migliorare i nostri servizi, oltre che per comunicare con te."
+        "heading": "2. Informazioni che raccogliamo",
+        "body": "Raccogliamo le informazioni che fornisci direttamente, come nome e indirizzo e-mail quando effettui un ordine, crei un account o contatti l'assistenza. Raccogliamo anche automaticamente informazioni tecniche come il tuo indirizzo IP, il tipo di browser e le pagine visitate."
       },
       {
-        "heading": "3. Condivisione delle informazioni",
-        "body": "Non condividiamo le tue informazioni personali con terze parti se non come descritto nella presente Informativa sulla privacy o con il tuo consenso."
+        "heading": "3. Come utilizziamo le tue informazioni",
+        "body": "Utilizziamo le tue informazioni per elaborare e consegnare i tuoi ordini, comunicare con te, migliorare il nostro Sito web, prevenire frodi e rispettare obblighi legali."
       },
       {
-        "heading": "4. Sicurezza dei dati",
-        "body": "Adottiamo misure ragionevoli per proteggere le tue informazioni personali da perdita, furto, uso improprio e accesso non autorizzato."
+        "heading": "4. Cookie e monitoraggio",
+        "body": "Utilizziamo i cookie per migliorare la tua esperienza, analizzare il traffico del sito web e supportare la pubblicità personalizzata. Puoi accettare o rifiutare i cookie tramite il nostro banner e gestirli o eliminarli in qualsiasi momento nelle impostazioni del browser."
       },
       {
-        "heading": "5. I tuoi diritti",
-        "body": "Hai il diritto di accedere, correggere o eliminare le tue informazioni personali. Contattaci per assistenza con queste richieste."
+        "heading": "5. Servizi di terze parti",
+        "body": "Collaboriamo con terze parti fidate per gestire il nostro negozio: Stripe e PayPal per l'elaborazione dei pagamenti, Clerk per l'autenticazione e fornitori di analisi per comprendere l'uso del sito. Queste parti trattano i dati solo nella misura necessaria e secondo le proprie informative sulla privacy."
+      },
+      {
+        "heading": "6. Condivisione delle informazioni",
+        "body": "Non vendiamo le tue informazioni personali. Le condividiamo solo con i fornitori di servizi sopra descritti, quando richiesto dalla legge o con il tuo consenso."
+      },
+      {
+        "heading": "7. Sicurezza dei dati",
+        "body": "Utilizziamo misure standard del settore per proteggere le tue informazioni personali da perdita, furto, uso improprio e accesso non autorizzato."
+      },
+      {
+        "heading": "8. I tuoi diritti",
+        "body": "A seconda della tua posizione, potresti avere il diritto di accedere, correggere o eliminare le tue informazioni personali e di opporti a determinati trattamenti. Per esercitare questi diritti, contattaci a support@keyversely.com."
+      },
+      {
+        "heading": "9. Privacy dei minori",
+        "body": "I nostri servizi non sono rivolti a minori di 16 anni e non raccogliamo consapevolmente informazioni personali dai minori."
+      },
+      {
+        "heading": "10. Modifiche a questa informativa",
+        "body": "Potremmo aggiornare questa informativa sulla privacy di tanto in tanto. Pubblicheremo eventuali modifiche su questa pagina con una data aggiornata."
+      },
+      {
+        "heading": "11. Contattaci",
+        "body": "Per qualsiasi domanda su questa informativa sulla privacy, contattaci a support@keyversely.com o scrivi a KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -339,5 +410,84 @@
     "statusNew": "Nuovo",
     "statusHot": "Popolare",
     "statusSale": "Sconto"
+  },
+  "refundPolicy": {
+    "title": "Politica di rimborso e reso",
+    "sections": [
+      {
+        "heading": "1. Panoramica",
+        "body": "Poiché i nostri prodotti sono chiavi di licenza digitali consegnate immediatamente, tutte le vendite sono definitive una volta inviata la chiave."
+      },
+      {
+        "heading": "2. Prodotti digitali non rimborsabili",
+        "body": "I prodotti digitali, comprese le chiavi di licenza software, non sono rimborsabili né restituibili una volta che la chiave di licenza è stata consegnata alla tua e-mail, poiché la chiave può essere attivata immediatamente."
+      },
+      {
+        "heading": "3. Eccezioni",
+        "body": "Prenderemo in considerazione un rimborso o una sostituzione caso per caso se: la chiave di licenza non si attiva, la chiave non è stata consegnata a causa di un errore tecnico da parte nostra o hai ricevuto il prodotto sbagliato."
+      },
+      {
+        "heading": "4. Come richiedere un rimborso o una sostituzione",
+        "body": "Contatta il nostro team di supporto a support@keyversely.com entro 14 giorni dall'acquisto con il tuo numero d'ordine e una descrizione del problema. Indagheremo e risponderemo entro 24 ore."
+      },
+      {
+        "heading": "5. Transazioni non autorizzate",
+        "body": "Se ritieni che un addebito non fosse autorizzato, contatta immediatamente il tuo fornitore di pagamenti e il nostro team di supporto così da poter indagare."
+      },
+      {
+        "heading": "6. Informazioni di contatto",
+        "body": "Per qualsiasi domanda su questa politica, contatta KeyVersely LLC a support@keyversely.com o scrivi a 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Politica di spedizione e consegna",
+    "sections": [
+      {
+        "heading": "1. Consegna digitale",
+        "body": "Tutti i prodotti venduti su Licendi sono licenze software digitali. Nessun articolo fisico viene spedito. Dopo un pagamento riuscito, la tua chiave di licenza e i link di download vengono inviati immediatamente."
+      },
+      {
+        "heading": "2. Tempo di consegna",
+        "body": "Le chiavi di licenza vengono solitamente consegnate entro pochi minuti dalla conferma del pagamento. In rari casi, la consegna può richiedere fino a poche ore a causa della verifica del pagamento."
+      },
+      {
+        "heading": "3. Cosa ricevi",
+        "body": "La tua e-mail di consegna contiene la chiave di licenza, i link di download ufficiali e le istruzioni di installazione."
+      },
+      {
+        "heading": "4. Consegna via e-mail",
+        "body": "Le chiavi vengono inviate all'indirizzo e-mail fornito al momento dell'acquisto. Assicurati che l'indirizzo sia corretto. Controlla la cartella spam o posta indesiderata se non vedi l'e-mail."
+      },
+      {
+        "heading": "5. Consegna mancata",
+        "body": "Se non hai ricevuto la tua e-mail entro poche ore, contattaci a support@keyversely.com e la rinvieremo."
+      },
+      {
+        "heading": "6. Nessuna spedizione fisica",
+        "body": "Poiché tutti i prodotti sono digitali, non ci sono costi di spedizione e la consegna è mondiale senza dazi doganali né oneri di importazione."
+      },
+      {
+        "heading": "7. Informazioni di contatto",
+        "body": "Per qualsiasi domanda, contatta KeyVersely LLC a support@keyversely.com o scrivi a 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog di Licendi",
+    "description": "Guide, consigli e notizie sulle licenze software Microsoft originali di Licendi.",
+    "readMore": "Leggi di più",
+    "readArticle": "Leggi l'articolo",
+    "publishedOn": "Pubblicato il",
+    "by": "di",
+    "backToBlog": "Torna al blog",
+    "featured": "In evidenza",
+    "latestPosts": "Ultimi articoli",
+    "recentPosts": "Articoli recenti",
+    "share": "Condividi questo articolo",
+    "minRead": "min di lettura",
+    "noPosts": "Nessun articolo pubblicato ancora. Torna presto!",
+    "browseAll": "Vedi tutti gli articoli",
+    "authorTitle": "Sull'autore"
   }
 }

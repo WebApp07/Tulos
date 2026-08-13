@@ -4,7 +4,7 @@ export interface SanityOrderData {
   orderNumber: string;
   customerName: string;
   customerEmail: string;
-  clerkUserId: string;
+  clerkUserId?: string;
   totalPrice: number;
   currency: string;
   amountDiscount: number;

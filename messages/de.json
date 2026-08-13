@@ -27,7 +27,8 @@
     "ariaLabel": "Sprache wählen"
   },
   "header": {
-    "home": "Startseite"
+    "home": "Startseite",
+    "blog": "Blog"
   },
   "search": {
     "title": "Produktsuche",
@@ -53,7 +54,10 @@
     "contactUs": "Kontakt",
     "termsConditions": "AGB",
     "privacyPolicy": "Datenschutz",
-    "faqs": "FAQ"
+    "faqs": "FAQ",
+    "refundPolicy": "Rückerstattungs- & Umtauschrichtlinie",
+    "shippingPolicy": "Versand- & Lieferrichtlinie",
+    "blog": "Blog"
   },
   "banner": {
     "title": "Offizielle Microsoft-Produkte",
@@ -125,8 +129,12 @@
     "emailPlaceholder": "E-Mail eingeben",
     "deliveryNote": "* Ihr digitales Produkt wird an diese E-Mail-Adresse geliefert.",
     "enterNameEmail": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse ein.",
-    "payStripe": "Mit Karte bezahlen (Stripe)",
-    "orPayWith": "Oder bezahlen mit"
+    "payStripe": "Bestellung aufgeben",
+    "orPayWith": "Oder bezahlen mit",
+    "guestBanner": "Sie bezahlen als Gast",
+    "guestNote": "Ihre Bestellung wird keinem Konto zugeordnet. Melden Sie sich an, um Bestellungen zu verfolgen und jederzeit darauf zuzugreifen.",
+    "guestSignIn": "Anmelden",
+    "stripeHint": "Sichere Zahlung über Stripe"
   },
   "emptyCart": {
     "title": "Ihr Warenkorb fühlt sich einsam an",
@@ -135,10 +143,13 @@
   },
   "auth": {
     "welcomeBack": "Willkommen zurück!",
-    "loginDesc": "Melden Sie sich an, um Ihre Warenkorbartikel anzusehen und zur Kasse zu gehen. Verpassen Sie Ihre Lieblingsprodukte nicht!",
+    "loginDesc": "Melden Sie sich an, um Ihren Warenkorb anzusehen und zur Kasse zu gehen, oder fahren Sie ohne Konto als Gast fort.",
     "signIn": "Anmelden",
     "noAccount": "Noch kein Konto?",
-    "createAccount": "Konto erstellen"
+    "createAccount": "Konto erstellen",
+    "or": "oder",
+    "continueAsGuest": "Als Gast fortfahren",
+    "guestDesc": "Bestellen ohne Konto. Ihre Bestellung wird keinem Profil zugeordnet."
   },
   "orders": {
     "title": "Bestellliste",
@@ -248,9 +259,17 @@
   },
   "contact": {
     "title": "Kontakt",
-    "desc": "Wir würden uns freuen, von Ihnen zu hören. Bitte füllen Sie das untenstehende Formular aus, und wir melden uns so schnell wie möglich bei Ihnen.",
-    "name": "Name",
+    "desc": "Fragen zu einer Bestellung, zur Aktivierung oder zu einem Lizenzschlüssel? Unser Support-Team hilft Ihnen gerne. Wir antworten in der Regel innerhalb von 24 Stunden an Werktagen.",
+    "businessTitle": "Unternehmensinformationen",
+    "companyName": "Rechtlicher Firmenname",
+    "companyValue": "KeyVersely LLC",
+    "address": "Registrierte Adresse",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
     "email": "E-Mail",
+    "emailValue": "support@keyversely.com",
+    "hours": "Support-Zeiten",
+    "hoursValue": "Montag – Freitag, 9:00 – 18:00 (MEZ)",
+    "name": "Name",
     "message": "Nachricht",
     "send": "Nachricht senden"
   },
@@ -258,24 +277,36 @@
     "title": "Häufig gestellte Fragen",
     "items": [
       {
-        "q": "Welche Dienstleistungen bietet Licendi an?",
-        "a": "Licendi bietet eine breite Palette an Technologielösungen an, darunter kundenspezifische Softwareentwicklung, Cloud-Dienste und Beratung zur digitalen Transformation."
+        "q": "Wie schnell erhalte ich meinen Lizenzschlüssel?",
+        "a": "Sofort nach Bestätigung Ihrer Zahlung werden Ihr Lizenzschlüssel und die Download-Links an die bei der Bestellung angegebene E-Mail-Adresse gesendet – in der Regel innerhalb weniger Minuten."
       },
       {
-        "q": "Wie erhalte ich Support für Licendi-Produkte?",
-        "a": "Sie erreichen unser Support-Team über unsere Kontaktseite oder per E-Mail an support@tulos.com."
+        "q": "Was erhalte ich nach der Bestellung?",
+        "a": "Sie erhalten einen echten Microsoft-Lizenzschlüssel zusammen mit offiziellen Download-Links und einer Installationsanleitung, zugestellt an Ihr E-Mail-Postfach."
       },
       {
-        "q": "Bietet Licendi Schulungen für seine Produkte an?",
-        "a": "Ja, wir bieten umfassende Schulungsprogramme für alle unsere Produkte und Dienstleistungen an. Kontaktieren Sie bitte unser Vertriebsteam für weitere Informationen."
+        "q": "Sind Ihre Lizenzschlüssel echt?",
+        "a": "Ja. Licendi wird von KeyVersely LLC betrieben, einem offiziellen Microsoft-Partner. Jeder von uns verkaufte Schlüssel ist echt und stammt aus autorisierten Kanälen."
       },
       {
-        "q": "Welche Branchen bedient Licendi?",
-        "a": "Licendi bedient ein breites Spektrum an Branchen, darunter Finanzen, Gesundheitswesen, Einzelhandel und Fertigung."
+        "q": "Kann ich eine Rückerstattung erhalten?",
+        "a": "Da digitale Lizenzschlüssel sofort geliefert und unmittelbar aktiviert werden können, sind Käufe nach dem Versand des Schlüssels nicht erstattungsfähig. Bei einem echten Problem wenden Sie sich an unser Support-Team – wir helfen Ihnen gerne."
       },
       {
-        "q": "Wie gewährleistet Licendi Datensicherheit?",
-        "a": "Wir setzen branchenübliche Sicherheitsmaßnahmen ein und halten alle relevanten Datenschutzvorschriften ein, um die Sicherheit der Daten unserer Kunden zu gewährleisten."
+        "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "a": "Wir akzeptieren alle gängigen Kredit- und Debitkarten über Stripe sowie PayPal."
+      },
+      {
+        "q": "Was, wenn ich die E-Mail mit meinem Lizenzschlüssel nicht erhalte?",
+        "a": "Prüfen Sie zunächst Ihren Spam- oder Junk-Ordner. Ist sie nicht dort, kontaktieren Sie uns unter support@keyversely.com – wir senden Ihren Schlüssel innerhalb weniger Minuten erneut."
+      },
+      {
+        "q": "Funktioniert die Lizenz in meinem Land?",
+        "a": "Ja, unsere Microsoft-Lizenzen sind für die weltweite Aktivierung konzipiert und funktionieren überall auf der Welt."
+      },
+      {
+        "q": "Welchen Support bieten Sie an?",
+        "a": "Jeder Kauf beinhaltet lebenslangen Support. Wenn Sie Hilfe bei Aktivierung oder Installation benötigen, kontaktieren Sie uns – unser Team unterstützt Sie."
       }
     ]
   },
@@ -283,49 +314,89 @@
     "title": "Allgemeine Geschäftsbedingungen",
     "sections": [
       {
-        "heading": "1. Annahme der Bedingungen",
-        "body": "Durch den Zugriff auf und die Nutzung der Dienste von Licendi stimmen Sie zu, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein."
+        "heading": "1. Geltungsbereich der Bedingungen",
+        "body": "Durch den Zugriff auf oder die Nutzung der Licendi-Website (die 'Website') stimmen Sie zu, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein. Wenn Sie nicht zustimmen, nutzen Sie die Website bitte nicht."
       },
       {
-        "heading": "2. Nutzung der Dienste",
-        "body": "Sie stimmen zu, die Dienste von Licendi nur für rechtmäßige Zwecke und in Übereinstimmung mit diesen Allgemeinen Geschäftsbedingungen zu nutzen."
+        "heading": "2. Produkte und Dienstleistungen",
+        "body": "Licendi, betrieben von KeyVersely LLC, verkauft digitale Softwarelizenzen, hauptsächlich echte Microsoft-Produkte wie Windows, Microsoft Office und Windows Server. Alle Produkte werden elektronisch geliefert."
       },
       {
-        "heading": "3. Geistiges Eigentum",
-        "body": "Alle Inhalte und Materialien auf den Diensten von Licendi sind Eigentum von Licendi und durch geltende Gesetze zum geistigen Eigentum geschützt."
+        "heading": "3. Digitale Lieferung",
+        "body": "Unmittelbar nach einer erfolgreichen Zahlung werden Lizenzschlüssel und Download-Anweisungen an die von Ihnen angegebene E-Mail-Adresse gesendet. Sie sind dafür verantwortlich, eine gültige und erreichbare E-Mail-Adresse anzugeben."
       },
       {
-        "heading": "4. Haftungsbeschränkung",
-        "body": "Licendi haftet nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung unserer Dienste resultieren."
+        "heading": "4. Rückerstattungsrichtlinie",
+        "body": "Aufgrund der sofortigen elektronischen Lieferung von Lizenzschlüsseln sind alle Verkäufe endgültig und nach dem Versand des Schlüssels nicht erstattungsfähig. Ausnahmen werden bei echten Liefer- oder technischen Problemen im Einzelfall geprüft."
       },
       {
-        "heading": "5. Anwendbares Recht",
-        "body": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der Licendi tätig ist, und werden nach diesen ausgelegt."
+        "heading": "5. Lizenznutzung",
+        "body": "Sie dürfen die gekauften Lizenzschlüssel nur für Ihre eigene persönliche oder geschäftliche Nutzung gemäß den Lizenzbedingungen von Microsoft verwenden. Der Weiterverkauf, das Teilen oder die Weitergabe von Schlüsseln ist untersagt."
+      },
+      {
+        "heading": "6. Geistiges Eigentum",
+        "body": "Alle Inhalte der Website, einschließlich Texte, Grafiken, Logos und Software, sind Eigentum von KeyVersely LLC oder ihrer Lizenzgeber und durch geltende Gesetze zum geistigen Eigentum geschützt."
+      },
+      {
+        "heading": "7. Haftungsbeschränkung",
+        "body": "Soweit gesetzlich zulässig, haftet KeyVersely LLC nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung der Website oder unserer Produkte entstehen."
+      },
+      {
+        "heading": "8. Anwendbares Recht",
+        "body": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen des Bundesstaates Wyoming, Vereinigte Staaten, und werden nach diesen ausgelegt, ohne Berücksichtigung kollisionsrechtlicher Grundsätze."
+      },
+      {
+        "heading": "9. Kontaktinformationen",
+        "body": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns unter support@keyversely.com oder schreiben Sie an KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
   "privacy": {
-    "title": "Datenschutzerklärung",
+    "title": "Datenschutzrichtlinie",
     "sections": [
       {
-        "heading": "1. Erhebung von Informationen",
-        "body": "Wir erheben Informationen, die Sie uns bei der Nutzung unserer Dienste direkt bereitstellen, sowie Informationen über Ihre Nutzung unserer Dienste."
+        "heading": "1. Einleitung",
+        "body": "KeyVersely LLC ('wir', 'uns' oder 'unser') betreibt die Licendi-Website. Diese Datenschutzrichtlinie erklärt, welche Informationen wir sammeln, wie wir sie verwenden und welche Wahlmöglichkeiten Sie haben."
       },
       {
-        "heading": "2. Verwendung der Informationen",
-        "body": "Wir verwenden die erfassten Informationen, um unsere Dienste bereitzustellen, zu warten und zu verbessern sowie um mit Ihnen zu kommunizieren."
+        "heading": "2. Welche Informationen wir sammeln",
+        "body": "Wir sammeln Informationen, die Sie direkt angeben, wie Ihren Namen und Ihre E-Mail-Adresse, wenn Sie eine Bestellung aufgeben, ein Konto erstellen oder den Support kontaktieren. Wir erfassen außerdem automatisch technische Informationen wie Ihre IP-Adresse, den Browsertyp und besuchte Seiten."
       },
       {
-        "heading": "3. Weitergabe von Informationen",
-        "body": "Wir geben Ihre persönlichen Daten nicht an Dritte weiter, außer wie in dieser Datenschutzerklärung beschrieben oder mit Ihrer Zustimmung."
+        "heading": "3. Wie wir Ihre Informationen verwenden",
+        "body": "Wir verwenden Ihre Informationen, um Bestellungen zu verarbeiten und zu liefern, mit Ihnen zu kommunizieren, unsere Website zu verbessern, Betrug zu verhindern und rechtliche Verpflichtungen zu erfüllen."
       },
       {
-        "heading": "4. Datensicherheit",
-        "body": "Wir ergreifen angemessene Maßnahmen, um Ihre persönlichen Daten vor Verlust, Diebstahl, Missbrauch und unbefugtem Zugriff zu schützen."
+        "heading": "4. Cookies und Tracking",
+        "body": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Website-Verkehr zu analysieren und personalisierte Werbung zu unterstützen. Sie können Cookies über unser Cookie-Banner annehmen oder ablehnen und jederzeit in Ihren Browsereinstellungen verwalten oder löschen."
       },
       {
-        "heading": "5. Ihre Rechte",
-        "body": "Sie haben das Recht, auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren oder zu löschen. Kontaktieren Sie uns bitte für Unterstützung bei diesen Anfragen."
+        "heading": "5. Dienste Dritter",
+        "body": "Wir arbeiten mit vertrauenswürdigen Dritten zusammen: Stripe und PayPal für die Zahlungsabwicklung, Clerk für die Authentifizierung sowie Analyseanbieter zum Verständnis der Seitennutzung. Diese Parteien verarbeiten Daten nur im erforderlichen Umfang und nach ihren eigenen Datenschutzrichtlinien."
+      },
+      {
+        "heading": "6. Weitergabe von Informationen",
+        "body": "Wir verkaufen Ihre persönlichen Daten nicht. Wir geben Ihre Informationen nur an die oben genannten Dienstleister weiter, wenn es gesetzlich vorgeschrieben ist oder mit Ihrer Zustimmung."
+      },
+      {
+        "heading": "7. Datensicherheit",
+        "body": "Wir verwenden branchenübliche Maßnahmen, um Ihre persönlichen Daten vor Verlust, Diebstahl, Missbrauch und unbefugtem Zugriff zu schützen."
+      },
+      {
+        "heading": "8. Ihre Rechte",
+        "body": "Je nach Standort haben Sie möglicherweise das Recht, auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren oder zu löschen und bestimmten Verarbeitungen zu widersprechen. Kontaktieren Sie uns unter support@keyversely.com, um diese Rechte auszuüben."
+      },
+      {
+        "heading": "9. Datenschutz für Kinder",
+        "body": "Unsere Dienste richten sich nicht an Kinder unter 16 Jahren, und wir sammeln wissentlich keine persönlichen Daten von Kindern."
+      },
+      {
+        "heading": "10. Änderungen dieser Richtlinie",
+        "body": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden mit überarbeitetem Datum auf dieser Seite veröffentlicht."
+      },
+      {
+        "heading": "11. Kontakt",
+        "body": "Bei Fragen zu dieser Datenschutzrichtlinie kontaktieren Sie uns unter support@keyversely.com oder schreiben Sie an KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -339,5 +410,84 @@
     "statusNew": "Neu",
     "statusHot": "Beliebt",
     "statusSale": "Angebot"
+  },
+  "refundPolicy": {
+    "title": "Rückerstattungs- und Umtauschrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Überblick",
+        "body": "Da unsere Produkte digitale Lizenzschlüssel sind, die sofort geliefert werden, sind alle Verkäufe endgültig, sobald der Schlüssel gesendet wurde."
+      },
+      {
+        "heading": "2. Nicht erstattungsfähige digitale Produkte",
+        "body": "Digitale Produkte, einschließlich Software-Lizenzschlüsseln, sind nicht erstattungs- und nicht umtauschbar, sobald der Lizenzschlüssel an Ihre E-Mail geliefert wurde, da der Schlüssel sofort aktiviert werden kann."
+      },
+      {
+        "heading": "3. Ausnahmen",
+        "body": "Wir prüfen eine Erstattung oder einen Ersatz im Einzelfall, wenn: der Lizenzschlüssel nicht aktiviert werden kann, der Schlüssel aufgrund eines technischen Fehlers auf unserer Seite nicht geliefert wurde oder Sie das falsche Produkt erhalten haben."
+      },
+      {
+        "heading": "4. So beantragen Sie eine Erstattung oder einen Ersatz",
+        "body": "Kontaktieren Sie unser Support-Team unter support@keyversely.com innerhalb von 14 Tagen nach dem Kauf mit Ihrer Bestellnummer und einer Beschreibung des Problems. Wir prüfen den Fall und antworten innerhalb von 24 Stunden."
+      },
+      {
+        "heading": "5. Nicht autorisierte Transaktionen",
+        "body": "Wenn Sie glauben, dass eine Abbuchung nicht autorisiert war, kontaktieren Sie Ihren Zahlungsanbieter und unser Support-Team sofort, damit wir den Fall untersuchen können."
+      },
+      {
+        "heading": "6. Kontaktinformationen",
+        "body": "Bei Fragen zu dieser Richtlinie kontaktieren Sie KeyVersely LLC unter support@keyversely.com oder schreiben Sie an 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Versand- und Lieferrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Digitale Lieferung",
+        "body": "Alle auf Licendi verkauften Produkte sind digitale Softwarelizenzen. Es werden keine physischen Artikel versendet. Nach einer erfolgreichen Zahlung werden Ihr Lizenzschlüssel und Ihre Download-Links sofort gesendet."
+      },
+      {
+        "heading": "2. Lieferzeit",
+        "body": "Lizenzschlüssel werden in der Regel innerhalb weniger Minuten nach Bestätigung der Zahlung geliefert. In seltenen Fällen kann die Lieferung aufgrund der Zahlungsprüfung bis zu ein paar Stunden dauern."
+      },
+      {
+        "heading": "3. Was Sie erhalten",
+        "body": "Ihre Liefer-E-Mail enthält Ihren Lizenzschlüssel, offizielle Download-Links und Installationsanweisungen."
+      },
+      {
+        "heading": "4. E-Mail-Zustellung",
+        "body": "Schlüssel werden an die bei der Bestellung angegebene E-Mail-Adresse gesendet. Bitte stellen Sie sicher, dass die Adresse korrekt ist. Prüfen Sie Ihren Spam- oder Junk-Ordner, wenn Sie die E-Mail nicht sehen."
+      },
+      {
+        "heading": "5. Verpasste Zustellung",
+        "body": "Wenn Sie Ihre E-Mail innerhalb weniger Stunden nicht erhalten haben, kontaktieren Sie uns unter support@keyversely.com und wir senden sie erneut."
+      },
+      {
+        "heading": "6. Kein physischer Versand",
+        "body": "Da alle Produkte digital sind, fallen keine Versandkosten an, und die Lieferung erfolgt weltweit ohne Zoll- oder Einfuhrabgaben."
+      },
+      {
+        "heading": "7. Kontaktinformationen",
+        "body": "Bei Fragen kontaktieren Sie KeyVersely LLC unter support@keyversely.com oder schreiben Sie an 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Licendi Blog",
+    "description": "Ratgeber, Tipps und Neuigkeiten zu echten Microsoft-Softwarelizenzen von Licendi.",
+    "readMore": "Weiterlesen",
+    "readArticle": "Artikel lesen",
+    "publishedOn": "Veröffentlicht am",
+    "by": "von",
+    "backToBlog": "Zurück zum Blog",
+    "featured": "Empfohlen",
+    "latestPosts": "Neueste Artikel",
+    "recentPosts": "Aktuelle Beiträge",
+    "share": "Diesen Artikel teilen",
+    "minRead": "Min. Lesezeit",
+    "noPosts": "Noch keine Artikel veröffentlicht. Schauen Sie bald wieder vorbei!",
+    "browseAll": "Alle Artikel anzeigen",
+    "authorTitle": "Über den Autor"
   }
 }

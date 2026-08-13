@@ -11,7 +11,7 @@ export async function capturePayPalOrder(
     orderNumber: string;
     customerName: string;
     customerEmail: string;
-    clerkUserId: string;
+    clerkUserId?: string;
     totalPrice: number;
     currency: string;
   }

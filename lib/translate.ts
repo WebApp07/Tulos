@@ -47,3 +47,38 @@ export const translateText = unstable_cache(
     revalidate: 60 * 60 * 24,
   },
 );
+
+type PortableBlock = Record<string, unknown>;
+
+const isBlockWithChildren = (block: PortableBlock): boolean =>
+  block._type === "block" && Array.isArray(block.children);
+
+export const translatePortableText = unstable_cache(
+  async (blocks: PortableBlock[], target: string) => {
+    if (!blocks || !target || target === "en") return blocks;
+    try {
+      return await Promise.all(
+        blocks.map(async (block) => {
+          if (!isBlockWithChildren(block)) return block;
+          const children = await Promise.all(
+            (block.children as PortableBlock[]).map(async (child) => {
+              if (child._type === "span" && typeof child.text === "string") {
+                const text = await googleTranslate(child.text, target);
+                return { ...child, text: text || child.text };
+              }
+              return child;
+            }),
+          );
+          return { ...block, children };
+        }),
+      );
+    } catch (error) {
+      console.error("Failed to translate portable text:", error);
+      return blocks;
+    }
+  },
+  ["portable-text-translation", "v1"],
+  {
+    revalidate: 60 * 60 * 24,
+  },
+);

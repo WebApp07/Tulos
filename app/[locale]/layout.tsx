@@ -14,6 +14,30 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://licendi.xyz";
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Licendi",
+  url: BASE_URL,
+  logo: `${BASE_URL}/logo.png`,
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+1 307 785 6160",
+    contactType: "customer service",
+    email: "support@keyversely.com",
+  },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "63 N Burritt Ave Rm 100 Pmb 1180",
+    addressLocality: "Buffalo",
+    addressRegion: "Wyoming",
+    postalCode: "82834",
+    addressCountry: "US",
+  },
+};
+
 const raleway = localFont({
   src: "../fonts/Raleway.woff2",
   variable: "--font-raleway",
@@ -47,6 +71,12 @@ export default async function RootLayout({
     <ClerkProvider>
       <html lang={locale}>
         <body className={`${raleway.variable} antialiased`}>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(organizationJsonLd),
+            }}
+          />
           <NextIntlClientProvider messages={messages}>
             <CurrencyProvider>
               <PayPalProvider>

@@ -20,6 +20,17 @@ export const structure: StructureResolver = (S) => {
         S.documentTypeListItem("category").title("Categories"),
         S.divider(),
         S.listItem()
+          .title("Blog")
+          .child(
+            S.list()
+              .title("Blog")
+              .items([
+                S.documentTypeListItem("post").title("Posts"),
+                S.documentTypeListItem("author").title("Authors"),
+              ]),
+          ),
+        S.divider(),
+        S.listItem()
           .title("Translations")
           .child(
             S.list()

@@ -33,7 +33,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
       >
         <div className="flex items-center justify-between">
           <button onClick={onClose}>
-            <Logo className="text-white">Tulos</Logo>
+            <Logo className="text-white">Licendi</Logo>
           </button>
           <button className="hover:text-red-500 hoverEffect" onClick={onClose}>
             <X />
@@ -61,6 +61,15 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
               {item?.title}
             </Link>
           ))}
+          <Link
+            onClick={onClose}
+            href={"/blog"}
+            className={`hover:text-white hoverEffect w-24 ${
+              pathname.startsWith("/blog") && "text-white"
+            }`}
+          >
+            {t("blog")}
+          </Link>
         </div>
         <SocialMedia />
       </motion.div>

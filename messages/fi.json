@@ -27,7 +27,8 @@
     "ariaLabel": "Valitse kieli"
   },
   "header": {
-    "home": "Etusivu"
+    "home": "Etusivu",
+    "blog": "Blogi"
   },
   "search": {
     "title": "Tuotehaku",
@@ -53,7 +54,10 @@
     "contactUs": "Ota yhteyttä",
     "termsConditions": "Käyttöehdot",
     "privacyPolicy": "Tietosuojakäytäntö",
-    "faqs": "UKK"
+    "faqs": "UKK",
+    "refundPolicy": "Hyvitys- ja palautuskäytäntö",
+    "shippingPolicy": "Toimitus- ja toimitusehdot",
+    "blog": "Blogi"
   },
   "banner": {
     "title": "Viralliset Microsoft-tuotteet",
@@ -125,8 +129,12 @@
     "emailPlaceholder": "Syötä sähköpostisi",
     "deliveryNote": "* Digitaalinen tuotteesi toimitetaan tähän sähköpostiosoitteeseen.",
     "enterNameEmail": "Syötä nimesi ja sähköpostiosoitteesi.",
-    "payStripe": "Maksa kortilla (Stripe)",
-    "orPayWith": "Tai maksa"
+    "payStripe": "Tilaa",
+    "orPayWith": "Tai maksa",
+    "guestBanner": "Ostat vieraana",
+    "guestNote": "Tilaustasi ei yhdistetä tiliin. Kirjaudu sisään seurataksesi tilauksiasi ja päästäksesi niihin käsiksi milloin tahansa.",
+    "guestSignIn": "Kirjaudu",
+    "stripeHint": "Turvallinen maksu Stripen kautta"
   },
   "emptyCart": {
     "title": "Ostoskorisi tuntee olonsa yksinäiseksi",
@@ -135,10 +143,13 @@
   },
   "auth": {
     "welcomeBack": "Tervetuloa takaisin!",
-    "loginDesc": "Kirjaudu sisään nähdäksesi ostoskorin sisällön ja viimeistelläksesi ostoksen. Älä missaa suosikkituotteitasi!",
+    "loginDesc": "Kirjaudu sisään nähdäksesi ostoskorin sisällön ja viimeistelläksesi ostoksen tai jatka vieraana ilman tiliä.",
     "signIn": "Kirjaudu",
     "noAccount": "Ei vielä tiliä?",
-    "createAccount": "Luo tili"
+    "createAccount": "Luo tili",
+    "or": "tai",
+    "continueAsGuest": "Jatka vieraana",
+    "guestDesc": "Osta ilman tiliä. Tilaustasi ei yhdistetä profiiliin."
   },
   "orders": {
     "title": "Tilauslista",
@@ -248,9 +259,17 @@
   },
   "contact": {
     "title": "Ota yhteyttä",
-    "desc": "Kuulisimme mielellämme sinusta. Täytä alla oleva lomake, niin vastaamme sinulle mahdollisimman pian.",
-    "name": "Nimi",
+    "desc": "Kysymyksiä tilauksesta, aktivoinnista tai lisenssiavaimesta? Tukitiimimme on täällä auttamassa. Vastaamme yleensä 24 tunnin kuluessa arkipäivinä.",
+    "businessTitle": "Yritystiedot",
+    "companyName": "Yrityksen virallinen nimi",
+    "companyValue": "KeyVersely LLC",
+    "address": "Rekisteröity osoite",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
     "email": "Sähköposti",
+    "emailValue": "support@keyversely.com",
+    "hours": "Tukiajat",
+    "hoursValue": "Maanantai – Perjantai, 9:00 – 18:00 (CET)",
+    "name": "Nimi",
     "message": "Viesti",
     "send": "Lähetä viesti"
   },
@@ -258,24 +277,36 @@
     "title": "Usein kysytyt kysymykset",
     "items": [
       {
-        "q": "Mitä palveluita Licendi tarjoaa?",
-        "a": "Licendi tarjoaa laajan valikoiman teknologiaratkaisuja, mukaan lukien räätälöity ohjelmistokehitys, pilvipalvelut ja digitaalisen muutoksen konsultointi."
+        "q": "Kuinka nopeasti saan lisenssiavaimeni?",
+        "a": "Heti kun maksusi on vahvistettu, lisenssiavain ja latauslinkit lähetetään maksun yhteydessä antamaasi sähköpostiosoitteeseen — yleensä muutamassa minuutissa."
       },
       {
-        "q": "Miten saan tukea Licendi-tuotteille?",
-        "a": "Voit ottaa yhteyttä tukitiimiimme yhteyssivun kautta tai lähettämällä sähköpostia osoitteeseen support@tulos.com."
+        "q": "Mitä saan tilauksen jälkeen?",
+        "a": "Saat aidon Microsoft-lisenssiavaimen sekä viralliset latauslinkit ja asennusoppaan sähköpostiisi."
       },
       {
-        "q": "Tarjoaako Licendi koulutusta tuotteilleen?",
-        "a": "Kyllä, tarjoamme kattavia koulutusohjelmia kaikille tuotteillemme ja palveluillemme. Ota yhteyttä myyntitiimiimme saadaksesi lisätietoja."
+        "q": "Ovatko lisenssiavaimenne aitoja?",
+        "a": "Kyllä. Licendiä ylläpitää KeyVersely LLC, virallinen Microsoft-kumppani. Jokainen myymämme avain on aito ja peräisin valtuutetuista kanavista."
       },
       {
-        "q": "Mitä toimialoja Licendi palvelee?",
-        "a": "Licendi palvelee monia toimialoja, mukaan lukien rahoitus, terveydenhuolto, vähittäiskauppa ja valmistus."
+        "q": "Voinko saada hyvityksen?",
+        "a": "Koska digitaaliset lisenssiavaimet toimitetaan heti ja voidaan aktivoida välittömästi, ostokset eivät ole hyvitettävissä, kun avain on lähetetty. Jos sinulla on todellinen ongelma, ota yhteyttä tukitiimiimme ja autamme parhaamme mukaan."
       },
       {
-        "q": "Miten Licendi varmistaa tietoturvan?",
-        "a": "Käytämme alan standardien mukaisia suojatoimia ja noudatamme kaikkia sovellettavia tietosuojasäännöksiä varmistaaksemme asiakkaidemme tietojen turvallisuuden."
+        "q": "Mitä maksutapoja hyväksytte?",
+        "a": "Hyväksymme kaikki suurimmat luotto- ja maksukortit Stripen kautta sekä PayPalin."
+      },
+      {
+        "q": "Entä jos en saa sähköpostia lisenssiavaimellani?",
+        "a": "Tarkista ensin roskaposti- tai roskapostikansiosi. Jos sitä ei ole siellä, ota yhteyttä osoitteeseen support@keyversely.com ja lähetämme avaimesi uudelleen muutamassa minuutissa."
+      },
+      {
+        "q": "Toimiiko lisenssi maassani?",
+        "a": "Kyllä, Microsoft-lisenssimme on suunniteltu maailmanlaajuiseen aktivointiin ja toimivat kaikkialla maailmassa."
+      },
+      {
+        "q": "Mitä tukea tarjoatte?",
+        "a": "Jokainen ostos sisältää elinikäisen tuen. Jos tarvitset apua aktivoinnissa tai asennuksessa, ota yhteyttä ja tiimimme auttaa sinua."
       }
     ]
   },
@@ -284,23 +315,39 @@
     "sections": [
       {
         "heading": "1. Ehtojen hyväksyminen",
-        "body": "Käyttämällä Licendiin palveluita sitoudut noudattamaan näitä käyttöehtoja."
+        "body": "Käyttämällä Licendi-verkkosivustoa ('Verkkosivusto') sitoudut noudattamaan näitä käyttöehtoja. Jos et hyväksy, älä käytä Verkkosivustoa."
       },
       {
-        "heading": "2. Palveluiden käyttö",
-        "body": "Sitoudut käyttämään Licendiin palveluita vain laillisiin tarkoituksiin ja näiden käyttöehtojen mukaisesti."
+        "heading": "2. Tuotteet ja palvelut",
+        "body": "Licendi, jota ylläpitää KeyVersely LLC, myy digitaalisia ohjelmistolisenssejä, pääasiassa aitoja Microsoft-tuotteita, kuten Windowsia, Microsoft Officea ja Windows Serveriä. Kaikki tuotteet toimitetaan sähköisesti."
       },
       {
-        "heading": "3. Immateriaalioikeudet",
-        "body": "Kaikki Licendiin palveluissa saatavilla oleva sisältö ja materiaalit ovat Licendiin omaisuutta ja suojattu sovellettavilla immateriaalioikeuslaeilla."
+        "heading": "3. Digitaalinen toimitus",
+        "body": "Heti onnistuneen maksun jälkeen lisenssiavaimet ja latausohjeet lähetetään antamaasi sähköpostiosoitteeseen. Olet vastuussa kelvollisen ja tavoitettavan sähköpostiosoitteen toimittamisesta."
       },
       {
-        "heading": "4. Vastuunrajoitus",
-        "body": "Licendi ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä, seurannaisista tai rankaisevista vahingoista, jotka aiheutuvat palveluidemme käytöstä."
+        "heading": "4. Hyvityskäytäntö",
+        "body": "Lisenssiavainten välittömän sähköisen toimituksen vuoksi kaikki myynnit ovat lopullisia eivätkä hyvitettäviä, kun avain on lähetetty. Poikkeuksia harkitaan tapauskohtaisesti todellisten toimitus- tai teknisten ongelmien yhteydessä."
       },
       {
-        "heading": "5. Sovellettava laki",
-        "body": "Näitä käyttöehtoja säännellään ja tulkitaan sen lainkäyttöalueen lakien mukaisesti, jossa Licendi toimii."
+        "heading": "5. Lisenssin käyttö",
+        "body": "Voit käyttää ostettuja lisenssiavaimia vain omaan henkilökohtaiseen tai yrityskäyttöön Microsoftin lisenssiehtojen mukaisesti. Avainten jälleenmyynti, jakaminen tai edelleenluovutus on kielletty."
+      },
+      {
+        "heading": "6. Immateriaalioikeudet",
+        "body": "Kaikki Verkkosivuston sisältö, mukaan lukien tekstit, grafiikat, logot ja ohjelmistot, on KeyVersely LLC:n tai sen lisenssinantajien omaisuutta ja suojattu sovellettavilla immateriaalioikeuslaeilla."
+      },
+      {
+        "heading": "7. Vastuunrajoitus",
+        "body": "Lain sallimassa enimmäismäärässä KeyVersely LLC ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä, seurannaisista tai rankaisevista vahingoista, jotka johtuvat Verkkosivuston tai tuotteidemme käytöstä."
+      },
+      {
+        "heading": "8. Sovellettava laki",
+        "body": "Näihin käyttöehtoihin sovelletaan Yhdysvaltojen Wyomingin osavaltion lakeja ja niitä tulkitaan näiden lakien mukaisesti ottamatta huomioon lainvalintaperiaatteita."
+      },
+      {
+        "heading": "9. Yhteystiedot",
+        "body": "Jos sinulla on kysyttävää näistä ehdoista, ota yhteyttä osoitteeseen support@keyversely.com tai kirjoita KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -308,24 +355,48 @@
     "title": "Tietosuojakäytäntö",
     "sections": [
       {
-        "heading": "1. Tietojen kerääminen",
-        "body": "Keräämme tietoja, jotka annat meille suoraan käyttäessäsi palveluitamme, sekä tietoja palveluidemme käytöstä."
+        "heading": "1. Johdanto",
+        "body": "KeyVersely LLC ('me', 'meidän') ylläpitää Licendi-verkkosivustoa. Tämä tietosuojakäytäntö selittää, mitä tietoja keräämme, miten käytämme niitä ja mitä valintoja sinulla on."
       },
       {
-        "heading": "2. Tietojen käyttö",
-        "body": "Käytämme kerättyjä tietoja palveluidemme tarjoamiseen, ylläpitämiseen ja parantamiseen sekä kommunikointiin kanssasi."
+        "heading": "2. Keräämämme tiedot",
+        "body": "Keräämme tiedot, jotka annat suoraan, kuten nimesi ja sähköpostiosoitteesi, kun teet tilauksen, luot tilin tai otat yhteyttä tukeen. Keräämme myös automaattisesti teknisiä tietoja, kuten IP-osoitteesi, selaintyypin ja vieraillut sivut."
       },
       {
-        "heading": "3. Tietojen jakaminen",
-        "body": "Emme jaa henkilökohtaisia tietojasi kolmansille osapuolille, paitsi kuten tässä tietosuojakäytännössä kuvataan tai suostumuksellasi."
+        "heading": "3. Miten käytämme tietojasi",
+        "body": "Käytämme tietojasi tilausten käsittelyyn ja toimittamiseen, kanssasi kommunikointiin, Verkkosivuston parantamiseen, petosten estämiseen ja lakisääteisten velvoitteiden noudattamiseen."
       },
       {
-        "heading": "4. Tietoturva",
-        "body": "Ryhdymme kohtuullisiin toimenpiteisiin suojataksemme henkilökohtaiset tietosi häviämiseltä, varkaudelta, väärinkäytöltä ja luvattomalta pääsyltä."
+        "heading": "4. Evästeet ja seuranta",
+        "body": "Käytämme evästeitä parantaaksemme käyttökokemustasi, analysoidaksemme verkkosivuston liikennettä ja tukeaksemme kohdennettua mainontaa. Voit hyväksyä tai hylätä evästeet evästebannerimme kautta ja hallita tai poistaa ne milloin tahansa selaimen asetuksista."
       },
       {
-        "heading": "5. Oikeutesi",
-        "body": "Sinulla on oikeus tarkastella, korjata tai poistaa henkilökohtaiset tietosi. Ota meihin yhteyttä näitä pyyntöjä koskevassa avussa."
+        "heading": "5. Kolmannen osapuolen palvelut",
+        "body": "Teemme yhteistyötä luotettujen kolmansien osapuolten kanssa: Stripe ja PayPal maksujen käsittelyyn, Clerk todennukseen ja analytiikkatoimittajat sivuston käytön ymmärtämiseen. Nämä osapuolet käsittelevät tietoja vain tarvittavassa laajuudessa ja omien tietosuojakäytäntöjensä mukaisesti."
+      },
+      {
+        "heading": "6. Tietojen jakaminen",
+        "body": "Emme myy henkilökohtaisia tietojasi. Jaamme tietosi vain edellä kuvatuille palveluntarjoajille, kun laki sitä vaatii tai suostumuksellasi."
+      },
+      {
+        "heading": "7. Tietoturva",
+        "body": "Käytämme alan standardien mukaisia toimenpiteitä suojataksemme henkilökohtaiset tietosi katoamiselta, varkaudelta, väärinkäytöltä ja luvattomalta käytöltä."
+      },
+      {
+        "heading": "8. Oikeutesi",
+        "body": "Sijainnistasi riippuen sinulla voi olla oikeus käyttää, korjata tai poistaa henkilökohtaisia tietojasi ja vastustaa tiettyä käsittelyä. Voit käyttää näitä oikeuksia ottamalla yhteyttä osoitteeseen support@keyversely.com."
+      },
+      {
+        "heading": "9. Lasten yksityisyys",
+        "body": "Palvelumme eivät ole suunnattu alle 16-vuotiaille lapsille, emmekä tietoisesti kerää henkilökohtaisia tietoja lapsilta."
+      },
+      {
+        "heading": "10. Muutokset tähän käytäntöön",
+        "body": "Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Julkaisemme kaikki muutokset tällä sivulla päivitetyn päivämäärän kera."
+      },
+      {
+        "heading": "11. Ota yhteyttä",
+        "body": "Jos sinulla on kysyttävää tästä tietosuojakäytännöstä, ota yhteyttä osoitteeseen support@keyversely.com tai kirjoita KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
       }
     ]
   },
@@ -339,5 +410,84 @@
     "statusNew": "Uusi",
     "statusHot": "Suosittu",
     "statusSale": "Ale"
+  },
+  "refundPolicy": {
+    "title": "Hyvitys- ja palautuskäytäntö",
+    "sections": [
+      {
+        "heading": "1. Yleiskatsaus",
+        "body": "Koska tuotteemme ovat digitaalisia lisenssiavaimia, jotka toimitetaan heti, kaikki myynnit ovat lopullisia, kun avain on lähetetty."
+      },
+      {
+        "heading": "2. Ei-hyvitettävät digitaaliset tuotteet",
+        "body": "Digitaaliset tuotteet, mukaan lukien ohjelmistolisenssiavaimet, eivät ole hyvitettäviä eivätkä palautettavissa, kun lisenssiavain on toimitettu sähköpostiisi, koska avain voidaan aktivoida välittömästi."
+      },
+      {
+        "heading": "3. Poikkeukset",
+        "body": "Harkitsemme hyvitystä tai korvausta tapauskohtaisesti, jos: lisenssiavain ei aktivoidu, avainta ei toimitettu meistä johtuvan teknisen virheen vuoksi tai sait väärän tuotteen."
+      },
+      {
+        "heading": "4. Näin haet hyvitystä tai korvausta",
+        "body": "Ota yhteyttä tukitiimiimme osoitteeseen support@keyversely.com 14 päivän kuluessa ostosta ja kerro tilausnumerosi sekä kuvaus ongelmasta. Tutkimme asian ja vastaamme 24 tunnin kuluessa."
+      },
+      {
+        "heading": "5. Luvattomat tapahtumat",
+        "body": "Jos uskot veloituksen olevan luvaton, ota välittömästi yhteyttä maksupalveluntarjoajaasi ja tukitiimiimme, jotta voimme tutkia asian."
+      },
+      {
+        "heading": "6. Yhteystiedot",
+        "body": "Jos sinulla on kysyttävää tästä käytännöstä, ota yhteyttä KeyVersely LLC:hen osoitteessa support@keyversely.com tai kirjoita osoitteeseen 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Toimitus- ja toimitusehtokäytäntö",
+    "sections": [
+      {
+        "heading": "1. Digitaalinen toimitus",
+        "body": "Kaikki Licendissä myytävät tuotteet ovat digitaalisia ohjelmistolisenssejä. Fyysisiä tuotteita ei lähetetä. Onnistuneen maksun jälkeen lisenssiavain ja latauslinkit lähetetään heti."
+      },
+      {
+        "heading": "2. Toimitusaika",
+        "body": "Lisenssiavaimet toimitetaan yleensä muutamassa minuutissa maksun vahvistamisen jälkeen. Harvinaisissa tapauksissa toimitus voi kestää muutaman tunnin maksun vahvistuksen vuoksi."
+      },
+      {
+        "heading": "3. Mitä saat",
+        "body": "Toimitussähköpostisi sisältää lisenssiavaimen, viralliset latauslinkit ja asennusohjeet."
+      },
+      {
+        "heading": "4. Sähköpostitoimitus",
+        "body": "Avaimet lähetetään maksun yhteydessä antamaasi sähköpostiosoitteeseen. Varmista, että osoite on oikea. Tarkista roskaposti- tai roskapostikansio, jos et näe sähköpostia."
+      },
+      {
+        "heading": "5. Toimitus, jota ei saapunut",
+        "body": "Jos et ole saanut sähköpostia muutamassa tunnissa, ota yhteyttä osoitteeseen support@keyversely.com ja lähetämme sen uudelleen."
+      },
+      {
+        "heading": "6. Ei fyysistä toimitusta",
+        "body": "Koska kaikki tuotteet ovat digitaalisia, toimituskuluja ei ole, ja toimitus on maailmanlaajuinen ilman tulli- tai tuontikuluja."
+      },
+      {
+        "heading": "7. Yhteystiedot",
+        "body": "Jos sinulla on kysyttävää, ota yhteyttä KeyVersely LLC:hen osoitteessa support@keyversely.com tai kirjoita osoitteeseen 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Licendi-blogi",
+    "description": "Oppaita, vinkkejä ja uutisia aidoista Microsoft-ohjelmistolisensseistä Licendiltä.",
+    "readMore": "Lue lisää",
+    "readArticle": "Lue artikkeli",
+    "publishedOn": "Julkaistu",
+    "by": "kirjoittaja",
+    "backToBlog": "Takaisin blogiin",
+    "featured": "Suositeltu",
+    "latestPosts": "Uusimmat artikkelit",
+    "recentPosts": "Viimeisimmät kirjoitukset",
+    "share": "Jaa tämä artikkeli",
+    "minRead": "min lukuaika",
+    "noPosts": "Ei vielä julkaistuja artikkeleita. Palaa pian!",
+    "browseAll": "Näytä kaikki artikkelit",
+    "authorTitle": "Kirjoittajasta"
   }
 }
