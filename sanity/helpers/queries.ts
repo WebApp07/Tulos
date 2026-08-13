@@ -34,6 +34,21 @@ export const getAllCategories = async () => {
   }
 };
 
+export const getAllProducts = async () => {
+  const PRODUCTS_QUERY = defineQuery(
+    `*[_type=="product"]{slug,_updatedAt} | order(_updatedAt desc)`,
+  );
+  try {
+    const products = await sanityFetch({
+      query: PRODUCTS_QUERY,
+    });
+    return products.data || [];
+  } catch (error) {
+    console.error("Error fetching all products");
+    return [];
+  }
+};
+
 export const getMyOrders = async (userId: string) => {
   if (!userId) {
     throw new Error("User ID is required");
