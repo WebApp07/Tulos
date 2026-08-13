@@ -44,6 +44,7 @@ export const postType = defineType({
       of: [
         { type: "block" },
         { type: "image", options: { hotspot: true } },
+        { type: "table" },
       ],
     }),
     defineField({

@@ -1,0 +1,22 @@
+{
+  "cadence": "one post per day",
+  "timezone": "UTC",
+  "entries": [
+    {
+      "date": "2026-08-13",
+      "status": "published",
+      "slug": "windows-11-pro-vs-home-license",
+      "title": "Windows 11 Pro vs Home: Which License Should You Buy?",
+      "cluster": "windows-11",
+      "keyword": "windows 11 pro vs home"
+    },
+    {
+      "date": "2026-08-14",
+      "status": "scheduled",
+      "slug": "windows-11-oem-vs-retail-license",
+      "title": "Windows 11 OEM vs Retail: What's the Difference?",
+      "cluster": "windows-11",
+      "keyword": "windows 11 oem vs retail"
+    }
+  ]
+}

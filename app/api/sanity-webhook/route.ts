@@ -1,4 +1,4 @@
-import { revalidateTag } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { createHmac, timingSafeEqual } from "crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { TRANSLATIONS_TAG } from "@/sanity/helpers/translations";
@@ -36,5 +36,8 @@ export async function POST(req: NextRequest) {
   }
 
   revalidateTag(TRANSLATIONS_TAG);
+  revalidateTag("sanity");
+  revalidatePath("/sitemap.xml");
+  revalidatePath("/blog", "layout");
   return NextResponse.json({ revalidated: true });
 }
