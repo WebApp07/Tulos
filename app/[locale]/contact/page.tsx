@@ -3,8 +3,42 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { getTranslations } from "next-intl/server";
+import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
+import type { Locale } from "@/i18n/routing";
+import type { Metadata } from "next";
 import { Building2, Clock, Mail, MapPin } from "lucide-react";
 import React from "react";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale: locale as Locale,
+    namespace: "contact",
+  });
+
+  const url = localizedUrl(locale, "/contact");
+
+  return {
+    title: t("title"),
+    description: t("desc"),
+    alternates: {
+      canonical: url,
+      languages: hreflangAlternates("/contact"),
+    },
+    openGraph: {
+      title: `${t("title")} | ${SITE_NAME}`,
+      description: t("desc"),
+      type: "website",
+      url,
+      siteName: SITE_NAME,
+      locale,
+    },
+  };
+}
 
 const ContactPage = async () => {
   const t = await getTranslations("contact");

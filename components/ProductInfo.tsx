@@ -68,7 +68,7 @@ export default function ProductInfo({ product }: { product: Product }) {
           <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">
             {product.brand}
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">{product.name}</h2>
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">{product.name}</h1>
           <PriceView
             price={price}
             discount={product.discount}

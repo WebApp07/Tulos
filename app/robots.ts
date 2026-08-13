@@ -1,14 +1,22 @@
 import type { MetadataRoute } from "next";
-
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://licendi.xyz";
+import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/studio/", "/cart", "/orders", "/success"],
+      disallow: [
+        "/api/",
+        "/studio/",
+        "/cart",
+        "/orders",
+        "/success",
+        "/*/cart",
+        "/*/orders",
+        "/*/success",
+      ],
     },
-    sitemap: `${BASE_URL}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }
