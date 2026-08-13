@@ -127,11 +127,12 @@
     "emailPlaceholder": "E-Mail eingeben",
     "deliveryNote": "* Ihr digitales Produkt wird an diese E-Mail-Adresse geliefert.",
     "enterNameEmail": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse ein.",
-    "payStripe": "Mit Karte bezahlen (Stripe)",
+    "payStripe": "Bestellung aufgeben",
     "orPayWith": "Oder bezahlen mit",
     "guestBanner": "Sie bezahlen als Gast",
     "guestNote": "Ihre Bestellung wird keinem Konto zugeordnet. Melden Sie sich an, um Bestellungen zu verfolgen und jederzeit darauf zuzugreifen.",
-    "guestSignIn": "Anmelden"
+    "guestSignIn": "Anmelden",
+    "stripeHint": "Sichere Zahlung über Stripe"
   },
   "emptyCart": {
     "title": "Ihr Warenkorb fühlt sich einsam an",

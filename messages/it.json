@@ -127,11 +127,12 @@
     "emailPlaceholder": "Inserisci la tua email",
     "deliveryNote": "* Il tuo prodotto digitale verrà consegnato a questo indirizzo email.",
     "enterNameEmail": "Inserisci il tuo nome e indirizzo email.",
-    "payStripe": "Paga con carta (Stripe)",
+    "payStripe": "Effettua ordine",
     "orPayWith": "Oppure paga con",
     "guestBanner": "Stai pagando come ospite",
     "guestNote": "Il tuo ordine non sarà collegato a un account. Accedi per tracciare i tuoi ordini e accedervi in qualsiasi momento.",
-    "guestSignIn": "Accedi"
+    "guestSignIn": "Accedi",
+    "stripeHint": "Pagamento sicuro tramite Stripe"
   },
   "emptyCart": {
     "title": "Il tuo carrello si sente solo",

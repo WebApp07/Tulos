@@ -127,11 +127,12 @@
     "emailPlaceholder": "Syötä sähköpostisi",
     "deliveryNote": "* Digitaalinen tuotteesi toimitetaan tähän sähköpostiosoitteeseen.",
     "enterNameEmail": "Syötä nimesi ja sähköpostiosoitteesi.",
-    "payStripe": "Maksa kortilla (Stripe)",
+    "payStripe": "Tilaa",
     "orPayWith": "Tai maksa",
     "guestBanner": "Ostat vieraana",
     "guestNote": "Tilaustasi ei yhdistetä tiliin. Kirjaudu sisään seurataksesi tilauksiasi ja päästäksesi niihin käsiksi milloin tahansa.",
-    "guestSignIn": "Kirjaudu"
+    "guestSignIn": "Kirjaudu",
+    "stripeHint": "Turvallinen maksu Stripen kautta"
   },
   "emptyCart": {
     "title": "Ostoskorisi tuntee olonsa yksinäiseksi",

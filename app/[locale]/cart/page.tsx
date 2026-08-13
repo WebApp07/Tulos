@@ -301,6 +301,9 @@ const CartPage = () => {
                       >
                         {t("payStripe")}
                       </Button>
+                      <p className="text-[10px] text-center text-gray-400 mt-1">
+                        {t("stripeHint")}
+                      </p>
                       <div className="relative py-2">
                         <div className="absolute inset-0 flex items-center">
                           <Separator />
@@ -386,6 +389,9 @@ const CartPage = () => {
                       >
                         {t("payStripe")}
                       </Button>
+                      <p className="text-[10px] text-center text-gray-400 mt-1">
+                        {t("stripeHint")}
+                      </p>
                       <div className="relative py-2">
                         <div className="absolute inset-0 flex items-center">
                           <Separator />

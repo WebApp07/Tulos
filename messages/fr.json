@@ -127,11 +127,12 @@
     "emailPlaceholder": "Entrez votre e-mail",
     "deliveryNote": "* Votre produit numérique sera livré à cette adresse e-mail.",
     "enterNameEmail": "Veuillez entrer votre nom et votre adresse e-mail.",
-    "payStripe": "Payer par carte (Stripe)",
+    "payStripe": "Passer la commande",
     "orPayWith": "Ou payez avec",
     "guestBanner": "Vous payez en tant qu'invité",
     "guestNote": "Votre commande ne sera pas liée à un compte. Connectez-vous pour suivre vos commandes et y accéder à tout moment.",
-    "guestSignIn": "Se connecter"
+    "guestSignIn": "Se connecter",
+    "stripeHint": "Paiement sécurisé via Stripe"
   },
   "emptyCart": {
     "title": "Votre panier se sent seul",

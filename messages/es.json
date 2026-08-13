@@ -127,11 +127,12 @@
     "emailPlaceholder": "Introduzca su correo electrónico",
     "deliveryNote": "* Su producto digital se entregará a esta dirección de correo electrónico.",
     "enterNameEmail": "Introduzca su nombre y dirección de correo electrónico.",
-    "payStripe": "Pagar con tarjeta (Stripe)",
+    "payStripe": "Realizar pedido",
     "orPayWith": "O pague con",
     "guestBanner": "Está comprando como invitado",
     "guestNote": "Su pedido no se vinculará a una cuenta. Inicie sesión para seguir sus pedidos y acceder a ellos en cualquier momento.",
-    "guestSignIn": "Iniciar sesión"
+    "guestSignIn": "Iniciar sesión",
+    "stripeHint": "Pago seguro a través de Stripe"
   },
   "emptyCart": {
     "title": "Su carrito se siente solo",

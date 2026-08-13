@@ -127,11 +127,12 @@
     "emailPlaceholder": "Enter your email",
     "deliveryNote": "* Your digital product will be delivered to this email address.",
     "enterNameEmail": "Please enter your name and email address.",
-    "payStripe": "Pay with Card (Stripe)",
+    "payStripe": "Place Order",
     "orPayWith": "Or pay with",
     "guestBanner": "You are checking out as a guest",
     "guestNote": "Your order will not be linked to an account. Sign in to track your orders and access them anytime.",
-    "guestSignIn": "Sign in"
+    "guestSignIn": "Sign in",
+    "stripeHint": "Secure payment via Stripe"
   },
   "emptyCart": {
     "title": "Your cart is feeling lonely",

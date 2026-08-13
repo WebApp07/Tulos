@@ -127,11 +127,12 @@
     "emailPlaceholder": "Ange din e-post",
     "deliveryNote": "* Din digitala produkt levereras till den här e-postadressen.",
     "enterNameEmail": "Ange ditt namn och din e-postadress.",
-    "payStripe": "Betala med kort (Stripe)",
+    "payStripe": "Lägg beställning",
     "orPayWith": "Eller betala med",
     "guestBanner": "Du betalar som gäst",
     "guestNote": "Din beställning kopplas inte till ett konto. Logga in för att följa dina beställningar och komma åt dem när som helst.",
-    "guestSignIn": "Logga in"
+    "guestSignIn": "Logga in",
+    "stripeHint": "Säker betalning via Stripe"
   },
   "emptyCart": {
     "title": "Din varukorg känner sig ensam",
