@@ -43,13 +43,18 @@ function extractFaq(blocks: PortableBlock[]): { question: string; answer: string
       .trim();
 
     if (block.style === "h2") {
+      if (current) {
+        faqs.push({
+          question: current.question,
+          answer: current.answer.join(" "),
+        });
+        current = null;
+      }
       if (/faq/i.test(text)) {
         inFaq = true;
-        current = null;
-        continue;
+      } else {
+        inFaq = false;
       }
-      inFaq = false;
-      current = null;
       continue;
     }
 

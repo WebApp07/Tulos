@@ -196,6 +196,16 @@ const existingAuthor = await client.fetch(
 );
 if (existingAuthor) {
   authorId = existingAuthor;
+  if (updateMode && draft.author) {
+    await client
+      .patch(authorId)
+      .set({
+        name: draft.author.name,
+        role: draft.author.role ?? null,
+        bio: draft.author.bio ?? null,
+      })
+      .commit();
+  }
 } else {
   if (!draft.author.name || !draft.author.slug) fail("author requires name and slug");
   const created = await client.create({

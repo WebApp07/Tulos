@@ -12,7 +12,7 @@
     "name": "Licendi Editorial Team",
     "slug": "licendi-editorial-team",
     "role": "Microsoft Licensing Experts",
-    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+    "bio": "Licendi's editorial team is made up of Microsoft licensing specialists who fact-check every guide against Microsoft's official documentation. We write practical, plain-English guides on Windows, Office, and Microsoft 365 licensing so you can buy with confidence."
   },
   "primaryKeyword": "windows 11 pro vs home",
   "secondaryKeywords": ["windows 11 home vs pro", "windows 11 pro license", "upgrade windows 11 home to pro", "windows 11 pro features"],
@@ -23,6 +23,15 @@
       "style": "normal",
       "children": [
         { "_type": "span", "text": "Windows 11 Pro vs Home is one of the most common licensing questions we get. Both editions share the same core experience, but Pro unlocks a set of business and security features that Home cannot run. Here's what actually differs, what it costs, and how to pick the right license for your PC.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-quick",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "Quick answer: buy Windows 11 Home if you mostly browse, stream, and game. Choose Windows 11 Pro if you need full BitLocker encryption, Remote Desktop hosting, Hyper-V or Windows Sandbox, or a work domain — or if you're building a workstation that exceeds 128 GB of RAM.", "marks": [] }
       ],
       "markDefs": []
     },
@@ -118,7 +127,10 @@
         { "_type": "tableRow", "_key": "tr-4", "cells": ["Domain join / Microsoft Entra ID", "Not supported", "Supported"] },
         { "_type": "tableRow", "_key": "tr-5", "cells": ["Group Policy / MDM", "Not supported", "Supported"] },
         { "_type": "tableRow", "_key": "tr-6", "cells": ["Maximum RAM", "128 GB", "2 TB"] },
-        { "_type": "tableRow", "_key": "tr-7", "cells": ["Maximum CPU cores", "64 cores", "128 cores (up to 2 CPUs)"] }
+        { "_type": "tableRow", "_key": "tr-7", "cells": ["Maximum CPU cores", "64 cores", "128 cores (up to 2 CPUs)"] },
+        { "_type": "tableRow", "_key": "tr-8", "cells": ["Windows Update for Business", "No", "Yes"] },
+        { "_type": "tableRow", "_key": "tr-9", "cells": ["Windows Hello for Business", "No", "Yes"] },
+        { "_type": "tableRow", "_key": "tr-10", "cells": ["Kiosk mode (Assigned Access)", "No", "Yes"] }
       ]
     },
     {
@@ -353,11 +365,33 @@
       "_key": "p-13",
       "style": "normal",
       "children": [
-        { "_type": "span", "text": "There are two ways to upgrade. The easiest is through the Microsoft Store: open Settings > System > Activation, select Upgrade your edition of Windows, and follow the Store flow. The other is to enter a Windows 11 Pro product key directly: go to Settings > System > Activation > Change product key, enter the key, and Windows upgrades in place — no reinstall needed. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "There are two ways to upgrade Windows 11 Home to Pro, and neither requires reinstalling Windows. Microsoft's ", "marks": [] },
         { "_type": "span", "text": "official upgrade guide", "marks": ["e4"] },
         { "_type": "span", "text": " walks through both options.", "marks": [] }
       ],
       "markDefs": [{ "_type": "link", "_key": "e4", "href": "https://support.microsoft.com/en-us/windows/deployment/install-upgrade/upgrade-windows-home-to-windows-pro" }]
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Upgrade through the Microsoft Store: open Settings > System > Activation, select Upgrade your edition of Windows, and follow the Store flow to purchase and apply the upgrade.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Enter a Windows 11 Pro product key: go to Settings > System > Activation > Change product key, enter a valid key, and Windows upgrades the edition in place — your files, apps, and settings are kept.", "marks": [] }
+      ],
+      "markDefs": []
     },
     {
       "_type": "block",
@@ -457,6 +491,56 @@
     },
     {
       "_type": "block",
+      "_key": "h3-faq4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Windows 11 Home include BitLocker?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Not the full version. Windows 11 Home includes automatic device encryption when you sign in with a Microsoft account, but you can't manage encryption manually, use BitLocker To Go on external drives, or control recovery options. Those capabilities are part of Windows 11 Pro.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I use one Windows 11 Pro license on more than one PC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No — one license covers one PC. A ", "marks": [] },
+        { "_type": "span", "text": "retail license", "marks": ["l4"] },
+        { "_type": "span", "text": " can be transferred to a new PC when you upgrade hardware, while an OEM license is tied to the first motherboard. If you need Pro on two machines, you need two keys.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l4", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq6",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is Windows 11 Pro a subscription?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Windows 11 Pro is a one-time purchase, not a subscription. A retail or OEM license includes feature and security updates for as long as your PC is supported, with no recurring fee. A Microsoft 365 subscription is a separate, optional purchase for Office apps and cloud features.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
       "_key": "h2-10",
       "style": "h2",
       "children": [{ "_type": "span", "text": "The Bottom Line", "marks": [] }],
@@ -467,9 +551,11 @@
       "_key": "p-17",
       "style": "normal",
       "children": [
-        { "_type": "span", "text": "For most home users, Windows 11 Home is enough. Choose Windows 11 Pro if you need BitLocker, Remote Desktop hosting, Hyper-V, or business management features — or if you simply want the most capable edition and don't want to think about limits later. The extra cost is modest, and a genuine Windows 11 Pro key is a one-time purchase that lasts for the life of your PC.", "marks": [] }
+        { "_type": "span", "text": "For most home users, Windows 11 Home is enough. Choose Windows 11 Pro if you need BitLocker, Remote Desktop hosting, Hyper-V, or business management features — or if you simply want the most capable edition and don't want to think about limits later. The extra cost is modest, and a ", "marks": [] },
+        { "_type": "span", "text": "genuine Windows 11 Pro key", "marks": ["l5"] },
+        { "_type": "span", "text": " is a one-time purchase that lasts for the life of your PC.", "marks": [] }
       ],
-      "markDefs": []
+      "markDefs": [{ "_type": "link", "_key": "l5", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" }]
     },
     {
       "_type": "block",
@@ -481,6 +567,22 @@
         { "_type": "span", "text": ", or compare all Windows and Office licensing options on the site.", "marks": [] }
       ],
       "markDefs": [{ "_type": "link", "_key": "l3", "href": "/category/operating-systems" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-11",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Accuracy & Sources", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "All feature and edition claims in this guide were verified against Microsoft's official documentation, linked throughout the article. Prices reflect Microsoft's US list prices at the time of writing; actual reseller prices vary. Licendi's prices are shown on the product pages, and every key we sell is a genuine Microsoft license with instant digital delivery and support.", "marks": [] }
+      ],
+      "markDefs": []
     }
   ]
 }
