@@ -45,6 +45,14 @@ export const productType = defineType({
       type: "string",
     }),
     defineField({
+      name: "brandRef",
+      title: "Brand (document)",
+      type: "reference",
+      to: [{ type: "brand" }],
+      description:
+        "Optional link to a brand document. Powers the brand hub page, brand breadcrumb, and brand JSON-LD.",
+    }),
+    defineField({
       name: "sku",
       title: "Manufacturer SKU",
       type: "string",

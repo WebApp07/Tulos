@@ -27,6 +27,11 @@ const POST_PROJECTION = `{
     bio,
     slug,
     image
+  },
+  "brandRef": brandRef->{
+    _id,
+    title,
+    slug
   }
 }`;
 

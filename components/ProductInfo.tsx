@@ -14,6 +14,7 @@ import {
 import ProductCharacteristics from "./ProductCharacteristics";
 import ImageView from "./ImageView";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function ProductInfo({ product }: { product: Product }) {
   const t = useTranslations("product");
@@ -60,14 +61,29 @@ export default function ProductInfo({ product }: { product: Product }) {
       ]
     : productImages;
 
+  const brandRef = (product as Product & {
+    brandRef?: { title?: string; slug?: { current?: string } } | null;
+  }).brandRef;
+
   return (
     <div className="flex flex-col md:flex-row gap-10">
       <ImageView images={displayImages} />
       <div className="w-full md:w-1/2 flex flex-col gap-5">
         <div>
-          <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">
-            {product.brand}
-          </p>
+          {brandRef?.slug?.current ? (
+            <Link
+              href={`/brand/${brandRef.slug.current}`}
+              className="text-sm font-medium text-gray-500 uppercase tracking-wider hover:text-darkColor hoverEffect"
+            >
+              {brandRef.title || product.brand || "Brand"}
+            </Link>
+          ) : (
+            product.brand && (
+              <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">
+                {product.brand}
+              </p>
+            )
+          )}
           <h1 className="text-3xl md:text-4xl font-bold mb-2">{product.name}</h1>
           <PriceView
             price={price}

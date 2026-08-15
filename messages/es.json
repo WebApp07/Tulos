@@ -28,7 +28,8 @@
   },
   "header": {
     "home": "Inicio",
-    "blog": "Blog"
+    "blog": "Blog",
+    "brands": "Marcas"
   },
   "search": {
     "title": "Barra de búsqueda de productos",
@@ -489,5 +490,11 @@
     "noPosts": "Aún no hay artículos publicados. ¡Vuelva pronto!",
     "browseAll": "Ver todos los artículos",
     "authorTitle": "Sobre el autor"
+  },
+  "brand": {
+    "home": "Inicio",
+    "products": "Productos",
+    "categories": "Categorías",
+    "posts": "Artículos del blog"
   }
 }

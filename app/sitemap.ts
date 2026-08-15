@@ -1,5 +1,6 @@
 import { getAllCategories, getAllProducts } from "@/sanity/helpers/queries";
 import { getAllPosts } from "@/sanity/helpers/blogQueries";
+import { getAllBrandSlugsForSitemap } from "@/sanity/helpers/brandQueries";
 import { routing } from "@/i18n/routing";
 import { localizedUrl, hreflangAlternates } from "@/lib/site";
 import type { MetadataRoute } from "next";
@@ -19,10 +20,11 @@ const staticRoutes = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [categories, products, posts] = await Promise.all([
+  const [categories, products, posts, brands] = await Promise.all([
     getAllCategories(),
     getAllProducts(),
     getAllPosts(),
+    getAllBrandSlugsForSitemap(),
   ]);
 
   const entries: MetadataRoute.Sitemap = [];
@@ -46,6 +48,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.7,
+        alternates: { languages: hreflangAlternates(route) },
+      });
+    }
+
+    for (const brand of brands) {
+      if (!brand?.slug) continue;
+      const route = `/brand/${brand.slug}`;
+      entries.push({
+        url: localizedUrl(locale, route),
+        lastModified: brand._updatedAt ? new Date(brand._updatedAt) : new Date(),
+        changeFrequency: "weekly",
+        priority: 0.8,
         alternates: { languages: hreflangAlternates(route) },
       });
     }

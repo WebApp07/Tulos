@@ -156,7 +156,7 @@ const internalLinks = new Set();
 for (const block of draft.body) {
   for (const markDef of block.markDefs ?? []) {
     if (markDef._type === "link" && markDef.href && !/^https?:/.test(markDef.href)) {
-      const m = markDef.href.match(/^\/(product|category|blog)\/([^/?#]+)/);
+      const m = markDef.href.match(/^\/(product|category|blog|brand)\/([^/?#]+)/);
       if (!m) fail(`unsupported internal href format: "${markDef.href}"`);
       // The site exposes blog posts at /blog/<slug>, but Sanity stores them as _type "post".
       const type = m[1] === "blog" ? "post" : m[1];
@@ -166,11 +166,33 @@ for (const block of draft.body) {
 }
 if (internalLinks.size < 3) fail(`quality gate requires >= 3 internal links (found ${internalLinks.size})`);
 
+// ---- Brand validation ---------------------------------------------------------
+
+let brandId = null;
+if (draft.brand) {
+  const brands = await client.fetch(
+    `*[_type == "brand"]{ _id, "slug": slug.current, "productCount": count(*[_type == "product" && references(^._id)]) }`,
+  );
+  const brand = brands.find((b) => b.slug === draft.brand);
+  if (!brand) {
+    fail(`draft.brand "${draft.brand}" does not match any brand document in Sanity. Only real brands from the catalog are allowed.`);
+  }
+  if (brand.productCount < 1) {
+    fail(`brand "${draft.brand}" has ${brand.productCount} products; content is only allowed for brands that actually sell products in the catalog.`);
+  }
+  brandId = brand._id;
+  // Every branded article must link back to its brand hub.
+  const hasBrandHubLink = [...internalLinks].some((href) => href === `brand/${draft.brand}`);
+  if (!hasBrandHubLink) {
+    fail(`branded post for "${draft.brand}" must include an internal link to its brand hub /brand/${draft.brand}`);
+  }
+}
+
 // ---- Catalog checks ---------------------------------------------------------
 
 const [existing, targets] = await Promise.all([
   client.fetch(`*[_type == "post"]{ _id, title, "slug": slug.current }`),
-  client.fetch(`*[_type in ["product", "category", "post"]]{ _type, "slug": slug.current }`),
+  client.fetch(`*[_type in ["product", "category", "post", "brand"]]{ _type, "slug": slug.current }`),
 ]);
 
 const existingSlugs = new Set(existing.map((p) => p.slug));
@@ -184,6 +206,39 @@ const titleTaken = existing.some(
   (p) => p.title.trim().toLowerCase() === draft.title.trim().toLowerCase() && (!updateMode || p.slug !== draft.slug),
 );
 if (titleTaken) fail(`title "${draft.title}" already exists (duplicate content)`);
+
+// ---- Brand-aware keyword cannibalization -------------------------------------
+// Primary keyword ownership = brand + keyword. A keyword claimed by a published
+// post in any brand cluster must not be claimed again (cross-brand or same-brand).
+
+const clustersJsonPath = new URL("../content/seo/clusters.json", import.meta.url);
+let claimedKeywords = [];
+try {
+  const clusters = JSON.parse(readFileSync(clustersJsonPath, "utf8"));
+  claimedKeywords = (clusters.clusters ?? []).flatMap((c) =>
+    (c.published ?? []).map((p) => ({
+      keyword: (p.keyword || "").trim().toLowerCase(),
+      slug: p.slug,
+      brand: c.brand || null,
+    })),
+  );
+} catch (error) {
+  fail(`cannot read clusters.json for keyword ownership: ${error.message}`);
+}
+
+const targetKeyword = (draft.primaryKeyword || "").trim().toLowerCase();
+if (!targetKeyword) fail("primaryKeyword is empty");
+const claim = claimedKeywords.find(
+  (c) =>
+    c.keyword === targetKeyword &&
+    (!updateMode || c.slug !== draft.slug),
+);
+if (claim) {
+  fail(
+    `primaryKeyword "${draft.primaryKeyword}" is already owned by post "${claim.slug}" (brand: ${claim.brand ?? "none"}). ` +
+      `Keywords are claimed per brand to avoid cannibalization.`,
+  );
+}
 
 const validTargets = new Set(targets.map((t) => `${t._type}/${t.slug}`));
 const broken = [...internalLinks].filter((href) => !validTargets.has(href));
@@ -239,6 +294,9 @@ if (draft.coverImageRef) {
     _type: "image",
     asset: { _type: "reference", _ref: draft.coverImageRef },
   };
+}
+if (brandId) {
+  post.brandRef = { _type: "reference", _ref: brandId };
 }
 if (draft.seoTitle) post.seoTitle = draft.seoTitle;
 if (draft.seoDescription) post.seoDescription = draft.seoDescription;

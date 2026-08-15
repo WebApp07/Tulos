@@ -6,6 +6,7 @@ import { translateProductField } from "@/lib/translate";
 import { urlFor } from "@/sanity/lib/image";
 import { notFound } from "next/navigation";
 import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
+import type { Product } from "@/sanity.types";
 import React from "react";
 
 type SingleProductPageProps = {
@@ -87,9 +88,17 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
       ? [urlFor(localizedProduct.images[0]).url()]
       : undefined,
     sku: localizedProduct.sku,
-    brand: localizedProduct.brandName
-      ? { "@type": "Brand", name: localizedProduct.brandName }
-      : undefined,
+    brand: localizedProduct.brandRef
+      ? {
+          "@type": "Brand",
+          name: localizedProduct.brandRef.title || localizedProduct.brandName,
+          url: localizedProduct.brandRef.slug?.current
+            ? localizedUrl(locale, `/brand/${localizedProduct.brandRef.slug.current}`)
+            : undefined,
+        }
+      : localizedProduct.brandName
+        ? { "@type": "Brand", name: localizedProduct.brandName }
+        : undefined,
     offers: {
       "@type": "Offer",
       url: localizedUrl(locale, `/product/${slug}`),
@@ -102,23 +111,47 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
     },
   };
 
+  const breadcrumbItems = [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: localizedUrl(locale, ""),
+    },
+  ];
+
+  if (localizedProduct.brandRef?.slug?.current) {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 2,
+      name:
+        localizedProduct.brandRef.title ||
+        localizedProduct.brandName ||
+        "Brand",
+      item: localizedUrl(
+        locale,
+        `/brand/${localizedProduct.brandRef.slug.current}`,
+      ),
+    });
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 3,
+      name: localizedProduct.name || "",
+      item: localizedUrl(locale, `/product/${slug}`),
+    });
+  } else {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 2,
+      name: localizedProduct.name || "",
+      item: localizedUrl(locale, `/product/${slug}`),
+    });
+  }
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: localizedUrl(locale, ""),
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: localizedProduct.name,
-        item: localizedUrl(locale, `/product/${slug}`),
-      },
-    ],
+    itemListElement: breadcrumbItems,
   };
 
   return (
@@ -131,7 +164,7 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <ProductInfo product={localizedProduct} />
+      <ProductInfo product={localizedProduct as Product} />
     </Container>
   );
 };
