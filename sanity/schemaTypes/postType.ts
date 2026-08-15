@@ -54,6 +54,14 @@ export const postType = defineType({
       to: [{ type: "author" }],
     }),
     defineField({
+      name: "brandRef",
+      title: "Brand (document)",
+      type: "reference",
+      to: [{ type: "brand" }],
+      description:
+        "Optional link to a brand document. Brand-related posts link to their brand hub.",
+    }),
+    defineField({
       name: "tags",
       title: "Tags",
       type: "array",

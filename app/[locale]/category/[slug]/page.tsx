@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import CategoryProducts from "@/components/CategoryProducts";
 import Container from "@/components/Container";
-import { getAllCategories } from "@/sanity/helpers/queries";
+import {
+  getAllCategories,
+  getCategoryBySlug,
+} from "@/sanity/helpers/queries";
 import { localizedUrl, hreflangAlternates, SITE_NAME } from "@/lib/site";
 import React from "react";
 
@@ -44,24 +47,44 @@ const CategoryPage = async ({ params }: CategoryPageProps) => {
   const { slug, locale } = await params;
   const categories = await getAllCategories();
   const category = categories.find((c) => c.slug?.current === slug);
+  const categoryDetail = await getCategoryBySlug(slug);
+  const brandRef = categoryDetail?.brandRef;
+
+  const breadcrumbItems = [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: localizedUrl(locale, ""),
+    },
+  ];
+
+  if (brandRef?.slug?.current) {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 2,
+      name: brandRef.title || "Brand",
+      item: localizedUrl(locale, `/brand/${brandRef.slug.current}`),
+    });
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 3,
+      name: category?.title || slug,
+      item: localizedUrl(locale, `/category/${slug}`),
+    });
+  } else {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 2,
+      name: category?.title || slug,
+      item: localizedUrl(locale, `/category/${slug}`),
+    });
+  }
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: localizedUrl(locale, ""),
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: category?.title || slug,
-        item: localizedUrl(locale, `/category/${slug}`),
-      },
-    ],
+    itemListElement: breadcrumbItems,
   };
 
   return (

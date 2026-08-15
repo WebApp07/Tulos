@@ -179,6 +179,59 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     keywords: post.tags?.join(", "),
   };
 
+  const brandRef = (post as Post & {
+    brandRef?: { title?: string; slug?: { current?: string } } | null;
+  })?.brandRef;
+
+  const breadcrumbItems = [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: localizedUrl(locale, ""),
+    },
+  ];
+
+  if (brandRef?.slug?.current) {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 2,
+      name: brandRef.title || "Brand",
+      item: localizedUrl(locale, `/brand/${brandRef.slug.current}`),
+    });
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 3,
+      name: "Blog",
+      item: localizedUrl(locale, "/blog"),
+    });
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 4,
+      name: title || post.title || "",
+      item: canonicalUrl,
+    });
+  } else {
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 2,
+      name: "Blog",
+      item: localizedUrl(locale, "/blog"),
+    });
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: 3,
+      name: title || post.title || "",
+      item: canonicalUrl,
+    });
+  }
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems,
+  };
+
   const faqs = extractFaq(body as PortableBlock[]);
   const faqJsonLd =
     faqs.length > 0
@@ -200,6 +253,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <Container className="py-10 max-w-4xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
@@ -230,6 +287,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 {tag}
               </Badge>
             ))}
+          </div>
+        )}
+        {brandRef?.slug?.current && (
+          <div className="mb-4">
+            <Link
+              href={`/brand/${brandRef.slug.current}`}
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-darkColor bg-lightBg px-3 py-1 rounded-full border border-darkColor/10 hover:border-darkColor/25 hoverEffect"
+            >
+              {brandRef.title || "Brand"}
+            </Link>
           </div>
         )}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-darkColor leading-tight mb-4">

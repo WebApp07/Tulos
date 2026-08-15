@@ -13,10 +13,12 @@ import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { ListOrdered } from "lucide-react";
 import { getAllCategories, getMyOrders } from "@/sanity/helpers/queries";
+import { getContentEligibleBrands } from "@/sanity/helpers/brandQueries";
  
 const Header = async () => {
   const t = await getTranslations("common");
   const categories = await getAllCategories();
+  const brands = await getContentEligibleBrands();
   const user = await currentUser();
   const { userId } = await auth();
   let orders = null;
@@ -26,7 +28,7 @@ const Header = async () => {
   return (
     <header className="border-b border-b-gray-400 py-5 sticky top-0 z-50 bg-white">
       <Container className="flex items-center justify-between gap-7 text-lightColor">
-        <HeaderMenu categories={categories} />
+        <HeaderMenu categories={categories} brands={brands} />
         <div className="w-auto md:w-1/3 flex items-center justify-center gap-2.5">
           <MobileMenu categories={categories} />
           <Logo>Licendi</Logo>

@@ -25,15 +25,26 @@ const client = createClient({
   token: process.env.SANITY_API_READ_TOKEN || undefined,
 });
 
-const PRODUCTS_QUERY = `*[_type == "product"]{ _id, name, "slug": slug.current, "categories": categories[]->{ title, "slug": slug.current } } | order(name asc)`;
-const CATEGORIES_QUERY = `*[_type == "category"]{ _id, title, "slug": slug.current, description } | order(title asc)`;
-const POSTS_QUERY = `*[_type == "post"]{ _id, title, "slug": slug.current, seoTitle, seoDescription, tags, publishedAt } | order(publishedAt desc)`;
+const PRODUCTS_QUERY = `*[_type == "product"]{ _id, name, "slug": slug.current, "categories": categories[]->{ title, "slug": slug.current }, "brandSlug": brandRef->slug.current } | order(name asc)`;
+const CATEGORIES_QUERY = `*[_type == "category"]{ _id, title, "slug": slug.current, description, "brandSlug": brandRef->slug.current } | order(title asc)`;
+const POSTS_QUERY = `*[_type == "post"]{ _id, title, "slug": slug.current, seoTitle, seoDescription, tags, publishedAt, "brandSlug": brandRef->slug.current } | order(publishedAt desc)`;
+const BRANDS_QUERY = `*[_type == "brand"]{
+  _id,
+  title,
+  "slug": slug.current,
+  description,
+  officialPartner,
+  "productCount": count(*[_type == "product" && references(^._id)]),
+  "postCount": count(*[_type == "post" && references(^._id)]),
+  "categoryCount": count(*[_type == "category" && references(^._id)])
+} | order(title asc)`;
 
 try {
-  const [products, categories, posts] = await Promise.all([
+  const [products, categories, posts, brands] = await Promise.all([
     client.fetch(PRODUCTS_QUERY),
     client.fetch(CATEGORIES_QUERY),
     client.fetch(POSTS_QUERY),
+    client.fetch(BRANDS_QUERY),
   ]);
 
   process.stdout.write(
@@ -43,11 +54,13 @@ try {
           name: p.name,
           slug: p.slug,
           categories: p.categories?.map((c) => c.slug) ?? [],
+          brand: p.brandSlug ?? null,
         })),
         categories: categories.map((c) => ({
           title: c.title,
           slug: c.slug,
           description: c.description ?? null,
+          brand: c.brandSlug ?? null,
         })),
         posts: posts.map((p) => ({
           title: p.title,
@@ -55,6 +68,17 @@ try {
           seoTitle: p.seoTitle ?? null,
           tags: p.tags ?? [],
           publishedAt: p.publishedAt ?? null,
+          brand: p.brandSlug ?? null,
+        })),
+        brands: brands.map((b) => ({
+          title: b.title,
+          slug: b.slug,
+          description: b.description ?? null,
+          officialPartner: Boolean(b.officialPartner),
+          productCount: b.productCount,
+          postCount: b.postCount,
+          categoryCount: b.categoryCount,
+          contentEligible: b.productCount > 0,
         })),
       },
       null,

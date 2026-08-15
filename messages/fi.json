@@ -28,7 +28,8 @@
   },
   "header": {
     "home": "Etusivu",
-    "blog": "Blogi"
+    "blog": "Blogi",
+    "brands": "Tuotemerkit"
   },
   "search": {
     "title": "Tuotehaku",
@@ -489,5 +490,11 @@
     "noPosts": "Ei vielä julkaistuja artikkeleita. Palaa pian!",
     "browseAll": "Näytä kaikki artikkelit",
     "authorTitle": "Kirjoittajasta"
+  },
+  "brand": {
+    "home": "Koti",
+    "products": "Tuotteet",
+    "categories": "Luokat",
+    "posts": "Blogiartikkelit"
   }
 }

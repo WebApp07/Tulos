@@ -36,7 +36,8 @@
             "/blog/windows-11-pro-vs-home-license"
           ]
         }
-      ]
+      ],
+      "brand": "microsoft"
     },
     {
       "id": "windows-activation",
@@ -49,7 +50,8 @@
         "digital license vs product key",
         "reinstall windows without losing activation"
       ],
-      "published": []
+      "published": [],
+      "brand": "microsoft"
     },
     {
       "id": "microsoft-365",
@@ -61,7 +63,8 @@
         "microsoft 365 renewal",
         "microsoft 365 business license"
       ],
-      "published": []
+      "published": [],
+      "brand": "microsoft"
     },
     {
       "id": "office-perpetual",
@@ -74,7 +77,8 @@
         "office for mac license",
         "office ltsc"
       ],
-      "published": []
+      "published": [],
+      "brand": "microsoft"
     },
     {
       "id": "buying-safely",
@@ -87,7 +91,8 @@
         "how to check if office key is genuine",
         "instant email delivery software key"
       ],
-      "published": []
+      "published": [],
+      "brand": "microsoft"
     }
   ],
   "notes": [

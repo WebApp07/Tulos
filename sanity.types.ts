@@ -93,6 +93,7 @@ export type Post = {
       } & Table)
   >;
   author?: AuthorReference;
+  brandRef?: BrandReference;
   tags?: Array<string>;
   publishedAt?: string;
   featured?: boolean;
@@ -205,6 +206,13 @@ export type CategoryReference = {
   [internalGroqTypeReferenceTo]?: "category";
 };
 
+export type BrandReference = {
+  _ref: string;
+  _type: "reference";
+  _weak?: boolean;
+  [internalGroqTypeReferenceTo]?: "brand";
+};
+
 export type Product = {
   _id: string;
   _type: "product";
@@ -224,6 +232,7 @@ export type Product = {
   intro?: string;
   description?: string;
   brand?: string;
+  brandRef?: BrandReference;
   sku?: string;
   gender?: string;
   nickname?: string;
@@ -287,6 +296,34 @@ export type Category = {
     crop?: SanityImageCrop;
     _type: "image";
   };
+  brandRef?: BrandReference;
+};
+
+export type Brand = {
+  _id: string;
+  _type: "brand";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  title?: string;
+  slug?: Slug;
+  description?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  logo?: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    altText?: string;
+    _type: "image";
+  };
+  officialPartner?: boolean;
+  relatedCategories?: Array<
+    {
+      _key: string;
+    } & CategoryReference
+  >;
 };
 
 export type SanityImagePaletteSwatch = {

@@ -28,7 +28,8 @@
   },
   "header": {
     "home": "Hem",
-    "blog": "Blogg"
+    "blog": "Blogg",
+    "brands": "Varumärken"
   },
   "search": {
     "title": "Produktsökfält",
@@ -489,5 +490,11 @@
     "noPosts": "Inga artiklar publicerade ännu. Kom tillbaka snart!",
     "browseAll": "Visa alla artiklar",
     "authorTitle": "Om författaren"
+  },
+  "brand": {
+    "home": "Hem",
+    "products": "Produkter",
+    "categories": "Kategorier",
+    "posts": "Blogginlägg"
   }
 }

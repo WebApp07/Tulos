@@ -12,12 +12,13 @@ const locales = [
 
 // https://www.sanity.io/docs/structure-builder-cheat-sheet
 export const structure: StructureResolver = (S) => {
-  const notIncluded = ["category", "translation"];
+  const notIncluded = ["category", "translation", "brand"];
   return (
     S.list()
       .title("Licendi Backend")
       .items([
         S.documentTypeListItem("category").title("Categories"),
+        S.documentTypeListItem("brand").title("Brands"),
         S.divider(),
         S.listItem()
           .title("Blog")

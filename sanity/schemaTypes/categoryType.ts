@@ -30,6 +30,14 @@ export const categoryType = defineType({
         hotspot: true,
       },
     }),
+    defineField({
+      name: "brandRef",
+      title: "Brand (document)",
+      type: "reference",
+      to: [{ type: "brand" }],
+      description:
+        "Optional link to a brand document. Enables the Home → Brand → Category breadcrumb.",
+    }),
   ],
   preview: {
     select: {
