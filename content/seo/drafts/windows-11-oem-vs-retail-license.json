@@ -1,0 +1,514 @@
+{
+  "title": "Windows 11 OEM vs Retail: What's the Difference?",
+  "slug": "windows-11-oem-vs-retail-license",
+  "excerpt": "OEM keys are cheaper but tied to your first motherboard. Retail keys transfer between PCs. Here's how to choose and where to buy a genuine key.",
+  "seoTitle": "Windows 11 OEM vs Retail: Key Differences",
+  "seoDescription": "Windows 11 OEM vs Retail — compare transfer rights, price, support, and activation. See which license type fits your PC and where to buy a genuine key.",
+  "tags": ["windows-11", "licensing", "oem", "retail", "activation"],
+  "featured": false,
+  "coverImageRef": "image-7c2ff4b7bd85bf0ac2f741b89d803adbbc2cc1f6-3200x3200-jpg",
+  "publishedAt": "2026-08-15T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team is made up of Microsoft licensing specialists who fact-check every guide against Microsoft's official documentation. We write practical, plain-English guides on Windows, Office, and Microsoft 365 licensing so you can buy with confidence."
+  },
+  "primaryKeyword": "windows 11 oem vs retail",
+  "secondaryKeywords": ["windows 11 oem license", "windows 11 retail license", "oem vs retail windows 11", "windows 11 license transfer", "windows 11 product key"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows 11 OEM vs Retail is one of the first licensing questions you hit when you buy a key outside a new PC. Both types activate the exact same operating system with the same features and updates, but they come with very different rules about transfer, support, and price. Here's what each license actually means, how to tell which one you already have, and which to buy.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-quick",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "Quick answer: an OEM license is tied to the first motherboard it's activated on and can't be moved to another PC. A retail license can be transferred to a new computer (one at a time) and includes Microsoft support. OEM is cheaper; retail is more flexible. Choose based on whether you plan to upgrade your hardware later.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "OEM vs Retail: The One-Minute Summary", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft sells Windows 11 through two main consumer channels: Full Packaged Product (FPP), which is the retail license, and Original Equipment Manufacturer (OEM), which is the license preinstalled on new devices by computer makers. Microsoft's own ", "marks": [] },
+        { "_type": "span", "text": "commercial licensing overview", "marks": ["e1"] },
+        { "_type": "span", "text": " lists Windows 11 Home and Pro as available through both the retail and OEM channels, with Pro and Enterprise editions also offered through commercial (volume) licensing.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e1", "href": "https://learn.microsoft.com/en-us/windows/whats-new/windows-licensing" }]
+    },
+    {
+      "_type": "table",
+      "_key": "table-1",
+      "headers": ["What it is", "OEM license", "Retail license"],
+      "rows": [
+        { "_type": "tableRow", "_key": "tr-1", "cells": ["Who it's for", "PC makers and system builders", "Individual buyers"] },
+        { "_type": "tableRow", "_key": "tr-2", "cells": ["Tied to hardware", "Yes — first motherboard it's activated on", "No — can move between PCs"] },
+        { "_type": "tableRow", "_key": "tr-3", "cells": ["Transfer to a new PC", "No", "Yes, one PC at a time"] },
+        { "_type": "tableRow", "_key": "tr-4", "cells": ["Support", "From the device maker (you, if you built it)", "From Microsoft"] },
+        { "_type": "tableRow", "_key": "tr-5", "cells": ["Typical price", "Lower", "Higher"] },
+        { "_type": "tableRow", "_key": "tr-6", "cells": ["Features and updates", "Identical", "Identical"] }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Windows 11 OEM License?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "OEM stands for Original Equipment Manufacturer. When a laptop or prebuilt desktop ships with Windows 11 preinstalled, that copy is licensed as OEM. The manufacturer installs the operating system, activates it once, and the license becomes associated with that specific device — in practice, with the motherboard.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "OEM licenses are also sold as standalone keys to people building their own PCs. Because the license is designed to stay with one machine, OEM keys are cheaper than retail keys. The trade-off is that an OEM license is not transferable: you can't move it to a different computer later, and if you replace the motherboard, Windows may no longer consider the license valid on that machine.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Support is the other difference. Microsoft's licensing terms direct OEM customers to the device manufacturer for support. If you buy an OEM key for a PC you built yourself, you are effectively your own manufacturer — so hardware and activation questions are on you, not on Microsoft's consumer support team.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Windows 11 Retail License?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A retail license (Microsoft calls it Full Packaged Product, or FPP) is what you buy when you purchase Windows 11 directly from the Microsoft Store, a retailer, or an authorized reseller. It is a standalone license that is not tied to specific hardware.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The defining benefit of retail is transferability. If you build a new PC or replace your motherboard, you can move a retail license to the new hardware — as long as you stop using it on the old machine. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "activation guidance", "marks": ["e2"] },
+        { "_type": "span", "text": " explains that a retail copy can be reactivated on a new device when the previous installation is deactivated. You can't run the same retail license on two PCs at the same time, but you can move it as often as you like.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e2", "href": "https://support.microsoft.com/en-us/windows/activation/activate-windows" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Retail licenses also include Microsoft support, and they are the license type you get when you buy Windows 11 from the Microsoft Store at full price. That convenience and flexibility is why retail keys cost more than OEM keys.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Key Differences Between OEM and Retail", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Transferability", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is the difference that matters most. An OEM license is tied to the first device it's activated on and is not meant to be moved. A retail license can be transferred to another computer, provided you remove it from the old one first. If you think you'll upgrade your PC or move your Windows install to new hardware within a few years, retail is the license that lets you do that.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Price", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's US list price for Windows 11 Home is about $139 and Windows 11 Pro is $199.99. Those are retail prices. OEM keys are sold at a significant discount because they come with the transfer restriction — which is exactly why most cheap Windows keys you see online are OEM. For a PC you plan to keep, OEM is the budget choice; for a license you want to carry forward, retail is worth the premium.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Support", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Retail buyers get support from Microsoft. OEM buyers get support from the device manufacturer — or, for a self-built PC, from themselves. In practice, Windows activation issues are usually solvable with the built-in Activation troubleshooter either way, but the support channel is a real difference in the license terms.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Activation and hardware changes", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows activation binds a license to your device's hardware profile. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "hardware change guide", "marks": ["e3"] },
+        { "_type": "span", "text": " is clear: if you make a significant hardware change such as replacing the motherboard, Windows will no longer find a license that matches your device, and you'll need to reactivate. For retail licenses, Microsoft provides a reactivation path through the Activation troubleshooter, especially if your digital license is linked to your Microsoft account. For OEM licenses, a motherboard swap is the classic situation where the license is considered spent and you may need a new key.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e3", "href": "https://support.microsoft.com/en-us/windows/activation/reactivating-windows-after-a-hardware-change" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Check Which License Type You Have", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Not sure whether your Windows 11 copy is OEM or retail? Windows tells you directly. Open Command Prompt as administrator and run this command:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "code-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "slmgr /dli", "marks": ["strong"] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The Windows Script Host dialog shows your license status and channel. If it says OEM, the license is tied to your current hardware. If it says Retail, the license is transferable. For more detail, use ", "marks": [] },
+        { "_type": "span", "text": "slmgr /dlv", "marks": ["strong"] },
+        { "_type": "span", "text": ", which shows the full licensing information including the channel and activation ID. This is the same method Microsoft's own troubleshooting documentation and independent guides recommend for identifying your license type.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Which Should You Buy: OEM or Retail?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Choose an OEM license if you:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Are building a PC you plan to keep for several years", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Want the lowest price for a single machine", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Don't expect to replace the motherboard or move the install to new hardware", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Choose a retail license if you:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Upgrade or rebuild your PC regularly", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Want the option to move Windows to a new computer later", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Prefer Microsoft support and the most flexible license terms", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Still deciding between editions? Our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro vs Home guide", "marks": ["l4"] },
+        { "_type": "span", "text": " covers which edition you need before you worry about license type.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l4", "href": "/blog/windows-11-pro-vs-home-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Where to Buy a Genuine Windows 11 Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Whichever type you choose, buy from a seller you can verify. Gray-market keys — often sold at impossibly low prices — are frequently volume-license or stolen keys that Microsoft can deactivate later, and they come with no support. A genuine license is a one-time purchase that activates reliably and keeps receiving updates.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Licendi sells genuine Microsoft licenses with instant digital delivery. If you want the cheapest genuine key for a PC you'll keep, a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro OEM key", "marks": ["l1"] },
+        { "_type": "span", "text": " is the budget option. If you want the flexibility to move your license to future hardware, choose a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail license", "marks": ["l2"] },
+        { "_type": "span", "text": ". Both activate the full Windows 11 Pro edition and are delivered to your inbox with step-by-step activation instructions.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l1", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" },
+        { "_type": "link", "_key": "l2", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Browse the full range of Windows and Office licenses in the Licendi ", "marks": [] },
+        { "_type": "span", "text": "Operating Systems store", "marks": ["l3"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/category/operating-systems" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "OEM vs Retail: FAQ", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I transfer an OEM Windows 11 key to a new PC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. An OEM license is tied to the first motherboard it's activated on. Microsoft's terms don't allow moving it to another computer, and in most cases Windows won't let you activate it there either.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is an OEM Windows 11 key legal?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. OEM licenses are a legitimate Microsoft licensing channel — that's how every new laptop and prebuilt PC with Windows is licensed. Buying an OEM key from a reputable seller for a PC you built is legal and common. The risk is not the license type itself but the seller: keys sold for a few dollars are often stolen volume-license keys, not genuine OEM keys.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does OEM vs retail affect performance or updates?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. OEM and retail activate the identical Windows 11 edition with the same features, performance, and Windows Update delivery. The only differences are transfer rights, support, and price.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What happens if I replace my motherboard with an OEM license?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows will likely show as not activated, because the license no longer matches the device's hardware profile. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "activation error guidance", "marks": ["e4"] },
+        { "_type": "span", "text": " notes that if Windows came preinstalled on your device and you replaced the motherboard, you may need to purchase a new license. Retail licenses have a reactivation path; OEM licenses generally don't.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e4", "href": "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is a digital license the same as retail?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Not exactly. A digital license (also called a digital entitlement) is an activation method, not a license type. It's how Windows remembers that your device is activated without requiring you to enter a product key — typically after a retail purchase or an upgrade from Windows 10. A retail product key is a 25-character code you enter to activate. Both can apply to the same underlying retail license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The Bottom Line", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "OEM and retail Windows 11 licenses run the same operating system with the same features and updates. The real decision is about your hardware plans. If you build a PC and keep it, an OEM key saves you money with no practical downside. If you upgrade hardware regularly or want the option to move Windows to a new machine, a retail license is worth the higher price.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Whatever you choose, buy from a seller you can verify. A genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro key", "marks": ["l5"] },
+        { "_type": "span", "text": " from Licendi comes with instant delivery and activation support — and it's a one-time purchase that lasts for the life of your PC.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l5", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Accuracy & Sources", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "All licensing claims in this guide were verified against Microsoft's official documentation, linked throughout the article: the Windows commercial licensing overview, the Activate Windows support page, the hardware change reactivation guide, and the activation error reference. Prices reflect Microsoft's US list prices at the time of writing; actual reseller prices vary. Licendi's prices are shown on the product pages, and every key we sell is a genuine Microsoft license with instant digital delivery.", "marks": [] }
+      ],
+      "markDefs": []
+    }
+  ]
+}

@@ -158,7 +158,9 @@ for (const block of draft.body) {
     if (markDef._type === "link" && markDef.href && !/^https?:/.test(markDef.href)) {
       const m = markDef.href.match(/^\/(product|category|blog)\/([^/?#]+)/);
       if (!m) fail(`unsupported internal href format: "${markDef.href}"`);
-      internalLinks.add(`${m[1]}/${m[2]}`);
+      // The site exposes blog posts at /blog/<slug>, but Sanity stores them as _type "post".
+      const type = m[1] === "blog" ? "post" : m[1];
+      internalLinks.add(`${type}/${m[2]}`);
     }
   }
 }
