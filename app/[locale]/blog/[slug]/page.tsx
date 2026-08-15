@@ -24,6 +24,62 @@ type BlogPostPageProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
+type PortableBlock = {
+  _type?: string;
+  style?: string;
+  children?: { text?: string }[];
+};
+
+function extractFaq(blocks: PortableBlock[]): { question: string; answer: string }[] {
+  const faqs: { question: string; answer: string }[] = [];
+  let inFaq = false;
+  let current: { question: string; answer: string[] } | null = null;
+
+  for (const block of blocks) {
+    if (block._type !== "block") continue;
+    const text = (block.children ?? [])
+      .map((child) => child.text ?? "")
+      .join(" ")
+      .trim();
+
+    if (block.style === "h2") {
+      if (current) {
+        faqs.push({
+          question: current.question,
+          answer: current.answer.join(" "),
+        });
+        current = null;
+      }
+      if (/faq/i.test(text)) {
+        inFaq = true;
+      } else {
+        inFaq = false;
+      }
+      continue;
+    }
+
+    if (!inFaq) continue;
+
+    if (block.style === "h3") {
+      if (current) {
+        faqs.push({
+          question: current.question,
+          answer: current.answer.join(" "),
+        });
+      }
+      current = { question: text, answer: [] };
+    } else if (current && text) {
+      current.answer.push(text);
+    }
+  }
+
+  if (current) {
+    faqs.push({ question: current.question, answer: current.answer.join(" ") });
+  }
+
+  return faqs;
+}
+
 export async function generateMetadata({
   params,
 }: BlogPostPageProps): Promise<Metadata> {
@@ -123,6 +179,23 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     keywords: post.tags?.join(", "),
   };
 
+  const faqs = extractFaq(body as PortableBlock[]);
+  const faqJsonLd =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: faq.answer,
+            },
+          })),
+        }
+      : null;
+
   const recentPosts = await getLatestPosts(3, slug);
 
   return (
@@ -131,6 +204,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <Link
         href="/blog"
         className="inline-flex items-center gap-2 text-sm font-semibold text-lightColor hover:text-darkColor hoverEffect mb-8"

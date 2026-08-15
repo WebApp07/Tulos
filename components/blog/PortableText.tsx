@@ -77,6 +77,49 @@ const components: PortableTextComponents = {
     ),
   },
   types: {
+    table: ({ value }: { value: { headers?: string[]; rows?: { cells?: string[] }[] } }) => {
+      const headers = value?.headers ?? [];
+      const rows = value?.rows ?? [];
+      if (headers.length === 0) return null;
+      return (
+        <div className="my-8 overflow-x-auto rounded-xl border border-darkColor/10">
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr className="bg-darkColor text-white">
+                {headers.map((header, i) => (
+                  <th
+                    key={i}
+                    scope="col"
+                    className="px-4 py-3 text-left font-semibold"
+                  >
+                    {header}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row, i) => (
+                <tr
+                  key={i}
+                  className={i % 2 === 0 ? "bg-white" : "bg-lightBg"}
+                >
+                  {(row.cells ?? []).map((cell, j) => (
+                    <td
+                      key={j}
+                      className={`px-4 py-3 align-top text-lightColor ${
+                        j === 0 ? "font-semibold text-darkColor" : ""
+                      }`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    },
     image: ({
       value,
     }: {

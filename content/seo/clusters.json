@@ -1,0 +1,97 @@
+{
+  "clusters": [
+    {
+      "id": "windows-11",
+      "pillar": "Windows 11 Licensing",
+      "description": "Windows 11 editions, license types (OEM, Retail, Volume), activation, upgrades, downgrade rights.",
+      "keywords": [
+        "windows 11 pro vs home",
+        "windows 11 pro key",
+        "windows 11 home to pro upgrade",
+        "windows 11 oem vs retail",
+        "windows 11 activation",
+        "windows 11 ltsc"
+      ],
+      "published": [
+        {
+          "title": "Windows 11 Pro vs Home: Which License Should You Buy?",
+          "slug": "windows-11-pro-vs-home-license",
+          "keyword": "windows 11 pro vs home",
+          "publishedAt": "2026-08-13T09:00:00.000Z",
+          "links": [
+            "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery",
+            "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery",
+            "/category/operating-systems"
+          ]
+        },
+        {
+          "title": "Windows 11 OEM vs Retail: What's the Difference?",
+          "slug": "windows-11-oem-vs-retail-license",
+          "keyword": "windows 11 oem vs retail",
+          "publishedAt": "2026-08-15T09:00:00.000Z",
+          "links": [
+            "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery",
+            "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery",
+            "/category/operating-systems",
+            "/blog/windows-11-pro-vs-home-license"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "windows-activation",
+      "pillar": "Windows Activation & Product Keys",
+      "description": "How Windows activation works, digital licenses, product key types, troubleshooting activation errors.",
+      "keywords": [
+        "windows product key",
+        "windows activation error",
+        "activate windows 11 without product key",
+        "digital license vs product key",
+        "reinstall windows without losing activation"
+      ],
+      "published": []
+    },
+    {
+      "id": "microsoft-365",
+      "pillar": "Microsoft 365 Licensing",
+      "description": "Microsoft 365 subscriptions, renewal, business plans, device limits, comparison to perpetual Office.",
+      "keywords": [
+        "microsoft 365 vs office 2024",
+        "microsoft 365 subscription",
+        "microsoft 365 renewal",
+        "microsoft 365 business license"
+      ],
+      "published": []
+    },
+    {
+      "id": "office-perpetual",
+      "pillar": "Office Perpetual Licenses",
+      "description": "Office 2021 and 2024 one-time purchases, editions (Home & Business, Professional Plus, Standard), PC/Mac, LTSC.",
+      "keywords": [
+        "office 2024 professional plus",
+        "office 2024 home and business",
+        "office 2021 vs 2024",
+        "office for mac license",
+        "office ltsc"
+      ],
+      "published": []
+    },
+    {
+      "id": "buying-safely",
+      "pillar": "Buying Software Safely",
+      "description": "How to verify genuine software, avoid gray-market keys, retailer trust signals, digital delivery, refunds.",
+      "keywords": [
+        "how to buy windows key safely",
+        "is it safe to buy office keys online",
+        "genuine microsoft license",
+        "how to check if office key is genuine",
+        "instant email delivery software key"
+      ],
+      "published": []
+    }
+  ],
+  "notes": [
+    "Published posts are appended to the matching cluster; the agent must never target a keyword already claimed by a published post (cannibalization).",
+    "Real product and category slugs come from `node --env-file=.env scripts/seo/list-catalog.mjs` — never invent slugs."
+  ]
+}

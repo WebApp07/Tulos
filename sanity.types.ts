@@ -15,6 +15,21 @@
 export declare const internalGroqTypeReferenceTo: unique symbol;
 
 // Source: schema.json
+export type Table = {
+  _type: "table";
+  headers?: Array<string>;
+  rows?: Array<
+    {
+      _key: string;
+    } & TableRow
+  >;
+};
+
+export type TableRow = {
+  _type: "tableRow";
+  cells?: Array<string>;
+};
+
 export type SanityImageAssetReference = {
   _ref: string;
   _type: "reference";
@@ -73,6 +88,9 @@ export type Post = {
         _type: "image";
         _key: string;
       }
+    | ({
+        _key: string;
+      } & Table)
   >;
   author?: AuthorReference;
   tags?: Array<string>;
@@ -368,6 +386,8 @@ export type Geopoint = {
 };
 
 export type AllSanitySchemaTypes =
+  | Table
+  | TableRow
   | SanityImageAssetReference
   | AuthorReference
   | Post
@@ -495,6 +515,179 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
   status?: "cancelled" | "delivered" | "paid" | "pending" | "shipped";
   orderDate?: string;
 } | null;
+
+// Source: sanity/helpers/blogQueries.ts
+// Variable: POSTS_QUERY
+// Query: *[_type == "post"] | order(publishedAt desc) {  _id,  _createdAt,  _updatedAt,  title,  slug,  excerpt,  coverImage,  body,  publishedAt,  featured,  tags,  seoTitle,  seoDescription,  "author": author->{    _id,    name,    role,    bio,    slug,    image  }}
+export type POSTS_QUERY_RESULT = Array<{
+  _id: string;
+  _createdAt: string;
+  _updatedAt: string;
+  title: string | null;
+  slug: Slug | null;
+  excerpt: string | null;
+  coverImage: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  } | null;
+  body: Array<
+    | ({
+        _key: string;
+      } & Table)
+    | {
+        children?: Array<{
+          marks?: Array<string>;
+          text?: string;
+          _type: "span";
+          _key: string;
+        }>;
+        style?:
+          "blockquote" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "normal";
+        listItem?: "bullet" | "number";
+        markDefs?: Array<{
+          href?: string;
+          _type: "link";
+          _key: string;
+        }>;
+        level?: number;
+        _type: "block";
+        _key: string;
+      }
+    | {
+        asset?: SanityImageAssetReference;
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+        _key: string;
+      }
+  > | null;
+  publishedAt: string | null;
+  featured: boolean | null;
+  tags: Array<string> | null;
+  seoTitle: string | null;
+  seoDescription: string | null;
+  author: {
+    _id: string;
+    name: string | null;
+    role: string | null;
+    bio: string | null;
+    slug: Slug | null;
+    image: {
+      asset?: SanityImageAssetReference;
+      media?: unknown;
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+    } | null;
+  } | null;
+}>;
+
+// Source: sanity/helpers/blogQueries.ts
+// Variable: POST_BY_SLUG_QUERY
+// Query: *[_type == "post" && slug.current == $slug][0] {  _id,  _createdAt,  _updatedAt,  title,  slug,  excerpt,  coverImage,  body,  publishedAt,  featured,  tags,  seoTitle,  seoDescription,  "author": author->{    _id,    name,    role,    bio,    slug,    image  }}
+export type POST_BY_SLUG_QUERY_RESULT = {
+  _id: string;
+  _createdAt: string;
+  _updatedAt: string;
+  title: string | null;
+  slug: Slug | null;
+  excerpt: string | null;
+  coverImage: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  } | null;
+  body: Array<
+    | ({
+        _key: string;
+      } & Table)
+    | {
+        children?: Array<{
+          marks?: Array<string>;
+          text?: string;
+          _type: "span";
+          _key: string;
+        }>;
+        style?:
+          "blockquote" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "normal";
+        listItem?: "bullet" | "number";
+        markDefs?: Array<{
+          href?: string;
+          _type: "link";
+          _key: string;
+        }>;
+        level?: number;
+        _type: "block";
+        _key: string;
+      }
+    | {
+        asset?: SanityImageAssetReference;
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+        _key: string;
+      }
+  > | null;
+  publishedAt: string | null;
+  featured: boolean | null;
+  tags: Array<string> | null;
+  seoTitle: string | null;
+  seoDescription: string | null;
+  author: {
+    _id: string;
+    name: string | null;
+    role: string | null;
+    bio: string | null;
+    slug: Slug | null;
+    image: {
+      asset?: SanityImageAssetReference;
+      media?: unknown;
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+    } | null;
+  } | null;
+} | null;
+
+// Source: sanity/helpers/blogQueries.ts
+// Variable: LATEST_POSTS_QUERY
+// Query: *[_type == "post" && (!defined($excludeSlug) || slug.current != $excludeSlug)] | order(publishedAt desc)[0...$limit] {      _id,      title,      slug,      excerpt,      coverImage,      publishedAt,      featured,      tags,      "author": author->{        _id,        name,        role,        slug,        image      }    }
+export type LATEST_POSTS_QUERY_RESULT = Array<{
+  _id: string;
+  title: string | null;
+  slug: Slug | null;
+  excerpt: string | null;
+  coverImage: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  } | null;
+  publishedAt: string | null;
+  featured: boolean | null;
+  tags: Array<string> | null;
+  author: {
+    _id: string;
+    name: string | null;
+    role: string | null;
+    slug: Slug | null;
+    image: {
+      asset?: SanityImageAssetReference;
+      media?: unknown;
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+    } | null;
+  } | null;
+}>;
 
 // Source: sanity/helpers/queries.ts
 // Variable: PRODUCT_BY_SLUG_QUERY
@@ -820,6 +1013,9 @@ import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n      ...,products[]{\n        ...,product->\n      }\n    }": GET_ORDER_BY_NUMBER_QUERY_RESULT;
+    '*[_type == "post"] | order(publishedAt desc) {\n  _id,\n  _createdAt,\n  _updatedAt,\n  title,\n  slug,\n  excerpt,\n  coverImage,\n  body,\n  publishedAt,\n  featured,\n  tags,\n  seoTitle,\n  seoDescription,\n  "author": author->{\n    _id,\n    name,\n    role,\n    bio,\n    slug,\n    image\n  }\n}': POSTS_QUERY_RESULT;
+    '*[_type == "post" && slug.current == $slug][0] {\n  _id,\n  _createdAt,\n  _updatedAt,\n  title,\n  slug,\n  excerpt,\n  coverImage,\n  body,\n  publishedAt,\n  featured,\n  tags,\n  seoTitle,\n  seoDescription,\n  "author": author->{\n    _id,\n    name,\n    role,\n    bio,\n    slug,\n    image\n  }\n}': POST_BY_SLUG_QUERY_RESULT;
+    '*[_type == "post" && (!defined($excludeSlug) || slug.current != $excludeSlug)] | order(publishedAt desc)[0...$limit] {\n      _id,\n      title,\n      slug,\n      excerpt,\n      coverImage,\n      publishedAt,\n      featured,\n      tags,\n      "author": author->{\n        _id,\n        name,\n        role,\n        slug,\n        image\n      }\n    }': LATEST_POSTS_QUERY_RESULT;
     "*[_type == 'product' && slug.current == $slug] | order(name asc) [0]": PRODUCT_BY_SLUG_QUERY_RESULT;
     '*[_type=="category"] | order(title asc)': CATEGORIES_QUERY_RESULT;
     '*[_type=="product"]{slug,_updatedAt} | order(_updatedAt desc)': PRODUCTS_QUERY_RESULT;

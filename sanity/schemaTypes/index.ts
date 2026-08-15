@@ -5,6 +5,7 @@ import { orderType } from "./orderTypes";
 import { translationType } from "./translationType";
 import { authorType } from "./authorType";
 import { postType } from "./postType";
+import { tableType, tableRowType } from "./tableType";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
@@ -14,5 +15,7 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     translationType,
     authorType,
     postType,
+    tableRowType,
+    tableType,
   ],
 };

@@ -4,7 +4,7 @@ import { routing } from "@/i18n/routing";
 import { localizedUrl, hreflangAlternates } from "@/lib/site";
 import type { MetadataRoute } from "next";
 
-export const revalidate = 3600;
+export const revalidate = 600;
 
 const staticRoutes = [
   "",
