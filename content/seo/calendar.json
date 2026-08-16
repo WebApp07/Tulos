@@ -21,11 +21,19 @@
     },
     {
       "date": "2026-08-16",
-      "status": "scheduled",
+      "status": "published",
       "slug": "digital-license-vs-product-key",
       "title": "Digital License vs Product Key: How Windows Activation Works",
       "cluster": "windows-activation",
       "keyword": "digital license vs product key"
+    },
+    {
+      "date": "2026-08-17",
+      "status": "scheduled",
+      "slug": "microsoft-365-vs-office-2024",
+      "title": "Microsoft 365 vs Office 2024: Which One Should You Buy?",
+      "cluster": "microsoft-365",
+      "keyword": "microsoft 365 vs office 2024"
     }
   ]
 }

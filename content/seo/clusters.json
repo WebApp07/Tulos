@@ -50,7 +50,22 @@
         "digital license vs product key",
         "reinstall windows without losing activation"
       ],
-      "published": [],
+      "published": [
+        {
+          "title": "Digital License vs Product Key: How Windows Activation Works",
+          "slug": "digital-license-vs-product-key",
+          "keyword": "digital license vs product key",
+          "publishedAt": "2026-08-16T09:00:00.000Z",
+          "links": [
+            "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery",
+            "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery",
+            "/category/operating-systems",
+            "/blog/windows-11-pro-vs-home-license",
+            "/blog/windows-11-oem-vs-retail-license",
+            "/brand/microsoft"
+          ]
+        }
+      ],
       "brand": "microsoft"
     },
     {

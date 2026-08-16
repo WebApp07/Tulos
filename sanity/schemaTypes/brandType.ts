@@ -69,6 +69,14 @@ export const brandType = defineType({
         "Whether Licendi is an officially authorized partner for this brand. Never set this for a brand you are not actually partnered with.",
     }),
     defineField({
+      name: "showPosts",
+      title: "Show Blog Posts",
+      type: "boolean",
+      initialValue: true,
+      description:
+        "Whether blog posts linked to this brand are shown on the brand hub page. Turn off to keep the brand page focused on products and categories.",
+    }),
+    defineField({
       name: "relatedCategories",
       title: "Related Categories",
       type: "array",

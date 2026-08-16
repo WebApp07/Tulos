@@ -211,7 +211,7 @@ if (titleTaken) fail(`title "${draft.title}" already exists (duplicate content)`
 // Primary keyword ownership = brand + keyword. A keyword claimed by a published
 // post in any brand cluster must not be claimed again (cross-brand or same-brand).
 
-const clustersJsonPath = new URL("../content/seo/clusters.json", import.meta.url);
+const clustersJsonPath = new URL("../../content/seo/clusters.json", import.meta.url);
 let claimedKeywords = [];
 try {
   const clusters = JSON.parse(readFileSync(clustersJsonPath, "utf8"));
