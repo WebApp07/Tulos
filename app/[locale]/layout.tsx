@@ -79,6 +79,22 @@ export default async function RootLayout({
   return (
     <ClerkProvider>
       <html lang={locale}>
+        <head>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-L4NFYPPLS3"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-L4NFYPPLS3');
+              `,
+            }}
+          />
+        </head>
         <body className={`${raleway.variable} antialiased`}>
           <script
             type="application/ld+json"
