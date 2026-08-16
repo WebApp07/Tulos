@@ -319,6 +319,7 @@ export type Brand = {
     _type: "image";
   };
   officialPartner?: boolean;
+  showPosts?: boolean;
   relatedCategories?: Array<
     {
       _key: string;

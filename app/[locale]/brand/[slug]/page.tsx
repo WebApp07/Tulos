@@ -93,7 +93,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
 
   const products = brand.products ?? [];
   const categories = brand.categories ?? [];
-  const posts = brand.posts ?? [];
+  const posts = brand.showPosts === false ? [] : (brand.posts ?? []);
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",

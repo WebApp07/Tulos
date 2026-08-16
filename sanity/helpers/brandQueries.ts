@@ -4,7 +4,7 @@ import type { Brand, Category, Product, Post } from "@/sanity.types";
 
 export type BrandSummary = Pick<
   Brand,
-  "_id" | "title" | "slug" | "description" | "seoTitle" | "seoDescription" | "officialPartner"
+  "_id" | "title" | "slug" | "description" | "seoTitle" | "seoDescription" | "officialPartner" | "showPosts"
 >;
 
 export type BrandPage = BrandSummary & {
@@ -43,6 +43,7 @@ const BRAND_PROJECTION = `{
   seoDescription,
   logo,
   officialPartner,
+  showPosts,
   "categories": relatedCategories[]->{
     _id,
     title,
