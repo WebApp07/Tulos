@@ -1,0 +1,649 @@
+{
+  "title": "Digital License vs Product Key: How Windows Activation Works",
+  "slug": "digital-license-vs-product-key",
+  "excerpt": "Digital license or product key — which activates Windows? Learn how each works, how to check yours, and what happens on reinstall or hardware change.",
+  "seoTitle": "Windows Digital License vs Product Key: Guide",
+  "seoDescription": "Digital license vs product key: how Windows activation works, how to check yours, and where to buy a genuine Windows 11 key.",
+  "tags": ["windows-11", "activation", "digital-license", "product-key", "licensing"],
+  "featured": false,
+  "publishedAt": "2026-08-16T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team is made up of Microsoft licensing specialists who fact-check every guide against Microsoft's official documentation. We write practical, plain-English guides on Windows, Office, and Microsoft 365 licensing so you can buy with confidence."
+  },
+  "primaryKeyword": "digital license vs product key",
+  "secondaryKeywords": ["what is a digital license", "windows product key", "activate windows 11", "windows activation troubleshooter", "find windows product key"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows activation looks simple from the outside: your PC is either activated or it isn't. Open Settings and you'll see one of two terms — “digital license” or “product key” — and it's easy to confuse them. Are they the same thing? Can you switch between them? What happens to your license if you reinstall Windows or replace your motherboard?", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-quick",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "Quick answer: a product key is the 25-character code you enter to activate Windows. A digital license (Microsoft calls it a digital entitlement) is the keyless activation record Windows stores on Microsoft's servers for your hardware. Enter a valid key once and Windows records a digital license for that device — so in practice, most people end up with both.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Digital License in Windows?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft calls a digital license a digital entitlement in Windows 11. It's a method of activation that doesn't require you to enter a product key. Instead, the license is recorded on Microsoft's activation servers and tied to the hardware configuration of your device. If you sign in with a Microsoft account, the license is also linked to that account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "When you reinstall the same edition of Windows on the same device, Windows contacts Microsoft's servers and activates automatically. There's no 25-character code to type, no sticker to keep, and nothing to lose — as long as your hardware doesn't change significantly.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You typically end up with a digital license when:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You upgraded to Windows 11 for free from a genuine copy of Windows 10, Windows 8.1, or Windows 7", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You bought Windows 11 or a Windows 11 Pro upgrade from the Microsoft Store app", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You're a Windows Insider who upgraded to a newer build on an eligible device", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft strongly recommends linking your Microsoft account to your digital license. If you do, you can use the Activation troubleshooter to reactivate Windows after a significant hardware change. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "Activate Windows guide", "marks": ["e1"] },
+        { "_type": "span", "text": " lists every scenario in detail.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e1", "href": "https://support.microsoft.com/en-us/windows/activation/activate-windows" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Windows Product Key?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A Windows product key is a 25-character code that looks like this: PRODUCT KEY: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX. You enter it during installation or later from Settings, and Windows contacts Microsoft's servers to confirm the key is valid before it activates.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You get a product key when:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You bought a PC that came with Windows 11 preinstalled — the key is on the packaging or on the Certificate of Authenticity (COA) attached to the device", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You bought a boxed copy from an authorized retailer — the key is on a label inside the box", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You bought a digital copy from an authorized retailer — the key is in the confirmation email or a digital locker on the retailer's site", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You have a Volume Licensing agreement or MSDN subscription — the key is available through the program's web portal", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A product key is a tangible thing you can store, back up, and — depending on the license type — transfer. The catch: if you lose it, you can't activate Windows with it. Microsoft's guidance is to check your confirmation email, the packaging, or the Certificate of Authenticity.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Digital License vs Product Key: Key Differences", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Here's the comparison at a glance:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "table",
+      "_key": "table-1",
+      "headers": ["Feature", "Product Key", "Digital License"],
+      "rows": [
+        { "_type": "tableRow", "_key": "tr-1", "cells": ["Format", "25-character code", "No code — entitlement record"] },
+        { "_type": "tableRow", "_key": "tr-2", "cells": ["Visibility", "Visible: email, sticker, box", "Invisible: nothing to find on your PC"] },
+        { "_type": "tableRow", "_key": "tr-3", "cells": ["Where it's stored", "You keep it (email, box, COA)", "Microsoft activation servers, tied to hardware"] },
+        { "_type": "tableRow", "_key": "tr-4", "cells": ["Reinstall on the same PC", "Re-enter the key", "Activates automatically"] },
+        { "_type": "tableRow", "_key": "tr-5", "cells": ["After a hardware change", "Re-enter the key or use the troubleshooter", "Run the Activation troubleshooter"] },
+        { "_type": "tableRow", "_key": "tr-6", "cells": ["Transfer to another PC", "Retail: yes. OEM: no", "Hardware-bound; retail can move via the troubleshooter"] },
+        { "_type": "tableRow", "_key": "tr-7", "cells": ["Can you find it later?", "Yes, if you saved it", "No — there is nothing to extract"] }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Check Which Activation Method You Have", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Checking takes about thirty seconds:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Select Start, then open Settings", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Go to System, then Activation", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Read the status message under Activation state", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Here's what each status means:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "“Windows is activated” — you activated with a product key and haven't linked a Microsoft account", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "“Windows is activated with a digital license” — you have a digital license, but your Microsoft account isn't linked to it", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "“Windows is activated with a digital license linked to your Microsoft account” — the ideal state; reactivation after hardware changes is straightforward", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "“Windows is not activated” — you need a valid product key or digital license", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How a Product Key Becomes a Digital License", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Here's the part that confuses most people: a product key and a digital license are not mutually exclusive. When you enter a valid product key and Windows activates, Microsoft records a digital license for that device. From then on, you can reinstall the same edition on the same hardware without typing the key again.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft puts it directly: “A digital license will be given to your device for Windows 11 based on the valid product key you entered.” That's why a genuine retail key is a smart purchase — you get the portability of a key and the convenience of a digital license. That's exactly what you get with a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail license key", "marks": ["l1"] },
+        { "_type": "span", "text": " from Licendi: activate once, and your device keeps its entitlement.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens When You Reinstall Windows?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you have a digital license, reinstalling is painless. During setup, when Windows asks for a product key, select “I don't have a product key.” Windows activates automatically once it's online — just sign in with the Microsoft account linked to your digital license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you activated with a product key, you'll re-enter that key during installation. If you skipped it during setup, you can add it later: Start > Settings > System > Activation > Change product key.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "One rule applies to both methods: the edition must match. A digital license or product key for Windows 11 Pro won't activate Windows 11 Home, and vice versa. If you're deciding between editions, our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro vs Home comparison", "marks": ["l2"] },
+        { "_type": "span", "text": " helps you choose.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/blog/windows-11-pro-vs-home-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens After a Hardware Change?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows licenses are tied to your device's hardware, mainly the motherboard. If you replace the motherboard, Windows treats the PC as a new device and activation is lost. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "Reactivating Windows after a hardware change", "marks": ["e2"] },
+        { "_type": "span", "text": " page explains the full process.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e2", "href": "https://support.microsoft.com/en-us/windows/activation/reactivating-windows-after-a-hardware-change" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "To reactivate after a hardware change:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Before the change, sign in with the same Microsoft account you used before and link it to your digital license", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-5",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "After the change, go to Settings > System > Activation and run the Activation troubleshooter", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-6",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If you activated with a product key, re-enter it via Change product key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-7",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If you have a valid key and the troubleshooter doesn't work, activate by phone: type SLUI 04 in the search box on the taskbar and follow the instructions. Note that Windows 11 Pro EDU and Windows 11 Pro for Workstations must activate online", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Can You Transfer Your License to Another PC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Transferability depends on the license type, not the activation method:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "OEM licenses are tied to the first device they're installed on and generally can't be moved to another PC", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Retail licenses can be transferred, one PC at a time, and Microsoft supports moving a retail license to new hardware through the Activation troubleshooter", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you're deciding between license types, our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 OEM vs Retail guide", "marks": ["l3"] },
+        { "_type": "span", "text": " explains the difference in detail. The short version: retail gives you transfer rights, while OEM is cheaper but locked to one machine.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/blog/windows-11-oem-vs-retail-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Which Should You Choose When Buying Windows?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Both methods end with an activated, working Windows — the real question is what you're buying. A product key is the tangible license you purchase; the digital license is what Windows records on your hardware afterward. For most buyers, the practical choice comes down to license type:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Choose a retail key if you want transfer rights and the option to move your license to a new PC later. A ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail key", "marks": ["l4"] },
+        { "_type": "span", "text": " is the flexible option.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l4", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Choose an OEM key if you're building a PC or upgrading a machine you plan to keep, and you want the lowest price. A ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro OEM key", "marks": ["l5"] },
+        { "_type": "span", "text": " fits that scenario.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l5", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Whichever you choose, buy from a retailer that delivers the key instantly and provides clear activation instructions. Browse all ", "marks": [] },
+        { "_type": "span", "text": "Windows operating system licenses", "marks": ["l6"] },
+        { "_type": "span", "text": " or visit the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand hub", "marks": ["l7"] },
+        { "_type": "span", "text": " to see what's available.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l6", "href": "/category/operating-systems" },
+        { "_type": "link", "_key": "l7", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I convert a digital license into a product key?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. A digital license is an entitlement record on Microsoft's servers, not a code. There is nothing to extract from your PC, and Microsoft doesn't provide a way to generate a product key from a digital license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I find my digital license on my PC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. If Windows is activated with a digital license, no product key is stored on the device. Some OEM PCs have a product key embedded in the firmware — you can view it by running ", "marks": [] },
+        { "_type": "span", "text": "wmic path SoftwareLicensingService get OA3xOriginalProductKey", "marks": ["strong"] },
+        { "_type": "span", "text": " in Command Prompt — but that only works when a key actually exists.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Do I need a product key to reinstall Windows?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Only if you don't have a digital license. With a digital license, select “I don't have a product key” during setup and Windows activates automatically after you sign in.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is my digital license transferable?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Digital licenses are hardware-bound. If your license came from a retail product key, you can move it to new hardware with the Activation troubleshooter. OEM licenses stay with the original device.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-11",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The Bottom Line", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The difference between a digital license and a product key comes down to one idea: the key is what you buy, and the digital license is what Windows remembers. Keep your key safe, link your Microsoft account, and match your edition — and activation will be the least of your worries.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Need a genuine Windows 11 key? Licendi delivers licensed product keys instantly by email, with activation instructions included. Compare ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail", "marks": ["l8"] },
+        { "_type": "span", "text": " and ", "marks": [] },
+        { "_type": "span", "text": "OEM", "marks": ["l9"] },
+        { "_type": "span", "text": " options today.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l8", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l9", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-12",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Accuracy & Sources", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "All activation claims in this guide were verified against Microsoft's official documentation, linked throughout the article: the Activate Windows support page, the hardware change reactivation guide, and Microsoft's activation error reference. Licendi's prices are shown on the product pages, and every key we sell is a genuine Microsoft license with instant digital delivery.", "marks": [] }
+      ],
+      "markDefs": []
+    }
+  ]
+}
