@@ -5,7 +5,6 @@ import Logo from "./Logo";
 import { X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
-import SocialMedia from "./SocialMedia";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
  
 interface SidebarProps {
@@ -71,7 +70,6 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
             {t("blog")}
           </Link>
         </div>
-        <SocialMedia />
       </motion.div>
     </div>
   );
