@@ -78,7 +78,22 @@
         "microsoft 365 renewal",
         "microsoft 365 business license"
       ],
-      "published": [],
+      "published": [
+        {
+          "title": "Microsoft 365 vs Office 2024: Which One Should You Buy?",
+          "slug": "microsoft-365-vs-office-2024",
+          "keyword": "microsoft 365 vs office 2024",
+          "publishedAt": "2026-08-17T09:00:00.000Z",
+          "links": [
+            "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation",
+            "/product/office-2024-home-and-business-for-mac-genuine-license-instant-email-delivery",
+            "/product/office-2024-professional-plus-ltsc-lifetime-global-digital-license",
+            "/category/microsoft-office-pc-mac",
+            "/blog/digital-license-vs-product-key",
+            "/brand/microsoft"
+          ]
+        }
+      ],
       "brand": "microsoft"
     },
     {
