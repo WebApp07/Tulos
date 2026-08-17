@@ -7,6 +7,7 @@ import { motion } from "motion/react";
 import { Check, Home, Package, ShoppingBag, Loader2 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import GoogleCustomerReviewsOptIn from "@/components/GoogleCustomerReviewsOptIn";
 
 interface OrderProduct {
   product: {
@@ -18,6 +19,9 @@ interface OrderProduct {
         _type: "reference";
       };
     };
+    // Optional real GTIN (EAN/UPC). Not stored on Licendi products today; kept
+    // optional so the Customer Reviews opt-in can send genuine GTINs only.
+    gtin?: string;
   };
   quantity: number;
 }
@@ -29,6 +33,7 @@ interface Order {
   customerName: string;
   email: string;
   status: string;
+  orderDate?: string;
   products: OrderProduct[];
 }
 
@@ -42,6 +47,10 @@ const SuccessPageContent = () => {
 
   const [order, setOrder] = useState<Order | null>(null);
   const [loading, setLoading] = useState(true);
+  // Geo-detected ISO 3166-1 alpha-2 country returned by /api/order. Null when
+  // no geo header is available (e.g. local development); the Google Customer
+  // Reviews opt-in is skipped in that case.
+  const [country, setCountry] = useState<string | null>(null);
 
   useEffect(() => {
     if (!orderNumber && !sessionId) {
@@ -63,6 +72,7 @@ const SuccessPageContent = () => {
         const data = await response.json();
         if (data.order) {
           setOrder(data.order);
+          if (data.country) setCountry(data.country);
           setLoading(false);
           clearInterval(intervalId);
         } else {
@@ -89,6 +99,11 @@ const SuccessPageContent = () => {
 
   return (
     <div className="py-10 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
+      {/* Google Customer Reviews survey opt-in. Renders nothing visually; it
+          only loads Google's script and shows the opt-in dialog for paid
+          orders that have all required data (order number, email, country,
+          delivery date). */}
+      <GoogleCustomerReviewsOptIn order={order} country={country} />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
