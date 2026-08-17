@@ -29,11 +29,19 @@
     },
     {
       "date": "2026-08-17",
-      "status": "scheduled",
+      "status": "published",
       "slug": "microsoft-365-vs-office-2024",
       "title": "Microsoft 365 vs Office 2024: Which One Should You Buy?",
       "cluster": "microsoft-365",
       "keyword": "microsoft 365 vs office 2024"
+    },
+    {
+      "date": "2026-08-18",
+      "status": "scheduled",
+      "slug": "office-2024-home-and-business",
+      "title": "Office 2024 Home & Business: What's Included and Is It Worth It?",
+      "cluster": "office-perpetual",
+      "keyword": "office 2024 home and business"
     }
   ]
 }

@@ -1,0 +1,559 @@
+{
+  "title": "Microsoft 365 vs Office 2024: Which One Should You Buy?",
+  "slug": "microsoft-365-vs-office-2024",
+  "excerpt": "Microsoft 365 is a subscription; Office 2024 is a one-time purchase. Compare apps, cost over time, updates, and support to pick the right one.",
+  "seoTitle": "Microsoft 365 vs Office 2024: What to Buy",
+  "seoDescription": "Microsoft 365 vs Office 2024: compare subscription vs one-time purchase, apps, cost over time, and support to choose the right license.",
+  "tags": ["microsoft-365", "office-2024", "licensing", "office"],
+  "featured": false,
+  "publishedAt": "2026-08-17T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team is made up of Microsoft licensing specialists who fact-check every guide against Microsoft's official documentation. We write practical, plain-English guides on Windows, Office, and Microsoft 365 licensing so you can buy with confidence."
+  },
+  "primaryKeyword": "microsoft 365 vs office 2024",
+  "secondaryKeywords": ["office 2024 one-time purchase", "microsoft 365 subscription", "office 2024 price", "microsoft 365 personal vs office home 2024", "office ltsc 2024"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft 365 or Office 2024? If you've been shopping for Word, Excel, or PowerPoint, you've probably run into this exact fork in the road. One is a subscription that keeps your apps current and adds cloud storage. The other is a one-time purchase you own for as long as you want. Both are genuine Microsoft products, both run the same core apps, and both can be the right answer, depending on how you work and how you prefer to pay.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "q-quick",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "Quick answer: choose Office 2024 if you use a single PC or Mac, want to pay once and never deal with a renewal, and don't need OneDrive storage or AI features. Choose Microsoft 365 if you work across several devices, want 1 TB of cloud storage per user, and like getting new features and support automatically.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 vs Office 2024 at a Glance", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-tb",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "official comparison page", "marks": ["e1"] },
+        { "_type": "span", "text": " sums it up: Microsoft 365 is a subscription service, while Office 2024 is a one-time purchase of the classic desktop apps. The table below shows the practical differences that matter when you choose.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e1", "href": "https://support.microsoft.com/en-us/office/what-s-the-difference-between-microsoft-365-and-office-2024-ed447ebf-6060-46f9-9e90-a239bd27eb96" }]
+    },
+    {
+      "_type": "table",
+      "_key": "table-1",
+      "headers": ["", "Microsoft 365 (subscription)", "Office 2024 (one-time purchase)"],
+      "rows": [
+        { "_type": "tableRow", "_key": "tb-r1", "cells": ["Payment model", "Monthly or yearly fee", "Pay once, own the license"] },
+        { "_type": "tableRow", "_key": "tb-r2", "cells": ["Apps", "Latest Word, Excel, PowerPoint, Outlook, OneNote, plus Access and Publisher on PC", "Classic Word, Excel, PowerPoint, OneNote (Outlook in Home & Business)"] },
+        { "_type": "tableRow", "_key": "tb-r3", "cells": ["Devices", "Multiple PCs, Macs, tablets, and phones", "One PC or Mac"] },
+        { "_type": "tableRow", "_key": "tb-r4", "cells": ["Cloud storage", "1 TB OneDrive per user", "Not included"] },
+        { "_type": "tableRow", "_key": "tb-r5", "cells": ["Updates", "Continuous new features", "Security and bug fixes only"] },
+        { "_type": "tableRow", "_key": "tb-r6", "cells": ["Copilot AI", "Included in Personal, Family, and Premium plans", "Not included"] },
+        { "_type": "tableRow", "_key": "tb-r7", "cells": ["Starting price (US list)", "$9.99/month or $99.99/year", "$179.99 (Office Home 2024)"] }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Subscription vs One-Time Purchase: How the Models Work", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "With a Microsoft 365 subscription, you pay monthly or yearly for as long as you use the apps. In return, you always get the latest versions of Word, Excel, PowerPoint, and Outlook, plus services such as OneDrive storage and Microsoft support. If you stop paying, the desktop apps eventually switch to reduced functionality mode, which lets you view and print documents but not edit them.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office 2024 works differently. You pay once, and the license belongs to you. You install the classic apps on one PC or Mac and can keep using them as long as the software runs. There is no upgrade path: when Microsoft releases the next major version, you buy it at full price if you want it. Office 2024 still receives security updates until October 9, 2029, but it does not get new features. Activation is tied to a Microsoft account or a device ID, and periodic internet access is required to keep the license activated, per Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 FAQ", "marks": ["e2"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e2", "href": "https://support.microsoft.com/en-us/office/lifecycle/office-2024-and-office-ltsc-2024-faq" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a closer look at how activation records and product keys work across Windows and Office, see our guide on ", "marks": [] },
+        { "_type": "span", "text": "digital licenses vs product keys", "marks": ["l1"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "/blog/digital-license-vs-product-key" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Apps Do You Get?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Both options run the same core Microsoft apps, but the editions and extras differ. Here is what is included in each.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Office 2024 editions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Office Home 2024: Word, Excel, PowerPoint, and OneNote for one PC or Mac. A solid choice for students and families.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Office Home & Business 2024: adds Outlook and commercial-use rights, so you can use the apps in a business. Licendi carries this edition for Mac as a ", "marks": [] },
+        { "_type": "span", "text": "lifetime license", "marks": ["l2"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/product/office-2024-home-and-business-for-mac-genuine-license-instant-email-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Office Pro Plus and Professional Plus LTSC 2024: the full desktop suite for professionals, including Access on Windows.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A quick note: Office 2024 does not include Publisher, which Microsoft retired in 2026, and it does not include any of the cloud services bundled with Microsoft 365.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Microsoft 365 plans", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Basic: web and mobile apps plus 100 GB of OneDrive storage. No desktop apps.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Personal: the full desktop apps for one person, 1 TB of OneDrive storage, and Copilot AI features.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Family: everything in Personal, shared with up to five other people. Each person gets their own 1 TB of storage.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Premium: the newest plan, with extended AI usage and Copilot features for up to six people.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For business, Microsoft also sells per-user plans such as Business Basic, Standard, and Premium, which add Exchange, SharePoint, and Teams. If you manage a company, compare those plans on Microsoft's site before deciding.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Cost Over Time: Which Is Cheaper?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's US list prices at the time of writing: Microsoft 365 Personal costs $99.99 per year, Family costs $129.99 per year, and Premium costs $199.99 per year. Office Home 2024 costs $179.99 once, and Office Home & Business 2024 costs $249.99 once. Prices vary by region and Microsoft changes them occasionally, so check the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Store", "marks": ["e3"] },
+        { "_type": "span", "text": " for current figures.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e3", "href": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Run the math for your own situation. A one-time $179.99 purchase is cheaper than a $99.99-per-year subscription after roughly two years, and you own the software for as long as you want. Over five years, the subscription costs about $500, while the one-time purchase stays at $179.99. The trade-off is that the subscription includes 1 TB of storage, multi-device access, AI features, and ongoing support. If those extras matter to you, the subscription can be worth every penny.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Updates and Support", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Feature Updates vs Security-Only Support", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft 365 apps are updated continuously: new features, security patches, and fixes arrive automatically, and support is included. Office 2024 is locked in time. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "FAQ", "marks": ["e2b"] },
+        { "_type": "span", "text": " states that Office 2024 and Office LTSC 2024 go out of support on October 9, 2029. After that date the apps keep running, but they no longer receive security or quality updates, which makes them a growing risk over time on internet-connected machines.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e2b", "href": "https://support.microsoft.com/en-us/office/lifecycle/office-2024-and-office-ltsc-2024-faq" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What About Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "LTSC stands for Long-Term Servicing Channel. It is the one-time-purchase version of Office aimed at commercial and government customers who need a stable, on-premises release: regulated environments, factory-floor PCs, or machines that rarely touch the internet. Like other Office 2024 releases, LTSC gets no new features after launch, but security updates can be hosted on-premises for disconnected networks. Licendi sells an ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus LTSC digital license", "marks": ["l3"] },
+        { "_type": "span", "text": " if that fits your setup.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/product/office-2024-professional-plus-ltsc-lifetime-global-digital-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Devices, Cloud Storage, and Mobile", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Device limits are one of the biggest practical differences. A Microsoft 365 subscription can be installed on all your PCs, Macs, tablets, and phones, and you can sign in on up to five devices at the same time. The Family plan shares those benefits with up to five other people. Office 2024 is licensed for one PC or Mac. The free mobile Office apps still work on tablets and phones, but with basic editing only and no OneDrive storage. Microsoft 365 subscribers get 1 TB of cloud storage per person, which Office 2024 does not include at all.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Both products need internet access to install and activate. Microsoft 365 apps must also connect periodically, at least once every 31 days, or they drop to reduced functionality mode until you reconnect. Office 2024 also needs periodic internet to stay activated, and Microsoft notes it is not designed for fully disconnected use. That is exactly the scenario LTSC is built for.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Who Should Buy Office 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You use one PC or Mac and have no plans to switch.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You want predictable costs and dislike recurring fees.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You keep your documents locally and do not need OneDrive storage.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You work in a regulated or offline environment, where LTSC is the right edition.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You only need the classic core apps, not AI features.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If that sounds like you, a perpetual license is the economical choice. Licendi sells genuine Office 2024 keys, including ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Pro Plus", "marks": ["l4"] },
+        { "_type": "span", "text": ", as lifetime licenses with instant delivery by email, so you can start installing within minutes of checkout.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l4", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Who Should Subscribe to Microsoft 365", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You regularly work on a laptop, a desktop, and a phone.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You want 1 TB of cloud storage per person and automatic file backups.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You want Copilot AI features inside Word, Excel, and PowerPoint.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "You like getting new features as soon as they ship.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "One honest note: Licendi specializes in one-time Office licenses and does not sell Microsoft 365 subscriptions. If a subscription is the right fit for you, buy it directly from Microsoft's site so you get the ongoing support and billing relationship that go with it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Where to Buy a Genuine Office 2024 Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Wherever you buy, avoid prices that look too good to be true. Gray-market keys are often volume-licensed keys sold against Microsoft's terms, and they can stop working or get blocked later. A genuine perpetual key is delivered instantly, works with online activation, and is tied to your Microsoft account. Licendi sells genuine Office licenses with instant email delivery and step-by-step activation instructions. You can browse the full range in the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office PC / Mac category", "marks": ["l5"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l5", "href": "/category/microsoft-office-pc-mac" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You will also find Windows 11 and other Microsoft products on the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand hub", "marks": ["l6"] },
+        { "_type": "span", "text": ", and every purchase is delivered as a digital license you can activate right away.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l6", "href": "/brand/microsoft" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is Office 2024 a one-time purchase?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. You pay once and own the classic apps for one PC or Mac. There are no renewal fees, but there is also no upgrade path to future versions.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-6",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Will Office 2024 stop working in 2029?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Office 2024 and Office LTSC 2024 go out of support on October 9, 2029, which means Microsoft stops releasing updates. The apps keep working, but you will not get new security fixes after that date.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-7",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I use Office 2024 on two computers?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The license covers one PC or Mac. The free mobile apps on tablets and phones offer basic editing, but for full desktop use you need one license per machine, or a Microsoft 365 subscription.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-8",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Office 2024 include Copilot?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Copilot AI features are part of Microsoft 365 subscription plans such as Personal, Family, and Premium, not the one-time Office 2024 purchase.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-9",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I use Microsoft 365 without internet?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes, for short periods. The apps are installed locally and work offline, but Microsoft requires a connection at least every 31 days to verify the subscription. Otherwise the apps switch to reduced functionality until you reconnect.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-close",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The honest answer is that both options are legitimate and both are good. The winner depends on your budget and habits. If you want to own your software with a single payment, browse Licendi's genuine Office 2024 licenses and get a lifetime key delivered instantly. If you want continuous updates, cloud storage, and AI features, a Microsoft 365 subscription is the way to go.", "marks": [] }
+      ],
+      "markDefs": []
+    }
+  ]
+}
