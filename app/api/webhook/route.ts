@@ -1,6 +1,10 @@
 import { Metadata } from "@/actions/createCheckoutSession";
 import stripe from "@/lib/stripe";
-import { createOrderInSanity, SanityOrderData } from "@/lib/orderService";
+import {
+  createOrderInSanity,
+  findOrderByStripeSessionId,
+  SanityOrderData,
+} from "@/lib/orderService";
 import { headers } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
@@ -57,6 +61,16 @@ export async function POST(req: NextRequest) {
       paymentIntent = await stripe.paymentIntents.retrieve(
         session.payment_intent as string,
       );
+    }
+
+    // Idempotency guard: Stripe may retry webhook deliveries. If the order
+    // was already created for this session, skip it to prevent duplicates.
+    const existingOrderId = await findOrderByStripeSessionId(session.id);
+    if (existingOrderId) {
+      console.log(
+        `Order already exists for session ${session.id}, skipping duplicate: ${existingOrderId}`,
+      );
+      return NextResponse.json({ received: true, duplicate: true });
     }
 
     try {

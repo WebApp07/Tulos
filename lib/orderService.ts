@@ -67,3 +67,16 @@ export async function createOrderInSanity(orderData: SanityOrderData) {
     throw error;
   }
 }
+
+export async function findOrderByStripeSessionId(sessionId: string) {
+  try {
+    const order = await backendClient.fetch(
+      `*[_type == "order" && stripeCheckoutSessionId == $sessionId][0]._id`,
+      { sessionId },
+    );
+    return order as string | null | undefined;
+  } catch (error) {
+    console.error("Error checking for existing Stripe order:", error);
+    return null;
+  }
+}

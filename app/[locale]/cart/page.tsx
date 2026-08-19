@@ -29,6 +29,7 @@ import {
   Metadata,
 } from "@/actions/createCheckoutSession";
 import { PayPalButtons } from "@/components/PayPalButtons";
+import { GooglePayButton } from "@/components/GooglePayButton";
 import { useCurrency } from "@/components/CurrencyProvider";
 
 const CartPage = () => {
@@ -314,6 +315,14 @@ const CartPage = () => {
                           </span>
                         </div>
                       </div>
+                      <GooglePayButton
+                        items={cartProducts}
+                        metadata={{
+                          customerName,
+                          customerEmail,
+                          clerkUserId: user?.id || "",
+                        }}
+                      />
                       <PayPalButtons
                         items={cartProducts}
                         totalPrice={getTotalPrice()}
@@ -402,6 +411,14 @@ const CartPage = () => {
                           </span>
                         </div>
                       </div>
+                      <GooglePayButton
+                        items={cartProducts}
+                        metadata={{
+                          customerName,
+                          customerEmail,
+                          clerkUserId: user?.id || "",
+                        }}
+                      />
                       <PayPalButtons
                         items={cartProducts}
                         totalPrice={getTotalPrice()}
