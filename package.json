@@ -10,6 +10,7 @@
     "typegen": "npx sanity@latest schema extract && npx sanity@latest typegen generate"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^4.0.43",
     "@clerk/nextjs": "^6.10.6",
     "@paypal/react-paypal-js": "^10.2.0",
     "@portabletext/react": "^3.2.4",
@@ -28,6 +29,7 @@
     "@sanity/vision": "^3.67.1",
     "@stripe/react-stripe-js": "^6.8.1",
     "@stripe/stripe-js": "^9.13.0",
+    "ai": "^7.0.68",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",

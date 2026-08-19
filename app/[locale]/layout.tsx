@@ -7,6 +7,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import localFont from "next/font/local";
 import { Toaster } from "react-hot-toast";
 import { PayPalProvider } from "@/components/PayPalProvider";
+import ChatWidget from "@/components/chat/ChatWidget";
 import { NextIntlClientProvider } from "next-intl";
 import { CurrencyProvider } from "@/components/CurrencyProvider";
 import { getMessages } from "next-intl/server";
@@ -115,6 +116,7 @@ export default async function RootLayout({
                 {children}
                 <Footer />
                 <CookieConsent />
+                <ChatWidget />
               </PayPalProvider>
               <Toaster
                 position="bottom-right"
