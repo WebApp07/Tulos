@@ -7,7 +7,7 @@ import {
   getCountryFromRequest,
 } from "./lib/geo";
 import { CURRENCY_STORAGE_KEY } from "./lib/currencyConfig";
-import { NextResponse } from "next/server";
+import { NextFetchEvent, NextRequest, NextResponse } from "next/server";
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -16,7 +16,13 @@ const hasLocalePrefix = (pathname: string) =>
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`),
   );
 
-export default clerkMiddleware((auth, req) => {
+const CRAWLER_PATTERN =
+  /(bot|crawler|spider|slurp|google|bing|yandex|baidu|duckduckgo|facebook|twitter|linkedin|pinterest|semrush|ahrefs|dotbot|applebot|ia_archiver|msnbot|mediapartners|preview|headless|phantomjs|curl|wget|python|postman)/i;
+
+const isCrawlerRequest = (req: NextRequest) =>
+  CRAWLER_PATTERN.test(req.headers.get("user-agent") ?? "");
+
+const handleGeoLocale = (req: NextRequest): NextResponse | void => {
   const { pathname, search } = req.nextUrl;
   if (
     pathname.startsWith("/studio") ||
@@ -58,7 +64,19 @@ export default clerkMiddleware((auth, req) => {
     });
   }
   return response;
-});
+};
+
+const clerkHandler = clerkMiddleware((_auth, req) => handleGeoLocale(req));
+
+export default function middleware(req: NextRequest, event: NextFetchEvent) {
+  // Bots and crawlers (Googlebot, Bingbot, Google-InspectionTool, ...) must
+  // never hit the Clerk dev-browser handshake redirect; serve the page
+  // directly instead.
+  if (isCrawlerRequest(req)) {
+    return handleGeoLocale(req);
+  }
+  return clerkHandler(req, event);
+}
 
 export const config = {
   matcher: [
