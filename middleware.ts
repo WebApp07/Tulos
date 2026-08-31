@@ -68,7 +68,18 @@ const handleGeoLocale = (req: NextRequest): NextResponse | void => {
 
 const clerkHandler = clerkMiddleware((_auth, req) => handleGeoLocale(req));
 
+const PUBLIC_PATHS = new Set(["/sitemap.xml", "/robots.txt"]);
+
 export default function middleware(req: NextRequest, event: NextFetchEvent) {
+  // Static metadata / text assets must NEVER reach clerkHandler. Clerk's
+  // internal middleware runs its dev-browser handshake redirect before the
+  // callback fires, so even though handleGeoLocale() returns void for these
+  // paths, the 307 redirect has already been issued by the time the callback
+  // executes. Return NextResponse.next() unconditionally.
+  if (PUBLIC_PATHS.has(req.nextUrl.pathname)) {
+    return NextResponse.next();
+  }
+
   // Bots and crawlers (Googlebot, Bingbot, Google-InspectionTool, ...) must
   // never hit the Clerk dev-browser handshake redirect; serve the page
   // directly instead.
