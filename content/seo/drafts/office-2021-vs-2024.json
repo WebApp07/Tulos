@@ -1,0 +1,988 @@
+{
+  "title": "Office 2021 vs Office 2024: Features, Pricing, and Support Compared",
+  "slug": "office-2021-vs-office-2024",
+  "excerpt": "Office 2024 brings dynamic arrays in Excel, a modern UI, and support until 2029. Office 2021 is cheaper but loses support in 2026. See which fits your workflow.",
+  "seoTitle": "Office 2021 vs 2024: Which Should You Buy?",
+  "seoDescription": "Office 2021 vs Office 2024: compare features, pricing, support timelines, and performance to pick the right one-time Office purchase.",
+  "tags": ["office-2024", "office-2021", "comparison", "licensing", "microsoft"],
+  "featured": false,
+  "publishedAt": "2026-08-30T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "office 2021 vs 2024",
+  "secondaryKeywords": ["office 2024 vs office 2021", "office 2021 vs office 2024 comparison", "office 2024 new features"],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "intro-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Microsoft Office 2021 and Office 2024 are both perpetual, one-time-purchase versions of the Office productivity suite. If you do not want a Microsoft 365 subscription, these are the two editions you will encounter most often. But they are not identical — Office 2024 brings meaningful updates in design, performance, and features that matter depending on how you work.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "intro-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This guide compares every significant difference — features, system requirements, support timelines, and pricing — so you can decide whether ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Office 2021",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": " still meets your needs or ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Office 2024",
+          "marks": ["l2"]
+        },
+        {
+          "_type": "span",
+          "text": " is the better investment.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "/product/office-2021-pro-plus-global-version-multi-language-internet-activation-24-7-support-lifetime"
+        },
+        {
+          "_type": "link",
+          "_key": "l2",
+          "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "What Are Office 2021 and Office 2024?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Office 2021 launched in October 2021 alongside Windows 11. It was Microsoft's answer for users who wanted a one-time purchase without committing to a subscription. Office 2024 followed as the next perpetual release, arriving in late 2023 for commercial customers and early 2024 for consumers.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Both editions include the core apps — Word, Excel, PowerPoint, Outlook, and OneNote — and both are tied to a single device (Windows PC or Mac) for the life of that hardware. The critical distinction is that perpetual licenses receive security updates but no new feature updates. Whatever feature set ships with your version is the feature set you keep.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Key Differences Between Office 2021 and Office 2024",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "User Interface and Design",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Office 2024 introduces a modernized default theme built on Fluent Design principles. The ribbon is cleaner, spacing is more consistent across apps, and icons have been updated for sharper rendering on high-resolution displays. Dark mode is more thoroughly implemented — Office 2021's dark theme had contrast inconsistencies in some apps, while 2024 covers all core applications uniformly.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you spend long hours in Word or Excel, the reduced visual clutter and improved readability of Office 2024's interface add up to less eye strain over a workday.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "New Features and Capabilities",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This is where the two versions diverge most. Office 2024 includes several features that simply do not exist in Office 2021:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h4-1",
+      "style": "h4",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Excel 2024",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Dynamic arrays now work with charts — charts automatically update when the underlying array recalculates",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "14 new text and array functions for manipulating data more efficiently",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "IMAGE function lets you insert pictures directly into cells from the web",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Faster workbook performance with better multi-file stability",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h4-2",
+      "style": "h4",
+      "children": [
+        {
+          "_type": "span",
+          "text": "PowerPoint 2024",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Cameo feature lets you embed a live camera feed directly on a slide",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Recording Studio for creating polished video presentations",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Closed captions for embedded video and audio files",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h4-3",
+      "style": "h4",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Word 2024",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Automatic session recovery — if Word crashes, it reopens all your documents where you left off",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Like reactions on comments for faster document review",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h4-4",
+      "style": "h4",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Outlook 2024",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Improved search algorithm that surfaces relevant emails, contacts, and calendar entries faster",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "More meeting creation options including auto-shortening meetings and better work-hour management",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Performance and Speed",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Office 2024 shows measurable performance improvements. Application startup times are roughly 30% faster on mid-range hardware compared to Office 2021. Memory management has been optimized — large Excel spreadsheets that occasionally caused slowdowns in 2021 run more smoothly in 2024. File import compatibility has also improved, with fewer formatting issues when opening documents from Google Docs or LibreOffice.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "System Requirements",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Office 2024 requires Windows 10 or later (or macOS with a recent version), at least 4 GB of RAM, and 4 GB of free disk space. Office 2021 has slightly lower requirements and runs on older hardware. If you are using a machine with 2 GB of RAM or running Windows 8.1, Office 2021 is your only option — but these are increasingly rare configurations in 2026.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Support Lifecycle",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This is the most important difference for anyone planning to keep their software for several years. Office 2021 reaches end of support on October 13, 2026 — meaning no more security updates after that date. Office 2024 will receive security updates through October 9, 2029.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "callout-1",
+      "style": "blockquote",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you are buying today, Office 2024 gives you three additional years of security updates — a significant advantage for any device that will remain in use beyond 2026.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Licensing and Pricing Comparison",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Both versions are sold as one-time purchases — you buy a single key and activate it on one device. There are no renewal fees. For consumers, Microsoft has kept pricing largely similar between the two versions. Commercial editions of Office 2024 carry a modest premium of roughly 10% over their 2021 equivalents. You can browse the full range of ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Office licenses",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": " available at Licendi to compare current pricing.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "/category/microsoft-office-pc-mac"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Perpetual licenses do not include upgrade rights — if you buy Office 2021 today, you keep Office 2021 forever and must purchase Office 2025 (whenever it arrives) separately. The same applies to Office 2024. This is the core trade-off versus a Microsoft 365 subscription, which provides ongoing feature updates and cloud services like OneDrive storage and Teams access.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Which Office Version Should You Buy?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "The right choice depends on your specific situation:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h4-5",
+      "style": "h4",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Choose Office 2024 if:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You are buying a new license today and want the longest support window (through 2029)",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You use Excel heavily and would benefit from dynamic arrays and new text functions",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You want the modern interface, better dark mode, and improved accessibility tools",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Your computer runs Windows 10 or Windows 11",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h4-6",
+      "style": "h4",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Choose Office 2021 if:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You only need basic Word, Excel, and PowerPoint functionality and do not require the newer features",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-17",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You are installing on older hardware that does not meet Office 2024's system requirements",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-18",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You are budget-conscious and the price difference matters for your current needs",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-19",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You plan to replace the device before October 2026 anyway",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "For most new buyers in 2026, Office 2024 is the better value. You get three extra years of security updates, a modern interface, and meaningful feature improvements — all for a similar price. If you already own Office 2021 and it meets your needs, there is no urgent reason to upgrade unless you specifically need the new Excel functions or want extended support beyond 2026. Ready to purchase? Check out our ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Office 2024 Standard license",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": " for an affordable entry point.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "/product/office-2024-standard-1-pc-windows-instant-delivery-lifetime-activation"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Frequently Asked Questions",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-q1",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Can I upgrade from Office 2021 to Office 2024?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-a1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "There is no discounted upgrade path. You would need to purchase a new Office 2024 license. Your existing Office 2021 key cannot be converted to a 2024 key.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-q2",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "What happens to Office 2021 after October 2026?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-a2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Office 2021 will continue to work, but it will no longer receive security updates. Using unsupported software increases vulnerability to new threats, so Microsoft recommends moving to a supported version.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-q3",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Does Office 2024 include Copilot AI features?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-a3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "No. Copilot and other advanced AI features are reserved for Microsoft 365 subscribers. Office 2024 perpetual licenses do not include ongoing AI feature updates. However, Office 2024 does include some basic AI-powered improvements in areas like data analysis suggestions and grammar checking.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-q4",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Can I use Office 2024 on both a PC and a Mac?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-a4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Not with a single license. The Windows and Mac versions are separate products. You need to purchase the correct edition for your operating system — a Windows key will not activate on a Mac and vice versa.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-q5",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Is Office 2024 worth the price over Microsoft 365?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-a5",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "It depends on how you value ongoing updates and cloud services. Microsoft 365 includes continuous feature updates, 1 TB OneDrive storage, Teams, and multi-device installation (up to 5 PCs/Macs plus tablets and phones). Office 2024 is a one-time purchase you own forever, but you sacrifice those extras. If you do not need cloud storage or the latest features, a perpetual license is more economical long-term. For a detailed breakdown, see our ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Microsoft 365 vs Office 2024 comparison",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": " guide.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "/blog/microsoft-365-vs-office-2024"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "cta-1",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Ready to Buy?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "cta-p1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Whether you choose Office 2021 or Office 2024, make sure you are buying a genuine license key. At Licendi, every key is authentic, delivered instantly by email, and backed by our support team.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "cta-p2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Browse our full selection of ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Office licenses",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": " or explore the ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Microsoft brand page",
+          "marks": ["l2"]
+        },
+        {
+          "_type": "span",
+          "text": " for more options.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "/category/microsoft-office-pc-mac"
+        },
+        {
+          "_type": "link",
+          "_key": "l2",
+          "href": "/brand/microsoft"
+        }
+      ]
+    }
+  ]
+}

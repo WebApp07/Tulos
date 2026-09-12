@@ -37,11 +37,147 @@
     },
     {
       "date": "2026-08-18",
-      "status": "scheduled",
+      "status": "published",
       "slug": "office-2024-home-and-business",
       "title": "Office 2024 Home & Business: What's Included and Is It Worth It?",
       "cluster": "office-perpetual",
       "keyword": "office 2024 home and business"
+    },
+    {
+      "date": "2026-08-20",
+      "status": "published",
+      "slug": "windows-11-home-to-pro-upgrade",
+      "title": "Windows 11 Home to Pro Upgrade: The Complete Step-by-Step Guide",
+      "cluster": "windows-11",
+      "keyword": "windows 11 home to pro upgrade"
+    },
+    {
+      "date": "2026-08-21",
+      "status": "scheduled",
+      "slug": "windows-11-pro-key",
+      "title": "Windows 11 Pro Key: How to Find, Buy, and Activate Yours",
+      "cluster": "windows-11",
+      "keyword": "windows 11 pro key",
+      "note": "Scheduled for 08-21, not published; carried over to 2026-08-22"
+    },
+    {
+      "date": "2026-08-22",
+      "status": "published",
+      "slug": "windows-11-pro-key",
+      "title": "Windows 11 Pro Key: How to Find, Buy, and Activate Yours",
+      "cluster": "windows-11",
+      "keyword": "windows 11 pro key",
+      "note": "Carried over from 08-21 slot; published 2026-08-22 after SANITY_API_TOKEN was rotated with create permission"
+    },
+    {
+      "date": "2026-08-23",
+      "status": "published",
+      "slug": "how-to-buy-windows-key-safely",
+      "title": "How to Buy a Windows Key Safely Without Getting Scammed",
+      "cluster": "buying-safely",
+      "keyword": "how to buy windows key safely",
+      "note": "First post in the buying-safely cluster; proposed same-day because the slot was empty"
+    },
+    {
+      "date": "2026-08-24",
+      "status": "published",
+      "slug": "office-2024-professional-plus",
+      "title": "Office 2024 Professional Plus: What It Includes and Who Should Buy It",
+      "cluster": "office-perpetual",
+      "keyword": "office 2024 professional plus",
+      "note": "Slot was empty; topic proposed from office-perpetual cluster gap - exact match with two catalog products"
+    },
+    {
+      "date": "2026-08-26",
+      "status": "published",
+      "slug": "windows-11-activation-error",
+      "title": "Windows 11 Activation Error: What Each Code Means and How to Fix It",
+      "cluster": "windows-activation",
+      "keyword": "windows 11 activation error",
+      "note": "Slot was empty; topic proposed from windows-activation cluster gap (troubleshooting); all error codes fact-checked against Microsoft Support/Learn"
+    },
+    {
+      "date": "2026-08-27",
+      "status": "published",
+      "slug": "office-for-mac-license",
+      "title": "Office for Mac License: Which Edition Fits Your MacBook?",
+      "cluster": "office-perpetual",
+      "keyword": "office for mac license",
+      "note": "Published: office-perpetual gap with exact catalog fit (Office 2024 Home & Business for Mac + Office 2024 Standard for MacOS)"
+    },
+    {
+      "date": "2026-08-30",
+      "status": "published",
+      "slug": "office-2021-vs-office-2024",
+      "title": "Office 2021 vs Office 2024: Features, Pricing, and Support Compared",
+      "cluster": "office-perpetual",
+      "keyword": "office 2021 vs 2024",
+      "note": "Published: office-perpetual gap with keyword 'office 2021 vs 2024' claimed; both Office 2021 and Office 2024 products in catalog"
+    },
+    {
+      "date": "2026-08-31",
+      "status": "published",
+      "slug": "office-ltsc-2024",
+      "title": "Office LTSC 2024: What It Includes and Who Should Buy It",
+      "cluster": "office-perpetual",
+      "keyword": "office ltsc 2024",
+      "note": "Published: office-perpetual gap with keyword 'office ltsc 2024' claimed; Office 2024 Professional Plus LTSC product in catalog"
+    }
+    ,
+    {
+      "date": "2026-09-01",
+      "status": "published",
+      "slug": "reinstall-windows-without-losing-activation",
+      "title": "Reinstall Windows Without Losing Activation: The Complete Guide",
+      "cluster": "windows-activation",
+      "keyword": "reinstall windows without losing activation",
+      "note": "Published: windows-activation gap with keyword 'reinstall windows without losing activation' claimed"
+    }
+    ,
+    {
+      "date": "2026-09-02",
+      "status": "published",
+      "slug": "activate-windows-11-without-product-key",
+      "title": "Activate Windows 11 Without a Product Key: Legal Methods That Actually Work",
+      "cluster": "windows-activation",
+      "keyword": "activate windows 11 without product key",
+      "note": "Published: windows-activation gap with keyword 'activate windows 11 without product key' claimed"
+    },
+    {
+      "date": "2026-09-03",
+      "status": "published",
+      "slug": "microsoft-365-subscription-worth-it",
+      "title": "Microsoft 365 Subscription: What You Get and Is It Worth the Cost?",
+      "cluster": "microsoft-365",
+      "keyword": "microsoft 365 subscription",
+      "note": "Published: microsoft-365 cluster gap with keyword 'microsoft 365 subscription' claimed"
+    },
+    {
+      "date": "2026-09-07",
+      "status": "published",
+      "slug": "microsoft-365-business-license",
+      "title": "Microsoft 365 Business License: Plans, Pricing, and What Each Includes",
+      "cluster": "microsoft-365",
+      "keyword": "microsoft 365 business license",
+      "note": "Published: microsoft-365 cluster gap with keyword 'microsoft 365 business license' claimed; pricing fact-checked against Microsoft plans/pricing and 2026 licensing guides"
+    },
+    {
+      "date": "2026-09-08",
+      "status": "published",
+      "slug": "microsoft-365-renewal",
+      "title": "Microsoft 365 Renewal: How It Works and How to Avoid Losing Access",
+      "cluster": "microsoft-365",
+      "keyword": "microsoft 365 renewal",
+      "note": "Published: microsoft-365 cluster gap with keyword 'microsoft 365 renewal' claimed; renewal lifecycle and 2026 Extended Service Term change fact-checked against Microsoft Support and Microsoft Learn"
+    },
+    {
+      "date": "2026-09-11",
+      "status": "published",
+      "slug": "windows-11-ltsc",
+      "title": "Windows 11 LTSC: What It Is, Who It's For, and How to License It",
+      "cluster": "windows-11",
+      "keyword": "windows 11 ltsc",
+      "note": "Published: windows-11 cluster gap with keyword 'windows 11 ltsc' claimed; Enterprise LTSC vs IoT LTSC variants, licensing channels, features, and comparison to Pro fact-checked against Microsoft Learn"
     }
   ]
 }

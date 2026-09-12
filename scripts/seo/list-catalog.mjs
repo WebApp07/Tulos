@@ -17,13 +17,31 @@ if (!projectId || !dataset) {
   process.exit(1);
 }
 
-const client = createClient({
+// Reads are public on this dataset. If SANITY_API_READ_TOKEN is set but invalid,
+// sending it causes 401s — so we probe once and fall back to anonymous reads.
+const baseClientConfig = {
   projectId,
   dataset,
   apiVersion: "2024-12-15",
   useCdn: true,
-  token: process.env.SANITY_API_READ_TOKEN || undefined,
-});
+};
+
+async function createWorkingClient() {
+  const token = process.env.SANITY_API_READ_TOKEN;
+  if (!token) return createClient(baseClientConfig);
+  const withToken = createClient({ ...baseClientConfig, token });
+  try {
+    await withToken.fetch(`count(*[_type == "brand"])`);
+    return withToken;
+  } catch {
+    console.error(
+      "Warning: SANITY_API_READ_TOKEN rejected (401); falling back to anonymous public read.",
+    );
+    return createClient(baseClientConfig);
+  }
+}
+
+const client = await createWorkingClient();
 
 const PRODUCTS_QUERY = `*[_type == "product"]{ _id, name, "slug": slug.current, "categories": categories[]->{ title, "slug": slug.current }, "brandSlug": brandRef->slug.current } | order(name asc)`;
 const CATEGORIES_QUERY = `*[_type == "category"]{ _id, title, "slug": slug.current, description, "brandSlug": brandRef->slug.current } | order(title asc)`;

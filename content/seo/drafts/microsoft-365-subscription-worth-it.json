@@ -1,0 +1,629 @@
+{
+  "title": "Microsoft 365 Subscription: What You Get and Is It Worth the Cost?",
+  "slug": "microsoft-365-subscription-worth-it",
+  "excerpt": "Microsoft 365 bundles Office apps, 1 TB OneDrive, and Copilot for a monthly fee. Here's what each plan includes and whether it's worth it for you.",
+  "seoTitle": "Microsoft 365 Subscription: Plans, Pricing & Value",
+  "seoDescription": "Microsoft 365 subscription plans, pricing, and features compared. Learn if Personal, Family, or Premium fits your needs and budget.",
+  "tags": ["microsoft-365", "subscription", "office", "licensing", "pricing"],
+  "featured": false,
+  "publishedAt": "2026-09-03T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "microsoft 365 subscription",
+  "secondaryKeywords": ["microsoft 365 plans", "microsoft 365 pricing", "microsoft 365 worth it", "microsoft 365 vs office 2024"],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Microsoft 365 Subscription?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A Microsoft 365 subscription is a monthly or annual plan that gives you access to the full desktop versions of Word, Excel, PowerPoint, Outlook, and OneNote, plus 1 TB of OneDrive cloud storage and AI‑powered Copilot features. Unlike a one‑time Office purchase, the subscription continuously delivers new features, security updates, and cloud services.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you're deciding between a subscription and a perpetual license, our guide to ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 vs Office 2024", "marks": ["l1"] },
+        { "_type": "span", "text": " breaks down the trade‑offs in detail.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "/blog/microsoft-365-vs-office-2024" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Plans and Pricing (2026)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft offers three consumer plans, each bundling desktop apps, cloud storage, and Copilot:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Personal – $99.99/year (or $9.99/month) for one person. Includes 1 TB OneDrive, desktop apps on one PC/Mac plus tablets and phones, and Copilot for the subscription owner.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Family – $129.99/year (or $12.99/month) for up to six people. Each person gets 1 TB OneDrive, and the subscription owner can share Copilot benefits.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Premium – $199.99/year (or $19.99/month) for up to six people. Everything in Family plus advanced Copilot features and higher usage limits.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "All plans now include Copilot, Microsoft's AI assistant, which helps you draft, summarize, and analyze content across Word, Excel, PowerPoint, and Outlook. The AI features are metered by a monthly credit allowance and are limited to the subscription owner.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What You Actually Get for the Money", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Beyond the core apps, a Microsoft 365 subscription includes:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "1 TB OneDrive cloud storage per person – enough for documents, photos, and backups.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Continuous feature updates – new functions arrive regularly, not just security patches.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Cross‑device use – install on multiple PCs, Macs, tablets, and phones (sign in to five at once).", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Advanced mobile features – edit and create on tablets and phones without a separate purchase.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Copilot AI – assistance for writing, data analysis, and presentations.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you prefer a one‑time purchase without recurring fees, consider an ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Pro Plus license", "marks": ["l2"] },
+        { "_type": "span", "text": " – you own it forever but don't receive new features or cloud storage.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Is Microsoft 365 Worth It? A Honest Look", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The value depends on how you use Office:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Heavy users who need the desktop apps, 1 TB storage, and AI assistance will find the subscription cost justified.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Families or small teams benefit from the Family plan – up to six people for $129.99/year is cheaper than any standalone storage plan.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Light users who only write occasional documents can use the free web versions of Word, Excel, and PowerPoint.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Budget‑conscious buyers who want the apps without ongoing costs may prefer a perpetual Office license.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft also offers a lower‑priced classic option without Copilot for existing subscribers who opt out through account settings. If you never use AI, you can reduce the cost.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Choose the Right Plan", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Ask yourself these questions:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Do you need the full desktop apps or just the web versions?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Will you use the 1 TB OneDrive storage for photos, documents, or backups?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Do you want AI assistance from Copilot for drafting, summarizing, or analyzing data?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "How many people in your household or team need access?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you answer yes to most of these, a Microsoft 365 subscription is likely worth it. If you only need occasional document editing, the free web apps or a one‑time Office purchase may be more cost‑effective.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Where to Buy a Genuine Microsoft 365 Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You can purchase Microsoft 365 directly from Microsoft, but you can also find genuine license keys at competitive prices through authorized retailers. At ", "marks": [] },
+        { "_type": "span", "text": "Licendi", "marks": ["l3"] },
+        { "_type": "span", "text": ", we offer instant digital delivery of Microsoft 365 and Office licenses, along with step‑by‑step activation instructions.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/brand/microsoft" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Browse our ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office category", "marks": ["l4"] },
+        { "_type": "span", "text": " to compare subscription and perpetual options side by side.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l4", "href": "/category/microsoft-office-pc-mac" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Final Verdict", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A Microsoft 365 subscription is worth it if you regularly use Word, Excel, PowerPoint, and Outlook, and you value continuous updates, cloud storage, and AI assistance. The Family plan offers the best per‑person value, while the Personal plan is ideal for individuals. If you only need the apps occasionally and don't want recurring fees, a perpetual Office license is a solid alternative.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Ready to get started? ", "marks": [] },
+        { "_type": "span", "text": "Buy a genuine Microsoft 365 key", "marks": ["l5"] },
+        { "_type": "span", "text": " today and enjoy instant activation.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l5", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 vs Google Workspace: Which Is Better?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Many users compare Microsoft 365 with Google Workspace (formerly G Suite). Both offer cloud‑based productivity tools, but they differ in key ways:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-17",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Desktop apps: Microsoft 365 includes full desktop versions of Word, Excel, and PowerPoint. Google Workspace relies on web‑based apps (Docs, Sheets, Slides) with offline capabilities.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-18",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Cloud storage: Both offer 1 TB per user, but Google Workspace includes Google Drive integration while Microsoft uses OneDrive.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-19",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "AI features: Microsoft 365 includes Copilot for writing and analysis. Google Workspace offers Gemini AI across its apps.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-20",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Collaboration: Both support real‑time co‑authoring, but Google Workspace's web‑first approach may feel more seamless for some teams.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If your team already uses Google services, Workspace might be more natural. If you need advanced desktop features and deep integration with Windows, Microsoft 365 is the better choice.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Migrate from Office 2024 to Microsoft 365", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you currently use a perpetual Office license and want to switch to Microsoft 365, here's what to do:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-21",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Back up your files and note any custom settings.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-22",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Uninstall your existing Office version to avoid conflicts.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-23",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Purchase a Microsoft 365 subscription key from a trusted retailer like Licendi.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-24",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Sign in to your Microsoft account and enter the product key to activate your subscription.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-25",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Download and install the desktop apps from the Microsoft 365 portal.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Your existing files will open normally in the new apps. OneDrive will sync your documents to the cloud, giving you access from any device.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I use Microsoft 365 offline?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. After you install and activate the desktop apps, you can use them offline. You'll need internet access initially for activation and to install updates, but once installed, the apps work without an internet connection. If you don't connect to the internet at least once a month, the apps may enter reduced functionality mode.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What happens if I stop paying for Microsoft 365?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Your apps will switch to read‑only mode and you'll lose access to premium features like Copilot and 1 TB OneDrive storage. Your files remain in OneDrive, but you can't edit them with the desktop apps until you renew. You can still access your files via the free web versions.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I share my Microsoft 365 subscription with family?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The Family and Premium plans allow you to share with up to five additional people. Each person gets their own 1 TB OneDrive storage and can install the apps on their own devices. However, Copilot benefits are only available to the subscription owner.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is Microsoft 365 better than buying Office outright?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "It depends on your needs. If you want the latest features, cloud storage, and AI assistance, the subscription is better. If you prefer a one‑time cost and don't need ongoing updates, a perpetual Office license like ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Home & Business", "marks": ["l6"] },
+        { "_type": "span", "text": " may be more economical over time.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l6", "href": "/product/office-2024-home-and-business-for-mac-genuine-license-instant-email-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How do I cancel my Microsoft 365 subscription?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You can cancel anytime through your Microsoft account settings. Your subscription will remain active until the end of the current billing period. If you cancel, you won't be charged again, but you'll lose access to premium features when the period ends.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-6",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I upgrade from Personal to Family later?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. You can upgrade your plan at any time through your Microsoft account. The change takes effect immediately, and you'll be charged the prorated difference for the remaining billing period.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-7",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What happens to my files if I cancel?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Your files remain in OneDrive, but your storage will be reduced to 5 GB (the free tier). If you have more than 5 GB of files, you'll need to download them or purchase additional storage before your subscription expires.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-11",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 for Business vs Personal", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-26",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft also offers business plans (Microsoft 365 Business Basic, Standard, Premium) that include additional features like business email, Microsoft Teams, and advanced security. If you're a small business owner, these plans may be more appropriate than consumer subscriptions. Business Premium at $22/user/month includes device management and compliance tools.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-27",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a detailed comparison of subscription vs perpetual licensing for business, see our ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 vs Office 2024", "marks": ["l7"] },
+        { "_type": "span", "text": " guide.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l7", "href": "/blog/microsoft-365-vs-office-2024" }]
+    }
+  ]
+}

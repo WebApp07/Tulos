@@ -1,0 +1,801 @@
+{
+  "title": "Office LTSC 2024: What It Includes and Who Should Buy It",
+  "slug": "office-ltsc-2024",
+  "excerpt": "Office LTSC 2024 is a one-time-purchase Office edition with no feature updates. Learn what's included, how it differs from Office 2024, and whether it's right for you.",
+  "seoTitle": "Office LTSC 2024: Features, Editions & Buyer's Guide",
+  "seoDescription": "Office LTSC 2024 vs Office 2024: features, editions, and licensing compared. See who should buy LTSC and where to get a genuine key.",
+  "tags": ["office-ltsc", "office-2024", "licensing", "microsoft", "enterprise"],
+  "featured": false,
+  "publishedAt": "2026-08-31T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "brand": "microsoft",
+  "primaryKeyword": "office ltsc 2024",
+  "secondaryKeywords": ["office ltsc vs office 2024", "office ltsc professional plus", "office ltsc standard", "what is office ltsc", "office ltsc 2024 features"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 stands for Office Long-Term Servicing Channel 2024. It is Microsoft's latest perpetual-license edition of Office, designed for organizations that need a stable, fixed feature set without ongoing cloud connectivity or subscription renewals.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Unlike Microsoft 365, which receives continuous feature updates and integrates cloud services, Office LTSC 2024 ships with a snapshot of Office features at the time of release. After purchase, you receive only security updates and bug fixes — no new features are added.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This makes LTSC ideal for air-gapped environments, regulated industries, and businesses that prioritize predictability over the latest AI-powered tools.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Office LTSC 2024 vs Office 2024: Key Differences", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Both Office LTSC 2024 and the retail ", "marks": [] },
+        { "_type": "span", "text": "Office 2024", "marks": ["strong"] },
+        { "_type": "span", "text": " editions are one-time purchases with no subscription. But they target different use cases and come with distinct licensing terms.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Licensing Model", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 is sold through Microsoft Volume Licensing agreements. It is deployed using the Office Deployment Tool (ODT) and activated with either a Multiple Activation Key (MAK) or Key Management Service (KMS). Retail Office 2024 editions are purchased individually and activated with a standard product key.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Feature Updates", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Retail Office 2024 receives occasional feature updates throughout its lifecycle. Office LTSC 2024 does not — the feature set is frozen at release. You get security patches, but no new capabilities. If you want ongoing feature additions, Microsoft 365 Apps is the right choice.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Cloud Integration", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 does not include real-time collaboration, AI-driven automation, or advanced cloud security features found in Microsoft 365. It is designed for environments where devices may be disconnected from the internet for extended periods.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Support Lifecycle", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Both Office LTSC 2024 and retail Office 2024 receive five years of Mainstream Support, ending October 9, 2029. After that, there is no Extended Support for either version.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What's New in Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 introduces several improvements over previous LTSC versions while maintaining the stable, fixed-feature approach:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "OpenDocument Format 1.4 support in Word, Excel, and PowerPoint", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Enhanced accessibility tools across all applications", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "New Office add-ins JavaScript APIs for Excel, Outlook, and PowerPoint", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Recover session option in Microsoft Word", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "ActiveX controls disabled by default (admin-re-enableable)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The major version number remains 16.0, ensuring compatibility with existing Group Policy settings and add-ins from Office LTSC 2021 and Office 2019.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Apps Are Included in Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC Professional Plus 2024 includes the following applications:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Word", "marks": ["strong"] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Excel", "marks": ["strong"] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "PowerPoint", "marks": ["strong"] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Outlook", "marks": ["strong"] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "OneNote", "marks": ["strong"] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Access", "marks": ["strong"] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Skype for Business is available as an optional install during setup. Microsoft Teams is not preinstalled but can be downloaded separately.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Notably, ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Publisher is not included", "marks": ["strong"] },
+        { "_type": "span", "text": " in Office LTSC 2024. Microsoft retired Publisher support after October 2026, so it was excluded from this release.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Office LTSC Professional Plus vs Standard", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft offers two editions of Office LTSC 2024:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Office LTSC Professional Plus 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Includes Word, Excel, PowerPoint, Outlook, OneNote, and ", "marks": [] },
+        { "_type": "span", "text": "Access", "marks": ["strong"] },
+        { "_type": "span", "text": ". This is the most comprehensive LTSC edition, designed for IT professionals, businesses, and power users who need database capabilities.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-6",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Office LTSC Standard 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Includes Word, Excel, PowerPoint, Outlook, and OneNote — but ", "marks": [] },
+        { "_type": "span", "text": "no Access", "marks": ["strong"] },
+        { "_type": "span", "text": ". This edition suits freelancers, small offices, and teams that do not need database tools.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-7",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Mac Compatibility", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC Standard for Mac 2024 is available for volume-licensed customers. Access is not available on macOS.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Who Should Buy Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 is not for everyone. It is designed for specific scenarios where stability and offline capability matter more than the latest features.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-8",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Best For", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Regulated industries (healthcare, finance, government) that restrict cloud connectivity", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Air-gapped networks where devices cannot reach the internet", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Organizations that need a fixed, predictable feature set with no UI changes", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Businesses that prefer one-time licensing over subscription costs", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Users who want Microsoft Access without a Microsoft 365 subscription", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-9",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Not Ideal For", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-17",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Individuals who want the latest Office features as they release", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-18",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Teams that rely on real-time collaboration and cloud services", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-19",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Users who need Mac support with Access (not available on macOS)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-20",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Small businesses that prefer Microsoft 365's bundled cloud storage and collaboration tools", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "System Requirements for Office LTSC 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Before purchasing Office LTSC 2024, verify your system meets the minimum requirements:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-21",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Operating System: Windows 11, Windows 10 LTSC 2019/2021, or Windows Server 2022/2025", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-22",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Processor: 1.1 GHz, two-core", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-23",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "RAM: 4 GB", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-24",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Disk Space: 4 GB available", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-25",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Display: 1280 x 768 resolution (64-bit required for 4K+)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For Mac users, Office LTSC Standard for Mac 2024 is available, but Access is not included on macOS.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Deploy Office LTSC 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Deployment of Office LTSC 2024 follows the same process as previous volume-licensed Office versions:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Download the Office Deployment Tool (ODT) from Microsoft", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Create a configuration file specifying your edition and activation method", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Run the ODT to download and install Office LTSC 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Activate using MAK or KMS depending on your licensing agreement", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Internet connectivity is required for MAK activation but not for KMS activation. Once activated, Office LTSC 2024 can be used fully offline.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Office LTSC 2024 Pricing", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's official pricing for Office LTSC 2024 varies by region and licensing agreement. Through Volume Licensing, organizations typically pay per-device fees. Retail pricing for Office LTSC Professional Plus 2024 generally ranges from $400 to $600 depending on the reseller.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "However, you can find genuine LTSC keys at significantly lower prices from authorized resellers. At Licendi, you can purchase a ", "marks": [] },
+        { "_type": "span", "text": "genuine Office 2024 Professional Plus LTSC key", "marks": ["l1"] },
+        { "_type": "span", "text": " with instant digital delivery at a fraction of the retail cost.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "/product/office-2024-professional-plus-ltsc-lifetime-global-digital-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Buy Office LTSC 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft sells Office LTSC 2024 through Volume Licensing agreements, which typically require minimum order quantities. However, you can also find genuine LTSC keys from authorized resellers like ", "marks": [] },
+        { "_type": "span", "text": "Licendi", "marks": ["l4"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l4", "href": "/brand/microsoft" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-26",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The license is a lifetime key — no subscription, no renewal. You receive your product key and activation instructions via email within minutes.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-27",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If LTSC is not what you need, Licendi also carries ", "marks": [] },
+        { "_type": "span", "text": "retail Office 2024 Professional Plus keys", "marks": ["l2"] },
+        { "_type": "span", "text": " with online activation and a global license. Browse our full ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office collection", "marks": ["l5"] },
+        { "_type": "span", "text": " to compare all editions.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" }, { "_type": "link", "_key": "l5", "href": "/category/microsoft-office-pc-mac" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-11",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Office LTSC 2024 vs Microsoft 365: Which Should You Choose?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-28",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The choice between Office LTSC 2024 and ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365", "marks": ["l3"] },
+        { "_type": "span", "text": " comes down to how you want to pay and what features you need.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/blog/microsoft-365-vs-office-2024" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-29",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Choose ", "marks": ["strong"] },
+        { "_type": "span", "text": "Office LTSC 2024", "marks": ["strong"] },
+        { "_type": "span", "text": " if you want a one-time purchase, do not need cloud features, and prefer a fixed feature set that never changes.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-30",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Choose ", "marks": ["strong"] },
+        { "_type": "span", "text": "Microsoft 365", "marks": ["strong"] },
+        { "_type": "span", "text": " if you want the latest features, cloud collaboration, 1 TB of OneDrive storage, and the ability to install Office on multiple devices.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-12",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-10",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can individuals buy Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-31",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. While LTSC is often marketed to enterprises, anyone can purchase it. It is a good choice for individuals who want a one-time purchase without subscriptions.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-11",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Office LTSC 2024 include Publisher?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-32",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Microsoft Publisher is not included in Office LTSC 2024. Microsoft retired Publisher support after October 2026.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-12",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How long is Office LTSC 2024 supported?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-33",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 receives five years of Mainstream Support, ending October 9, 2029. There is no Extended Support.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-13",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I upgrade from Office LTSC 2021 to Office LTSC 2024?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-34",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "There is no direct upgrade path. You must uninstall previous versions and deploy Office LTSC 2024 as a fresh installation using the Office Deployment Tool.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-14",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Office LTSC 2024 work on Windows 10?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-35",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office LTSC 2024 supports Windows 10 LTSC 2019 and 2021, as well as Windows 11. However, note that Windows 10 standard editions reach end of support in October 2025.", "marks": [] }
+      ],
+      "markDefs": []
+    }
+  ]
+}
