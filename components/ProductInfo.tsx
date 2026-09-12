@@ -4,17 +4,13 @@ import { useState } from "react";
 import { Product } from "@/sanity.types";
 import PriceView from "./PriceView";
 import AddToCartButton from "./AddToCartButton";
-import {
-  Heart,
-  BoxIcon,
-  FileQuestion,
-  ListOrderedIcon,
-  Share,
-} from "lucide-react";
+import { Heart, FileQuestion, ListOrderedIcon, Share } from "lucide-react";
+import toast from "react-hot-toast";
 import ProductCharacteristics from "./ProductCharacteristics";
 import ImageView from "./ImageView";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import useWishlistStore from "@/store/wishlist";
 
 export default function ProductInfo({ product }: { product: Product }) {
   const t = useTranslations("product");
@@ -45,7 +41,31 @@ export default function ProductInfo({ product }: { product: Product }) {
     selectedVariant?.stock !== undefined ? selectedVariant.stock : product.stock;
 
   const slug = product.slug?.current || "";
+  const { ids, toggle: toggleWishlist } = useWishlistStore();
+  const inWishlist = ids.includes(product._id);
+
+  const handleShare = async () => {
+    if (typeof window === "undefined") return;
+    const url = window.location.href;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: product?.name || "", url });
+      } catch {
+        // User cancelled the share sheet
+      }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      toast.success(t("linkCopied"));
+    } catch {
+      // Clipboard not available
+    }
+  };
+
   const tKey = (key: string) => key as Parameters<typeof t>[0];
+  const wishlistMsg = (k: "addedToWishlist" | "removedFromWishlist") =>
+    t(k as Parameters<typeof t>[0]);
   const hasKey = (key: string) => t.has(tKey(key));
   const description = hasKey(`${slug}.description`)
     ? t(tKey(`${slug}.description`))
@@ -179,8 +199,26 @@ export default function ProductInfo({ product }: { product: Product }) {
             selectedVariant={selectedVariant}
             className="bg-darkColor/80 text-white hover:bg-darkColor hoverEffect"
           />
-          <button className="border-2 border-darkColor/30 text-darkColor/60 px-2.5 py-1.5 rounded-md hover:text-darkColor hover:border-darkColor hoverEffect">
-            <Heart className="w-5 h-5" />
+          <button
+            onClick={() => {
+              toggleWishlist(product._id);
+              toast.success(
+                inWishlist ? wishlistMsg("removedFromWishlist") : wishlistMsg("addedToWishlist"),
+              );
+            }}
+            aria-label={inWishlist ? wishlistMsg("removedFromWishlist") : wishlistMsg("addedToWishlist")}
+            title={inWishlist ? wishlistMsg("removedFromWishlist") : wishlistMsg("addedToWishlist")}
+            className={`border-2 px-2.5 py-1.5 rounded-md hoverEffect ${
+              inWishlist
+                ? "border-red-500 text-red-500"
+                : "border-darkColor/30 text-darkColor/60 hover:text-darkColor hover:border-darkColor"
+            }`}
+          >
+            <Heart
+              className={`w-5 h-5 ${
+                inWishlist ? "fill-red-500 text-red-500" : ""
+              }`}
+            />
           </button>
         </div>
 
@@ -190,28 +228,33 @@ export default function ProductInfo({ product }: { product: Product }) {
         />
 
         <div className="flex flex-wrap items-center justify-between gap-2.5 border-b border-b-gray-200 py-5 -mt-2">
-          <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
-            <BoxIcon className="w-5 h-5" />
-            <p>{t("compareColor")}</p>
-          </div>
-          <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
+          <Link
+            href="/faqs"
+            className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect"
+          >
             <FileQuestion className="w-5 h-5" />
             <p>{t("askQuestion")}</p>
-          </div>
-          <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
+          </Link>
+          <Link
+            href="/shipping-policy"
+            className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect"
+          >
             <ListOrderedIcon className="w-5 h-5" />
             <p>{t("deliveryReturn")}</p>
-          </div>
-          <div className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect">
+          </Link>
+          <button
+            onClick={handleShare}
+            className="flex items-center gap-2 text-sm text-black hover:text-red-600 hoverEffect"
+          >
             <Share className="w-5 h-5" />
             <p>{t("share")}</p>
-          </div>
+          </button>
         </div>
 
         <div className="flex flex-wrap items-center gap-5">
           <div className="border border-darkBlue/20 text-center p-3 hover:border-darkBlue rounded-md hoverEffect">
-            <p className="text-base font-semibold text-darkColor">{t("freeShipping")}</p>
-            <p className="text-sm text-gray-500">{t("freeShippingDesc")}</p>
+            <p className="text-base font-semibold text-darkColor">{t("instantDelivery")}</p>
+            <p className="text-sm text-gray-500">{t("instantDeliveryDesc")}</p>
           </div>
           <div className="border border-darkBlue/20 text-center p-3 hover:border-darkBlue rounded-md hoverEffect">
             <p className="text-base font-semibold text-darkColor">

@@ -17,6 +17,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { urlFor } from "@/sanity/lib/image";
 import useCartStore, { CartItem } from "@/store";
+import useWishlistStore from "@/store/wishlist";
 import { useAuth, useUser, SignInButton } from "@clerk/nextjs";
 import { Heart, ShoppingBag, Trash } from "lucide-react";
 import Image from "next/image";
@@ -36,6 +37,10 @@ const CartPage = () => {
   const t = useTranslations("cart");
   const tCommon = useTranslations("common");
   const tSearch = useTranslations("search");
+  const tProduct = useTranslations("product");
+  const wishlistMsg = (k: "addedToWishlist" | "removedFromWishlist") =>
+    tProduct(k as Parameters<typeof tProduct>[0]);
+  const { ids, toggle: toggleWishlist } = useWishlistStore();
   const { currency } = useCurrency();
   const [isClient, setIsClient] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -79,6 +84,14 @@ const CartPage = () => {
   ) => {
     deleteCartProduct(id, selectedVariant);
     toast.success(t("productDeleted"));
+  };
+  const handleToggleWishlist = (productId: string) => {
+    toggleWishlist(productId);
+    toast.success(
+      ids.includes(productId)
+        ? wishlistMsg("removedFromWishlist")
+        : wishlistMsg("addedToWishlist"),
+    );
   };
 
   const handleCheckout = async () => {
@@ -189,8 +202,17 @@ const CartPage = () => {
                                 <TooltipProvider>
                                   <Tooltip>
                                     <TooltipTrigger>
-                                      <Heart className="w-4 h-4 md:w-5 md:h-5 hover:text-green-600 hoverEffect" />
-                                    </TooltipTrigger>
+                                        <Heart
+                                          onClick={() =>
+                                            handleToggleWishlist(product?._id)
+                                          }
+                                          className={`cursor-pointer w-4 h-4 md:w-5 md:h-5 hover:text-green-600 hoverEffect ${
+                                            ids.includes(product?._id)
+                                              ? "fill-red-500 text-red-500"
+                                              : ""
+                                          }`}
+                                        />
+                                      </TooltipTrigger>
                                     <TooltipContent className="font-bold">
                                       {t("addToFavorite")}
                                     </TooltipContent>
