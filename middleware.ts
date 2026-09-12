@@ -16,12 +16,6 @@ const hasLocalePrefix = (pathname: string) =>
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`),
   );
 
-const CRAWLER_PATTERN =
-  /(bot|crawler|spider|slurp|google|bing|yandex|baidu|duckduckgo|facebook|twitter|linkedin|pinterest|semrush|ahrefs|dotbot|applebot|ia_archiver|msnbot|mediapartners|preview|headless|phantomjs|curl|wget|python|postman)/i;
-
-const isCrawlerRequest = (req: NextRequest) =>
-  CRAWLER_PATTERN.test(req.headers.get("user-agent") ?? "");
-
 const handleGeoLocale = (req: NextRequest): NextResponse | void => {
   const { pathname, search } = req.nextUrl;
   if (
@@ -80,12 +74,14 @@ export default function middleware(req: NextRequest, event: NextFetchEvent) {
     return NextResponse.next();
   }
 
-  // Bots and crawlers (Googlebot, Bingbot, Google-InspectionTool, ...) must
-  // never hit the Clerk dev-browser handshake redirect; serve the page
-  // directly instead.
-  if (isCrawlerRequest(req)) {
-    return handleGeoLocale(req);
-  }
+  // Every request, including bots/crawlers, must run through clerkMiddleware
+  // so that Clerk's request-scoped auth context is available to server
+  // components (Header calls auth()/currentUser()). Skipping Clerk for
+  // crawler user agents made Clerk throw "auth() was called but Clerk can't
+  // detect usage of clerkMiddleware()" on EVERY crawled page, causing 5xx for
+  // Googlebot while browsers worked. Clerk only issues the dev-browser
+  // handshake redirect when Clerk cookies/tokens are present; anonymous
+  // crawler requests get a signed-out state and pass through untouched.
   return clerkHandler(req, event);
 }
 
