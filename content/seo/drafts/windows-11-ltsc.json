@@ -1,0 +1,658 @@
+{
+  "title": "Windows 11 LTSC: What It Is, Who It's For, and How to License It",
+  "slug": "windows-11-ltsc",
+  "excerpt": "Windows 11 LTSC is a stripped-down Enterprise edition with 5-10 years of support. Here's how it works, who it's for, and why Pro may be the better choice.",
+  "seoTitle": "Windows 11 LTSC: Licensing & Buyer's Guide",
+  "seoDescription": "Windows 11 LTSC explained: Enterprise vs IoT variants, licensing, features, and who should buy it. See why Pro is right for most users.",
+  "tags": ["windows-11", "licensing", "ltsc", "enterprise", "activation"],
+  "featured": false,
+  "publishedAt": "2026-09-11T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "windows 11 ltsc",
+  "secondaryKeywords": [
+    "windows 11 enterprise ltsc",
+    "windows 11 ltsc vs pro",
+    "windows 11 iot enterprise ltsc",
+    "windows ltsc licensing",
+    "windows 11 ltsc features"
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you have ever searched for a cleaner, more stable version of Windows 11, you have probably come across the term ", "marks": [] },
+        { "_type": "span", "text": "LTSC", "marks": ["strong"] },
+        { "_type": "span", "text": ". Short for ", "marks": [] },
+        { "_type": "span", "text": "Long-Term Servicing Channel", "marks": ["em"] },
+        { "_type": "span", "text": ", it is a specialized edition of Windows 11 Enterprise designed for mission-critical devices that must stay unchanged for years. But LTSC is not a consumer product. It cannot be bought at retail, and Microsoft does not sell individual product keys for it. Before you decide whether LTSC fits your needs, you need to understand what it actually is, how its licensing works, and why a genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro key", "marks": ["l1"] },
+        { "_type": "span", "text": " is the right choice for most users.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l1", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is Windows 11 LTSC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows 11 LTSC is a variant of Windows 11 Enterprise that follows a different update model than the standard General Availability Channel. Instead of receiving major feature updates every year, LTSC devices get only security and quality updates for an extended period. New features arrive only when Microsoft releases a fresh LTSC build, typically every two to three years, and even those upgrades are optional.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft designed LTSC for environments where stability matters more than new features: ATMs, medical imaging equipment, industrial controllers, point-of-sale terminals, and similar fixed-purpose systems. These devices perform a single critical task, and a surprise UI change or a new built-in app breaking compatibility could have serious consequences. LTSC removes that risk by freezing the feature set in place.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The current release is ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Enterprise LTSC 2024", "marks": ["strong"] },
+        { "_type": "span", "text": ", which became available on October 1, 2024. It is built on the same codebase as Windows 11 version 24H2 and includes cumulative enhancements from Windows 11 versions 21H2, 22H2, 23H2, and 24H2, according to ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Learn", "marks": ["l2"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l2", "href": "https://learn.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-11-2024", "attrs": { "blank": true } }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Windows 11 Enterprise LTSC vs IoT Enterprise LTSC", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "There are two LTSC variants for Windows 11, and the difference between them matters far more than most people realize. They share the same feature set and the same 24H2 codebase, but they carry different licensing terms and drastically different support lifecycles.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Windows 11 Enterprise LTSC 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is the standard LTSC edition intended for specialized enterprise PCs. It follows Microsoft's Fixed Lifecycle Policy and receives exactly ", "marks": [] },
+        { "_type": "span", "text": "five years of support", "marks": ["strong"] },
+        { "_type": "span", "text": " from its release date. Mainstream support ends on October 9, 2029. There is no extended support phase. Once that date passes, the device receives no further security updates unless it is migrated to a newer LTSC release or a different edition.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Enterprise LTSC is distributed through Microsoft Volume Licensing programs, including Enterprise Agreement, Select Plus, MPSA, and Microsoft Customer Agreement. It is not available through Cloud Solution Provider (CSP) subscription, which only provides subscription-based Enterprise editions like E3 and E5.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Windows 11 IoT Enterprise LTSC 2024", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The IoT variant is designed for fixed-function embedded devices: ATMs, kiosks, manufacturing controllers, medical carts, and similar equipment. Despite having the same features as the standard Enterprise LTSC, it carries a ", "marks": [] },
+        { "_type": "span", "text": "ten-year support lifecycle", "marks": ["strong"] },
+        { "_type": "span", "text": ". Mainstream support ends October 9, 2029, and extended support continues until October 10, 2034.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "IoT Enterprise LTSC is typically licensed through OEM device manufacturers or authorized IoT distributors. The license is tied to the hardware and is not transferable. Microsoft's licensing terms also explicitly state that IoT Enterprise LTSC must be used on fixed-purpose devices and may not be used on general-purpose PCs.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-callout-1",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "Key takeaway: Enterprise LTSC and IoT Enterprise LTSC are not the same product with different names. They carry genuinely different licensing terms and support windows. If a device needs to run untouched for a decade, you must license IoT Enterprise LTSC specifically. Enterprise LTSC on its own will leave that device unsupported at the halfway point.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How Windows 11 LTSC Licensing Works", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is where most people get confused. Unlike Windows 11 Home or ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro", "marks": ["l3"] },
+        { "_type": "span", "text": ", which are available through retail and OEM channels, LTSC cannot be purchased from a store shelf or a typical online retailer. There is no retail product key for Windows 11 LTSC.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l3", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Volume Licensing Is the Only Path", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Genuine Windows 11 Enterprise LTSC access comes exclusively through Microsoft Volume Licensing programs. Organizations must have an active Volume Licensing agreement, such as an Enterprise Agreement or MPSA, to obtain LTSC installation media and product keys through the Volume Licensing Service Center (VLSC).", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "LTSC is a device-based upgrade license, meaning it requires a qualifying underlying operating system. According to the Microsoft Product Terms, qualifying operating systems include Windows 10 or 11 Pro, Enterprise, or IoT Enterprise. The license is perpetual for the device, not a subscription, though customers with active Software Assurance may be entitled to new LTSC releases at no extra cost.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What About Those Cheap \"Enterprise Keys\" Online?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you see a listing advertising a cheap, permanent ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Enterprise key", "marks": ["em"] },
+        { "_type": "span", "text": " for individual purchase outside a legitimate volume licensing relationship, treat it with real skepticism. Genuine Enterprise activation runs through Key Management Service (KMS) infrastructure, Active Directory-based activation, or subscription-based activation, not a single retail-style product key. Any key offered outside these channels is likely unauthorized.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "90-Day Evaluation Option", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft does offer a 90-day evaluation copy of Windows 11 Enterprise LTSC 2024 through the Microsoft Evaluation Center. This is a fully functional version of the operating system with a built-in expiration, suitable for testing and proof-of-concept deployments. After 90 days, a valid volume license key is required for continued use. The evaluation is not a path to free, permanent Windows.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What LTSC Includes and What It Removes", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Under the hood, Windows 11 Enterprise LTSC 2024 includes all the core security and management features of Windows 11 Enterprise. You get Credential Guard enabled by default, AppLocker, BitLocker with full management surface, Microsoft Defender Antivirus, enhanced phishing protection, Microsoft Pluton support, Windows LAPS, and full Intune MDM and MAM capabilities.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "What makes LTSC different is what it strips out. The following components are not included by default:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft Store", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Copilot AI integration", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Xbox app and Game Bar", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Widgets and Discover feed", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Consumer apps (Mail, Calendar, Photos, etc.)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "WordPad (removed from all Windows 11 24H2 editions)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Internet Explorer (replaced by Edge, which is the only modern browser included)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The only preinstalled applications are Microsoft Edge and classic versions of Calculator, Notepad, Paint, and Snipping Tool. There is no HEVC codec support out of the box, and the modern Windows Terminal is not included. PowerShell opens in the legacy command processor window rather than the new terminal.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You can reinstall some removed components manually, including the Microsoft Store via sideloading, but this is not officially supported for LTSC and may introduce instability. Many modern apps that depend on Store APIs will not function correctly without the Store framework present.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "LTSC Servicing: Security Updates Without Feature Churn", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The core value proposition of LTSC is predictable, minimal change. LTSC devices receive monthly security and quality updates throughout their support lifecycle. They do not receive annual feature upgrades, and the next LTSC release is a separate build that must be deliberately deployed, not something that arrives through Windows Update.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This matters for organizations that cannot afford unexpected changes. A hospital's MRI workstation, a bank's ATM fleet, or a factory's control panel cannot tolerate a surprise interface redesign or a new background service consuming resources. LTSC eliminates that risk.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The tradeoff is that any improvements to GPU scheduling, DirectStorage, Game Mode, or kernel-level CPU optimizations introduced in mainstream Windows 11 releases will not arrive on LTSC devices until the next LTSC generation ships, which could be two to three years later. For specialized devices, this is acceptable. For a general-purpose workstation, it is a significant limitation.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Who Should Use Windows 11 LTSC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft is explicit about this. In their own documentation, the company states that a PC with Microsoft Office installed is a general-purpose device and is better suited to the General Availability Channel than LTSC. LTSC is intended for:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Medical equipment and hospital systems that must remain stable for a decade", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "ATMs, point-of-sale terminals, and kiosks", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Industrial controllers and manufacturing systems", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Government and defense systems with strict change-management policies", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Research labs and financial trading systems requiring maximum uptime", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "LTSC is not recommended for:", "marks": ["strong"] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "General office desktops and laptops used by employees", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Personal or home computers", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Gaming PCs that benefit from Store integration and feature updates", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Devices that rely on Microsoft Store apps, Copilot, or Xbox Game Pass", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you are considering LTSC because you want a \"debloated\" Windows experience, understand that LTSC does not fundamentally redesign Windows' telemetry or data collection model. It reduces surface-level noise, but privacy hardening still requires manual configuration of policies and settings.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "LTSC vs Pro: A Quick Comparison", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For most individuals and businesses, Windows 11 Pro is the practical choice. Here is how the two editions compare:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-17",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Licensing: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Pro is available through retail, OEM, and volume licensing. LTSC is volume licensing only.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-18",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Feature updates: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Pro receives annual feature upgrades. LTSC receives none during its support lifecycle.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-19",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Security updates: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Both receive monthly security patches throughout their supported life.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-20",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Support lifecycle: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Pro is supported for 24 months per feature release. Enterprise LTSC gets five years. IoT Enterprise LTSC gets ten.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-21",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Microsoft Store: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Included in Pro. Not included in LTSC by default.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-22",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Enterprise features: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Pro includes BitLocker, Hyper-V, Remote Desktop hosting, Group Policy, and domain join. LTSC adds Credential Guard, AppLocker, and Application Guard on top of those.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-23",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Cost and availability: ", "marks": ["strong"] },
+        { "_type": "span", "text": "Pro is affordable and available instantly through digital delivery. LTSC requires a Volume Licensing agreement and is typically priced per-device through enterprise contracts.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Why Most Users Should Choose Windows 11 Pro", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows 11 LTSC solves a very specific problem: long-term stability for fixed-purpose devices in regulated environments. If you manage a fleet of kiosks or medical equipment, LTSC is the right tool, and you will know whether you need it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-26",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "But for the vast majority of users, including freelancers, remote workers, small businesses, developers, and home users, ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro", "marks": ["l4"] },
+        { "_type": "span", "text": " offers everything you need. You get BitLocker encryption, Hyper-V virtualization, Remote Desktop hosting, Group Policy management, full Microsoft Store access, and regular feature updates that keep your system current. A genuine Pro key is easy to buy, easy to activate, and supported by Microsoft for years to come.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l4", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-27",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you are setting up a new PC or replacing an old license, a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro OEM key", "marks": ["l5"] },
+        { "_type": "span", "text": " gives you the same feature set at a lower price point, tied to a single device. Either way, you are getting a genuine, fully supported license with instant digital delivery.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l5", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-28",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Not sure which Windows 11 edition fits your needs? Read our comparison of ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro vs Home", "marks": ["l6"] },
+        { "_type": "span", "text": " for a detailed breakdown, browse ", "marks": [] },
+        { "_type": "span", "text": "our full Microsoft catalog", "marks": ["l7"] },
+        { "_type": "span", "text": ", or visit the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand page", "marks": ["l8"] },
+        { "_type": "span", "text": " to find the right license.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l6", "href": "/blog/windows-11-pro-vs-home-license" },
+        { "_type": "link", "_key": "l7", "href": "/category/operating-systems" },
+        { "_type": "link", "_key": "l8", "href": "/brand/microsoft" }
+      ]
+    }
+  ]
+}

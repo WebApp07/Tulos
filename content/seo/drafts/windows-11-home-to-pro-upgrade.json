@@ -1,0 +1,562 @@
+{
+  "title": "Windows 11 Home to Pro Upgrade: The Complete Step-by-Step Guide",
+  "slug": "windows-11-home-to-pro-upgrade",
+  "excerpt": "Upgrade Windows 11 Home to Pro with a product key or the Microsoft Store. Step-by-step instructions, costs, and troubleshooting for activation errors.",
+  "seoTitle": "Windows 11 Home to Pro Upgrade Guide",
+  "seoDescription": "Upgrade Windows 11 Home to Pro in minutes. Compare the Microsoft Store and product key methods, see what Pro adds, and get activation troubleshooting help.",
+  "tags": ["windows-11", "windows-11-pro", "upgrade", "activation", "licensing"],
+  "featured": false,
+  "publishedAt": "2026-08-20T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team is made up of Microsoft licensing specialists who fact-check every guide against Microsoft's official documentation. We write practical, plain-English guides on Windows, Office, and Microsoft 365 licensing so you can buy with confidence."
+  },
+  "primaryKeyword": "windows 11 home to pro upgrade",
+  "secondaryKeywords": ["upgrade windows 11 home to pro", "windows 11 pro upgrade", "windows 11 pro product key", "change product key windows 11", "windows 11 home to pro cost"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Most laptops and prebuilt PCs ship with Windows 11 Home, and for everyday use it is a solid edition. But if you need business-grade security, remote access, or virtualization, the Pro edition adds features Home simply does not have. The good news: upgrading Windows 11 Home to Pro takes minutes, does not require reinstalling Windows, and keeps every file, app, and setting in place. Here is exactly how to do it, with or without a product key.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "bq-quick",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "Quick answer: Microsoft supports two official ways to upgrade Windows 11 Home to Pro. If you already have a Windows 11 Pro product key, enter it in Settings > System > Activation > Change product key. If you don't, buy the Pro upgrade through the Microsoft Store from the same screen. Both methods upgrade your existing installation in place, so no reinstall and no data loss.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Windows 11 Pro Adds Over Home", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Windows 11 Pro is aimed at professionals, businesses, and power users. The core operating system is identical to Home, but Pro unlocks a set of security and management features that are locked out of the Home edition. The ones that matter most:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "BitLocker device encryption: full-disk encryption with flexible configuration, plus BitLocker To Go for external drives", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Remote Desktop host: let other devices connect to your PC remotely (Home can only connect out, not host)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Hyper-V: Microsoft's built-in virtual machine platform", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Windows Sandbox: a disposable, isolated Windows environment for safely testing software", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Domain join and Microsoft Entra ID (Azure AD) join: required for managed business networks", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Group Policy Editor, Windows Update for Business, and other IT management tools", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Not sure whether you need any of this? Our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro vs Home comparison", "marks": ["l1"] },
+        { "_type": "span", "text": " breaks down each feature and who actually benefits from it.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "/blog/windows-11-pro-vs-home-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Two Official Ways to Upgrade Windows 11 Home to Pro", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft documents both upgrade paths on its official ", "marks": [] },
+        { "_type": "span", "text": "Upgrade Windows Home to Windows Pro", "marks": ["e1"] },
+        { "_type": "span", "text": " support page. Both start from the same place: Settings > System > Activation. Which one you use depends on whether you already have a Windows 11 Pro product key.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e1", "href": "https://support.microsoft.com/en-us/windows/deployment/install-upgrade/upgrade-windows-home-to-windows-pro" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Option 1: Upgrade with a Windows 11 Pro Product Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you have a genuine Windows 11 Pro product key, you can upgrade in about two minutes. Enter the key under Change product key and Windows does the rest. This is also the route that works with the keys sold by licensed retailers: a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail key", "marks": ["l2"] },
+        { "_type": "span", "text": " activates the upgrade directly, with no Microsoft Store purchase required.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Option 2: Upgrade Through the Microsoft Store", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No key yet? Microsoft's recommended path is to buy the Pro upgrade in the Microsoft Store. From Settings > System > Activation, expand Upgrade your edition of Windows and select Open Store. Sign in with your Microsoft account, complete the purchase, and Windows installs Pro and restarts. The license is recorded as a digital license linked to your Microsoft account, so you don't get a 25-character key in your email.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Step-by-Step: Upgrade Windows 11 Home to Pro with a Product Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Before you start, confirm two things: your PC is running an activated copy of Windows 11 Home, and you're signed in with an account that has administrator privileges. Microsoft recommends activating Windows 11 Home first if it isn't already. Then follow these steps:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Open Settings (Start > Settings), then go to System > Activation.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Check that the edition shown at the top is Windows 11 Home and that the activation state reads Activated.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Next to Change product key, select the Change button.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If the User Account Control prompt appears, confirm your administrator account.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-5",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "In the Change Product Key window, enter the 25-character Windows 11 Pro product key and select Next.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-6",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "When the upgrade window appears, select Start (or Activate), then restart your PC when prompted. Verify the result in Settings > System > Activation, where the edition should now read Windows 11 Pro.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Don't have a Pro key yet? A genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro OEM key", "marks": ["l3"] },
+        { "_type": "span", "text": " is the budget-friendly choice for a device you plan to keep, while a retail key adds transfer rights if you ever move to a new PC. Both work for the in-place upgrade.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you'd rather not buy a key, use the Microsoft Store path instead. The Open Store button appears in the same Activation screen under Upgrade your edition of Windows. If that section is missing, your edition may already be Pro, or the edition upgrade isn't available for your device.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens to Your Files, Apps, and Settings?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Nothing gets wiped. Windows 11 Home and Pro are built from the same installation files, so the upgrade is an in-place edition change, not a reinstall. Your documents, installed programs, user accounts, and settings stay exactly where they are. The only visible change is a restart while Windows enables the Pro components.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "edition upgrade table", "marks": ["e2"] },
+        { "_type": "span", "text": " confirms the path: Windows 11 Home can upgrade to Pro or Pro for Workstation, and Pro can upgrade to Pro for Workstation. Downgrades are also possible, though they require a clean install with the matching edition.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e2", "href": "https://support.microsoft.com/en-us/windows/deployment/install-upgrade/install-or-upgrade-windows-using-a-product-key" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How Much Does the Windows 11 Home to Pro Upgrade Cost?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The Microsoft Store upgrade typically costs around $99 in the US, and the price varies by region. Microsoft's list price for a full Windows 11 Pro license is $199, which is why the upgrade exists: you pay the difference between Home and Pro rather than buying Pro twice.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Licensed retailers often beat the Microsoft Store price on the same genuine Pro license. Licendi sells ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail keys", "marks": ["l4"] },
+        { "_type": "span", "text": " and ", "marks": [] },
+        { "_type": "span", "text": "OEM keys", "marks": ["l3b"] },
+        { "_type": "span", "text": " with instant digital delivery, so you can upgrade without waiting. Not sure which license type is right? Our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 OEM vs Retail guide", "marks": ["l5"] },
+        { "_type": "span", "text": " explains the difference in plain English.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l4", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l3b", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" },
+        { "_type": "link", "_key": "l5", "href": "/blog/windows-11-oem-vs-retail-license" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Windows 11 Home Single Language and Other Edition Notes", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If your PC shipped with Windows 11 Home Single Language, the upgrade works through the same Settings > Activation screen. Microsoft notes that command-line tools such as changepk.exe are not a supported upgrade route for this edition, so use the Settings UI instead.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "One shortcut deserves a warning: the generic Pro installation key (VK7JG-NPHTM-C97JM-9MPGT-3V66T) that circulates online will switch your edition to Pro, but it does not activate Windows. You still need a genuine Windows 11 Pro license to activate.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Finally, the edition of your key must match the edition you're upgrading to. A Windows 11 Pro key won't activate Home, and a Home key won't activate Pro. If you're still choosing between editions, our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro vs Home comparison", "marks": ["l9"] },
+        { "_type": "span", "text": " is a good place to start.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l9", "href": "/blog/windows-11-pro-vs-home-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Upgrade Troubleshooting: Activation Errors", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Upgrade errors are almost always activation errors, and Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "Get help with Windows activation errors", "marks": ["e4"] },
+        { "_type": "span", "text": " page is the authoritative reference. The codes you're most likely to see during a Home to Pro upgrade:", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e4", "href": "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors" }]
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "0xC004F050: the product key is invalid or doesn't match the edition installed on your device. Double-check the key and confirm you're entering a Windows 11 Pro key, not a Home key.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "0xC004F034: you entered an invalid product key or a key for a different version of Windows. Use a valid key that matches your installed edition.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "0xC004F210: the key is for a different edition than the one installed. Enter a Pro key, or reinstall the edition that matches your digital license.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you already own a Pro digital license but Windows 11 Home is installed, run the Activation troubleshooter (Settings > System > Activation > Troubleshoot). Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "troubleshooter guide", "marks": ["e5"] },
+        { "_type": "span", "text": " includes an Upgrade to Windows 11 Pro option that applies your existing license automatically.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "e5", "href": "https://support.microsoft.com/en-us/windows/activation/using-the-windows-activation-troubleshooter" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a deeper look at how digital licenses and product keys work, and why linking your Microsoft account matters, read our ", "marks": [] },
+        { "_type": "span", "text": "Digital License vs Product Key guide", "marks": ["l6"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l6", "href": "/blog/digital-license-vs-product-key" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is upgrading Windows 11 Home to Pro free?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Upgrading between editions requires a Windows 11 Pro license. The free upgrade offers from Microsoft applied to moving from Windows 10 to Windows 11, not from Home to Pro. You either buy the upgrade in the Microsoft Store or activate with a genuine Pro product key.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Do I need to reinstall Windows to upgrade to Pro?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Home and Pro share the same installation files, so the upgrade happens in place. Your files, apps, and settings are preserved, and a restart enables the Pro features.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I use an OEM Windows 11 Pro key to upgrade?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes, on the device where the key is installed. OEM licenses are tied to the first device they're activated on and generally can't be transferred to another PC. Retail keys can be moved to new hardware later.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What happens to my Windows 11 Home license after I upgrade?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The Pro license takes over on that device. Your Home license is no longer used on that PC, so keep it only if you plan to use it on another machine.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-faq5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I downgrade back to Windows 11 Home?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-faq5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes, but it requires a clean install of Windows 11 Home with a matching Home license. There's no one-click downgrade from Pro back to Home.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The Bottom Line", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Upgrading Windows 11 Home to Pro is one of the fastest license changes you can make: enter a genuine Pro key, restart, and the Pro features unlock. No reinstall, no data loss, no waiting for a physical disc. If you need BitLocker, Remote Desktop, Hyper-V, or business management features, the upgrade is worth it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Licendi delivers genuine Windows 11 Pro keys instantly by email with activation instructions included. Browse all ", "marks": [] },
+        { "_type": "span", "text": "Windows operating system licenses", "marks": ["l7"] },
+        { "_type": "span", "text": " or visit the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand hub", "marks": ["l8"] },
+        { "_type": "span", "text": " to see what's available.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l7", "href": "/category/operating-systems" },
+        { "_type": "link", "_key": "l8", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Accuracy & Sources", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "All upgrade steps, edition rules, and error codes in this guide were verified against Microsoft's official documentation, linked throughout: the Upgrade Windows Home to Windows Pro page, the Install or upgrade Windows using a product key page, the Get help with Windows activation errors page, and the Activation troubleshooter guide. Microsoft Store pricing varies by region; current prices are shown on the Microsoft Store and on Licendi's product pages.", "marks": [] }
+      ],
+      "markDefs": []
+    }
+  ]
+}

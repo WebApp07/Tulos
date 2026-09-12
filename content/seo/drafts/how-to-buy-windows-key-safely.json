@@ -1,0 +1,612 @@
+{
+  "title": "How to Buy a Windows Key Safely Without Getting Scammed",
+  "slug": "how-to-buy-windows-key-safely",
+  "excerpt": "Cheap Windows keys flood search results. Learn which sellers to trust, which red flags to spot, and how to verify your license is genuine before you pay.",
+  "seoTitle": "How to Buy a Windows Key Safely: Buyer's Guide",
+  "seoDescription": "How to buy a Windows key safely: spot gray-market scams, verify your license, and buy genuine Windows 11 Pro keys with instant email delivery from Licendi.",
+  "tags": ["windows-11", "buying-guide", "licensing", "activation", "product-key"],
+  "featured": false,
+  "publishedAt": "2026-08-23T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "how to buy windows key safely",
+  "secondaryKeywords": [
+    "is it safe to buy windows keys online",
+    "cheap windows keys legit",
+    "genuine windows license",
+    "windows key scam red flags",
+    "check if windows is activated"
+  ],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "intro-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Type \"Windows key\" into any search engine and you'll find licenses for $5, $10, or $20 sitting right next to Microsoft's own $139–$199 listings. Some of those cheap keys are legitimate discounted licenses. Many are not — and the difference usually only becomes clear weeks later, when Windows suddenly refuses to activate. This guide shows you how to buy a Windows key safely: where gray-market keys come from, which red flags matter, how to verify a license after purchase, and what to do if a key fails." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What \"Safe\" Actually Means When You Buy a Windows Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft defines genuine Windows as software that is ", "marks": [] },
+        { "_type": "span", "text": "published by Microsoft, properly licensed, and supported by Microsoft or a trusted partner", "marks": ["l-ext-genuine"] },
+        { "_type": "span", "text": ". All three parts matter. A key can be technically valid and still fail the \"properly licensed\" test — for example, a volume license key that was never meant to be resold to individuals. That's why ", "marks": [] },
+        { "_type": "span", "text": "activation is not proof of a safe purchase", "marks": ["strong"] },
+        { "_type": "span", "text": ". Activation is a technical handshake with Microsoft's servers; licensing is the legal question of where the key came from. A gray-market key can activate today and get blocked months later. Microsoft's own guidance notes that if a stolen key is sold to others, it may be blocked from use later on.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-ext-genuine", "href": "https://support.microsoft.com/en-us/windows/activation/about-genuine-windows" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A safe purchase, then, has four properties: the license is genuine, it comes from a channel that permits resale, you receive documentation (an invoice and delivery record), and someone is accountable if something goes wrong." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Where Suspiciously Cheap Windows Keys Come From", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Legitimate Windows licenses have real costs. Microsoft lists ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Home at $139 and Windows 11 Pro at $199", "marks": ["strong"] },
+        { "_type": "span", "text": " on its store, and authorized retailers rarely stray far below those numbers for retail versions. When you see a Pro key offered for the price of a pizza, it almost always falls into one of these buckets:" }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Resold volume licensing keys (MAK/KMS). Organizations buy these in bulk under agreements that prohibit individual resale. They activate fine until Microsoft detects the abuse pattern or the activation pool runs dry.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Used OEM keys pulled from decommissioned or refurbished PCs. OEM licenses are tied to the hardware they were first activated on, so a second-hand one may refuse to activate at all.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Region-priced keys bought cheaply in low-cost markets and resold elsewhere, against the terms they were sold under.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Keys purchased with stolen credit cards. When the fraud is reported and chargebacks land, Microsoft deactivates the keys — but the seller has already moved on.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Abused education or developer-program keys that were never licensed for consumer use.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Pure fakes: random 25-character strings from key generators, or codes already used and blocked by someone else.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "How to Tell site", "marks": ["l-ext-howtotell"] },
+        { "_type": "span", "text": " puts it plainly: apart from Product Key Cards distributed with Certificates of Authenticity, Microsoft does not distribute product keys as standalone products — so a listing on an auction site or classifieds page advertising bare product keys is a strong sign they're stolen or counterfeit." }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-ext-howtotell", "href": "https://www.microsoft.com/en-us/howtotell/shop" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens When a Gray-Market Key Fails", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The most common outcome isn't an instant failure — it's a delayed one. The key activates, everything looks normal, and then one day Windows reports it is no longer activated. If the key was flagged for being used on more devices than the license terms allow, you'll typically see an error such as ", "marks": [] },
+        { "_type": "span", "text": "0xC004C008", "marks": ["strong"] },
+        { "_type": "span", "text": " — Microsoft documents this code as a key \"being used on more devices than the Microsoft Software License Terms allow.\" At that point the seller who promised a lifetime key is often unreachable." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The downsides don't stop at deactivation:" }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "No support path. Microsoft doesn't provide activation support for keys that can't be verified as legitimately acquired, so you're left dealing only with the seller.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Payment data risk. Scam storefronts sometimes care less about the $5 sale than about harvesting card details. A rock-bottom price plus no company information is a classic combination.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Genuine keys activate through Windows itself; third-party activators are both a terms violation and a common malware vector.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Wrong edition or channel. Buyers pay for a retail Pro key and receive an OEM key (or even a Home key). The difference matters later — our guide to ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 OEM vs Retail", "marks": ["l-oem-retail"] },
+        { "_type": "span", "text": " explains why transferability is the key distinction.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-oem-retail", "href": "/blog/windows-11-oem-vs-retail-license" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "9 Checks Before You Buy a Windows Key Online", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Run through this list before entering payment details anywhere. It takes five minutes and filters out the vast majority of bad sellers." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Sanity-check the price. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Against Microsoft's $139/$199 list prices, deep discounts of 80–95% should trigger more verification, not less. Legitimate discounts exist — OEM channels, regional pricing, and stock clearance all explain moderate savings — but a single-digit price for Windows 11 Pro is not a discount, it's a warning label." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Know which license channel you're buying. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Retail keys transfer between PCs; OEM keys stay with the first machine they activate on. Neither is inherently wrong — a desktop-bound OEM license is a reasonable choice for a PC you won't dismantle — but the listing must say clearly which one it is. Vague labels like \"global key\" or \"lifetime activation\" that dodge the question are a red flag." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Match the edition to your install. ", "marks": ["strong"] },
+        { "_type": "span", "text": "A Home key won't activate Windows 11 Pro and vice versa. If you're unsure whether you need Home or Pro, compare the feature sets first — our Windows 11 Pro vs Home breakdown covers BitLocker, Remote Desktop, domain join, and the other differences that justify the upgrade." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Verify there's a real business behind the site. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Look for a legal company name, a physical address, and a working contact route. Anonymous sellers with nothing but a Discord handle disappear exactly when you need them." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-5",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Read independent reviews, not just on-site testimonials. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Check Trustpilot, Reddit, and search results for the seller's name plus \"scam\" or \"refund.\" A wall of five-star reviews only on the seller's own domain proves little." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-6",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Pay with protection. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Credit cards and PayPal give you dispute routes if the key never works. Sellers who accept only cryptocurrency or instant wire transfers are deliberately choosing payment methods you can't claw back." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-7",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Expect instant, documented delivery. ", "marks": ["strong"] },
+        { "_type": "span", "text": "A reputable digital seller emails the key promptly together with an invoice and step-by-step activation instructions. If the delivery email contains only a code and nothing else, ask yourself who will help you when it doesn't activate." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-8",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Refuse any \"activation tool\" downloads. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Genuine keys activate through Windows itself; third-party activators are both a terms violation and a common malware vector." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-9",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Confirm the refund or replacement policy before paying. ", "marks": ["strong"] },
+        { "_type": "span", "text": "If a key arrives dead or gets blocked next month, the policy is the difference between a replacement and a total loss. Keep the product page, invoice, and delivery email — you may need them for a payment dispute." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Verify Your Windows License After Purchase", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Activate the same day the key arrives, while you're still inside the seller's support window and any payment-protection period. Here's the verification routine:" }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Check activation status in Settings", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Go to Settings > System > Activation. You should see \"Windows is activated,\" ideally \"with a digital license.\" If activation fails, run the built-in Activation troubleshooter before contacting anyone — it resolves many edition-mismatch and hardware-change issues automatically. ", "marks": [] },
+        { "_type": "span", "text": "Microsoft's Activate Windows guide", "marks": ["l-ext-activate"] },
+        { "_type": "span", "text": " walks through every status message you might see." }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-ext-activate", "href": "https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Inspect the license channel with slmgr", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Open Command Prompt as administrator and run ", "marks": [] },
+        { "_type": "span", "text": "slmgr /dli", "marks": ["strong"] },
+        { "_type": "span", "text": " to see the edition, partial product key, and license channel; ", "marks": [] },
+        { "_type": "span", "text": "slmgr /xpr", "marks": ["strong"] },
+        { "_type": "span", "text": " shows the activation expiry. What you want to see matches what you paid for: RETAIL for a retail key, OEM for an OEM key. If instead you see a volume-licensing description such as VOLUME_KMSCLIENT, you've been sold an organizational key — contact the seller immediately. For more on how these mechanisms differ, read our explainer on ", "marks": [] },
+        { "_type": "span", "text": "digital licenses vs product keys", "marks": ["l-digital-vs-key"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-digital-vs-key", "href": "/blog/digital-license-vs-product-key" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Link the license to your Microsoft account", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "On the same Activation page, add your Microsoft account. Linking turns your license into a digital license tied to your account, which lets the Activation troubleshooter reactivate Windows after significant hardware changes like a motherboard swap. It takes under a minute and saves hours later. If you plan to reinstall rather than upgrade, always download installation media from ", "marks": [] },
+        { "_type": "span", "text": "Microsoft's official download page", "marks": ["l-ext-download"] },
+        { "_type": "span", "text": " — never from third-party mirrors." }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-ext-download", "href": "https://www.microsoft.com/software-download/windows11" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "If Your Key Stops Working or Never Activates", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "First, work the problem in order:" }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-10",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Contact the seller with your order number and the exact error code. Reputable sellers replace dead keys quickly; unresponsive support after a failed key tells you what kind of seller you chose.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-11",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Open a payment dispute if the seller won't resolve it. Card chargebacks and PayPal buyer protection exist precisely for goods not as described — your saved invoice and screenshots are the evidence.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-12",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Report counterfeit software to Microsoft via its How to Tell site. Reports are treated confidentially and feed into enforcement against fraudulent sellers.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "nli-13",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Replace the key with a properly licensed one from a source that passes the nine checks above. Don't compound the loss with another too-cheap code.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "While you sort it out: Windows keeps receiving critical security updates even when it isn't activated, though you'll live with a watermark, limited personalization, and missed optional updates." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Buying Safely From Licendi", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Licendi sells genuine Microsoft license keys with instant digital delivery: after purchase you receive your key by email together with step-by-step activation instructions, and support is available if anything goes wrong. Every listing states exactly what you're buying — including the license channel — so there's no guessing about OEM versus retail." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For most buyers, the ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail license", "marks": ["l-retail"] },
+        { "_type": "span", "text": " is the flexible choice: full online activation and the freedom to move the license to a future PC. If you're activating one fixed machine and want the lower price, the ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro OEM key", "marks": ["l-oem"] },
+        { "_type": "span", "text": " does the same job on that device. Browse the full ", "marks": [] },
+        { "_type": "span", "text": "operating systems category", "marks": ["l-cat-os"] },
+        { "_type": "span", "text": " for current availability, or visit the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand hub", "marks": ["l-brand"] },
+        { "_type": "span", "text": " to see every genuine Microsoft license Licendi sells, including Office 2024 editions." }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-retail", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l-oem", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" },
+        { "_type": "link", "_key": "l-cat-os", "href": "/category/operating-systems" },
+        { "_type": "link", "_key": "l-brand", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is it legal to buy cheap Windows keys online?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Buying a genuine license at a discount is legal. The legal risk sits with improperly sourced keys — volume licenses resold individually, keys bought with stolen cards, or cracked codes. Using one knowingly violates Microsoft's license terms, and the practical risk is deactivation without recourse." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can Microsoft deactivate my Windows key later?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes — Microsoft explicitly warns that a stolen key sold to others may be blocked from use later. Keys sourced from legitimate channels aren't subject to surprise blocking; that stability is a big part of what you're paying for beyond the code itself." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Are OEM Windows keys safe to buy?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "An OEM key from an honest seller is a genuine license that activates normally; its limitation is that it stays with the first PC it activates on. The danger isn't the OEM model itself — it's used OEM keys stripped from old machines, which may already be consumed. Buy from sellers who state the channel clearly." }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How do I check if my current Windows is genuine?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "faq-p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Start with Settings > System > Activation to confirm activation status, then run slmgr /dli in an admin Command Prompt to inspect the license channel. Remember that \"activated\" alone doesn't prove provenance — pairing both checks with a documented purchase gives you the full picture. Our guide to ", "marks": [] },
+        { "_type": "span", "text": "finding, buying, and activating a Windows 11 Pro key", "marks": ["l-pro-key"] },
+        { "_type": "span", "text": " covers the whole lifecycle." }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-pro-key", "href": "/blog/windows-11-pro-key" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "outro-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The pattern across every Windows key scam is the same: an unbelievable price, an anonymous seller, and silence after payment. Flip those around — fair pricing, a real business, documented instant delivery — and buying a Windows key online is as safe as buying one in a box. Ready to activate? Get a genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro key from Licendi", "marks": ["l-retail-2"] },
+        { "_type": "span", "text": " and check it against the steps above within minutes of ordering." }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-retail-2", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }
+      ]
+    }
+  ]
+}

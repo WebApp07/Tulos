@@ -1,0 +1,901 @@
+{
+  "title": "Activate Windows 11 Without a Product Key: Legal Methods That Actually Work",
+  "slug": "activate-windows-11-without-product-key",
+  "excerpt": "Windows 11 can be activated without manually entering a product key in several legitimate scenarios. Here are the legal methods and how to check if your PC qualifies.",
+  "seoTitle": "Activate Windows 11 Without Product Key",
+  "seoDescription": "Learn the legal ways to activate Windows 11 without entering a product key, including digital licenses, reinstallation, and account linking.",
+  "tags": ["windows-11", "activation", "digital-license", "licensing", "troubleshooting"],
+  "featured": false,
+  "publishedAt": "2026-09-02T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "activate windows 11 without product key",
+  "secondaryKeywords": ["activate windows 11 free", "windows 11 digital license", "activate windows without key", "windows 11 activation without key"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "intro-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You can activate ", "marks": [] },
+        { "_type": "span", "text": "Windows 11", "marks": ["l1"] },
+        { "_type": "span", "text": " without manually entering a 25-character product key — but only in specific, legitimate scenarios. ", "marks": [] },
+        { "_type": "span", "text": "Microsoft", "marks": ["l2"] },
+        { "_type": "span", "text": " calls this a ", "marks": [] },
+        { "_type": "span", "text": "digital license", "marks": ["strong"] },
+        { "_type": "span", "text": " (sometimes called a digital entitlement), and it ties your activation to your device hardware or Microsoft account rather than a key you type in.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l1", "href": "/brand/microsoft" },
+        { "_type": "link", "_key": "l2", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "intro-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This guide walks through every legal method to activate Windows 11 without a product key, explains when each applies, and covers what happens if none of them work for your situation.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Digital License and How Does It Work?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A ", "marks": [] },
+        { "_type": "span", "text": "digital license", "marks": ["strong"] },
+        { "_type": "span", "text": " is Microsoft's modern activation method. Instead of requiring you to enter a 25-character product key every time, Windows links your activation to a combination of your device hardware and your Microsoft account. Once established, Windows can reactivate itself automatically — no key needed.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft documents two activation credentials in its official activation guide:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Digital license: an entitlement associated with the device, which may also be linked to your Microsoft account so you do not need to type a key after reinstalling the same edition on the same PC.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Product key: a 25-character code in five groups of five characters, formatted like XXXXX-XXXXX-XXXXX-XXXXX-XXXXX.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A digital license is created when you upgrade from an eligible Windows version, purchase from Microsoft Store, or buy a PC with Windows preinstalled. If you already have one, you never need to touch a product key to reactivate.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Method 1: Reactivate with an Existing Digital License", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is the most common scenario. If your PC previously had Windows 11 activated — whether it came preinstalled, was upgraded from ", "marks": [] },
+        { "_type": "span", "text": "Windows 10", "marks": ["em"] },
+        { "_type": "span", "text": ", or was purchased through Microsoft Store — a digital license already exists on your device. Reactivating it requires no product key at all.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Step-by-Step: Automatic Activation", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Connect your PC to the internet.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Open ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Wait briefly while Windows contacts Microsoft's activation servers.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Check the activation status. It should read ", "marks": [] },
+        { "_type": "span", "text": "Windows is activated with a digital license", "marks": ["em"] },
+        { "_type": "span", "text": " or ", "marks": [] },
+        { "_type": "span", "text": "Windows is activated with a digital license linked to your Microsoft account", "marks": ["em"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If the status shows as activated, you are done. No product key was needed. The activation is tied to your hardware and, if you signed in with a Microsoft account, to your account as well.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Method 2: Reinstall Windows 11 Without Entering a Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you are reinstalling Windows 11 on the same PC — for example after a drive wipe or a fresh start — you do not need a product key if a digital license already exists on that device. During Windows Setup, you will see a screen asking for a product key. Simply select ", "marks": [] },
+        { "_type": "span", "text": "I don't have a product key", "marks": ["strong"] },
+        { "_type": "span", "text": " and continue.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How It Works After Setup", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Install the same edition that was previously licensed — Home for Home, Pro for Pro.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "After installation completes, connect to the internet.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Sign in with the Microsoft account that was linked to your digital license (if applicable).", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Windows should activate automatically. Go to ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": " to confirm.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The key point: the digital license is associated with your device hardware and the specific edition, not with the installation files. Reinstalling the same edition on the same machine lets Windows find the existing entitlement and reactivate without any manual key entry.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a deeper look at the difference between digital licenses and product keys, see our guide on ", "marks": [] },
+        { "_type": "span", "text": "digital license vs product key", "marks": ["l1"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l1", "href": "/blog/digital-license-vs-product-key" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Method 3: Use the Activation Troubleshooter", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If automatic activation fails — for example after a significant hardware change like a motherboard replacement — the built-in Activation Troubleshooter can help recover your existing entitlement. This does not create a new license; it re-applies the one you already own.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How to Run the Troubleshooter", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-5",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Sign in as an administrator on your PC.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-6",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Open ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-7",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Select ", "marks": [] },
+        { "_type": "span", "text": "Troubleshoot", "marks": ["strong"] },
+        { "_type": "span", "text": ". On some builds, Microsoft may redirect you to the automated troubleshooter in the ", "marks": [] },
+        { "_type": "span", "text": "Get Help", "marks": ["em"] },
+        { "_type": "span", "text": " app.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-8",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Select the option to reactivate after a hardware change.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-9",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Sign in with the Microsoft account linked to your license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-10",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Select your device from the list and confirm activation.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This method only works if your digital license was previously linked to a Microsoft account. If you never signed in with a Microsoft account, the troubleshooter cannot recover the license. This is one reason Microsoft recommends linking your license to your account before making any hardware changes.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Method 4: Upgrade from Windows 11 Home to Pro Without a Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If your PC already runs Windows 11 Home with a digital license, you can upgrade to Windows 11 Pro without manually entering a product key — by purchasing the upgrade directly through Microsoft Store.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Open ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Select ", "marks": [] },
+        { "_type": "span", "text": "Go to Store", "marks": ["strong"] },
+        { "_type": "span", "text": " or ", "marks": [] },
+        { "_type": "span", "text": "Open Store", "marks": ["strong"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Purchase the Windows 11 Pro upgrade and complete the transaction.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Windows activates the Pro edition automatically using your existing digital license as a foundation.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Alternatively, if you have a valid ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro key", "marks": ["l2"] },
+        { "_type": "span", "text": ", you can select ", "marks": [] },
+        { "_type": "span", "text": "Change product key", "marks": ["strong"] },
+        { "_type": "span", "text": " in the Activation settings and enter it there. Either way, no separate key entry is needed if you buy through the Store.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l2", "href": "/blog/windows-11-pro-key" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens If Windows 11 Is Not Activated?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If none of the above methods apply — for example, you built a new PC with no prior license — Windows 11 will run but with some restrictions. Understanding these limitations helps you decide whether to activate now or later.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Restrictions on Unactivated Windows 11", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Personalization options are locked — you cannot change the wallpaper, colors, themes, or lock screen through the Settings app.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "A persistent Activate Windows watermark appears in the bottom-right corner of the screen.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "You may receive periodic reminders to activate.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Importantly, unactivated Windows 11 still receives security updates and core functionality. You can use the operating system, install apps, and browse the web. The restrictions are primarily cosmetic and serve as a prompt to purchase a valid license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "When You Actually Need a Product Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "There are scenarios where a product key is the only path forward — and there is no legitimate way around it:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Building a new PC that has never had Windows activated.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Installing a different edition than what was previously licensed (for example, installing Pro when your license is for Home).", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Replacing the motherboard on a PC that only had an OEM digital license (not linked to a Microsoft account).", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-17",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Transferring a retail license to a new PC (you will need the original product key to deactivate on the old machine and activate on the new one).", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft's official position is clear: ", "marks": [] },
+        { "_type": "span", "text": "without one of these, you won't be able to activate your device", "marks": ["em"] },
+        { "_type": "span", "text": ". There is no legitimate universal free method for activating a brand-new, unlicensed PC.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you need a genuine license, a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro OEM key", "marks": ["l3"] },
+        { "_type": "span", "text": " or ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro Retail key", "marks": ["l4"] },
+        { "_type": "span", "text": " from an authorized seller gives you instant digital delivery and a valid activation credential. OEM keys are tied to the first PC they activate on, while retail keys can be transferred to a new machine in the future.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l3", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" },
+        { "_type": "link", "_key": "l4", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Can You Activate Windows 11 for Free?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Activation is free only when you already own a valid license. The most common free-activation scenarios are:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-18",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Reinstalling the same edition on the same PC that already has a digital license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-19",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Reactivating after a hardware change using the Activation Troubleshooter with a linked Microsoft account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-20",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Signing in with a Microsoft account that is already associated with a digital license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If your PC has no prior license, there is no legitimate way to activate for free. The ", "marks": [] },
+        { "_type": "span", "text": "I don't have a product key", "marks": ["strong"] },
+        { "_type": "span", "text": " option during Windows Setup only skips the key entry field — it does not create or find a license. You still need to purchase a valid key or have an existing digital license for activation to succeed.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Check Your Current Activation Status", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Before trying any method, check what activation state your PC is currently in. This tells you whether a digital license already exists or whether you need to take action.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-11",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Open ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-12",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Look at the Activation state section. You will see one of these messages:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-21",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Windows is activated", "marks": ["em"] },
+        { "_type": "span", "text": " — a license exists but is not linked to a Microsoft account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-22",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Windows is activated with a digital license", "marks": ["em"] },
+        { "_type": "span", "text": " — a digital license exists on this device.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-23",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Windows is activated with a digital license linked to your Microsoft account", "marks": ["em"] },
+        { "_type": "span", "text": " — the best scenario for recovery after hardware changes.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-24",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Windows is not activated", "marks": ["em"] },
+        { "_type": "span", "text": " — no valid license or key found.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The Activation page also shows your installed edition (Home or Pro). Note this before attempting any key entry or upgrade, as the license and edition must match for activation to succeed.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Tips to Avoid Activation Problems", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A few best practices can save you from activation headaches down the road:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-25",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Link your digital license to a Microsoft account before making any hardware changes. This enables the Activation Troubleshooter to recover your license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-26",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Always install the same edition during a reinstall. A Home license cannot activate a Pro installation, and vice versa.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-27",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Keep your product key in a safe place if you purchased a retail license. You may need it for transfers or recovery.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-28",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Check your activation status in ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": " periodically, especially before a major hardware upgrade.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-29",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Do not rely on third-party activation tools or scripts. These often bundle malware, violate Microsoft's license terms, and may stop working after Windows updates.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-11",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The Bottom Line", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Activating Windows 11 without a product key is possible in three legitimate situations: you already have a digital license tied to your device, you are reinstalling the same edition on the same PC, or you are recovering activation through the Activation Troubleshooter with a linked Microsoft account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If none of those apply — for example, you built a new PC from scratch — there is no legitimate free activation method. You need a valid product key or digital license purchased through Microsoft or an authorized retailer.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-26",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Start by checking ", "marks": [] },
+        { "_type": "span", "text": "Settings > System > Activation", "marks": ["strong"] },
+        { "_type": "span", "text": " to see your current status. If you already have a digital license, you are likely just one internet connection away from activation. If you need to purchase a license, browse our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 keys", "marks": ["l5"] },
+        { "_type": "span", "text": " for genuine licenses with instant digital delivery.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l5", "href": "/category/operating-systems" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "cta-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Browse Windows 11 licenses", "marks": ["l6"] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l6", "href": "/category/operating-systems" }
+      ]
+    }
+  ]
+}

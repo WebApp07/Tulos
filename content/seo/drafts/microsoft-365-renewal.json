@@ -1,0 +1,380 @@
+{
+  "title": "Microsoft 365 Renewal: How It Works and How to Avoid Losing Access",
+  "slug": "microsoft-365-renewal",
+  "excerpt": "Microsoft 365 renews automatically unless you stop it. Here's how renewal works, what happens at expiration, and how to avoid losing access to your data.",
+  "seoTitle": "Microsoft 365 Renewal: How It Works",
+  "seoDescription": "Learn how Microsoft 365 renewal works, what happens when your subscription expires, and how to keep access to your Office apps and data.",
+  "tags": ["microsoft-365", "renewal", "subscription", "billing", "office"],
+  "featured": false,
+  "publishedAt": "2026-09-08T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "microsoft 365 renewal",
+  "secondaryKeywords": ["microsoft 365 subscription renewal", "how to renew microsoft 365", "microsoft 365 subscription expired", "turn off recurring billing microsoft 365", "microsoft 365 extended service term"],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How Microsoft 365 Renewal Works", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft 365 is a subscription, which means it renews on a schedule — monthly or annually — and keeps charging you until you take action. By default, recurring billing is turned on. When your term ends, Microsoft automatically renews the subscription at the regular price and billing term you selected, and you keep your apps, cloud storage, and services without interruption.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "There are two ways to renew: let recurring billing run automatically, or renew manually with a product key. The method you choose matters because it determines whether you can lose access accidentally. Microsoft's official ", "marks": [] },
+        { "_type": "span", "text": "guide to renewing Microsoft 365", "marks": ["l1"] },
+        { "_type": "span", "text": " covers both paths in detail.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "https://support.microsoft.com/en-us/accounts-billing/subscriptions/how-to-renew-your-microsoft-365-subscription" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Check When Your Microsoft 365 Subscription Expires", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Before you can plan a renewal, you need to know your expiry date. Sign in to ", "marks": [] },
+        { "_type": "span", "text": "account.microsoft.com/services", "marks": ["l2"] },
+        { "_type": "span", "text": " with the Microsoft account tied to your subscription, then select your Microsoft 365 plan and choose Manage. You'll see the next charge date and amount, or the expiry date if recurring billing is off. If you see a circular arrow icon, your subscription is set up for automatic renewal.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "https://account.microsoft.com/services" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft also emails you before your subscription renews or expires, so keep the email address on your account current. If you bought through a third-party billing partner such as the Apple App Store, Google Play, or a retailer, you manage the renewal through that partner rather than Microsoft directly.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Renew Your Microsoft 365 Subscription", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Renewing is straightforward, and you have two main options:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Turn on recurring billing. On the Manage page for your subscription, select Turn on recurring billing. This keeps your subscription active and automatically renews it at the end of each term. Microsoft shows you the renewal price before you confirm.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Renew with a product key. If you bought a Microsoft 365 product key from a retailer, go to microsoft365.com/renew, sign in with the same Microsoft account, and enter your 25-character key. The key extends your subscription from its current end date.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A few important rules apply when renewing with product keys. You can enter more than one key to extend the duration of your subscription, but stacking keys does not increase the number of devices you can install Office on, and it does not add cloud storage. Microsoft caps the total extended duration of a Microsoft 365 subscription at five years. Always confirm you're signed in with the correct Microsoft account before redeeming a key.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens If You Don't Renew", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you let a Microsoft 365 subscription lapse, it does not stop working instantly. Instead, it moves through a lifecycle of statuses — and the danger is that your data can eventually be deleted if you wait too long. Microsoft's documentation on ", "marks": [] },
+        { "_type": "span", "text": "what happens when a business subscription ends", "marks": ["l3"] },
+        { "_type": "span", "text": " explains the stages clearly.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For most Microsoft 365 for business subscriptions, the typical sequence is:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Expired (grace period). For roughly 30 days after the expiry date, all services remain fully accessible. You can renew without losing any data. Microsoft emails you to prompt a renewal.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Disabled. After the grace period, users lose access to Microsoft 365 apps and services. Email stops, Teams becomes unavailable, and OneDrive/SharePoint files become accessible to administrators only. This stage typically lasts around 90 days.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Deprovisioned. At the end of the disabled period, your data is permanently deleted and cannot be recovered. There is no way back once this happens.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Exact durations vary by offer, country, agreement, and licensing program. Volume licensing customers follow a similar Active → Grace → Disabled → Deprovisioned timeline, with the grace period often around 90 days. The practical takeaway is the same: renew within the grace period, and back up anything you can't afford to lose before the disabled stage ends.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The 2026 Change: Paid Extended Service Term Replaces the Free Grace Period", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "In 2026, Microsoft changed how expiry works for many business subscriptions. For agreements governed by the Microsoft Customer Agreement (MCA), Microsoft replaced the automatic (free) grace period with a new paid Extended Service Term (EST). For subscriptions purchased directly from Microsoft, this applies to new subscriptions or renewals processed after February 8, 2026; for subscriptions purchased through a Cloud Solution Provider (CSP), it applies to subscriptions with an expiration date after May 3, 2026.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Under EST, instead of stopping service at the end of your term, Microsoft keeps it running on a month-to-month basis while you finalize a renewal decision. You pay a prorated monthly fee that is about 3% higher than the standard monthly rate, and you can cancel at any time or convert back to a standard subscription. While in EST, you cannot change the number of seats or the service level.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The key change is that the old automatic 90-day grace period is being retired. If you want to avoid the paid EST, you must renew your subscription before the end date, or cancel it at term end to avoid additional charges. Billing admins can manage EST directly in the Microsoft 365 admin center.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Turn Off Recurring Billing to Avoid Unwanted Charges", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you no longer want your Microsoft 365 subscription, you must turn off recurring billing — otherwise it will keep charging you automatically. To do this, go to account.microsoft.com/services, find your subscription, select Manage, and choose Turn off recurring billing. Your subscription will then end on the date shown under Expires on, and you won't be charged again.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Turning off recurring billing is different from cancelling. Turning it off lets you keep using the subscription until your paid term ends. Cancelling immediately ends access (and may or may not be refundable, depending on your purchase channel and timing). If you bought through the Apple App Store or Google Play, you must contact them to manage cancellation and refunds.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Switching From a Subscription to a One-Time Office Purchase", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Many people realize partway through a subscription that they'd rather own Office outright than pay forever. If that's you, the path is simple: turn off recurring billing, let your subscription end, then buy a one-time purchase of Office. When you open any Office app, you can switch the license from the subscription to the permanent one and keep working.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A one-time purchase like ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus", "marks": ["l4"] },
+        { "_type": "span", "text": " costs a single up-front amount and never renews. You lose the cloud layer — no Exchange email, Teams, or SharePoint — and you don't get new feature updates, only security fixes. But for people who mainly need Word, Excel, and Outlook on one machine, the lifetime license is dramatically cheaper over a few years than a recurring subscription. Our comparison of ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 vs Office 2024", "marks": ["l5"] },
+        { "_type": "span", "text": " walks through the trade-offs with a cost table, and our ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 value guide", "marks": ["l6"] },
+        { "_type": "span", "text": " explains what the subscription actually includes.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l4", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" },
+        { "_type": "link", "_key": "l5", "href": "/blog/microsoft-365-vs-office-2024" },
+        { "_type": "link", "_key": "l6", "href": "/blog/microsoft-365-subscription-worth-it" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you decide to leave the subscription model behind, Licendi sells genuine, perpetual ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office licenses", "marks": ["l7"] },
+        { "_type": "span", "text": " with instant digital delivery and step-by-step activation instructions. You pay once and the license is yours for the life of the device — no renewal, no recurring billing, no surprise charges. Browse the ", "marks": [] },
+        { "_type": "span", "text": "full Microsoft catalog", "marks": ["l8"] },
+        { "_type": "span", "text": " to compare your options.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l7", "href": "/category/microsoft-office-pc-mac" },
+        { "_type": "link", "_key": "l8", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How long is the Microsoft 365 grace period after expiry?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For most Microsoft 365 for business subscriptions, the Expired (grace) stage lasts about 30 days, followed by a Disabled stage of around 90 days before data is deleted. Durations vary by offer, country, agreement, and licensing program, and in 2026 Microsoft is replacing the automatic grace period with a paid Extended Service Term for many MCA-governed subscriptions.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I extend a Microsoft 365 subscription by entering multiple product keys?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. You can enter more than one product key to extend the duration of your subscription, but Microsoft caps the total extended duration at five years. Stacking keys does not increase the number of devices you can install Office on, and it does not add cloud storage.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What's the difference between turning off recurring billing and cancelling?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Turning off recurring billing stops future charges but lets you keep using the subscription until your paid term ends. Cancelling ends access immediately (and may or may not be refundable). If you want to switch to a one-time Office purchase, turn off recurring billing and wait for the term to end.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Do I need to reinstall Office after renewing?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. When you renew, your existing installation keeps working and your account is automatically updated with the new subscription term. You only reinstall if you're moving to a new device.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I switch from a subscription to a one-time Office purchase?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. Turn off recurring billing, let your subscription expire, then buy a one-time purchase of Office. Open any Office app and follow the steps to switch the license from the subscription to the permanent one. For more guidance on business plans and their renewal terms, see our ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 business license guide", "marks": ["l9"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l9", "href": "/blog/microsoft-365-business-license" }]
+    }
+  ]
+}

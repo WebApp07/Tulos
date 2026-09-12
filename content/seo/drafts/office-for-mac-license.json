@@ -1,0 +1,735 @@
+{
+  "title": "Office for Mac License: Which Edition Fits Your MacBook?",
+  "slug": "office-for-mac-license",
+  "excerpt": "Office for Mac comes in several editions. Here's how to choose the right license for your needs and budget.",
+  "seoTitle": "Office for Mac License: Which Edition to Buy",
+  "seoDescription": "Office for Mac license guide — compare editions, activation, and pricing. Find the right Office for your MacBook.",
+  "tags": ["office-2024", "office-for-mac", "licensing", "microsoft", "mac"],
+  "featured": false,
+  "publishedAt": "2026-08-27T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "office for mac license",
+  "secondaryKeywords": ["office 2024 for mac", "office home & business for mac", "office for mac without subscription", "microsoft office mac license"],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "intro-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Buying Microsoft Office for a Mac is not as straightforward as downloading an app. You need to choose a license type, an edition, and decide whether a one-time purchase or a subscription makes more sense. If you are also evaluating Office for Windows, our ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus guide", "marks": ["strong", "l6"] },
+        { "_type": "span", "text": " covers the Windows side.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l6", "href": "/blog/office-2024-professional-plus" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "intro-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This guide explains every ", "marks": [] },
+        { "_type": "span", "text": "Office for Mac license", "marks": ["strong"] },
+        { "_type": "span", "text": " available in 2026, what each one includes, how activation works, and which edition fits your situation. Whether you are a home user, a freelancer, or managing a team of Macs, you will find the right path here. For the full range of Microsoft products, visit the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand page", "marks": ["strong", "l5"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l5", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Office for Mac License Types Explained", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft offers three main ways to get Office on a Mac. Each targets a different audience and activates differently. Understanding the distinction is the first step toward picking the right product.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Office Home 2024 for Mac", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is the most affordable perpetual license for Mac users. It includes Word, Excel, PowerPoint, and OneNote. The license covers exactly one Mac and is intended for personal or household use only. You cannot use it for commercial activities like client work, invoicing, or business correspondence.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you primarily write documents, manage personal finances in spreadsheets, and create occasional presentations, Office Home 2024 for Mac covers the essentials without ongoing costs.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Office Home & Business 2024 for Mac", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This edition adds Outlook and commercial-use rights to the same core apps. It is the right choice for freelancers, self-employed professionals, and small business owners who use Office for client work, proposals, and email management. The license is tied to your Microsoft account and covers one Mac.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For most Mac users who need the full desktop Office suite, the ", "marks": [] },
+        { "_type": "span", "text": "Office Home & Business 2024 for Mac license", "marks": ["strong", "l1"] },
+        { "_type": "span", "text": " is the practical middle ground between affordability and functionality.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l1", "href": "/product/office-2024-home-and-business-for-mac-genuine-license-instant-email-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Office Standard 2024 for Mac (Volume License)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is a volume-license edition designed for organizations that manage multiple Macs centrally. It includes the same apps as Home & Business (Word, Excel, PowerPoint, Outlook, OneNote), but activates through a Multiple Activation Key (MAK) or Key Management Service (KMS) rather than a personal Microsoft account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For individual Mac users, this edition is rarely the right choice. If you manage several Macs in a corporate environment without personal Microsoft accounts on business devices, the ", "marks": [] },
+        { "_type": "span", "text": "Office Standard 2024 for Mac", "marks": ["strong", "l2"] },
+        { "_type": "span", "text": " provides the activation path you need.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l2", "href": "/product/office-2024-standard-for-macos-digital-key-instant-email-delivery-lifetime-online-activation" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Perpetual License vs Microsoft 365 Subscription", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The biggest decision when buying Office for Mac is not which edition, but whether to go with a one-time purchase or a subscription. Both give you the same core desktop apps, but the long-term value differs significantly.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What You Get with a Perpetual License", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "One-time payment — pay once, own the software forever", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "No internet connection required after activation", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Security updates and bug fixes through October 2029", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Licensed for one Mac only — cannot install on a Windows PC with the same key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "No included OneDrive storage, Teams, or Copilot AI features", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A perpetual license makes sense when you use one Mac, keep documents mostly local, and prefer predictable costs. Over a five-year period, a one-time purchase typically costs far less than a subscription.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What Microsoft 365 Adds", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Always-current apps with continuous feature updates", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "1 TB OneDrive cloud storage per user", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Install on up to five devices simultaneously (Mac, iPhone, iPad, Windows)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft Teams, real-time co-authoring, and collaboration tools", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Copilot AI features (with paid add-on on consumer plans)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft 365 is the better fit when you work across multiple devices, rely on cloud storage, or need real-time collaboration. For a deeper comparison, see our guide on ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 vs Office 2024", "marks": ["strong", "l3"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l3", "href": "/blog/microsoft-365-vs-office-2024" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-6",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Which One Saves You Money?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a single Mac user, the break-even point comes in year two or three. After that, every additional year of Microsoft 365 is pure extra cost compared to a perpetual license. For families or teams of three or more people, Microsoft 365 Family at $129.99 per year covers up to six users — a significantly better per-person value.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How Office for Mac Activation Works", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Activation is where perpetual Office for Mac licenses differ most from subscription licenses. The process depends on whether you bought a retail license or a volume license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-7",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Retail License Activation (Home & Business)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "With a retail license like Office Home & Business 2024, activation links the product key to your Microsoft account. The steps are straightforward:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Go to setup.office.com and sign in with your Microsoft account", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Enter the 25-character product key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Select your country and language", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Download the Office installer (.pkg) and run it", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-5",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Launch any Office app and sign in with the same Microsoft account", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Once activated, the license is stored in your Microsoft account. Even if you lose the product key later, the license stays tied to your account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-8",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Volume License Activation (Standard)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Volume licenses like Office Standard 2024 for Mac activate through a Multiple Activation Key (MAK). The process does not require a personal Microsoft account. You enter the MAK key during installation or in an Office app, and it activates directly against Microsoft's servers.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This is useful in corporate environments where personal Microsoft accounts are not desired on business devices.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-9",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Transferring Your License to a New Mac", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Retail perpetual licenses can be transferred to a new Mac under certain conditions. Uninstall Office from the old Mac, install it on the new one, and sign in with the same Microsoft account to reactivate. Microsoft generally permits one transfer every 90 days. Volume licenses follow different transfer rules governed by the European exhaustion principle.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "System Requirements and Compatibility", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Before purchasing any Office for Mac license, verify that your hardware and operating system meet the minimum requirements.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-10",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Supported macOS Versions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft supports Office 2024 for Mac on the three most recent major versions of macOS. As of August 2026, that means macOS Sonoma (14), macOS Sequoia (15), and macOS Tahoe (26). New installations of Office 2024 for Mac require macOS Sonoma or later. If you run an older macOS version, Office apps will still work but will no longer receive security updates.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-11",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Apple Silicon vs Intel Macs", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Office 2024 for Mac runs natively on both Apple Silicon (M1, M2, M3, M4) and Intel processors. There is no separate edition for each architecture. The installer detects your processor and sets up the appropriate build automatically. Microsoft has supported Apple Silicon natively since late 2020.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Apps Are Included in Office for Mac?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The app bundle depends on the edition you choose. Here is what each license includes.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-12",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Apps You Get", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Word — word processing and document creation", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Excel — spreadsheets, data analysis, and formulas", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "PowerPoint — presentations and visual slideshows", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Outlook — email, calendar, and contacts (Home & Business and Standard only)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "OneNote — note-taking (free download from Microsoft)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-13",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Apps That Are Windows-Only", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft Access (database) and Microsoft Publisher (page layout) are not available on any Mac version of Office. These applications have never been ported to macOS and are unlikely to be. If your workflow depends on either, you will need a Windows environment — either a dedicated Windows PC, a virtual machine like Parallels, or a cloud-based alternative.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Which Office for Mac License Should You Buy?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The right license depends on your situation. Here is a practical guide.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-14",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "For Home Users", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you use one Mac, need Word, Excel, and PowerPoint for personal tasks, and do not require Outlook, ", "marks": [] },
+        { "_type": "span", "text": "Office Home 2024 for Mac", "marks": ["strong"] },
+        { "_type": "span", "text": " is the most cost-effective choice. You get the core apps at the lowest price with no subscription overhead.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-15",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "For Freelancers and Small Businesses", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you use Office for client work, invoicing, or business email, you need commercial-use rights. The ", "marks": [] },
+        { "_type": "span", "text": "Office Home & Business 2024 for Mac license", "marks": ["strong"] },
+        { "_type": "span", "text": " includes Outlook and is legally approved for commercial activity. This is the edition most Mac professionals end up choosing.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-16",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "For Enterprises Managing Multiple Macs", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-26",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If your organization manages several Macs centrally and prefers not to use personal Microsoft accounts on business devices, ", "marks": [] },
+        { "_type": "span", "text": "Office Standard 2024 for Mac", "marks": ["strong"] },
+        { "_type": "span", "text": " activates through MAK without requiring individual accounts. It is the volume-license path designed for IT-managed environments.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-17",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is Office for Mac a subscription?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-27",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Not necessarily. Office 2024 for Mac is a one-time purchase — you pay once and own the software permanently. Microsoft 365 is the subscription alternative that includes ongoing updates, cloud storage, and multi-device access. Neither is inherently better; the right choice depends on how you work.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-18",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I use my Mac Office license on Windows?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-28",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. A Mac Office license is separate from a Windows Office license. If you need Office on both platforms, you need two separate licenses. Microsoft 365 subscriptions, however, include both Mac and Windows versions under one subscription.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-19",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Office for Mac include Outlook?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-29",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "It depends on the edition. Office Home 2024 for Mac does not include Outlook. Office Home & Business 2024 for Mac and Office Standard 2024 for Mac both include Outlook. If email management is part of your workflow, choose an edition that includes it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-20",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Office for Mac work offline?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-30",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. Office 2024 for Mac works fully offline after activation. Microsoft 365 also works offline but requires an internet connection approximately every 30 days to validate your subscription. If you frequently work without internet, a perpetual license is the more reliable option.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-21",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Will my Office for Mac license expire?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-31",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The license itself does not expire. You own the software permanently. However, Microsoft provides security updates only through the support period. Office 2024 for Mac receives security updates through October 2029. After that, the apps continue to work but no longer receive patches.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "cta-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Ready to buy? Browse ", "marks": [] },
+        { "_type": "span", "text": "Office for Mac licenses", "marks": ["strong", "l4"] },
+        { "_type": "span", "text": " at Licendi for instant digital delivery and genuine Microsoft keys.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l4", "href": "/category/microsoft-office-pc-mac" }
+      ]
+    }
+  ],
+  "brand": "microsoft"
+}

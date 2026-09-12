@@ -1,0 +1,1454 @@
+{
+  "title": "Windows 11 Activation Error: What Each Code Means and How to Fix It",
+  "slug": "windows-11-activation-error",
+  "excerpt": "Seeing a Windows 11 activation error like 0x803F7001 or 0xC004F074? Learn what each code means, the fix that works, and when you need a new genuine key.",
+  "seoTitle": "Fix Windows 11 Activation Error Codes (2026 Guide)",
+  "seoDescription": "Every common Windows 11 activation error explained — 0x803F7001, 0xC004C003, 0xC004F074 and more — with fixes that work and when to buy a genuine key.",
+  "tags": [
+    "windows-11",
+    "activation",
+    "troubleshooting",
+    "product-key",
+    "licensing"
+  ],
+  "featured": false,
+  "publishedAt": "2026-08-26T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "windows 11 activation error",
+  "secondaryKeywords": [
+    "fix windows 11 activation error",
+    "windows 11 activation error 0x803f7001",
+    "0xc004f074 kms error",
+    "windows 11 activation troubleshooter",
+    "activation error after hardware change"
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "A ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows 11 activation error",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": " usually shows up at the worst moment: right after a clean reinstall, a motherboard swap, or the purchase of a bargain-priced key that refuses to work. Alongside it comes the familiar \"Activate Windows\" watermark. The good news is that most activation errors have a clear cause and a fix you can apply in minutes. This guide walks through every common error code, what it actually tells you about your license, and how to recognize the one situation where the only real fix is a new genuine key.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-meaning",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "What a Windows 11 activation error actually means",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-meaning-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Activation is Microsoft's way of verifying that your copy of Windows is genuine and has not been used on more devices than the license terms allow. Windows 11 can be activated in two ways: with a ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "digital license",
+          "marks": [
+            "em"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " tied to your device's hardware, or with a ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "25-character product key",
+          "marks": [
+            "em"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ". When either check fails, the Activation page reports \"Windows is not activated\" and displays an error code pointing at the reason.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-meaning-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "To see where you stand, select ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Start > Settings > System > Activation",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " and read the line next to Activation status. If you are unsure how the two activation methods differ, our explainer on ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "digital licenses vs product keys",
+          "marks": [
+            "l-dlvspk"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " covers it in detail.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l-dlvspk",
+          "href": "/blog/digital-license-vs-product-key"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-troubleshooter",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Start here: run the Activation Troubleshooter",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-ts-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Before hunting for a specific code, let Windows try to repair itself. The built-in troubleshooter resolves a surprising number of cases on its own, especially hardware-change and wrong-edition problems:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-ts-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Select Start > Settings > System > Activation.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-ts-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Select Troubleshoot. On Windows 11 the troubleshooter runs inside the Get Help app and runs diagnostics automatically.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-ts-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Sign in with your Microsoft account if prompted, then apply any fix it recommends.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-ts-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Re-read the error code afterwards. Microsoft notes that troubleshooting can change the code, so always look up the new code before your next step.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-ts-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Two things to know: the Troubleshoot option only appears while Windows is not activated, and you need administrator rights to use it.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "table",
+      "_key": "tbl-codes",
+      "headers": [
+        "Error code",
+        "What it means",
+        "Fastest fix"
+      ],
+      "rows": [
+        {
+          "_type": "tableRow",
+          "_key": "tr-1",
+          "cells": [
+            "0x803F7001",
+            "No valid license found for this device",
+            "Enter a valid 25-character key under Change product key"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-2",
+          "cells": [
+            "0x800704CF",
+            "No valid license found for this device",
+            "Enter your key; run the troubleshooter after hardware changes"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-3",
+          "cells": [
+            "0xC004C003",
+            "Key is invalid or was used on multiple devices",
+            "Use a different, unused key"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-4",
+          "cells": [
+            "0xC004C008",
+            "Key already active on another device",
+            "Free up the old activation or use another key"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-5",
+          "cells": [
+            "0xC004C060 and similar",
+            "Key cannot activate this copy of Windows",
+            "Enter or buy a different key"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-6",
+          "cells": [
+            "0xC004F211",
+            "Device hardware changed",
+            "Troubleshoot > reactivate after a hardware change"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-7",
+          "cells": [
+            "0xC004F212",
+            "Key does not match the installed edition",
+            "Install the edition your license is for"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-8",
+          "cells": [
+            "0xC004FC03",
+            "Offline or firewall blocked activation",
+            "Check the connection or activate by phone (SLUI 04)"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-9",
+          "cells": [
+            "0x8007232B / 0xC004F074",
+            "Volume/KMS key, or off a corporate network",
+            "Enter a retail or OEM key made for personal PCs"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-10",
+          "cells": [
+            "0x80072F8F",
+            "Incorrect date and time",
+            "Fix the clock, then retry"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tr-11",
+          "cells": [
+            "0x87E10BC6",
+            "Microsoft's activation service hiccuped",
+            "Wait a few minutes and try again"
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-nolicense",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "\"Windows can't find a valid license\" errors",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-nolicense-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Codes ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0x803F7001",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ", ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0x800704CF",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " and ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F213",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " all boil down to one message: Windows searched for a license matching this device and found nothing. That typically happens in three situations:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-nl-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Windows was installed on a PC that never had a license for that edition — common after building a PC or wiping a drive without a key.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-nl-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "The hardware changed significantly (see the hardware-change section below).",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-nl-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "A new pre-built PC shipped without its firmware key working correctly — rare, but Microsoft advises contacting the manufacturer in that case.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-nolicense-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you already own a qualifying key, go to ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation > Change product key",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " and enter the 25 characters. Microsoft recommends checking your purchase confirmation email, the original packaging, or the Certificate of Authenticity sticker on the device. If there is no key anywhere, the device genuinely needs a license — a ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows 11 Pro retail key",
+          "marks": [
+            "l-retail"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " delivered by email solves it in a couple of minutes.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l-retail",
+          "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-rejected",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Your product key was rejected: invalid, blocked, or already in use",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-rej-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "The next family of errors means Windows found your key but refused it. ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004C003",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " is the classic example: the key entered is not valid because product keys are unique to a specific user and device, and keys that were used — or even attempted — on multiple machines get marked invalid. ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004C008",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " and ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004C770",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " mean the key is already active elsewhere or is being used on more devices than the license terms allow. Codes such as ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004C060",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " simply indicate the key cannot be used to activate Windows at all.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-rej-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Work through these checks before declaring the key dead:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-rej-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Retype the key slowly under Change product key — mistyped characters are a common cause of invalid-key errors.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-rej-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Confirm the key matches both the Windows version and edition you installed (a Home key will not activate Pro).",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-rej-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "If the key came from another PC, deactivate it there first — uninstalling the key or reinstalling that machine without it frees up the activation.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-rej-3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If none of that applies, the key itself is the problem. This is the usual outcome with gray-market keys bought from marketplaces that resell volume or previously issued keys: many stop working once Microsoft flags them as invalid. Our checklist on ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "how to buy a Windows key safely",
+          "marks": [
+            "l-safely"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " explains the warning signs to look for before paying.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l-safely",
+          "href": "/blog/how-to-buy-windows-key-safely"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-edition-kms",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Wrong edition or wrong channel: edition mismatch and KMS errors",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-ed-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Edition mismatch errors — ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F212",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ", ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F210",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ", ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F034",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " and ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F00F",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — appear when the installed edition does not match the license. A frequent trigger: reinstalling Windows from media and picking a different edition than the one your digital license covers. The fix is to enter a key that matches the installed edition, or reinstall the edition you are licensed for. Run the troubleshooter first — if it finds a valid digital license for a different edition, it will offer to switch you over.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-ed-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "The group ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0x8007232B",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ", ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F074",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ", ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F038",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " and ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0x8007007B",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " has two distinct causes. On a work device, it usually means the machine is trying to reach the company network to activate and cannot. On a personal PC, it almost always means a ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "volume license key",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " is installed where it does not belong.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-ed-3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Here is the context worth understanding: large organizations activate Windows against their own Key Management Service (KMS) host on the corporate network, not against Microsoft's public activation servers. A KMS client setup on a home PC just spins forever looking for a server that does not exist — ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Microsoft's documentation on error 0xC004F074",
+          "marks": [
+            "e-kms"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " describes exactly this failure mode. Because volume keys circulate cheaply on gray markets, this error family is the single most common result of a too-cheap \"Pro\" purchase. The remedy is to replace the key with a proper retail or OEM license; our breakdown of ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "OEM vs retail Windows 11 licenses",
+          "marks": [
+            "l-oemretail"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " explains which suits which situation.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "e-kms",
+          "href": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/error-0xc004f074-activate-windows"
+        },
+        {
+          "_type": "link",
+          "_key": "l-oemretail",
+          "href": "/blog/windows-11-oem-vs-retail-license"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-ed-4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "One related warning: if you see \"Your Windows license will expire soon\", your device is running a volume-license client normally managed by an organization. On a work computer, contact your administrator rather than buying anything.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-hardware",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Activation errors after changing hardware",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-hw-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Error ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "0xC004F211",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " means Windows reported that your device's hardware changed. A digital license is bound to a hardware profile, and replacing the motherboard — the component weighted most heavily — breaks the match. After a swap, Windows can no longer find a license that fits, and a preinstalled OEM license may be unrecoverable: Microsoft explicitly notes you may need to purchase a new license in that case.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-hw-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "There is an exception path worth trying before spending money. If you were signed in to your Microsoft account on the device before the hardware change, open ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation > Troubleshoot",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ", and follow the \"I changed hardware on this device recently\" link. Sign in with the same Microsoft account, pick the device from the list, and Windows can reattach the digital license to the new configuration. Retail keys make this painless — they are designed to move between machines — while OEM keys stay with the original hardware. That difference is the core of the OEM-vs-retail decision covered in our ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "license type comparison",
+          "marks": [
+            "l-oemretail2"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l-oemretail2",
+          "href": "/blog/windows-11-oem-vs-retail-license"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-network",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Network, clock, and server-side errors",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-net-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Some codes have nothing to do with your license at all — they describe a failed conversation with Microsoft's activation servers. Quick triage:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0xC004FC03",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — no internet connection or a firewall is blocking activation. Restore connectivity, or type ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "SLUI 04",
+          "marks": [
+            "em"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " in the taskbar search box to activate by phone. Note: Windows 11 Pro EDU and Pro for Workstations must activate online; phone activation is unavailable for them.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0x80072F8F",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — the device date or time is wrong, or Windows could not reach the online activation service. Correct the clock under Time & language, then retry.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0x8007267C, 0xD0000272, 0xC004C012–C014",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — the activation server is temporarily unavailable. Nothing is wrong with your license; Windows activates automatically once the service recovers.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0x87E10BC6",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — an error occurred on the activation server or licensing service. Wait a few minutes, rerun the troubleshooter, and try the Microsoft Store route if prompted.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0xC004E003",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — third-party software altered system files that activation depends on. Restoring Windows to a restore point from before the change usually clears it.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0x80004005",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — a generic failure. Run the troubleshooter; as a last resort, resetting the device resolves it.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-net-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "0xC004E028",
+          "marks": [
+            "strong"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " — activation is already in progress. Wait for the first request to finish before retrying.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-net-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "For anything not covered above, Microsoft maintains the full table of activation errors and fixes on its support site, and it is updated as codes evolve:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-net-3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Get help with Windows activation errors (Microsoft Support)",
+          "marks": [
+            "e-mserrors"
+          ]
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "e-mserrors",
+          "href": "https://support.microsoft.com/en-us/windows/get-help-with-windows-activation-errors-09d8fb64-6768-4815-0c30-159fa7d89d85"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-newkey",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "When the right fix is a new genuine license",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-new-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Troubleshooting only helps when a valid license exists somewhere. Replace the key when any of these is true:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-new-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "The code says the key is invalid, blocked, or already in use, and you have no second legitimate key.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-new-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "You are stuck in the KMS/volume error family on a personal PC — those keys were never meant for it.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-new-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Your motherboard died and the old license was OEM-bound to it.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-new-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Pick the license type deliberately. A ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows 11 Pro retail license",
+          "marks": [
+            "l-retail2"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " costs a little more but transfers to future machines, which matters if you upgrade parts often or rebuild every few years. A ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows 11 Pro OEM license",
+          "marks": [
+            "l-oem"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " is the budget-conscious choice for a PC whose configuration is settled. Both activate online in minutes, and every license in Licendi's ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "operating systems catalog",
+          "marks": [
+            "l-cat-os"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " ships instantly by email with step-by-step activation instructions.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l-retail2",
+          "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery"
+        },
+        {
+          "_type": "link",
+          "_key": "l-oem",
+          "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery"
+        },
+        {
+          "_type": "link",
+          "_key": "l-cat-os",
+          "href": "/category/operating-systems"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-prevent",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "How to prevent activation problems before they happen",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-prev-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Five habits spare you most of the errors above:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-prev-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Link your Microsoft account to your digital license before any major upgrade. That association is what makes the hardware-change reactivation path possible.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-prev-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Keep the confirmation email that contains your product key somewhere findable — it is the first thing Microsoft Support will ask about.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-prev-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "When reinstalling, choose the same edition your license covers; edition mismatches generate a whole family of avoidable errors.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-prev-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Buy retail if you expect to replace motherboards or move Windows between PCs; buy OEM for a fixed build.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "li-prev-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Treat steep discounts skeptically. Genuine Windows licenses from authorized sellers — browse the ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Microsoft brand hub",
+          "marks": [
+            "l-brand"
+          ]
+        },
+        {
+          "_type": "span",
+          "text": " for the current lineup — cost more than gray-market listings precisely because they keep activating.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l-brand",
+          "href": "/brand/microsoft"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-close",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Most activation errors end the same way: read the code, match it to the cause, and apply the targeted fix — troubleshooter first, key checks second, connectivity last. And if the diagnosis lands on a dead or mismatched key, replacing it with a genuine license is quicker and cheaper than another afternoon of trial and error.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    }
+  ]
+}

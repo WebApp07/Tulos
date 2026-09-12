@@ -1,0 +1,815 @@
+{
+  "title": "Windows 11 Pro Key: How to Find, Buy, and Activate Yours",
+  "slug": "windows-11-pro-key",
+  "excerpt": "Lost your Windows 11 Pro key, or need a genuine one? Learn where it hides, how to buy safely, and how to activate Pro step by step.",
+  "seoTitle": "Windows 11 Pro Key: Find, Buy & Activate Guide",
+  "seoDescription": "Find your Windows 11 Pro key fast, avoid gray-market scams, and activate Pro the right way. Step-by-step guide plus genuine keys, instant delivery.",
+  "tags": ["windows-11", "windows-11-pro", "product-key", "activation", "licensing"],
+  "featured": false,
+  "publishedAt": "2026-08-22T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing. Every article is verified against Microsoft's official documentation before publication."
+  },
+  "primaryKeyword": "windows 11 pro key",
+  "secondaryKeywords": [
+    "find windows 11 pro product key",
+    "buy windows 11 pro key",
+    "activate windows 11 pro",
+    "windows 11 pro product key location",
+    "windows 11 home to pro key"
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "A Windows 11 Pro key is a 25-character code that unlocks Microsoft's most capable desktop edition — BitLocker encryption, Remote Desktop hosting, Hyper-V virtualization, and Group Policy management. Whether you are setting up a new PC, upgrading from Home, or reinstalling after a hardware change, this guide covers the full lifecycle of your key: where it lives, how to buy a genuine one without getting burned, and how to activate it in minutes.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "bq-answer",
+      "style": "blockquote",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Quick answer: open Settings > System > Activation. If it says “Windows is activated,” you already have a digital license and do not need a key. If it is not activated, enter a 25-character Pro key under Change product key — or type it in when the installer asks during a clean install.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-what",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What a Windows 11 Pro Key Actually Is", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-w1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "A product key is formatted as five groups of five characters, like XXXXX-XXXXX-XXXXX-XXXXX-XXXXX. It identifies the edition you own and proves you paid for it. When you enter the key, Windows sends it to Microsoft's activation servers, which validate it against the hardware configuration of your device. Once that check passes, the device holds an activation record — what Microsoft calls a digital license — so you rarely have to type the key again.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-w2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "One rule matters more than any other: ", "marks": [] },
+        { "_type": "span", "text": "the key must match the installed edition", "marks": ["strong"] },
+        { "_type": "span", "text": ". A Home key cannot activate Pro, and Microsoft states plainly that if your license does not match your edition of Windows, activation will fail. The reverse is more useful: entering a valid Pro key on a PC running Windows 11 Home triggers an in-place edition upgrade with no reinstall required. We cover that process step by step in our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Home to Pro upgrade guide", "marks": ["l-upgrade"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-upgrade", "href": "/blog/windows-11-home-to-pro-upgrade" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-w3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Why pay for Pro at all? Compared with Home, a ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro key", "marks": ["strong"] },
+        { "_type": "span", "text": " unlocks features that matter for work, privacy, and tinkering:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-w1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "BitLocker drive encryption on all drives, not just device encryption", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-w2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Remote Desktop host — control this PC from another device", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-w3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Hyper-V and Windows Sandbox for safe virtual machines and app testing", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-w4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Group Policy Editor plus domain join and Microsoft Entra ID join for business networks", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-find",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Where Your Windows 11 Pro Key Is Hiding", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-f0",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Microsoft documents different key locations depending on how you obtained Windows. Before you go digging, match your situation to the table below:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "table",
+      "_key": "tbl-locations",
+      "headers": ["How you got Windows", "Where the key lives"],
+      "rows": [
+        {
+          "_type": "tableRow",
+          "_key": "tbl-r1",
+          "cells": [
+            "New PC with Windows preinstalled",
+            "Embedded in the motherboard firmware; also printed on packaging or the Certificate of Authenticity (COA) label"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tbl-r2",
+          "cells": [
+            "Boxed copy from a retailer",
+            "On a label or card inside the box"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tbl-r3",
+          "cells": [
+            "Digital copy from an authorized retailer",
+            "In the confirmation email or the retailer's online digital locker"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tbl-r4",
+          "cells": [
+            "Digital copy bought from Microsoft",
+            "In the confirmation email and your Microsoft account order history"
+          ]
+        },
+        {
+          "_type": "tableRow",
+          "_key": "tbl-r5",
+          "cells": [
+            "Free upgrade from Windows 10",
+            "No key exists — you have a digital license instead"
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-preinstalled",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "If Windows Came Preinstalled on Your PC", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-f1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Modern PC makers inject the product key into the UEFI firmware of the motherboard at the factory, which is why many laptops no longer carry a Windows sticker. Windows reads this embedded key automatically during installation and reinstallation. If the firmware key is missing or unreadable, check the device packaging or the COA label attached to the machine. For refurbished PCs, the refurbisher — not Microsoft — is responsible for providing the key.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-bought",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "If You Bought a Boxed or Digital Copy", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-f2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Physical copies hide the key on a label or card inside the box. Digital purchases deliver it by email, and reputable retailers also keep it in an order history or digital locker on their website — which is exactly why buying from a store with a proper account system beats buying from an anonymous marketplace. Note that Microsoft only keeps a record of keys purchased from its own online store; if you bought elsewhere, the retailer is your receipt.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-cmd",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Retrieve the Key With Command Prompt or PowerShell", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-f3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "To read the firmware-embedded key on a preinstalled PC, open Command Prompt and run:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-cmd1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "wmic path softwareLicensingService get OA3xOriginalProductKey", "marks": ["strong"] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-f4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If the command returns nothing, the machine has no embedded key. On recent Windows 11 builds the wmic tool is being phased out, so the PowerShell equivalent is worth knowing:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-cmd2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "(Get-CimInstance -Query \"SELECT * FROM SoftwareLicensingService\").OA3xOriginalProductKey", "marks": ["strong"] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-f5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Keep in mind these commands only reveal the original OEM key baked into the hardware. They will not show a retail key you typed in later — for that, rely on your purchase email or check your activation status under Settings > System > Activation. Microsoft's official ", "marks": [] },
+        { "_type": "span", "text": "product key locator guide", "marks": ["e-find"] },
+        { "_type": "span", "text": " lists every scenario.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "e-find", "href": "https://support.microsoft.com/en-us/windows/find-your-windows-product-key-aaa2bf69-7b2b-9f13-f581-a806abf0a886" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-buy",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Buying a Windows 11 Pro Key Safely", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-b1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "For context, Microsoft charges $199 for a Windows 11 Pro download license, while upgrading an existing Home installation through the Store costs $99. Those are list prices — legitimate retailers sell genuine keys for meaningfully less because they buy in volume and skip retail packaging. The trap sits below that: keys offered for a few dollars are usually not unused retail licenses at all.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-b2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For individuals there are two legitimate license types, and the difference determines whether you can ever move your key: ", "marks": [] },
+        { "_type": "span", "text": "OEM keys", "marks": ["strong"] },
+        { "_type": "span", "text": " are tied to the first PC they activate and cost less, while ", "marks": [] },
+        { "_type": "span", "text": "retail keys", "marks": ["strong"] },
+        { "_type": "span", "text": " can move to a new computer (one at a time). If you upgrade hardware often, the transfer rights alone justify the small price difference — we compare both options in detail in our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 OEM vs Retail breakdown", "marks": ["l-oemretail"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-oemretail", "href": "/blog/windows-11-oem-vs-retail-license" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-b3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Watch for these red flags before you buy a cheap Windows 11 Pro key anywhere:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-b1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Prices dramatically below market — often keys stripped from enterprise volume agreements or MSDN subscriptions that were never licensed for personal use and can be blocked later", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-b2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Anonymous sellers with no refund policy, no company details, and no support channel", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-b3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Listings that promise “lifetime activation” but deliver keys already flagged or previously activated", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-b4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Licendi sells genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail keys with instant online activation and fast digital delivery", "marks": ["l-retail"] },
+        { "_type": "span", "text": ", plus lower-priced ", "marks": [] },
+        { "_type": "span", "text": "OEM keys for a single permanent PC", "marks": ["l-oem"] },
+        { "_type": "span", "text": ". Both arrive by email with step-by-step activation instructions, and every license is backed by real customer support. Browse the full range in our ", "marks": [] },
+        { "_type": "span", "text": "operating systems category", "marks": ["l-cat-os"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-retail", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l-oem", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" },
+        { "_type": "link", "_key": "l-cat-os", "href": "/category/operating-systems" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-activate",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Activate Windows 11 Pro With Your Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-a0",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "There are three ways to enter a key, and the right one depends on where you are in setup. All of them end the same way: Windows validates the key online and records a digital license for the device.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-install",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Option 1: During a Clean Install", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-a1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "When the installer reaches the “Activate Windows” screen, type your Pro key and setup selects the correct edition based on it. No key handy? Choose “I don't have a product key” — you can install and activate later. One caveat: if the PC shipped with Windows, setup may silently reuse the firmware key and install a different edition than you expected. Let setup finish, then change the key using option 2.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-settings",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Option 2: From Windows Settings (Most Common)", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-s1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Select Start, then Settings > System > Activation", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-s2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Click Change next to “Change product key”", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-s3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Enter your 25-character key exactly as delivered, then select Next and follow the prompts", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-a2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Running Windows 11 Home? Entering your Pro key here upgrades the edition in place — your files and apps stay untouched, and the PC restarts once when done. After activating, sign in with a Microsoft account so the digital license is linked to it; that is what lets the built-in Activation troubleshooter restore activation after a major hardware swap. Our guide to ", "marks": [] },
+        { "_type": "span", "text": "digital licenses versus product keys", "marks": ["l-dlvsk"] },
+        { "_type": "span", "text": " explains how the two records interact, and Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "Windows activation page", "marks": ["e-activate"] },
+        { "_type": "span", "text": " documents every status message.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-dlvsk", "href": "/blog/digital-license-vs-product-key" },
+        { "_type": "link", "_key": "e-activate", "href": "https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-cli",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Option 3: From an Elevated Command Prompt", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-a3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "IT admins and serial reinstallers often prefer the Software Licensing Management Tool. Open Command Prompt as administrator and run three commands in order:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-a1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX — installs your product key", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-a2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "slmgr /ato — activates Windows online", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-a3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "slmgr /dli — displays license details so you can confirm the edition and activation state", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-a4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "The Settings route and the command-line route reach the same activation servers, so pick whichever fits your workflow — neither is more “official” than the other.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-trouble",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Troubleshooting: When Your Pro Key Doesn't Work", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-t1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Most failed activations trace back to one of five causes. Work down the list before assuming the key itself is dead:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-t1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Edition mismatch — a Home key cannot activate Pro, and vice versa; confirm which edition the key was sold for", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-t2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Key already in use — retail licenses work on one PC at a time; remove the key from the old machine first with slmgr /upk", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-t3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "OEM key on different hardware — OEM licenses are bound to the original device and will not activate on a new build", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-t4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Blocked gray-market key — volume or MSDN keys resold to individuals can be invalidated by Microsoft at any time", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-t5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Simple errors — a mistyped character or an offline PC; re-enter the key carefully while connected to the internet, then run the Activation troubleshooter", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-t2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If none of these fixes it and you bought the key from a reputable seller, contact their support with your order number — legitimate stores replace failed keys. Sellers who disappear when a key fails told you everything you needed to know at checkout.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-unactivated",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Happens If You Don't Activate", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-u1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "You can install and use Windows 11 without a key, and the OS keeps working — apps run, games play, security updates arrive. What you get instead is friction: a persistent “Activate Windows” watermark in the bottom-right corner of every display and screenshot, repeated reminders in Settings, and most personalization options locked, including wallpaper, accent colors, and themes. For a home test bench that may be tolerable; for a work PC it looks unprofessional and leaves you out of compliance. Activating removes all of it in about a minute.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-faq",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-q1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I Move My Windows 11 Pro Key to a New PC?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-q1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Retail keys can transfer — uninstall the key from the old machine (slmgr /upk), then activate it on the new one. OEM keys cannot; they live and die with the original hardware.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-q2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does a Windows 10 Pro Key Still Activate Windows 11 Pro?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-q2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Yes. Windows 11 accepts valid Windows 10 Pro keys because Microsoft treated Windows 11 as a free upgrade path for eligible Windows 10 devices, and the same key pool activates both editions.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-q3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Where Should I Buy a Genuine Windows 11 Pro Key?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-q3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "From sellers who identify their company, deliver keys by email with instructions, and answer support requests. Licendi offers genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro licenses", "marks": ["l-retail2"] },
+        { "_type": "span", "text": " with instant digital delivery — see the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand page", "marks": ["l-brand"] },
+        { "_type": "span", "text": " for everything available.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-retail2", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l-brand", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-q4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Do I Need a New Key After Replacing My Motherboard?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-q4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "A motherboard replacement counts as a significant hardware change. If your digital license was linked to a Microsoft account before the swap, the Activation troubleshooter can reactivate Windows on the rebuilt machine. Without that link, a retail key can be re-entered manually — an OEM key, unfortunately, stays with the dead board.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-wrap",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The Bottom Line", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-x1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "A Windows 11 Pro key is simple once you know the system: find it in firmware, email, or your order history; buy genuine from a seller that stands behind the license; activate through Settings, setup, or slmgr; and link the resulting digital license to your Microsoft account for painless recovery later. Do those four things and activation stops being something you think about.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-x2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Ready to activate? Get a genuine ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail key delivered instantly", "marks": ["l-retail3"] },
+        { "_type": "span", "text": ", choose the budget-friendly ", "marks": [] },
+        { "_type": "span", "text": "OEM edition for a single fixed PC", "marks": ["l-oem2"] },
+        { "_type": "span", "text": ", or explore all ", "marks": [] },
+        { "_type": "span", "text": "Microsoft products at Licendi", "marks": ["l-brand2"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l-retail3", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l-oem2", "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery" },
+        { "_type": "link", "_key": "l-brand2", "href": "/brand/microsoft" }
+      ]
+    }
+  ]
+}

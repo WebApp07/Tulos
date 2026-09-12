@@ -1,0 +1,410 @@
+{
+  "title": "Microsoft 365 Business License: Plans, Pricing, and What Each Includes",
+  "slug": "microsoft-365-business-license",
+  "excerpt": "Microsoft 365 Business plans range from $6 to $22 per user per month. Compare Basic, Standard, and Premium to find the right license for your team.",
+  "seoTitle": "Microsoft 365 Business License: Plans & Pricing",
+  "seoDescription": "Compare Microsoft 365 Business plans — Basic, Standard, Premium. Pricing, features, and which license fits your small business.",
+  "tags": ["microsoft-365", "business-license", "licensing", "pricing", "office"],
+  "featured": false,
+  "publishedAt": "2026-09-07T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "microsoft 365 business license",
+  "secondaryKeywords": ["microsoft 365 business standard", "microsoft 365 business premium", "microsoft 365 plans comparison", "microsoft 365 for small business"],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business License: The Four Plans at a Glance", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft 365 Business is Microsoft's subscription suite for small and medium-sized companies. Instead of buying Office once, you pay a per-user monthly or annual fee, and every employee gets the Office apps plus cloud services such as business email, Microsoft Teams, OneDrive storage, and SharePoint. There are four business licenses to choose from, priced to match how much productivity and security your team actually needs.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business Basic — around $6–7 per user per month: web and mobile Office apps, business email, Teams, OneDrive, and SharePoint, but no desktop apps.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business Standard — around $12.50–14 per user per month: everything in Basic plus full desktop Word, Excel, PowerPoint, and Outlook on up to five devices per user.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business Premium — around $22 per user per month: everything in Standard plus Microsoft Intune, Microsoft Entra ID P1, Defender for Business, and Conditional Access for advanced security and device management.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Microsoft 365 Apps for Business — around $8.25–10 per user per month: desktop Office apps and OneDrive without business email, Teams, or SharePoint.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "All business plans are licensed per user and capped at 300 users per organization. The prices above are 2026 list prices for annual commitment in the United States; they vary by region and billing term, and Microsoft raised prices on several commercial plans effective July 1, 2026. For the official comparison, see ", "marks": [] },
+        { "_type": "span", "text": "Microsoft's business plans and pricing page", "marks": ["l1"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business Basic: Web Apps and Email for Browser-First Teams", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Business Basic is the entry-level plan. It gives every user a 50 GB Exchange Online mailbox with a custom domain (you@yourcompany.com), Microsoft Teams for chat and meetings, 1 TB of OneDrive storage, and SharePoint for file sharing. The catch: Office apps are available only through the browser and on mobile — there are no installable desktop versions of Word, Excel, or PowerPoint.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "This plan fits teams that work primarily in a browser or on mobile devices — for example, a company standardizing on Chromebooks or thin clients. If your staff spend their day in desktop Word or Outlook, Basic will frustrate them quickly. That single gap is why many businesses upgrade to Standard within their first year.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business Standard: The Most Popular Plan for Small Businesses", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Business Standard is the plan most small businesses end up buying. It includes everything in Basic — business email, Teams, OneDrive, and SharePoint — and adds the full desktop versions of Word, Excel, PowerPoint, Outlook, and OneNote. Each user can install the apps on up to five PCs or Macs, plus five tablets and five smartphones, and sign in on any device with their work account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You also get extras that matter for client-facing work: Microsoft Bookings for appointment scheduling, webinar hosting through Teams, Clipchamp video editing, and Microsoft Forms. For a typical 5-to-50-person office where employees create documents and run meetings all day, Standard is the natural fit.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business Premium: Security and Device Management Built In", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Business Premium takes everything in Standard and layers on the security stack many small businesses now need by default: Microsoft Intune for mobile device and app management, Microsoft Entra ID P1 (formerly Azure Active Directory Premium P1) for Conditional Access, Microsoft Defender for Business for endpoint protection, and Windows 11 Pro rights for enrolled company devices.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Premium is usually the right choice for professional-services firms, healthcare suppliers, and any business handling sensitive client data, running a remote workforce on company-owned devices, or chasing cyber-insurance requirements. If your security posture is already handled by a separate managed platform, Standard may be enough — the decision is about controls, not prestige.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Apps for Business: Desktop Apps Without the Cloud Suite", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Apps for Business is the desktop-apps-only option. Each user gets the full Office apps and 1 TB of OneDrive, but no Exchange mailbox, no Teams, and no SharePoint. It exists for companies that already have email and collaboration infrastructure elsewhere and simply need licensed Office software on employees' computers.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "It is rarely the cheapest path in practice: at roughly $8.25–10 per user per month, it costs more than Basic and only slightly less than Standard, while missing most of the suite. Before choosing it, compare the total cost against a one-time ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus license", "marks": ["l2"] },
+        { "_type": "span", "text": ", which covers a single PC for life.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Which Microsoft 365 Business License Should You Choose?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Answer three questions and the right plan becomes obvious:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Do your employees need installable desktop Office apps? If yes, skip Basic — choose Standard or Premium (or Apps for Business if you already have email elsewhere).", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Do you handle sensitive or regulated data, manage company devices, or have a remote workforce? If yes, Business Premium's Intune, Conditional Access, and Defender for Business are worth the jump from Standard.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Is your team browser-first or mobile-only? Business Basic is the cheapest complete suite and may be all you need.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For most small businesses, Business Standard is the right starting point. Upgrade to Premium when compliance requirements or a security incident justify the extra cost — the security stack alone would cost far more assembled from separate products.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The 300-User Limit: When You Need Enterprise Plans", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The entire Business family — Basic, Standard, Premium, and Apps for Business — is limited to 300 provisioned users per organization. Microsoft enforces this cap across the family, not per plan, so you cannot mix 250 seats of Premium with 100 seats of Basic. If your organization exceeds 300 users, needs Windows Enterprise rights, or requires deep compliance and analytics capabilities, you must move to Microsoft 365 E3 or E5 enterprise plans.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Microsoft 365 Business vs. Perpetual Office: A Cost Reality Check", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A per-user subscription sounds cheap, but the recurring fees add up. At $12.50 per user per month, Business Standard costs roughly $150 per user per year — about $750 over five years. A one-time ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 license", "marks": ["l3"] },
+        { "_type": "span", "text": " costs a fraction of that and never renews.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/category/microsoft-office-pc-mac" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "What you give up with perpetual Office is the cloud layer: no Exchange email, no Teams, no SharePoint, and no feature updates — only security fixes. If your business genuinely needs cloud collaboration, the subscription is the practical choice. If your staff mostly need Word, Excel, and Outlook on fixed workstations, perpetual licensing can save thousands over a few years. Our deep dive on ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 vs Office 2024", "marks": ["l4"] },
+        { "_type": "span", "text": " walks through the trade-offs with a cost table, and our ", "marks": [] },
+        { "_type": "span", "text": "Microsoft 365 subscription value guide", "marks": ["l5"] },
+        { "_type": "span", "text": " covers what the subscription actually includes.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l4", "href": "/blog/microsoft-365-vs-office-2024" },
+        { "_type": "link", "_key": "l5", "href": "/blog/microsoft-365-subscription-worth-it" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Buy a Microsoft 365 Business License", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft 365 Business licenses are sold directly through the Microsoft 365 admin center, through Microsoft partners, and through some retailers. You will need a business domain and an admin account to assign licenses to users. Subscriptions are billed monthly or annually; paying annually typically saves around 16% compared with month-to-month billing.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you decide the subscription model is not for you, Licendi sells genuine, perpetual ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office licenses", "marks": ["l6"] },
+        { "_type": "span", "text": " with instant digital delivery and step-by-step activation instructions — including ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus", "marks": ["l7"] },
+        { "_type": "span", "text": " for Windows and ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Home & Business for Mac", "marks": ["l8"] },
+        { "_type": "span", "text": ". You pay once, and the license is yours for the life of the device.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l6", "href": "/brand/microsoft" },
+        { "_type": "link", "_key": "l7", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" },
+        { "_type": "link", "_key": "l8", "href": "/product/office-2024-home-and-business-for-mac-genuine-license-instant-email-delivery" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-10",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I mix Microsoft 365 Business plans in one organization?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. Microsoft explicitly supports mixing plans — for example, Business Premium for managed employees, Business Standard for office roles, and Business Basic for browser-first users — as long as the total across the Business family stays at or below 300 provisioned users.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Does Microsoft 365 Business Basic include desktop Office apps?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Business Basic includes web and mobile versions of Word, Excel, PowerPoint, and Outlook only. To install the full desktop apps, you need Business Standard, Business Premium, or Apps for Business.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What happens to my Office apps if I cancel the subscription?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "When a Microsoft 365 subscription ends, users lose the ability to edit documents in the desktop apps — the apps enter a read-only, reduced-functionality mode — and cloud services such as email and OneDrive are eventually disabled. This is the core difference from a perpetual license, which keeps working forever after a single payment.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "How many devices can one user install Office on with Business Standard?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Each user can install the desktop Office apps on up to five PCs or Macs, plus five tablets and five smartphones, and sign in to Office on the web from any device.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For more Microsoft licensing guidance, browse the ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand hub", "marks": ["l9"] },
+        { "_type": "span", "text": " or explore our ", "marks": [] },
+        { "_type": "span", "text": "Office products", "marks": ["l10"] },
+        { "_type": "span", "text": " with instant digital delivery.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l9", "href": "/brand/microsoft" },
+        { "_type": "link", "_key": "l10", "href": "/category/microsoft-office-pc-mac" }
+      ]
+    }
+  ]
+}

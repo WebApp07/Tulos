@@ -1,0 +1,1238 @@
+{
+  "title": "Reinstall Windows Without Losing Activation: The Complete Guide",
+  "slug": "reinstall-windows-without-losing-activation",
+  "excerpt": "Reinstalling Windows doesn't have to mean losing your activation. Learn how to keep your digital license or product key intact during a clean install.",
+  "seoTitle": "Reinstall Windows Without Losing Activation",
+  "seoDescription": "Reinstall Windows11 without losing activation. Step-by-step guide to preserve your digital license, product key, and activation status.",
+  "tags": ["windows-11", "activation", "reinstall", "digital-license", "licensing"],
+  "featured": false,
+  "publishedAt": "2026-09-01T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "reinstall windows without losing activation",
+  "secondaryKeywords": ["reinstall windows 11 activation", "keep windows activation after reinstall", "windows digital license reinstall", "windows product key reinstall"],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "intro-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Reinstalling Windows is often necessary to fix persistent problems, remove malware, or start fresh with a clean system. But many users worry that a reinstall will wipe out their activation, forcing them to purchase a new license. The good news: in most cases, you can reinstall Windows without losing activation (see ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Microsoft's official activation guide",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": ").",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "https://support.microsoft.com/en-us/windows/activation/activate-windows"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "intro-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This guide explains exactly how to preserve your digital license or product key during a reinstall, the steps to ensure automatic reactivation, and what to do if activation doesn't come back automatically.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Why Activation Survives a Reinstall",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Modern Windows activation is tied to your hardware and Microsoft account, not just a 25-character key. When you activate Windows 11, Microsoft stores a digital license (also called a digital entitlement) on its activation servers, linked to your device's hardware fingerprint. If you reinstall the same edition on the same hardware, Windows can detect the existing digital license and reactivate automatically.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This is why you can often skip the product key during installation and still end up with a fully activated system. The key is ensuring your digital license is linked to your Microsoft account beforehand.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Before You Reinstall: Essential Preparation Steps",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "1. Confirm Your Current Activation Status",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Before touching anything, verify that Windows is currently activated. Go to ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ". You should see one of these messages:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "\"Windows is activated with a digital license\" — your license is linked to hardware but not your Microsoft account.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "\"Windows is activated with a digital license linked to your Microsoft account\" — ideal for reinstallations.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you see the first message, link your Microsoft account now (see next step). If Windows isn't activated at all, you'll need to activate it before reinstalling.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "2. Link Your Digital License to Your Microsoft Account",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This is the most critical step. Linking your digital license to your Microsoft account ensures you can reactivate Windows after a reinstall, even if hardware changes occur.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Open ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > Accounts > Your info",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you're using a local account, select ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Sign in with a Microsoft account",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": " and enter your credentials.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Return to ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ". The message should now read: \"Windows is activated with a digital license linked to your Microsoft account.\"",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "This linking process is irreversible for that license — it stays associated with your Microsoft account.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "3. Verify Your Windows Edition",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Your digital license is edition-specific. If you have Windows 11 Pro, you must reinstall Windows 11 Pro — not Home. Installing a different edition will result in activation failure.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Check your edition at ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": " or run ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "winver",
+          "marks": ["code"]
+        },
+        {
+          "_type": "span",
+          "text": " in the Run dialog.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "4. Determine Your License Type",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Understanding whether you have an OEM, Retail, or Volume license matters for reactivation:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Retail licenses are transferable and survive reinstalls on the same hardware.",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": " You can also move them to a new PC after deactivating the old one.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "OEM licenses are tied to the original hardware",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": " and generally cannot be transferred, but they do survive reinstalls on the same machine.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Volume licenses",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": " (KMS/MAK) are managed by your organization and may require reconnection to the activation server.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "To check your license channel, open Command Prompt as administrator and run:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "code-1",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "slmgr /dli",
+          "marks": ["code"]
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Look for \"RETAIL\", \"OEM\", or \"VOLUME\" in the output.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "How to Reinstall Windows Without Losing Activation",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Once you've completed the preparation steps, follow this process:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Step 1: Create Installation Media",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Download the official Windows 11 Media Creation Tool from Microsoft's website. Use it to create a bootable USB drive (at least 8GB). This ensures you have the latest version of Windows and the correct edition.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-6",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Step 2: Boot from the USB Drive",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Restart your PC and boot from the USB drive. You may need to change the boot order in BIOS/UEFI settings (usually by pressing F2, F12, or Del during startup).",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-7",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Step 3: Skip the Product Key During Installation",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "When Windows Setup asks for a product key, select ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "\"I don't have a product key\"",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": " at the bottom of the window. This does not mean you're pirating — it simply defers activation until after installation.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Choose the same edition that was previously installed (e.g., Windows 11 Pro). If you select a different edition, activation will fail.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-8",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Step 4: Complete Installation and Connect to the Internet",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "After installation finishes, connect to the internet. Windows will automatically contact Microsoft's activation servers. If your device has a valid digital license for the installed edition, activation will happen silently in the background.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-9",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Step 5: Sign In with Your Microsoft Account",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Sign in with the same Microsoft account you linked earlier. This ensures the digital license associates with your account, making future reinstalls easier.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-10",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Step 6: Verify Activation",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Go to ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ". You should see \"Windows is activated with a digital license linked to your Microsoft account.\" If you see this, you're done.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "What If Activation Doesn't Work?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If Windows doesn't activate automatically, don't panic. Here are the most common fixes:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-11",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Use the Activation Troubleshooter",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Go to ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation > Troubleshoot",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ". If you've made recent hardware changes, select \"I changed hardware on this device recently\" and follow the prompts. The troubleshooter will find your linked digital license and reactivate.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-12",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Enter Your Product Key",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you have a retail product key, you can enter it manually at ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Settings > System > Activation > Change product key",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ". This is especially useful if you've lost your digital license or changed hardware significantly.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you need a new genuine Windows 11 Pro key, you can get one instantly from ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Licendi",
+          "marks": ["strong"]
+        },
+        {
+          "_type": "span",
+          "text": ". We offer both ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows 11 Pro retail licenses",
+          "marks": ["l1"]
+        },
+        {
+          "_type": "span",
+          "text": " (transferable between devices) and ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "OEM licenses",
+          "marks": ["l2"]
+        },
+        {
+          "_type": "span",
+          "text": " (bound to one PC) with instant digital delivery.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l1",
+          "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery"
+        },
+        {
+          "_type": "link",
+          "_key": "l2",
+          "href": "/product/windows-11-pro-oem-license-online-activation-win-11-pro-oem-key-fast-delivery"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Reinstalling After a Major Hardware Change",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you're replacing your motherboard or making significant hardware changes, reactivation becomes trickier. Digital licenses are tied to your hardware fingerprint, and a motherboard swap can make Windows think it's a new device.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "For retail licenses, this is manageable — you can use the Activation Troubleshooter to transfer your license. For OEM licenses, you may need to purchase a new license since OEM licenses are generally non-transferable.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-26",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Learn more about the differences between license types in our guide to ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows 11 OEM vs Retail licenses",
+          "marks": ["l3"]
+        },
+        {
+          "_type": "span",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l3",
+          "href": "/blog/windows-11-oem-vs-retail-license"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Digital License vs Product Key: Which Do You Have?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-27",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Understanding the difference between a digital license and a product key helps you know what to expect during reinstallation:",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Digital license: Linked to your hardware and Microsoft account. No key needed during reinstall. Automatic activation.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        {
+          "_type": "span",
+          "text": "Product key: 25-character code you enter during or after installation. Must be kept safe for future use.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-28",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "For a deeper dive, see our comparison of ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "digital licenses vs product keys",
+          "marks": ["l4"]
+        },
+        {
+          "_type": "span",
+          "text": ".",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l4",
+          "href": "/blog/digital-license-vs-product-key"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Frequently Asked Questions",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-13",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Can I reinstall Windows without a product key?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-29",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Yes. If your device has a digital license, you can skip the product key during installation. Windows will activate automatically once connected to the internet.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-14",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Will I lose my files when reinstalling Windows?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-30",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "A clean install wipes your system drive. Back up all important files to an external drive or cloud storage before reinstalling. You can choose to keep personal files during an in-place upgrade, but a true clean install requires a fresh start.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-15",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "What if I have an OEM license?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-31",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "OEM licenses survive reinstalls on the same hardware. If your PC came with Windows preinstalled, the OEM key is embedded in the firmware and Windows will detect it automatically. However, OEM licenses cannot be transferred to a new PC.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-16",
+      "style": "h3",
+      "children": [
+        {
+          "_type": "span",
+          "text": "How do I know if my license is retail or OEM?",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-32",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Run ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "slmgr /dli",
+          "marks": ["code"]
+        },
+        {
+          "_type": "span",
+          "text": " in Command Prompt. The output will show \"RETAIL\" or \"OEM\" in the channel information.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Protect Your Activation for Future Reinstalls",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-33",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "The key takeaway: link your digital license to your Microsoft account before you reinstall. This single step ensures your activation survives reinstalls, hardware changes, and even PC migrations.",
+          "marks": []
+        }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-34",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "If you're planning a clean install and want peace of mind, consider purchasing a ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "genuine Windows 11 Pro retail license",
+          "marks": ["l5"]
+        },
+        {
+          "_type": "span",
+          "text": " from Licendi. Retail licenses are fully transferable and come with instant digital delivery — no waiting for shipping, no risk of counterfeit keys.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l5",
+          "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery"
+        }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-35",
+      "style": "normal",
+      "children": [
+        {
+          "_type": "span",
+          "text": "Browse our full selection of ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Windows operating system licenses",
+          "marks": ["l6"]
+        },
+        {
+          "_type": "span",
+          "text": " or explore the ",
+          "marks": []
+        },
+        {
+          "_type": "span",
+          "text": "Microsoft brand page",
+          "marks": ["l7"]
+        },
+        {
+          "_type": "span",
+          "text": " for all Microsoft products available at Licendi.",
+          "marks": []
+        }
+      ],
+      "markDefs": [
+        {
+          "_type": "link",
+          "_key": "l6",
+          "href": "/category/operating-systems"
+        },
+        {
+          "_type": "link",
+          "_key": "l7",
+          "href": "/brand/microsoft"
+        }
+      ]
+    }
+  ]
+}
