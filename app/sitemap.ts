@@ -5,7 +5,11 @@ import { routing } from "@/i18n/routing";
 import { localizedUrl, hreflangAlternates } from "@/lib/site";
 import type { MetadataRoute } from "next";
 
-export const revalidate = 600;
+// Serve the sitemap from the static cache between revalidations and re-render
+// at most hourly to avoid 5xx windows that Google Search Console records as
+// "Unable to read sitemap". Content changes revalidate via /api/sanity-webhook.
+export const revalidate = 3600;
+export const dynamic = "force-static";
 
 const staticRoutes = [
   "",
@@ -18,6 +22,10 @@ const staticRoutes = [
   "/refund-policy",
   "/shipping-policy",
 ];
+
+// Stable build-time timestamp for routes that never change, so lastmod does
+// not churn on every revalidation.
+const BUILD_DATE = new Date();
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [categories, products, posts, brands] = await Promise.all([
@@ -33,7 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const route of staticRoutes) {
       entries.push({
         url: localizedUrl(locale, route),
-        lastModified: new Date(),
+        lastModified: BUILD_DATE,
         changeFrequency: "weekly",
         priority: route === "" ? 1 : 0.8,
         alternates: { languages: hreflangAlternates(route) },
@@ -45,7 +53,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const route = `/category/${category.slug.current}`;
       entries.push({
         url: localizedUrl(locale, route),
-        lastModified: new Date(),
+        lastModified: BUILD_DATE,
         changeFrequency: "weekly",
         priority: 0.7,
         alternates: { languages: hreflangAlternates(route) },

@@ -1,0 +1,636 @@
+{
+  "title": "Genuine Microsoft License: What It Means and Why It Matters",
+  "slug": "genuine-microsoft-license",
+  "excerpt": "A genuine Microsoft license is legal, supported, and secure. Learn what it means, how to verify it, and how to avoid counterfeit keys.",
+  "seoTitle": "Genuine Microsoft License: What It Means",
+  "seoDescription": "What is a genuine Microsoft license? Learn how to verify Windows and Office, spot counterfeit keys, and buy genuine licenses safely.",
+  "tags": ["buying-safely", "genuine-software", "microsoft", "licensing", "activation"],
+  "featured": false,
+  "publishedAt": "2026-09-19T09:00:00.000Z",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "genuine microsoft license",
+  "secondaryKeywords": ["what is a genuine microsoft license", "verify genuine windows", "genuine office license", "counterfeit microsoft software", "buy genuine microsoft license"],
+  "brand": "microsoft",
+  "body": [
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What Is a Genuine Microsoft License?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A genuine Microsoft license is a legal right to use Microsoft software that was published by Microsoft, properly licensed, and is supported by Microsoft or a trusted partner. That is the definition Microsoft itself uses for genuine Windows, according to its ", "marks": [] },
+        { "_type": "span", "text": "About Genuine Windows support page", "marks": ["ext1"] },
+        { "_type": "span", "text": ". It covers both the software you install and the license that authorizes you to run it.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "ext1", "href": "https://support.microsoft.com/en-us/windows/activation/about-genuine-windows" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "It helps to separate the license from the key. A product key is just 25 characters — it proves nothing by itself. What makes a license genuine is where it came from and what it legally allows. A key obtained through an unauthorized channel can activate today and be blocked tomorrow, even though it looks identical to a legitimate one. That is why \u201cit activated fine\u201d is not the same as \u201cit is genuine.\u201d", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Why Running Genuine Microsoft Software Matters", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft is explicit about the risks of counterfeit software. On its ", "marks": [] },
+        { "_type": "span", "text": "\u201cStay safe with a genuine Office license\u201d page", "marks": ["ext2"] },
+        { "_type": "span", "text": ", it warns that counterfeit software can expose you to viruses and malware, corrupt your files, and leave you without critical security updates. Genuine software, by contrast, receives regular security patches and is eligible for support.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "ext2", "href": "https://support.microsoft.com/en-us/accounts-billing/stay-safe-with-a-genuine-office-license" }]
+    },
+    {
+      "_type": "block",
+      "_key": "p-3a",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Concretely, a genuine license gives you:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Access to security updates — Windows Update and Office updates patch newly discovered vulnerabilities. Non-genuine copies often cannot receive them.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Protection from malware — counterfeit installers are frequently bundled with trojans, keyloggers, and ransomware.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Data safety — tampered or corrupted files can lead to lost documents and even failed systems.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Support and compliance — Microsoft and its partners support genuine installations, while businesses running unlicensed software risk audit penalties.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How Microsoft Checks Whether Your License Is Genuine", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Microsoft uses two related processes — activation and validation — plus on-screen notifications to keep non-genuine copies out of circulation.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Activation", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Activation verifies that your copy of Windows is used only on PCs that the Microsoft Software License Terms allow. It pairs your product key or digital entitlement with your hardware configuration. Usually you activate once, unless you make a significant hardware change. Office uses a similar activation flow through your Microsoft account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Validation", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Validation is an online process that verifies your copy of Windows is genuine and that critical licensing files have not been damaged, deleted, or removed. It takes a few moments and creates a match between your PC's hardware profile and your product key or digital entitlement. You may be prompted to validate before downloading updates and tools that are reserved for genuine Windows.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Notifications", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If Windows determines your copy is not genuine, you will see activation warnings and a \u201cnot genuine\u201d watermark, and your PC becomes ineligible for genuine-only downloads. In Office, you may see a \u201cGet genuine Office\u201d message when Microsoft determines the installed product is not legitimate. These messages are your cue to fix the installation, not to ignore it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Which License Types Are Genuine — and Which Aren't", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Genuineness is not just about whether a key works. It is about whether the license type matches how you use it. Microsoft sells several license types, and each has specific rules:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Retail licenses", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Retail licenses are sold to end users through the Microsoft Store, authorized resellers, and retail stores. They are transferable — you can move them to a new PC after deactivating the old one — and they include Microsoft support. For most individuals, a retail license is the clearest path to a genuine, fully supported installation.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "OEM licenses", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "OEM (Original Equipment Manufacturer) licenses are tied to the hardware they originally shipped with. They are genuine when they come with a new PC or from an authorized system builder, but they cannot be transferred to another device. OEM keys sold separately on marketplaces are often grey-market: they may activate at first, but selling them outside the hardware they shipped with violates Microsoft's terms and they can be blocked.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-6",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Volume licenses", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Volume licenses (MAK and KMS keys) are issued to organizations under volume licensing agreements. Microsoft notes that Windows volume licenses are upgrades only and require a qualifying full operating system on each PC. These keys are not meant for individual resale, so a deeply discounted \u201cProfessional Plus\u201d key from an auction site is almost certainly a volume key sold against Microsoft's terms.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-7",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Digital licenses", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "A digital license (also called a digital entitlement) is a cloud-stored license linked to your Microsoft account and hardware. It is created when you activate with a retail key and sign in, or when you upgrade an eligible device. There is no 25-character key to enter — the license simply travels with your account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Verify a Microsoft License Is Genuine", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You can verify your own installation in a few minutes. The definitive test is successful, persistent activation — Microsoft does not publish a public database for checking keys in advance, so be wary of any website that claims to validate your key online.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-8",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Check Windows", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "To check your Windows license:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Open Settings > System > Activation.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Confirm the status reads \u201cWindows is activated\u201d with a digital license or product key.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If you see warnings or a \u201cnot genuine\u201d watermark, run the Activation troubleshooter from the same screen.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "For a detailed view, run slmgr /dlv in an elevated Command Prompt to see the license channel — RETAIL, OEM, or VOLUME.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-9",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Check Office", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Open any Office app and go to File > Account. A genuine license shows \u201cProduct Activated\u201d with your product name. If you see a \u201cGet genuine Office\u201d notice, Microsoft has flagged the installation as not legitimate. For a step-by-step verification walkthrough, see our guide on ", "marks": [] },
+        { "_type": "span", "text": "how to check if an Office key is genuine", "marks": ["l2"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l2", "href": "/blog/how-to-check-if-office-key-is-genuine" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h3-10",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Check physical software", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you bought boxed software, Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "How to Tell website", "marks": ["ext3"] },
+        { "_type": "span", "text": " shows the security features to look for: the Certificate of Authenticity (COA) label, holograms, and product key labels. A COA is a visual aid, not a license — and Microsoft states that COA labels and product keys should never be sold separately.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "ext3", "href": "https://www.microsoft.com/en-us/howtotell" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "How to Avoid Counterfeit and Gray-Market Keys", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Most counterfeit and gray-market licenses are easy to spot once you know the warning signs:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Prices far below list — Microsoft's list price is $199.99 for Windows 11 Pro and $139.99 for Home. A \u201cfull license\u201d for $15 is a red flag.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Keys sold on auction sites or classifieds — Microsoft warns that product keys advertised on these platforms are likely stolen or counterfeit.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Vague license type — a seller who cannot say whether a key is retail, OEM, or volume is hiding something.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "\u201cUnlimited activations\u201d or \u201ccorporate surplus\u201d claims — these are not how Microsoft licensing works.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "No refund or replacement policy — legitimate sellers stand behind their keys.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a complete checklist on buying Windows keys without getting scammed, see our guide on ", "marks": [] },
+        { "_type": "span", "text": "how to buy a Windows key safely", "marks": ["l3"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l3", "href": "/blog/how-to-buy-windows-key-safely" }]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What to Do If Your Software Says \u201cNot Genuine\u201d", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you see a \u201cnot genuine\u201d message, do not ignore it. Work through these steps:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-5",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Run the activation troubleshooter in Settings > System > Activation.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-6",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If you have a valid key, re-enter it under \u201cChange product key.\u201d", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-7",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If you bought a used PC, ask the seller for the original key or COA — repairs and reinstalls can break activation.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-8",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "If the installation is counterfeit, uninstall it completely before installing a genuine version. Microsoft's support pages walk through removing counterfeit Office before reinstalling genuine software.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-9",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Buy a genuine license from a trusted source and activate with it.", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Buy a Genuine Microsoft License from Licendi", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Licendi is a legitimate software reseller that sells genuine Microsoft licenses with instant digital delivery. Every product page in our ", "marks": [] },
+        { "_type": "span", "text": "Microsoft store", "marks": ["l1"] },
+        { "_type": "span", "text": " states the license type clearly, and our support team replaces any key that fails to activate.", "marks": [] }
+      ],
+      "markDefs": [{ "_type": "link", "_key": "l1", "href": "/brand/microsoft" }]
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Genuine Windows 11 retail and OEM keys with instant delivery", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Office 2024 one-time purchase licenses for PC and Mac", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Clear license type disclosure on every product page", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [{ "_type": "span", "text": "Replacement support if activation fails", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you need a transferable, fully supported license, our ", "marks": [] },
+        { "_type": "span", "text": "Windows 11 Pro retail key", "marks": ["l4"] },
+        { "_type": "span", "text": " is the safest choice for most buyers. For Office, our ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus license", "marks": ["l5"] },
+        { "_type": "span", "text": " is a popular option for businesses. You can also browse the ", "marks": [] },
+        { "_type": "span", "text": "operating systems category", "marks": ["l6"] },
+        { "_type": "span", "text": " to compare what's available.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l4", "href": "/product/windows-11-pro-retail-license-key-instant-online-activation-and-fast-digital-delivery" },
+        { "_type": "link", "_key": "l5", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" },
+        { "_type": "link", "_key": "l6", "href": "/category/operating-systems" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-11",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can Microsoft deactivate a key after I buy it?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes. Microsoft warns that a key \u201cmight be blocked from use later\u201d when it is reported stolen, and keys not sold legitimately can be deactivated once flagged. Genuine retail keys purchased from authorized sources are not subject to arbitrary revocation — another reason provenance matters.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-12",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is a product key alone proof that software is genuine?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Microsoft does not distribute product keys as standalone products, with limited exceptions. A key without a legitimate license is just a string of characters — activation success and the license terms determine genuineness.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-13",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Do genuine Microsoft licenses expire?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Perpetual licenses for Windows and Office 2021/2024 do not expire. Subscription products such as Microsoft 365 renew monthly or annually, but a genuine perpetual license stays valid for the supported life of the product.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-14",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is it safe to buy from a reseller?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-25",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes, if the reseller is legitimate. Look for clear business information, transparent license types, and a real replacement policy. Reputable resellers sell the same genuine licenses you would get from Microsoft — often at a lower price because they buy in volume.", "marks": [] }
+      ],
+      "markDefs": []
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "title": "How to Check If an Office Key Is Genuine: The Complete Guide",
+  "slug": "how-to-check-if-office-key-is-genuine",
+  "excerpt": "Microsoft has no public key checker — activation is the real test. Learn how to verify an Office key, spot counterfeit signs, and buy genuine.",
+  "seoTitle": "How to Check If an Office Key Is Genuine",
+  "seoDescription": "No official tool checks Office keys. The only real test is activation. See how to verify a key, spot gray-market red flags, and buy a genuine license.",
+  "tags": ["office", "genuine-software", "licensing", "activation", "buying-safely"],
+  "featured": false,
+  "publishedAt": "2026-09-12T09:00:00.000Z",
+  "brand": "microsoft",
+  "author": {
+    "name": "Licendi Editorial Team",
+    "slug": "licendi-editorial-team",
+    "role": "Microsoft Licensing Experts",
+    "bio": "Licendi's editorial team writes practical, fact-checked guides on Windows, Office, and Microsoft 365 licensing."
+  },
+  "primaryKeyword": "how to check if office key is genuine",
+  "secondaryKeywords": [
+    "verify office key genuine",
+    "is my office key genuine",
+    "office product key not valid",
+    "get genuine office",
+    "ospp.vbs dstatus",
+    "buy genuine office license"
+  ],
+  "body": [
+    {
+      "_type": "block",
+      "_key": "p-intro-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "You bought an Office key online, received a 25-character code by email, and now you are wondering: is this actually genuine? It is a fair question. The market for Microsoft product keys is full of stolen, recycled, and unauthorized codes, and Microsoft itself warns that many dishonest sellers offer keys that stop working weeks or months after purchase. The good news: you can check — and it takes about five minutes.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-intro-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Before you start, know this: Microsoft does not offer a public website where you can type a product key and get a \"genuine or fake\" verdict. There is no official key checker. The only reliable test is to redeem the key through Microsoft's activation flow and see what happens. This guide walks you through every method that works — the activation test, the command-line license report, and the red flags that tell you a key was never genuine.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-1",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Why There Is No Official \"Office Key Checker\"", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-1",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "People search for \"check Office key validity\" and land on third-party sites that promise to validate a key for free. Those sites cannot do what they claim. Microsoft engineers have confirmed in the official Microsoft Q&A that ", "marks": [] },
+        { "_type": "span", "text": "there is no self-service tool to check whether an Office product key is genuine or to see how many times it has been activated", "marks": ["strong"] },
+        { "_type": "span", "text": ".", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-2",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "That missing checker exists for a reason: a product key is a credential, and a public validation service would make it trivially easy to test stolen keys at scale. Microsoft's position is simple — the only way to verify a key is to use it. That brings us to the two-part question you should actually be asking.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-1",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Does the key activate? ", "marks": ["strong"] },
+        { "_type": "span", "text": "If Microsoft's servers accept it, the key is real and currently valid.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-2",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Is the license legitimate for you? ", "marks": ["strong"] },
+        { "_type": "span", "text": "A key can activate and still be gray-market: a volume license, an MSDN key, or a key sold in the wrong region. Microsoft can block it at any time.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-3",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Most people only ask the first question. The second one is what separates a safe purchase from a refund you will be chasing later.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-2",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "The Definitive Test: Redeem the Key at Office.com/setup", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-4",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For Office 2024, Office 2021, Office 2019, Office 2016, and Microsoft 365 for home, the definitive test is redemption at ", "marks": [] },
+        { "_type": "span", "text": "www.office.com/setup", "marks": ["strong"] },
+        { "_type": "span", "text": " or ", "marks": [] },
+        { "_type": "span", "text": "microsoft365.com/setup", "marks": ["strong"] },
+        { "_type": "span", "text": ". This is the same flow Microsoft uses for real purchases, so it is the closest thing to an official verification that exists. Follow these steps:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-1",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Go to office.com/setup (or microsoft365.com/setup) and sign in with a Microsoft account. Create one if needed — you will need it to install and reinstall Office later anyway.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-2",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Enter the product key without hyphens when prompted. If the field doesn't appear, the key was entered automatically.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-3",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Follow the prompts. If the key is genuine and unused, it will be added to your account and you can download and install Office.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ol-4",
+      "style": "normal",
+      "listItem": "number",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Check the Services & subscriptions page in your Microsoft account — the product should now appear there, linked to your account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-5",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "What do the errors mean? Different errors tell you different things about the key:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-3",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "This product key has already been used ", "marks": [] },
+        { "_type": "span", "text": "— the key is real but was redeemed before. It is a recycled key, which is a hallmark of gray-market sellers.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-4",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The product key isn't valid (INVALID_PRODUCT_KEY or ERR_INVALID_TOKEN) ", "marks": [] },
+        { "_type": "span", "text": "— usually a typo. Watch letters that look alike: B/8, G/6, O/0, Q/0, and VV/W. Copy the key from your confirmation email instead of typing it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-5",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "This product key isn't meant for your region ", "marks": [] },
+        { "_type": "span", "text": "— the key was purchased in a different country. Office keys must be redeemed where they are bought, so a key sold \"for any region\" is already a red flag.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-6",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The product key isn't valid (KEY_NOT_ACTIVATED) ", "marks": [] },
+        { "_type": "span", "text": "— the retailer never activated the key at the point of sale. Microsoft's guidance is to go back to the store and ask them to activate it.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-6",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you hit an error you don't recognize, ", "marks": [] },
+        { "_type": "span", "text": "Microsoft's page on product key errors", "marks": ["e1"] },
+        { "_type": "span", "text": " covers the full list, and ", "marks": [] },
+        { "_type": "span", "text": "the official guide to entering your Office product key", "marks": ["e2"] },
+        { "_type": "span", "text": " explains where each key type should be redeemed. And if a key fails with \"This product cannot be activated because the product key is not valid,\" that key has been ", "marks": [] },
+        { "_type": "span", "text": "blocked by Microsoft", "marks": ["strong"] },
+        { "_type": "span", "text": " — contact the seller and request a refund.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "e1", "href": "https://support.microsoft.com/en-us/microsoft-365-activation-licensing/get-help-with-product-key-errors-on-office-com-setup", "attrs": { "blank": true } },
+        { "_type": "link", "_key": "e2", "href": "https://support.microsoft.com/en-US/Microsoft-365-Activation-Licensing/office-install/where-to-enter-your-office-product-key", "attrs": { "blank": true } }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-3",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Check Activation Status Inside Office", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-7",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If Office is already installed, open any app (Word, Excel, or PowerPoint) and go to ", "marks": [] },
+        { "_type": "span", "text": "File > Account", "marks": ["strong"] },
+        { "_type": "span", "text": ". In the Product Information section you will see one of two things:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-7",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Product Activated ", "marks": [] },
+        { "_type": "span", "text": "— the installed copy is activated. For retail one-time purchases, you will also see the Microsoft account the product belongs to.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-8",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Product Activation Required, Unlicensed Product, or a red banner ", "marks": [] },
+        { "_type": "span", "text": "— activation failed or the license was removed.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-8",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you see a banner that says ", "marks": [] },
+        { "_type": "span", "text": "Get genuine Office", "marks": ["strong"] },
+        { "_type": "span", "text": ", Microsoft has determined that the product installed on your device is not legitimate — you may be a victim of software counterfeiting. Microsoft's guidance: uninstall the counterfeit version completely, then install a genuine copy. One caveat: Microsoft's automated uninstall troubleshooter currently supports Microsoft 365, Office 2021, Office 2019, and Office 2016, but not Office 2024, so for Office 2024 you may need to uninstall manually. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "Stay safe with a genuine Office license", "marks": ["e3"] },
+        { "_type": "span", "text": " guide walks through the full process.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "e3", "href": "https://support.microsoft.com/en-us/accounts-billing/stay-safe-with-a-genuine-office-license", "attrs": { "blank": true } }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-9",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "One nuance: Microsoft 365 subscriptions have no product key at all — activation happens when you sign in with the Microsoft account that owns the subscription. If Office keeps asking you to enter a key, you may have installed the wrong edition, such as a perpetual build when your license is a subscription.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-4",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Get the Full License Report with ospp.vbs", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-10",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "For a more detailed look at what license is actually installed — and which channel it came from — use the ", "marks": [] },
+        { "_type": "span", "text": "ospp.vbs", "marks": ["strong"] },
+        { "_type": "span", "text": " script that ships with Office. This is the same tool Microsoft support uses to diagnose license problems. Open Command Prompt as administrator and run:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "bq-1",
+      "style": "blockquote",
+      "children": [
+        { "_type": "span", "text": "cscript \"%ProgramFiles%\\Microsoft Office\\Office16\\ospp.vbs\" /dstatus", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-11",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you are running 32-bit Office on 64-bit Windows, use %ProgramFiles(x86)% instead. The output shows the license name and description, activation status, and the last five characters of the installed key. Here is how to read it:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-9",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "LICENSE NAME and DESCRIPTION ", "marks": ["strong"] },
+        { "_type": "span", "text": "— for example \"Office 21, Office21ProPlus2021R_Retail\" (RETAIL channel) versus a VOLUME_MAK or KMS channel.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-10",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "LICENSE STATUS ", "marks": ["strong"] },
+        { "_type": "span", "text": "— LICENSED means activated; OOB_GRACE means the initial grace period is running; NOTIFICATIONS means the license is not valid and Office is showing warnings; UNLICENSED means no valid license.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-11",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Last 5 characters of installed product key ", "marks": ["strong"] },
+        { "_type": "span", "text": "— useful for identifying which key is active when several have been installed over time.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-12",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Why this matters: a consumer Office license should report a ", "marks": [] },
+        { "_type": "span", "text": "RETAIL", "marks": ["strong"] },
+        { "_type": "span", "text": " channel. If your \"lifetime\" Office key reports a volume channel (MAK or KMS), you are almost certainly running a volume key never meant to be sold to an individual. Microsoft can block that key at any time — the exact scenario that ends with a \"product key is not valid\" error months later. You can remove a bad key with ", "marks": [] },
+        { "_type": "span", "text": "cscript ospp.vbs /unpkey:LAST5", "marks": ["em"] },
+        { "_type": "span", "text": " and install the correct one.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-5",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Check Your Microsoft Account", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-13",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Every retail Office purchase you redeem becomes linked to a Microsoft account. Sign in at ", "marks": [] },
+        { "_type": "span", "text": "account.microsoft.com/services", "marks": ["strong"] },
+        { "_type": "span", "text": " and open Services & subscriptions. If your Office product appears there, it was legitimately redeemed and you can reinstall it later without a key. If nothing shows up, the key was never successfully redeemed — it was already used, or it was never valid.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-6",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Red Flags to Spot Before You Buy", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-14",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The cheapest way to deal with a fake key is to never buy one. Microsoft's ", "marks": [] },
+        { "_type": "span", "text": "How to Tell", "marks": ["e4"] },
+        { "_type": "span", "text": " site documents the warning signs, and they are consistent across scams:", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "e4", "href": "https://www.microsoft.com/en-us/howtotell/default", "attrs": { "blank": true } }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "ul-12",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The key is sold separately from the software. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Microsoft is explicit: product key labels should not be purchased separately. A \"key only\" listing on an auction site or marketplace is the single biggest red flag.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-13",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The price is far below retail. ", "marks": ["strong"] },
+        { "_type": "span", "text": "If a \"lifetime\" Office Professional Plus key costs a few dollars, the seller is not giving you a deal — they are selling a stolen or volume key.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-14",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The listing uses enterprise terms: ", "marks": ["strong"] },
+        { "_type": "span", "text": "MAK, KMS, volume license, MSDN, LTSC, or \"for any region.\" These keys are not intended for individual sale.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-15",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The download comes from a personal cloud drive or a third-party site ", "marks": ["strong"] },
+        { "_type": "span", "text": "instead of from Microsoft.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-16",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The seller has no contact page, no company details, and no support channel. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Counterfeiters hide their identity.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-17",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "The packaging (if any) has spelling errors, blurry text, or a Certificate of Authenticity that looks off. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Microsoft's How to Tell site shows what genuine labels and packaging look like.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h2-7",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "What to Do If Your Office Key Turns Out to Be Fake or Blocked", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-15",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If the key fails the tests above, act quickly:", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-18",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Contact the seller and request a refund. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Microsoft's own support pages say that if a key doesn't work or stops working, you should contact the seller — a legitimate seller will replace the key or return your money.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-19",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Report the counterfeit to Microsoft ", "marks": ["strong"] },
+        { "_type": "span", "text": "through the How to Tell site. Microsoft investigates reports and can block stolen keys from further use.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-20",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Uninstall the counterfeit Office completely, then install a genuine copy. ", "marks": ["strong"] },
+        { "_type": "span", "text": "Do not repair the fake installation — leftover license files can keep triggering the Get genuine Office warning.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "ul-21",
+      "style": "normal",
+      "listItem": "bullet",
+      "level": 1,
+      "children": [
+        { "_type": "span", "text": "Buy a genuine license from a source you can verify. ", "marks": ["strong"] },
+        { "_type": "span", "text": "A genuine ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus license", "marks": ["l1"] },
+        { "_type": "span", "text": " activates online, links to your Microsoft account, and stays activated.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l1", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-8",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Where to Buy a Genuine Office Key", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-16",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Genuine Office keys come from three places: the Microsoft Store, authorized retailers, and reputable digital-delivery stores that supply real retail keys with instant email delivery, an invoice, activation instructions, and support. A trustworthy seller never asks you to download Office from their own servers and answers questions before and after the sale.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-17",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "At Licendi, every ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office license", "marks": ["l2"] },
+        { "_type": "span", "text": " in the catalog is a genuine, fully supported key delivered instantly by email — including ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Pro Plus", "marks": ["l3"] },
+        { "_type": "span", "text": ", ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Home & Business for Mac", "marks": ["l4"] },
+        { "_type": "span", "text": ", and ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus LTSC", "marks": ["l5"] },
+        { "_type": "span", "text": ". You can browse the full ", "marks": [] },
+        { "_type": "span", "text": "Microsoft brand page", "marks": ["l6"] },
+        { "_type": "span", "text": " to compare options.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l2", "href": "/category/microsoft-office-pc-mac" },
+        { "_type": "link", "_key": "l3", "href": "/product/office-2024-pro-plus-lifetime-license-global-phone-key-instant-online-activation" },
+        { "_type": "link", "_key": "l4", "href": "/product/office-2024-home-and-business-for-mac-genuine-license-instant-email-delivery" },
+        { "_type": "link", "_key": "l5", "href": "/product/office-2024-professional-plus-ltsc-lifetime-global-digital-license" },
+        { "_type": "link", "_key": "l6", "href": "/brand/microsoft" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "p-18",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "If you are still unsure how to evaluate a seller, read our guide on ", "marks": [] },
+        { "_type": "span", "text": "how to buy a Windows key safely", "marks": ["l7"] },
+        { "_type": "span", "text": " — the same principles apply to Office — or check our breakdown of ", "marks": [] },
+        { "_type": "span", "text": "Office 2024 Professional Plus", "marks": ["l8"] },
+        { "_type": "span", "text": " to confirm which edition you need before you spend anything.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l7", "href": "/blog/how-to-buy-windows-key-safely" },
+        { "_type": "link", "_key": "l8", "href": "/blog/office-2024-professional-plus" }
+      ]
+    },
+    {
+      "_type": "block",
+      "_key": "h2-9",
+      "style": "h2",
+      "children": [{ "_type": "span", "text": "Frequently Asked Questions", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-1",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can I check an Office product key online?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-19",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "There is no official Microsoft website that validates Office keys, and third-party \"key checkers\" cannot see Microsoft's activation database. The only real test is redemption at office.com/setup or activation inside Office itself.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-2",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "If a key activates, is it guaranteed genuine?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-20",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Activation proves the key works today. It does not prove the license is legitimately yours. Volume, MSDN, and region-mismatched keys can activate and then be blocked by Microsoft later. Check the license channel with ospp.vbs /dstatus and buy from a seller you trust.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-3",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "What does the Get genuine Office message mean?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-21",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "It means Microsoft has flagged the installed product as not genuine. Uninstall the counterfeit version completely, then install a genuine copy associated with your Microsoft account.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-4",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Can a blocked Office key be unblocked?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-22",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "No. Once Microsoft blocks a key, it will not work again. Your recourse is a refund from the seller — which is why buying from a seller with real support matters.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "h3-5",
+      "style": "h3",
+      "children": [{ "_type": "span", "text": "Is it safe to buy Office keys online?", "marks": [] }],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-23",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "Yes, from reputable sellers that provide genuine retail keys, instant digital delivery, and support. It is not safe to buy \"key only\" listings from auction sites or marketplaces, or volume keys sold as \"lifetime\" deals.", "marks": [] }
+      ],
+      "markDefs": []
+    },
+    {
+      "_type": "block",
+      "_key": "p-24",
+      "style": "normal",
+      "children": [
+        { "_type": "span", "text": "The five-minute check in this guide will save you from the most common Office licensing headaches. Start with the redemption test, confirm the license channel, and buy only from sellers that can prove their keys are genuine. When you are ready, browse genuine ", "marks": [] },
+        { "_type": "span", "text": "Microsoft Office licenses at Licendi", "marks": ["l9"] },
+        { "_type": "span", "text": " — delivered instantly and backed by real support.", "marks": [] }
+      ],
+      "markDefs": [
+        { "_type": "link", "_key": "l9", "href": "/category/microsoft-office-pc-mac" }
+      ]
+    }
+  ]
+}
