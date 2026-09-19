@@ -178,6 +178,78 @@
       "cluster": "windows-11",
       "keyword": "windows 11 ltsc",
       "note": "Published: windows-11 cluster gap with keyword 'windows 11 ltsc' claimed; Enterprise LTSC vs IoT LTSC variants, licensing channels, features, and comparison to Pro fact-checked against Microsoft Learn"
+    },
+    {
+      "date": "2026-09-12",
+      "status": "published",
+      "slug": "how-to-check-if-office-key-is-genuine",
+      "title": "How to Check If an Office Key Is Genuine: The Complete Guide",
+      "cluster": "buying-safely",
+      "keyword": "how to check if office key is genuine",
+      "note": "Published: buying-safely cluster gap with keyword 'how to check if office key is genuine' claimed; verification methods, error codes, and red flags fact-checked against Microsoft Support, Microsoft Q&A, and the How to Tell site"
+    },
+    {
+      "date": "2026-09-13",
+      "status": "scheduled",
+      "slug": "is-it-safe-to-buy-office-keys-online",
+      "title": "Is It Safe to Buy Office Keys Online? What to Know Before You Pay",
+      "cluster": "buying-safely",
+      "keyword": "is it safe to buy office keys online",
+      "note": "Scheduled for 09-13, not published; carried over to 2026-09-14"
+    },
+    {
+      "date": "2026-09-14",
+      "status": "published",
+      "slug": "is-it-safe-to-buy-office-keys-online",
+      "title": "Is It Safe to Buy Office Keys Online? What to Know Before You Pay",
+      "cluster": "buying-safely",
+      "keyword": "is it safe to buy office keys online",
+      "note": "Carried over from 09-13 slot; published 2026-09-14"
+    },
+    {
+      "date": "2026-09-15",
+      "status": "scheduled",
+      "slug": "instant-email-delivery-software-key",
+      "title": "Instant Email Delivery Software Key: How Digital License Delivery Works",
+      "cluster": "buying-safely",
+      "keyword": "instant email delivery software key",
+      "note": "Scheduled for 09-15, not published; carried over to 2026-09-16"
+    },
+    {
+      "date": "2026-09-16",
+      "status": "published",
+      "slug": "instant-email-delivery-software-key",
+      "title": "Instant Email Delivery Software Key: How Digital License Delivery Works",
+      "cluster": "buying-safely",
+      "keyword": "instant email delivery software key",
+      "note": "Carried over from 09-15 slot; published 2026-09-16"
+    },
+    {
+      "date": "2026-09-17",
+      "status": "scheduled",
+      "slug": "genuine-microsoft-license",
+      "title": "Genuine Microsoft License: What It Means and Why It Matters",
+      "cluster": "buying-safely",
+      "keyword": "genuine microsoft license",
+      "note": "Scheduled for 09-17, not published; carried over to 2026-09-19"
+    },
+    {
+      "date": "2026-09-19",
+      "status": "published",
+      "slug": "genuine-microsoft-license",
+      "title": "Genuine Microsoft License: What It Means and Why It Matters",
+      "cluster": "buying-safely",
+      "keyword": "genuine microsoft license",
+      "note": "Carried over from 09-17 slot; published 2026-09-19. Definitional hub for buying-safely cluster; facts verified against About Genuine Windows, Stay safe with a genuine Office license, and How to Tell."
+    },
+    {
+      "date": "2026-09-20",
+      "status": "scheduled",
+      "slug": "windows-product-key",
+      "title": "Windows Product Key: What It Is, Where to Find It, and How It Works",
+      "cluster": "windows-activation",
+      "keyword": "windows product key",
+      "note": "Scheduled: next unclaimed gap in windows-activation cluster"
     }
   ]
 }
